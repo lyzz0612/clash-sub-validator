@@ -21,3 +21,5 @@ https://node.openclash.cc/uploads/%Y/%m/0-%Y%m%d.yaml
 http://mlfenx.cczzuu.top/node/%Y%m%d-clash.yaml
 
 https://node.freeclashverge.com/uploads/%Y/%m/0-%Y%m%d.yaml
+
+https://mm.mibei77.com/%Y%m/%m.%dClashpqc.yaml
