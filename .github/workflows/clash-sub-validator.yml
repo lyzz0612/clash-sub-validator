@@ -1,0 +1,99 @@
+name: Clash Node Validator
+
+on:
+  # 定时运行 - 每天 8:00 和 20:00 (UTC+8: 16:00, 04:00)
+  schedule:
+    - cron: '0 8,20 * * *'
+  
+  # 手动触发
+  workflow_dispatch:
+    inputs:
+      max_latency:
+        description: '最大延迟阈值(毫秒)'
+        required: false
+        default: '3000'
+        type: string
+      output_file:
+        description: '输出文件名'
+        required: false
+        default: 'clash_config.yaml'
+        type: string
+
+jobs:
+  test-clash-nodes:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install aiohttp PyYAML
+        
+    - name: Create config file if not exists
+      run: |
+        if [ ! -f config.txt ]; then
+          echo "# 在这里添加你的Clash订阅链接" > config.txt
+          echo "# https://example.com/clash?date=%D" >> config.txt
+        fi
+        
+    - name: Run clash node tester
+      env:
+        CONFIG_FILE: config.txt
+        MAX_LATENCY: ${{ github.event.inputs.max_latency || '3000' }}
+        OUTPUT_FILE: ${{ github.event.inputs.output_file || 'clash_config.yaml' }}
+        API_URL: ${{ secrets.API_URL }}
+        API_KEY: ${{ secrets.API_KEY }}
+      run: |
+        python clash_tester.py
+        
+    - name: Upload results as artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: clash-config-${{ github.run_number }}
+        path: |
+          clash_config.yaml
+          good_nodes.json
+          clash_tester.log
+        retention-days: 30
+        
+    - name: Commit and push results
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # 添加生成的文件
+        if [ -f clash_config.yaml ]; then
+          git add clash_config.yaml
+        fi
+        
+        if [ -f good_nodes.json ]; then
+          git add good_nodes.json
+        fi
+        
+        # 检查是否有变化
+        if ! git diff --staged --quiet; then
+          # 获取节点统计信息
+          if [ -f good_nodes.json ]; then
+            node_count=$(python3 -c "import json; data=json.load(open('good_nodes.json')); print(data['total_count'])")
+            avg_latency=$(python3 -c "import json; data=json.load(open('good_nodes.json')); print(f\"{data['average_latency']:.1f}\")")
+            commit_msg="🚀 Update clash config - ${node_count} nodes, avg ${avg_latency}ms ($(date '+%Y-%m-%d %H:%M:%S'))"
+          else
+            commit_msg="🚀 Update clash config - $(date '+%Y-%m-%d %H:%M:%S')"
+          fi
+          
+          git commit -m "$commit_msg"
+          git push
+          echo "✅ 配置文件已更新并推送到仓库"
+        else
+          echo "ℹ️ 没有检测到配置变化，跳过提交"
+        fi
