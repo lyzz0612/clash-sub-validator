@@ -1,7 +1,7 @@
 {
-  "timestamp": "2025-08-04T17:40:25.941235",
-  "total_count": 47,
-  "average_latency": 35.91489361702128,
+  "timestamp": "2025-08-04T09:48:07.285726",
+  "total_count": 53,
+  "average_latency": 92.79245283018868,
   "nodes": [
     {
       "name": "US美国(mibei77.com 米贝节点分享) 13",
@@ -11,7 +11,7 @@
       "password": "fa050497-fc2a-45ee-89c0-96670c4ecb65",
       "skip-cert-verify": true,
       "udp": true,
-      "latency": 1
+      "latency": 2
     },
     {
       "name": "US美国(mibei77.com 米贝节点分享) 17",
@@ -29,52 +29,7 @@
         "Host": "xcvfgt6.999854.xyz"
       },
       "udp": true,
-      "latency": 1
-    },
-    {
-      "name": "%F0%9F%87%B0%F0%9F%87%B7%20%E9%9F%A9%E5%9B%BD%7C%40stairnode",
-      "type": "trojan",
-      "server": "34.64.53.92",
-      "port": 443,
-      "password": "d0d08cddacc3190ea81b1b792e1b5fde",
-      "sni": "34.64.53.92",
       "latency": 2
-    },
-    {
-      "name": "🇺🇸_US_美国->🇨🇳_CN_中国",
-      "type": "ss",
-      "server": "54.189.166.94",
-      "port": 443,
-      "cipher": "aes-256-cfb",
-      "password": "amazonskr05",
-      "latency": 2
-    },
-    {
-      "name": "%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF4%7C%40stairnode",
-      "type": "trojan",
-      "server": "58.152.30.37",
-      "port": 443,
-      "password": "d0d08cddacc3190ea81b1b792e1b5fde",
-      "sni": "58.152.30.37",
-      "latency": 2
-    },
-    {
-      "name": "%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD4%7C%40stairnode",
-      "type": "trojan",
-      "server": "143.110.155.169",
-      "port": 443,
-      "password": "d0d08cddacc3190ea81b1b792e1b5fde",
-      "sni": "143.110.155.169",
-      "latency": 2
-    },
-    {
-      "name": "%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%7C%40stairnode",
-      "type": "trojan",
-      "server": "128.199.125.102",
-      "port": 443,
-      "password": "d0d08cddacc3190ea81b1b792e1b5fde",
-      "sni": "128.199.125.102",
-      "latency": 3
     },
     {
       "name": "GB英国(mibei77.com 米贝节点分享)",
@@ -92,78 +47,7 @@
         "Host": "farid.1.berozha.ir"
       },
       "udp": true,
-      "latency": 4
-    },
-    {
-      "name": "US美国(mibei77.com 米贝节点分享) 27",
-      "server": "dddfffvvbnhju.931.pp.ua",
-      "port": 443,
-      "type": "vmess",
-      "uuid": "a4e8ec0a-75d0-4fc5-837a-4973ed3a9d3e",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": true,
-      "skip-cert-verify": true,
-      "network": "ws",
-      "ws-path": "/14Fziqw1hYgCXNutkS5H",
-      "ws-headers": {
-        "Host": "dddfffvvbnhju.931.pp.ua"
-      },
-      "udp": true,
-      "latency": 4
-    },
-    {
-      "name": "US美国(mibei77.com 米贝节点分享) 20",
-      "server": "JJJjjjjjmMMmM.4444926.XYZ",
-      "port": 443,
-      "type": "vmess",
-      "uuid": "dc50eb1d-244d-4711-b168-a101a5e6fb1b",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": true,
-      "skip-cert-verify": true,
-      "network": "ws",
-      "ws-path": "/awmqq79B17rfnpXiNaWb",
-      "ws-headers": {
-        "Host": "JJJjjjjjmMMmM.4444926.XYZ"
-      },
-      "udp": true,
-      "latency": 4
-    },
-    {
-      "name": "乌克兰(mibei77.com 米贝节点分享)",
-      "server": "46.202.30.25",
-      "port": 8880,
-      "type": "vmess",
-      "uuid": "3e1e3e7f-2683-3f36-83b1-1850790295df",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": false,
-      "skip-cert-verify": true,
-      "network": "ws",
-      "ws-path": "/dabai&Telegram🇨🇳@WangCai2/?ed=2560",
-      "ws-headers": {
-        "Host": "TG.WangCai2.s2.cn-db.top"
-      },
-      "udp": true,
-      "latency": 7
-    },
-    {
-      "name": "🇩🇰_DK_丹麦->🇺🇸_US_美国_1",
-      "type": "vmess",
-      "server": "csgo.com",
-      "port": 80,
-      "uuid": "95c27cc4-82b5-45da-962e-ba675642fc3d",
-      "cipher": "auto",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/profile/telegram@ssrsub",
-        "headers": {
-          "host": "cdn-node-oss-99.paofu.de"
-        }
-      },
-      "alterId": 0,
-      "latency": 7
+      "latency": 2
     },
     {
       "name": "US美国(mibei77.com 米贝节点分享) 12",
@@ -181,7 +65,7 @@
         "Host": "TG.WangCai2.s4.cn-db.top"
       },
       "udp": true,
-      "latency": 8
+      "latency": 2
     },
     {
       "name": "US美国(mibei77.com 米贝节点分享) 5",
@@ -199,25 +83,7 @@
         "Host": "TG.WangCai2.s4.cn-db.top"
       },
       "udp": true,
-      "latency": 8
-    },
-    {
-      "name": "US美国(mibei77.com 米贝节点分享) 25",
-      "server": "188.164.248.7",
-      "port": 8880,
-      "type": "vmess",
-      "uuid": "2d86bf09-0810-3c29-a74c-ba7150848cff",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": false,
-      "skip-cert-verify": true,
-      "network": "ws",
-      "ws-path": "/dabai&Telegram🇨🇳@WangCai2/?ed=2560",
-      "ws-headers": {
-        "Host": "TG.WangCai2.s4.cn-db.top"
-      },
-      "udp": true,
-      "latency": 8
+      "latency": 2
     },
     {
       "name": "🇺🇸_US_美国_2",
@@ -234,7 +100,7 @@
         }
       },
       "alterId": 0,
-      "latency": 8
+      "latency": 2
     },
     {
       "name": "未知_1",
@@ -251,7 +117,7 @@
         }
       },
       "alterId": 0,
-      "latency": 8
+      "latency": 2
     },
     {
       "name": "🇳🇱_NL_荷兰->🇺🇸_US_美国_1",
@@ -268,24 +134,7 @@
         }
       },
       "alterId": 0,
-      "latency": 8
-    },
-    {
-      "name": "🇨🇦_CA_加拿大->🇺🇸_US_美国",
-      "type": "vmess",
-      "server": "205.233.181.241",
-      "port": 8880,
-      "uuid": "248be52b-35d9-34cb-9b73-e12b78bc1301",
-      "cipher": "auto",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/dabai.in",
-        "headers": {
-          "host": "TG.WangCai2.s2.db-link02.top"
-        }
-      },
-      "alterId": 0,
-      "latency": 8
+      "latency": 2
     },
     {
       "name": "HK香港(mibei77.com 米贝节点分享)",
@@ -303,25 +152,7 @@
         "Host": "TG.WangCai2.s2.db-link02.top"
       },
       "udp": true,
-      "latency": 8
-    },
-    {
-      "name": "US美国(mibei77.com 米贝节点分享) 28",
-      "server": "77.105.163.25",
-      "port": 8880,
-      "type": "vmess",
-      "uuid": "3e1e3e7f-2683-3f36-83b1-1850790295df",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": false,
-      "skip-cert-verify": true,
-      "network": "ws",
-      "ws-path": "/dabai&Telegram🇨🇳@WangCai2/?ed=2560",
-      "ws-headers": {
-        "Host": "TG.WangCai2.s2.cn-db.top"
-      },
-      "udp": true,
-      "latency": 8
+      "latency": 2
     },
     {
       "name": "US美国(mibei77.com 米贝节点分享) 9",
@@ -339,43 +170,7 @@
         "Host": "TG.WangCai2.s4.cn-db.top"
       },
       "udp": true,
-      "latency": 8
-    },
-    {
-      "name": "US美国(mibei77.com 米贝节点分享) 26",
-      "server": "66.235.200.25",
-      "port": 8880,
-      "type": "vmess",
-      "uuid": "3e1e3e7f-2683-3f36-83b1-1850790295df",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": false,
-      "skip-cert-verify": true,
-      "network": "ws",
-      "ws-path": "/dabai&Telegram🇨🇳@WangCai2/?ed=2560",
-      "ws-headers": {
-        "Host": "TG.WangCai2.s2.cn-db.top"
-      },
-      "udp": true,
-      "latency": 8
-    },
-    {
-      "name": "US美国(mibei77.com 米贝节点分享) 2",
-      "server": "www.visa.com.sg",
-      "port": 8443,
-      "type": "vmess",
-      "uuid": "62a00edc-9867-4c66-82ee-d57c19facad3",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": true,
-      "skip-cert-verify": true,
-      "network": "ws",
-      "ws-path": "/",
-      "ws-headers": {
-        "Host": "nurse-boston-queen-romantic.trycloudflare.com"
-      },
-      "udp": true,
-      "latency": 8
+      "latency": 2
     },
     {
       "name": "US美国(mibei77.com 米贝节点分享) 10",
@@ -393,25 +188,7 @@
         "Host": "TG.WangCai2.s2.db-link02.top"
       },
       "udp": true,
-      "latency": 8
-    },
-    {
-      "name": "US美国(mibei77.com 米贝节点分享) 6",
-      "server": "185.251.81.17",
-      "port": 8880,
-      "type": "vmess",
-      "uuid": "82cfee4e-e05a-3866-af4d-d09a90506148",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": false,
-      "skip-cert-verify": true,
-      "network": "ws",
-      "ws-path": "/dabai&Telegram🇨🇳@WangCai2/?ed=2560",
-      "ws-headers": {
-        "Host": "TG.WangCai2.s2.cn-db.top"
-      },
-      "udp": true,
-      "latency": 9
+      "latency": 2
     },
     {
       "name": "🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1",
@@ -429,60 +206,7 @@
         }
       },
       "alterId": 0,
-      "latency": 9
-    },
-    {
-      "name": "US美国(mibei77.com 米贝节点分享) 15",
-      "server": "185.251.83.9",
-      "port": 8880,
-      "type": "vmess",
-      "uuid": "70df7c1e-12c8-325f-a12a-34aa46949e60",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": false,
-      "skip-cert-verify": true,
-      "network": "ws",
-      "ws-path": "/dabai&Telegram🇨🇳@WangCai2/?ed=2560",
-      "ws-headers": {
-        "Host": "TG.WangCai2.s4.cn-db.top"
-      },
-      "udp": true,
-      "latency": 9
-    },
-    {
-      "name": "US美国(mibei77.com 米贝节点分享) 4",
-      "server": "45.149.12.25",
-      "port": 8880,
-      "type": "vmess",
-      "uuid": "3e1e3e7f-2683-3f36-83b1-1850790295df",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": false,
-      "skip-cert-verify": true,
-      "network": "ws",
-      "ws-path": "/dabai&Telegram🇨🇳@WangCai2/?ed=2560",
-      "ws-headers": {
-        "Host": "TG.WangCai2.s2.cn-db.top"
-      },
-      "udp": true,
-      "latency": 9
-    },
-    {
-      "name": "🇬🇧_GB_英国->🇺🇸_US_美国",
-      "type": "vmess",
-      "server": "80.93.202.25",
-      "port": 8880,
-      "uuid": "3e1e3e7f-2683-3f36-83b1-1850790295df",
-      "cipher": "auto",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560",
-        "headers": {
-          "host": "TG.WangCai2.s2.cn-db.top"
-        }
-      },
-      "alterId": 0,
-      "latency": 9
+      "latency": 2
     },
     {
       "name": "US美国(mibei77.com 米贝节点分享) 3",
@@ -500,16 +224,7 @@
         "Host": "TG.WangCai2.s2.cn-db.top"
       },
       "udp": true,
-      "latency": 9
-    },
-    {
-      "name": "%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%7C%40stairnode",
-      "type": "trojan",
-      "server": "172.67.214.21",
-      "port": 443,
-      "password": "7248e825-887c-48b9-83bc-c26bc6392bf8",
-      "sni": "172.67.214.21",
-      "latency": 9
+      "latency": 2
     },
     {
       "name": "US美国(mibei77.com 米贝节点分享) 16",
@@ -527,43 +242,7 @@
         "Host": "TG.WangCai2.s4.cn-db.top"
       },
       "udp": true,
-      "latency": 10
-    },
-    {
-      "name": "JP日本(mibei77.com 米贝节点分享)",
-      "server": "156.238.19.9",
-      "port": 8880,
-      "type": "vmess",
-      "uuid": "70df7c1e-12c8-325f-a12a-34aa46949e60",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": false,
-      "skip-cert-verify": true,
-      "network": "ws",
-      "ws-path": "/dabai&Telegram🇨🇳@WangCai2/?ed=2560",
-      "ws-headers": {
-        "Host": "TG.WangCai2.s4.cn-db.top"
-      },
-      "udp": true,
-      "latency": 10
-    },
-    {
-      "name": "US美国(mibei77.com 米贝节点分享) 24",
-      "server": "141.11.203.26",
-      "port": 8880,
-      "type": "vmess",
-      "uuid": "1fcb582e-7ffb-3708-8a0f-96c2a070e40d",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": false,
-      "skip-cert-verify": true,
-      "network": "ws",
-      "ws-path": "/dabai&Telegram🇨🇳@WangCai2/?ed=2560",
-      "ws-headers": {
-        "Host": "TG.WangCai2.s2.cn-db.top"
-      },
-      "udp": true,
-      "latency": 10
+      "latency": 2
     },
     {
       "name": "US美国(mibei77.com 米贝节点分享) 23",
@@ -581,7 +260,7 @@
         "Host": "TG.WangCai2.s4.cn-db.top"
       },
       "udp": true,
-      "latency": 10
+      "latency": 2
     },
     {
       "name": "US美国(mibei77.com 米贝节点分享) 19",
@@ -599,71 +278,7 @@
         "Host": "TG.WangCai2.s2.db-link02.top"
       },
       "udp": true,
-      "latency": 13
-    },
-    {
-      "name": "US美国(mibei77.com 米贝节点分享) 7",
-      "server": "sSsdCVfBGNjkI.931.PP.Ua",
-      "port": 443,
-      "type": "vmess",
-      "uuid": "a4e8ec0a-75d0-4fc5-837a-4973ed3a9d3e",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": true,
-      "skip-cert-verify": true,
-      "network": "ws",
-      "ws-path": "/14Fziqw1hYgCXNutkS5H",
-      "ws-headers": {
-        "Host": "sSsdCVfBGNjkI.931.PP.Ua"
-      },
-      "udp": true,
-      "latency": 14
-    },
-    {
-      "name": "%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD4%7C%40stairnode",
-      "type": "trojan",
-      "server": "159.65.222.110",
-      "port": 443,
-      "password": "d0d08cddacc3190ea81b1b792e1b5fde",
-      "sni": "159.65.222.110",
-      "latency": 15
-    },
-    {
-      "name": "US美国(mibei77.com 米贝节点分享) 11",
-      "server": "tTtTttTttGgGGHHhnMk.iraN2035.DPDNS.ORG",
-      "port": 443,
-      "type": "vmess",
-      "uuid": "a94fafdb-10d6-46c2-be8a-5c2e8358fbb0",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": true,
-      "skip-cert-verify": true,
-      "network": "ws",
-      "ws-path": "/CjJ9A46ZRHvgWvVcmjyiKVby2Lp",
-      "ws-headers": {
-        "Host": "tttttttttgggghhhnmk.iran2035.dpdns.org"
-      },
-      "udp": true,
-      "latency": 16
-    },
-    {
-      "name": "US美国(mibei77.com 米贝节点分享) 18",
-      "server": "172.67.220.32",
-      "port": 443,
-      "type": "trojan",
-      "password": "ffcf7ec1-3e09-4821-b3d9-b426a107b73b",
-      "skip-cert-verify": true,
-      "udp": true,
-      "latency": 18
-    },
-    {
-      "name": "%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A13%7C%40stairnode",
-      "type": "trojan",
-      "server": "sg.mjt000.com",
-      "port": 443,
-      "password": "92435aa8-f3b6-466a-ad58-c55cbb6d2acf",
-      "sni": "sg.mjt000.com",
-      "latency": 23
+      "latency": 2
     },
     {
       "name": "US美国(mibei77.com 米贝节点分享) 14",
@@ -681,7 +296,222 @@
         "Host": "TG.WangCai2.s2.cn-db.top"
       },
       "udp": true,
-      "latency": 28
+      "latency": 2
+    },
+    {
+      "name": "乌克兰(mibei77.com 米贝节点分享)",
+      "server": "46.202.30.25",
+      "port": 8880,
+      "type": "vmess",
+      "uuid": "3e1e3e7f-2683-3f36-83b1-1850790295df",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": false,
+      "skip-cert-verify": true,
+      "network": "ws",
+      "ws-path": "/dabai&Telegram🇨🇳@WangCai2/?ed=2560",
+      "ws-headers": {
+        "Host": "TG.WangCai2.s2.cn-db.top"
+      },
+      "udp": true,
+      "latency": 3
+    },
+    {
+      "name": "US美国(mibei77.com 米贝节点分享) 25",
+      "server": "188.164.248.7",
+      "port": 8880,
+      "type": "vmess",
+      "uuid": "2d86bf09-0810-3c29-a74c-ba7150848cff",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": false,
+      "skip-cert-verify": true,
+      "network": "ws",
+      "ws-path": "/dabai&Telegram🇨🇳@WangCai2/?ed=2560",
+      "ws-headers": {
+        "Host": "TG.WangCai2.s4.cn-db.top"
+      },
+      "udp": true,
+      "latency": 3
+    },
+    {
+      "name": "🇨🇦_CA_加拿大->🇺🇸_US_美国",
+      "type": "vmess",
+      "server": "205.233.181.241",
+      "port": 8880,
+      "uuid": "248be52b-35d9-34cb-9b73-e12b78bc1301",
+      "cipher": "auto",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/dabai.in",
+        "headers": {
+          "host": "TG.WangCai2.s2.db-link02.top"
+        }
+      },
+      "alterId": 0,
+      "latency": 3
+    },
+    {
+      "name": "US美国(mibei77.com 米贝节点分享) 28",
+      "server": "77.105.163.25",
+      "port": 8880,
+      "type": "vmess",
+      "uuid": "3e1e3e7f-2683-3f36-83b1-1850790295df",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": false,
+      "skip-cert-verify": true,
+      "network": "ws",
+      "ws-path": "/dabai&Telegram🇨🇳@WangCai2/?ed=2560",
+      "ws-headers": {
+        "Host": "TG.WangCai2.s2.cn-db.top"
+      },
+      "udp": true,
+      "latency": 3
+    },
+    {
+      "name": "US美国(mibei77.com 米贝节点分享) 26",
+      "server": "66.235.200.25",
+      "port": 8880,
+      "type": "vmess",
+      "uuid": "3e1e3e7f-2683-3f36-83b1-1850790295df",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": false,
+      "skip-cert-verify": true,
+      "network": "ws",
+      "ws-path": "/dabai&Telegram🇨🇳@WangCai2/?ed=2560",
+      "ws-headers": {
+        "Host": "TG.WangCai2.s2.cn-db.top"
+      },
+      "udp": true,
+      "latency": 3
+    },
+    {
+      "name": "US美国(mibei77.com 米贝节点分享) 6",
+      "server": "185.251.81.17",
+      "port": 8880,
+      "type": "vmess",
+      "uuid": "82cfee4e-e05a-3866-af4d-d09a90506148",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": false,
+      "skip-cert-verify": true,
+      "network": "ws",
+      "ws-path": "/dabai&Telegram🇨🇳@WangCai2/?ed=2560",
+      "ws-headers": {
+        "Host": "TG.WangCai2.s2.cn-db.top"
+      },
+      "udp": true,
+      "latency": 3
+    },
+    {
+      "name": "US美国(mibei77.com 米贝节点分享) 15",
+      "server": "185.251.83.9",
+      "port": 8880,
+      "type": "vmess",
+      "uuid": "70df7c1e-12c8-325f-a12a-34aa46949e60",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": false,
+      "skip-cert-verify": true,
+      "network": "ws",
+      "ws-path": "/dabai&Telegram🇨🇳@WangCai2/?ed=2560",
+      "ws-headers": {
+        "Host": "TG.WangCai2.s4.cn-db.top"
+      },
+      "udp": true,
+      "latency": 3
+    },
+    {
+      "name": "US美国(mibei77.com 米贝节点分享) 4",
+      "server": "45.149.12.25",
+      "port": 8880,
+      "type": "vmess",
+      "uuid": "3e1e3e7f-2683-3f36-83b1-1850790295df",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": false,
+      "skip-cert-verify": true,
+      "network": "ws",
+      "ws-path": "/dabai&Telegram🇨🇳@WangCai2/?ed=2560",
+      "ws-headers": {
+        "Host": "TG.WangCai2.s2.cn-db.top"
+      },
+      "udp": true,
+      "latency": 3
+    },
+    {
+      "name": "🇬🇧_GB_英国->🇺🇸_US_美国",
+      "type": "vmess",
+      "server": "80.93.202.25",
+      "port": 8880,
+      "uuid": "3e1e3e7f-2683-3f36-83b1-1850790295df",
+      "cipher": "auto",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560",
+        "headers": {
+          "host": "TG.WangCai2.s2.cn-db.top"
+        }
+      },
+      "alterId": 0,
+      "latency": 3
+    },
+    {
+      "name": "%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%7C%40stairnode",
+      "type": "trojan",
+      "server": "172.67.214.21",
+      "port": 443,
+      "password": "7248e825-887c-48b9-83bc-c26bc6392bf8",
+      "sni": "172.67.214.21",
+      "latency": 3
+    },
+    {
+      "name": "JP日本(mibei77.com 米贝节点分享)",
+      "server": "156.238.19.9",
+      "port": 8880,
+      "type": "vmess",
+      "uuid": "70df7c1e-12c8-325f-a12a-34aa46949e60",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": false,
+      "skip-cert-verify": true,
+      "network": "ws",
+      "ws-path": "/dabai&Telegram🇨🇳@WangCai2/?ed=2560",
+      "ws-headers": {
+        "Host": "TG.WangCai2.s4.cn-db.top"
+      },
+      "udp": true,
+      "latency": 3
+    },
+    {
+      "name": "US美国(mibei77.com 米贝节点分享) 24",
+      "server": "141.11.203.26",
+      "port": 8880,
+      "type": "vmess",
+      "uuid": "1fcb582e-7ffb-3708-8a0f-96c2a070e40d",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": false,
+      "skip-cert-verify": true,
+      "network": "ws",
+      "ws-path": "/dabai&Telegram🇨🇳@WangCai2/?ed=2560",
+      "ws-headers": {
+        "Host": "TG.WangCai2.s2.cn-db.top"
+      },
+      "udp": true,
+      "latency": 3
+    },
+    {
+      "name": "US美国(mibei77.com 米贝节点分享) 18",
+      "server": "172.67.220.32",
+      "port": 443,
+      "type": "trojan",
+      "password": "ffcf7ec1-3e09-4821-b3d9-b426a107b73b",
+      "skip-cert-verify": true,
+      "udp": true,
+      "latency": 3
     },
     {
       "name": "US美国(mibei77.com 米贝节点分享) 22",
@@ -699,16 +529,246 @@
         "Host": "TG.WangCai2.s2.db-link02.top"
       },
       "udp": true,
-      "latency": 30
+      "latency": 3
     },
     {
-      "name": "%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A12%7C%40stairnode",
+      "name": "%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD4%7C%40stairnode",
       "type": "trojan",
-      "server": "36.156.102.125",
-      "port": 1256,
+      "server": "159.65.222.110",
+      "port": 443,
       "password": "d0d08cddacc3190ea81b1b792e1b5fde",
-      "sni": "36.156.102.125",
-      "latency": 45
+      "sni": "159.65.222.110",
+      "latency": 29
+    },
+    {
+      "name": "US美国(mibei77.com 米贝节点分享) 20",
+      "server": "JJJjjjjjmMMmM.4444926.XYZ",
+      "port": 443,
+      "type": "vmess",
+      "uuid": "dc50eb1d-244d-4711-b168-a101a5e6fb1b",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": true,
+      "skip-cert-verify": true,
+      "network": "ws",
+      "ws-path": "/awmqq79B17rfnpXiNaWb",
+      "ws-headers": {
+        "Host": "JJJjjjjjmMMmM.4444926.XYZ"
+      },
+      "udp": true,
+      "latency": 35
+    },
+    {
+      "name": "US美国(mibei77.com 米贝节点分享) 2",
+      "server": "www.visa.com.sg",
+      "port": 8443,
+      "type": "vmess",
+      "uuid": "62a00edc-9867-4c66-82ee-d57c19facad3",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": true,
+      "skip-cert-verify": true,
+      "network": "ws",
+      "ws-path": "/",
+      "ws-headers": {
+        "Host": "nurse-boston-queen-romantic.trycloudflare.com"
+      },
+      "udp": true,
+      "latency": 44
+    },
+    {
+      "name": "%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD4%7C%40stairnode",
+      "type": "trojan",
+      "server": "143.110.155.169",
+      "port": 443,
+      "password": "d0d08cddacc3190ea81b1b792e1b5fde",
+      "sni": "143.110.155.169",
+      "latency": 53
+    },
+    {
+      "name": "🇩🇰_DK_丹麦->🇺🇸_US_美国_1",
+      "type": "vmess",
+      "server": "csgo.com",
+      "port": 80,
+      "uuid": "95c27cc4-82b5-45da-962e-ba675642fc3d",
+      "cipher": "auto",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/profile/telegram@ssrsub",
+        "headers": {
+          "host": "cdn-node-oss-99.paofu.de"
+        }
+      },
+      "alterId": 0,
+      "latency": 56
+    },
+    {
+      "name": "🇷🇺_RU_俄罗斯_1",
+      "type": "ss",
+      "server": "185.231.233.112",
+      "port": 989,
+      "cipher": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "latency": 105
+    },
+    {
+      "name": "US美国(mibei77.com 米贝节点分享) 27",
+      "server": "dddfffvvbnhju.931.pp.ua",
+      "port": 443,
+      "type": "vmess",
+      "uuid": "a4e8ec0a-75d0-4fc5-837a-4973ed3a9d3e",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": true,
+      "skip-cert-verify": true,
+      "network": "ws",
+      "ws-path": "/14Fziqw1hYgCXNutkS5H",
+      "ws-headers": {
+        "Host": "dddfffvvbnhju.931.pp.ua"
+      },
+      "udp": true,
+      "latency": 140
+    },
+    {
+      "name": "🇲🇩_MD_摩尔多瓦",
+      "type": "ss",
+      "server": "185.153.197.5",
+      "port": 989,
+      "cipher": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "latency": 141
+    },
+    {
+      "name": "🇯🇵 日本2|@stairnode",
+      "server": "137.220.191.40",
+      "port": 636,
+      "client-fingerprint": "chrome",
+      "type": "ss",
+      "cipher": "aes-256-gcm",
+      "password": "823e135ed103",
+      "tfo": false,
+      "plugin": "v2ray-plugin",
+      "plugin-opts": {
+        "mode": "websocket",
+        "host": "jp7v1.lingjfjkm002.com",
+        "path": "/dchlbvrbbotc",
+        "tls": true,
+        "mux": true,
+        "skip-cert-verify": false
+      },
+      "latency": 149
+    },
+    {
+      "name": "🇺🇸_US_美国_3",
+      "type": "ss",
+      "server": "38.54.57.90",
+      "port": 989,
+      "cipher": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "latency": 169
+    },
+    {
+      "name": "🇭🇰 香港7|@stairnode",
+      "server": "103.149.183.154",
+      "port": 8388,
+      "client-fingerprint": "chrome",
+      "type": "ss",
+      "cipher": "chacha20-ietf",
+      "password": "asd123456",
+      "tfo": false,
+      "latency": 193
+    },
+    {
+      "name": "%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF4%7C%40stairnode",
+      "type": "trojan",
+      "server": "58.152.30.37",
+      "port": 443,
+      "password": "d0d08cddacc3190ea81b1b792e1b5fde",
+      "sni": "58.152.30.37",
+      "latency": 195
+    },
+    {
+      "name": "%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%7C%40stairnode",
+      "type": "trojan",
+      "server": "128.199.125.102",
+      "port": 443,
+      "password": "d0d08cddacc3190ea81b1b792e1b5fde",
+      "sni": "128.199.125.102",
+      "latency": 205
+    },
+    {
+      "name": "US美国(mibei77.com 米贝节点分享) 7",
+      "server": "sSsdCVfBGNjkI.931.PP.Ua",
+      "port": 443,
+      "type": "vmess",
+      "uuid": "a4e8ec0a-75d0-4fc5-837a-4973ed3a9d3e",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": true,
+      "skip-cert-verify": true,
+      "network": "ws",
+      "ws-path": "/14Fziqw1hYgCXNutkS5H",
+      "ws-headers": {
+        "Host": "sSsdCVfBGNjkI.931.PP.Ua"
+      },
+      "udp": true,
+      "latency": 208
+    },
+    {
+      "name": "6元高速机场：cczzuu.top",
+      "server": "13.234.32.160",
+      "port": 443,
+      "client-fingerprint": "chrome",
+      "type": "ss",
+      "cipher": "aes-256-cfb",
+      "password": "amazonskr05",
+      "tfo": false,
+      "latency": 225
+    },
+    {
+      "name": "🇭🇰 香港2|@stairnode",
+      "server": "103.103.245.158",
+      "port": 636,
+      "client-fingerprint": "chrome",
+      "type": "ss",
+      "cipher": "aes-256-gcm",
+      "password": "9bfdde71b4c0",
+      "tfo": false,
+      "plugin": "v2ray-plugin",
+      "plugin-opts": {
+        "mode": "websocket",
+        "host": "newroot2v1.dsjsapp.com",
+        "path": "/cauejypbltqt",
+        "tls": true,
+        "mux": true,
+        "skip-cert-verify": false
+      },
+      "latency": 229
+    },
+    {
+      "name": "🇨🇳_CN_中国->🇺🇸_US_美国_1",
+      "type": "ss",
+      "server": "pr.fastsoonlink.com",
+      "port": 40030,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "ae6e933b-8874-4bf4-a384-0de216ef2bf4",
+      "latency": 264
+    },
+    {
+      "name": "🇺🇸 美国2|@stairnode",
+      "server": "cn01.efan8867801.xyz",
+      "port": 8774,
+      "client-fingerprint": "chrome",
+      "type": "ss",
+      "cipher": "rc4-md5",
+      "password": "efanccyun",
+      "tfo": false,
+      "plugin": "obfs",
+      "plugin-opts": {
+        "mode": "http",
+        "host": "202507282137611-5Up7OUIi18.download.microsoft.com"
+      },
+      "latency": 348
     },
     {
       "name": "US美国(mibei77.com 米贝节点分享) 8",
@@ -721,16 +781,44 @@
       "tls": false,
       "skip-cert-verify": true,
       "udp": true,
-      "latency": 179
+      "latency": 382
     },
     {
-      "name": "%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%7C%40stairnode",
+      "name": "%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A13%7C%40stairnode",
       "type": "trojan",
-      "server": "36.156.102.125",
-      "port": 1601,
-      "password": "d0d08cddacc3190ea81b1b792e1b5fde",
-      "sni": "36.156.102.125",
-      "latency": 1061
+      "server": "sg.mjt000.com",
+      "port": 443,
+      "password": "92435aa8-f3b6-466a-ad58-c55cbb6d2acf",
+      "sni": "sg.mjt000.com",
+      "latency": 429
+    },
+    {
+      "name": "🇯🇵 日本|@stairnode",
+      "server": "cn01.efan8867801.xyz",
+      "port": 8766,
+      "client-fingerprint": "chrome",
+      "type": "ss",
+      "cipher": "rc4-md5",
+      "password": "efanccyun",
+      "tfo": false,
+      "plugin": "obfs",
+      "plugin-opts": {
+        "mode": "http",
+        "host": "202507282137611-5Up7OUIi18.download.microsoft.com"
+      },
+      "latency": 526
+    },
+    {
+      "name": "🇹🇼 台湾|@stairnode",
+      "password": "test.+",
+      "port": 30443,
+      "server": "cmhkb.ssv.vc",
+      "skip-cert-verify": false,
+      "tls": true,
+      "type": "http",
+      "username": "test",
+      "sni": "cmhkb.ssv.vc",
+      "latency": 717
     }
   ]
 }
