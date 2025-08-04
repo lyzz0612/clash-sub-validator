@@ -17,3 +17,7 @@ https://node.freeclashnode.com/uploads/%Y/%m/0-%Y%m%d.yaml
 
 # https://openclash.cc/
 https://node.openclash.cc/uploads/%Y/%m/0-%Y%m%d.yaml
+
+http://mlfenx.cczzuu.top/node/%Y%m%d-clash.yaml
+
+https://node.freeclashverge.com/uploads/%Y/%m/0-%Y%m%d.yaml
