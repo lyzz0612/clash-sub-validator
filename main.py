@@ -567,7 +567,7 @@ class ClashNodeTester:
         try:
             headers = {'Content-Type': 'application/json'}
             if api_key:
-                headers['Authorization'] = f'Bearer {api_key}'
+                headers['Authorization'] = f'ApiKey {api_key}'
             
             data = {
                 'content': clash_config
@@ -639,7 +639,7 @@ async def main():
     api_url = os.getenv('API_URL')
     api_key = os.getenv('API_KEY')
     output_file = os.getenv('OUTPUT_FILE', 'clash_config.yaml')
-    
+
     logger.info("=== Clash节点测速筛选系统启动 ===")
     logger.info(f"配置文件: {config_file}")
     logger.info(f"最大延迟: {max_latency}ms")
@@ -677,6 +677,9 @@ async def main():
             logger.info(f"平均延迟: {avg_latency:.1f}ms")
             logger.info(f"最佳节点: {good_nodes[0].get('name')} ({good_nodes[0].get('latency')}ms)")
             logger.info(f"Clash配置文件大小: {len(clash_config)} 字符")
+
+if sys.platform == 'win32':
+    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
 if __name__ == "__main__":
     asyncio.run(main())

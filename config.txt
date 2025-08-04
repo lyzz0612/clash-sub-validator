@@ -1,1 +1,1 @@
-https://node.freev2raynode.com/uploads/%y/%m/1-%y%m%d.yaml
+https://node.freev2raynode.com/uploads/%Y/%m/1-%Y%m%d.yaml
