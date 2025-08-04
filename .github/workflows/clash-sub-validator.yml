@@ -56,16 +56,6 @@ jobs:
       run: |
         python clash_tester.py
         
-    - name: Upload results as artifact
-      uses: actions/upload-artifact@v3
-      with:
-        name: clash-config-${{ github.run_number }}
-        path: |
-          clash_config.yaml
-          good_nodes.json
-          clash_tester.log
-        retention-days: 30
-        
     - name: Commit and push results
       run: |
         git config --local user.email "action@github.com"
