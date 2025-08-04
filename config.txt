@@ -1,1 +1,19 @@
+# Clash订阅链接配置文件
+# 支持的占位符：
+# %y - 2位数年份 (如: 24)
+# %Y - 4位数年份 (如: 2024)  
+# %m - 月份 (如: 08)
+# %d - 日期 (如: 04)
+# %H - 小时 (如: 14)
+# %M - 分钟 (如: 30)
+# %S - 秒 (如: 45)
+# %D - 日期YYYYMMDD (如: 20240804)
+# %T - 时间HHMMSS (如: 143045)
+
 https://node.freev2raynode.com/uploads/%Y/%m/1-%Y%m%d.yaml
+
+# https://nodev2rayclash.github.io/
+https://node.freeclashnode.com/uploads/%Y/%m/0-%Y%m%d.yaml
+
+# https://openclash.cc/
+https://node.openclash.cc/uploads/%Y/%m/0-%Y%m%d.yaml
