@@ -54,7 +54,7 @@ jobs:
         API_URL: ${{ secrets.API_URL }}
         API_KEY: ${{ secrets.API_KEY }}
       run: |
-        python clash_tester.py
+        python main.py
         
     - name: Commit and push results
       run: |
