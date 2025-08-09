@@ -1,7 +1,7 @@
 {
-  "timestamp": "2025-08-08T20:18:23.821779",
-  "total_count": 514,
-  "average_latency": 86.2976653696498,
+  "timestamp": "2025-08-09T08:19:39.956930",
+  "total_count": 521,
+  "average_latency": 90.49904030710172,
   "nodes": [
     {
       "name": "US美国(mibei77.com 米贝节点分享) 4",
@@ -108,43 +108,6 @@
         "path": "/?ed=2560",
         "headers": {
           "host": "v01.bgm2024.dpdns.org"
-        }
-      },
-      "latency": 5
-    },
-    {
-      "type": "vless",
-      "name": "US_15",
-      "server": "160.79.104.102",
-      "port": 443,
-      "uuid": "55520747-311e-4015-83ce-be46e2060ce3",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "m01.bgm2024.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560",
-        "headers": {
-          "host": "m01.bgm2024.dpdns.org"
-        }
-      },
-      "latency": 5
-    },
-    {
-      "type": "trojan",
-      "name": "198.62.62.4_1",
-      "server": "198.62.62.4",
-      "port": 443,
-      "password": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "ax1.ylka.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&PROT_TYPE=trojan",
-        "headers": {
-          "host": "ax1.ylka.dpdns.org"
         }
       },
       "latency": 5
@@ -841,24 +804,6 @@
       "latency": 5
     },
     {
-      "name": "US美国(mibei77.com 米贝节点分享) 28",
-      "server": "77.105.163.25",
-      "port": 8880,
-      "type": "vmess",
-      "uuid": "3e1e3e7f-2683-3f36-83b1-1850790295df",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": false,
-      "skip-cert-verify": true,
-      "network": "ws",
-      "ws-path": "/dabai&Telegram🇨🇳@WangCai2/?ed=2560",
-      "ws-headers": {
-        "Host": "TG.WangCai2.s2.cn-db.top"
-      },
-      "udp": true,
-      "latency": 5
-    },
-    {
       "name": "US美国(mibei77.com 米贝节点分享) 5",
       "server": "141.193.213.223",
       "port": 2086,
@@ -934,25 +879,6 @@
     },
     {
       "type": "vless",
-      "name": "SG_1",
-      "server": "27.50.49.230",
-      "port": 8443,
-      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "edgb.aimercc.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "edgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 5
-    },
-    {
-      "type": "vless",
       "name": "US_7",
       "server": "160.79.104.115",
       "port": 443,
@@ -1007,16 +933,6 @@
       "latency": 5
     },
     {
-      "name": "US美国(mibei77.com 米贝节点分享) 13",
-      "server": "104.21.63.135",
-      "port": 443,
-      "type": "trojan",
-      "password": "fa050497-fc2a-45ee-89c0-96670c4ecb65",
-      "skip-cert-verify": true,
-      "udp": true,
-      "latency": 5
-    },
-    {
       "name": "%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%7C%40stairnode",
       "type": "trojan",
       "server": "172.67.214.21",
@@ -1043,23 +959,6 @@
       "name": "🇳🇱_NL_荷兰->🇺🇸_US_美国",
       "type": "vmess",
       "server": "185.193.29.88",
-      "port": 8880,
-      "uuid": "cc0926df-54a8-3df7-934c-fd3ead64f6aa",
-      "cipher": "auto",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560",
-        "headers": {
-          "host": "TG.WangCai2.s2.cn-db.top"
-        }
-      },
-      "alterId": 0,
-      "latency": 5
-    },
-    {
-      "name": "🇨🇳_CN_中国->🇺🇸_US_美国_1",
-      "type": "vmess",
-      "server": "154.197.108.88",
       "port": 8880,
       "uuid": "cc0926df-54a8-3df7-934c-fd3ead64f6aa",
       "cipher": "auto",
@@ -1202,24 +1101,6 @@
     {
       "name": "NL荷兰(mibei77.com 米贝节点分享) 7",
       "server": "45.130.125.226",
-      "port": 8880,
-      "type": "vmess",
-      "uuid": "5d5c957f-b0e7-3e4e-9db6-65a5fec7e080",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": false,
-      "skip-cert-verify": true,
-      "network": "ws",
-      "ws-path": "/dabai&Telegram🇨🇳@WangCai2/?ed=2560",
-      "ws-headers": {
-        "Host": "TG.WangCai2.s2.cn-db.top"
-      },
-      "udp": true,
-      "latency": 5
-    },
-    {
-      "name": "NL荷兰(mibei77.com 米贝节点分享) 8",
-      "server": "88.216.66.226",
       "port": 8880,
       "type": "vmess",
       "uuid": "5d5c957f-b0e7-3e4e-9db6-65a5fec7e080",
@@ -1506,24 +1387,6 @@
       "latency": 5
     },
     {
-      "name": "FR法国(mibei77.com 米贝节点分享)",
-      "server": "94.140.0.226",
-      "port": 8880,
-      "type": "vmess",
-      "uuid": "5d5c957f-b0e7-3e4e-9db6-65a5fec7e080",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": false,
-      "skip-cert-verify": true,
-      "network": "ws",
-      "ws-path": "/dabai&Telegram🇨🇳@WangCai2/?ed=2560",
-      "ws-headers": {
-        "Host": "TG.WangCai2.s2.cn-db.top"
-      },
-      "udp": true,
-      "latency": 5
-    },
-    {
       "name": "FR法国(mibei77.com 米贝节点分享) 2",
       "server": "141.11.202.226",
       "port": 8880,
@@ -1717,43 +1580,6 @@
         "path": "/?ed=2560&proxyip=ts.hpc.tw",
         "headers": {
           "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 5
-    },
-    {
-      "type": "trojan",
-      "name": "SJC_6",
-      "server": "31.43.179.27",
-      "port": 443,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 5
-    },
-    {
-      "type": "vless",
-      "name": "SG_3",
-      "server": "27.50.48.204",
-      "port": 443,
-      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "edgb.esslh.filegear-sg.me",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "edgb.esslh.filegear-sg.me"
         }
       },
       "latency": 5
@@ -2319,24 +2145,6 @@
     },
     {
       "type": "trojan",
-      "name": "SJC_48",
-      "server": "188.164.159.3",
-      "port": 2087,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 5
-    },
-    {
-      "type": "trojan",
       "name": "SJC_49",
       "server": "92.243.74.239",
       "port": 8443,
@@ -2661,25 +2469,6 @@
     },
     {
       "type": "vless",
-      "name": "US_18",
-      "server": "209.94.90.87",
-      "port": 2087,
-      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "edgb.aimercc.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "edgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 5
-    },
-    {
-      "type": "vless",
       "name": "SG_8",
       "server": "27.50.48.239",
       "port": 8443,
@@ -2693,24 +2482,6 @@
         "path": "/?ed=2560&proxyip=ts.hpc.tw",
         "headers": {
           "host": "edgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 5
-    },
-    {
-      "type": "trojan",
-      "name": "SJC_73",
-      "server": "130.250.137.63",
-      "port": 2083,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
         }
       },
       "latency": 5
@@ -3024,42 +2795,6 @@
     },
     {
       "type": "trojan",
-      "name": "SJC_101",
-      "server": "104.19.60.99",
-      "port": 2087,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 5
-    },
-    {
-      "type": "trojan",
-      "name": "SJC_102",
-      "server": "167.68.42.113",
-      "port": 2053,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 5
-    },
-    {
-      "type": "trojan",
       "name": "SJC_103",
       "server": "161.145.150.14",
       "port": 443,
@@ -3131,24 +2866,6 @@
     },
     {
       "type": "trojan",
-      "name": "SJC_38",
-      "server": "5.182.85.255",
-      "port": 2096,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 5
-    },
-    {
-      "type": "trojan",
       "name": "SJC_8",
       "server": "108.165.152.82",
       "port": 8443,
@@ -3198,7 +2915,7 @@
         }
       },
       "alterId": 0,
-      "latency": 6
+      "latency": 5
     },
     {
       "name": "US美国(mibei77.com 米贝节点分享) 5",
@@ -3216,7 +2933,7 @@
         "Host": "TG.WangCai2.s4.cn-db.top"
       },
       "udp": true,
-      "latency": 6
+      "latency": 5
     },
     {
       "type": "vless",
@@ -3235,7 +2952,7 @@
           "host": "m01.bgm2024.dpdns.org"
         }
       },
-      "latency": 6
+      "latency": 5
     },
     {
       "type": "vless",
@@ -3254,7 +2971,7 @@
           "host": "zx1.ylka.dpdns.org"
         }
       },
-      "latency": 6
+      "latency": 5
     },
     {
       "name": "US美国(mibei77.com 米贝节点分享)",
@@ -3264,7 +2981,7 @@
       "password": "tg-fq521free",
       "skip-cert-verify": true,
       "udp": true,
-      "latency": 6
+      "latency": 5
     },
     {
       "type": "vless",
@@ -3283,7 +3000,7 @@
           "host": "v01.bgm2024.dpdns.org"
         }
       },
-      "latency": 6
+      "latency": 5
     },
     {
       "type": "vless",
@@ -3302,7 +3019,7 @@
           "host": "ax1.ylka.dpdns.org"
         }
       },
-      "latency": 6
+      "latency": 5
     },
     {
       "name": "HK香港(mibei77.com 米贝节点分享) 4",
@@ -3320,7 +3037,7 @@
         "Host": "TG.WangCai2.s2.cn-db.top"
       },
       "udp": true,
-      "latency": 6
+      "latency": 5
     },
     {
       "name": "US美国(mibei77.com 米贝节点分享) 2",
@@ -3338,7 +3055,7 @@
         "Host": "TG.WangCai2.s2.cn-db.top"
       },
       "udp": true,
-      "latency": 6
+      "latency": 5
     },
     {
       "name": "HK香港(mibei77.com 米贝节点分享) 10",
@@ -3356,7 +3073,7 @@
         "Host": "TG.WangCai2.s2.cn-db.top"
       },
       "udp": true,
-      "latency": 6
+      "latency": 5
     },
     {
       "name": "DE德国(mibei77.com 米贝节点分享) 3",
@@ -3374,25 +3091,7 @@
         "Host": "TG.WangCai2.s2.cn-db.top"
       },
       "udp": true,
-      "latency": 6
-    },
-    {
-      "type": "trojan",
-      "name": "SJC_7",
-      "server": "154.211.8.150",
-      "port": 2096,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 6
+      "latency": 5
     },
     {
       "type": "trojan",
@@ -3410,7 +3109,7 @@
           "host": "epgb.aimercc.dpdns.org"
         }
       },
-      "latency": 6
+      "latency": 5
     },
     {
       "type": "trojan",
@@ -3428,7 +3127,7 @@
           "host": "epgb.aimercc.dpdns.org"
         }
       },
-      "latency": 6
+      "latency": 5
     },
     {
       "type": "trojan",
@@ -3446,7 +3145,7 @@
           "host": "epgb.aimercc.dpdns.org"
         }
       },
-      "latency": 6
+      "latency": 5
     },
     {
       "type": "trojan",
@@ -3464,7 +3163,7 @@
           "host": "epgb.aimercc.dpdns.org"
         }
       },
-      "latency": 6
+      "latency": 5
     },
     {
       "type": "trojan",
@@ -3482,7 +3181,7 @@
           "host": "epgb.aimercc.dpdns.org"
         }
       },
-      "latency": 6
+      "latency": 5
     },
     {
       "type": "vless",
@@ -3501,7 +3200,7 @@
           "host": "edgb.aimercc.dpdns.org"
         }
       },
-      "latency": 6
+      "latency": 5
     },
     {
       "type": "vless",
@@ -3520,7 +3219,7 @@
           "host": "edgb.aimercc.dpdns.org"
         }
       },
-      "latency": 6
+      "latency": 5
     },
     {
       "type": "trojan",
@@ -3538,7 +3237,7 @@
           "host": "epgb.aimercc.dpdns.org"
         }
       },
-      "latency": 6
+      "latency": 5
     },
     {
       "type": "trojan",
@@ -3556,7 +3255,7 @@
           "host": "epgb.aimercc.dpdns.org"
         }
       },
-      "latency": 6
+      "latency": 5
     },
     {
       "type": "trojan",
@@ -3574,7 +3273,7 @@
           "host": "epgb.aimercc.dpdns.org"
         }
       },
-      "latency": 6
+      "latency": 5
     },
     {
       "type": "trojan",
@@ -3592,7 +3291,7 @@
           "host": "epgb.aimercc.dpdns.org"
         }
       },
-      "latency": 6
+      "latency": 5
     },
     {
       "type": "trojan",
@@ -3610,7 +3309,7 @@
           "host": "epgb.aimercc.dpdns.org"
         }
       },
-      "latency": 6
+      "latency": 5
     },
     {
       "type": "trojan",
@@ -3628,7 +3327,7 @@
           "host": "epgb.aimercc.dpdns.org"
         }
       },
-      "latency": 6
+      "latency": 5
     },
     {
       "type": "trojan",
@@ -3646,7 +3345,7 @@
           "host": "epgb.aimercc.dpdns.org"
         }
       },
-      "latency": 6
+      "latency": 5
     },
     {
       "type": "trojan",
@@ -3664,7 +3363,7 @@
           "host": "epgb.aimercc.dpdns.org"
         }
       },
-      "latency": 6
+      "latency": 5
     },
     {
       "type": "trojan",
@@ -3682,7 +3381,7 @@
           "host": "epgb.aimercc.dpdns.org"
         }
       },
-      "latency": 6
+      "latency": 5
     },
     {
       "type": "trojan",
@@ -3700,7 +3399,7 @@
           "host": "epgb.aimercc.dpdns.org"
         }
       },
-      "latency": 6
+      "latency": 5
     },
     {
       "type": "trojan",
@@ -3718,7 +3417,7 @@
           "host": "epgb.aimercc.dpdns.org"
         }
       },
-      "latency": 6
+      "latency": 5
     },
     {
       "name": "GB英国(mibei77.com 米贝节点分享)",
@@ -3736,17 +3435,562 @@
         "Host": "farid.1.berozha.ir"
       },
       "udp": true,
+      "latency": 5
+    },
+    {
+      "type": "trojan",
+      "name": "SJC_71",
+      "server": "154.197.64.228",
+      "port": 2083,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 5
+    },
+    {
+      "type": "trojan",
+      "name": "SJC_80",
+      "server": "108.165.152.1",
+      "port": 2087,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 5
+    },
+    {
+      "type": "trojan",
+      "name": "SJC_72",
+      "server": "103.116.7.103",
+      "port": 2083,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 5
+    },
+    {
+      "type": "trojan",
+      "name": "SJC_75",
+      "server": "108.165.152.66",
+      "port": 2083,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 5
+    },
+    {
+      "type": "trojan",
+      "name": "FRA_3",
+      "server": "172.67.77.127",
+      "port": 443,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 5
+    },
+    {
+      "type": "trojan",
+      "name": "SJC_69",
+      "server": "188.164.159.69",
+      "port": 2083,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 5
+    },
+    {
+      "type": "trojan",
+      "name": "SJC_81",
+      "server": "27.50.48.154",
+      "port": 8443,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 5
+    },
+    {
+      "name": "US美国(mibei77.com 米贝节点分享) 17",
+      "server": "172.67.170.147",
+      "port": 443,
+      "type": "vmess",
+      "uuid": "ffcf7ec1-3e09-4821-b3d9-b426a107b73b",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": true,
+      "skip-cert-verify": true,
+      "network": "ws",
+      "ws-path": "/4Bp70NdrJV3xr1D40NK",
+      "ws-headers": {
+        "Host": "xcvfgt6.999854.xyz"
+      },
+      "udp": true,
+      "latency": 5
+    },
+    {
+      "name": "US美国(mibei77.com 米贝节点分享) 18",
+      "server": "172.67.220.32",
+      "port": 443,
+      "type": "trojan",
+      "password": "ffcf7ec1-3e09-4821-b3d9-b426a107b73b",
+      "skip-cert-verify": true,
+      "udp": true,
+      "latency": 5
+    },
+    {
+      "type": "vless",
+      "name": "moura.ns.cloudflare.com_1",
+      "server": "moura.ns.cloudflare.com",
+      "port": 443,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "zx1.ylka.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560&PROT_TYPE=vless",
+        "headers": {
+          "host": "zx1.ylka.dpdns.org"
+        }
+      },
+      "latency": 5
+    },
+    {
+      "type": "trojan",
+      "name": "www.digitalocean.com_3",
+      "server": "www.digitalocean.com",
+      "port": 443,
+      "password": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "ax1.ylka.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&PROT_TYPE=trojan",
+        "headers": {
+          "host": "ax1.ylka.dpdns.org"
+        }
+      },
+      "latency": 5
+    },
+    {
+      "type": "trojan",
+      "name": "官方优选_21",
+      "server": "pranab.ns.cloudflare.com",
+      "port": 443,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 5
+    },
+    {
+      "type": "trojan",
+      "name": "官方优选_25",
+      "server": "kip.ns.cloudflare.com",
+      "port": 443,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 5
+    },
+    {
+      "type": "trojan",
+      "name": "SJC_76",
+      "server": "108.165.152.93",
+      "port": 2083,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 5
+    },
+    {
+      "type": "vless",
+      "name": "www.hugedomains.com_2",
+      "server": "www.hugedomains.com",
+      "port": 443,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "zx1.ylka.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560&PROT_TYPE=vless",
+        "headers": {
+          "host": "zx1.ylka.dpdns.org"
+        }
+      },
+      "latency": 5
+    },
+    {
+      "type": "trojan",
+      "name": "官方优选_24",
+      "server": "ignacio.ns.cloudflare.com",
+      "port": 443,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 5
+    },
+    {
+      "type": "trojan",
+      "name": "US_37",
+      "server": "bestcf.030101.xyz",
+      "port": 443,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 5
+    },
+    {
+      "type": "vless",
+      "name": "otto.ns.cloudflare.com_3",
+      "server": "otto.ns.cloudflare.com",
+      "port": 443,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "zx1.ylka.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560&PROT_TYPE=vless",
+        "headers": {
+          "host": "zx1.ylka.dpdns.org"
+        }
+      },
+      "latency": 5
+    },
+    {
+      "type": "trojan",
+      "name": "官方优选_5",
+      "server": "arvind.ns.cloudflare.com",
+      "port": 443,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 5
+    },
+    {
+      "type": "trojan",
+      "name": "SJC_25",
+      "server": "108.165.152.25",
+      "port": 2087,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 5
+    },
+    {
+      "type": "vless",
+      "name": "www.wto.org_1",
+      "server": "www.wto.org",
+      "port": 443,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "ax1.ylka.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560&PROT_TYPE=vless",
+        "headers": {
+          "host": "ax1.ylka.dpdns.org"
+        }
+      },
+      "latency": 5
+    },
+    {
+      "name": "US美国(mibei77.com 米贝节点分享)",
+      "server": "198.12.145.66",
+      "port": 8880,
+      "type": "vmess",
+      "uuid": "cc0926df-54a8-3df7-934c-fd3ead64f6aa",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": false,
+      "skip-cert-verify": true,
+      "network": "ws",
+      "ws-path": "/dabai&Telegram🇨🇳@WangCai2/?ed=2560",
+      "ws-headers": {
+        "Host": "TG.WangCai2.s2.cn-db.top"
+      },
+      "udp": true,
+      "latency": 5
+    },
+    {
+      "name": "US美国(mibei77.com 米贝节点分享) 3",
+      "server": "45.67.215.66",
+      "port": 8880,
+      "type": "vmess",
+      "uuid": "cc0926df-54a8-3df7-934c-fd3ead64f6aa",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": false,
+      "skip-cert-verify": true,
+      "network": "ws",
+      "ws-path": "/dabai&Telegram🇨🇳@WangCai2/?ed=2560",
+      "ws-headers": {
+        "Host": "TG.WangCai2.s2.cn-db.top"
+      },
+      "udp": true,
+      "latency": 5
+    },
+    {
+      "name": "US美国(mibei77.com 米贝节点分享) 4",
+      "server": "166.62.115.66",
+      "port": 8880,
+      "type": "vmess",
+      "uuid": "cc0926df-54a8-3df7-934c-fd3ead64f6aa",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": false,
+      "skip-cert-verify": true,
+      "network": "ws",
+      "ws-path": "/dabai&Telegram🇨🇳@WangCai2/?ed=2560",
+      "ws-headers": {
+        "Host": "TG.WangCai2.s2.cn-db.top"
+      },
+      "udp": true,
+      "latency": 5
+    },
+    {
+      "name": "US美国(mibei77.com 米贝节点分享) 5",
+      "server": "199.34.229.66",
+      "port": 8880,
+      "type": "vmess",
+      "uuid": "cc0926df-54a8-3df7-934c-fd3ead64f6aa",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": false,
+      "skip-cert-verify": true,
+      "network": "ws",
+      "ws-path": "/dabai&Telegram🇨🇳@WangCai2/?ed=2560",
+      "ws-headers": {
+        "Host": "TG.WangCai2.s2.cn-db.top"
+      },
+      "udp": true,
+      "latency": 5
+    },
+    {
+      "type": "vless",
+      "name": "US_15",
+      "server": "160.79.104.102",
+      "port": 443,
+      "uuid": "55520747-311e-4015-83ce-be46e2060ce3",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "m01.bgm2024.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560",
+        "headers": {
+          "host": "m01.bgm2024.dpdns.org"
+        }
+      },
       "latency": 6
     },
     {
-      "name": "🇺🇸_US_美国",
+      "name": "US美国(mibei77.com 米贝节点分享) 28",
+      "server": "77.105.163.25",
+      "port": 8880,
       "type": "vmess",
-      "server": "15.204.234.200",
-      "port": 41100,
-      "uuid": "c7f169a3-2e9a-4894-ba53-7b2fa6fd08b4",
-      "cipher": "auto",
-      "network": "tcp",
+      "uuid": "3e1e3e7f-2683-3f36-83b1-1850790295df",
       "alterId": 0,
+      "cipher": "auto",
+      "tls": false,
+      "skip-cert-verify": true,
+      "network": "ws",
+      "ws-path": "/dabai&Telegram🇨🇳@WangCai2/?ed=2560",
+      "ws-headers": {
+        "Host": "TG.WangCai2.s2.cn-db.top"
+      },
+      "udp": true,
+      "latency": 6
+    },
+    {
+      "type": "vless",
+      "name": "SG_1",
+      "server": "27.50.49.230",
+      "port": 8443,
+      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "edgb.aimercc.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "edgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 6
+    },
+    {
+      "type": "trojan",
+      "name": "SJC_48",
+      "server": "188.164.159.3",
+      "port": 2087,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 6
+    },
+    {
+      "type": "trojan",
+      "name": "SJC_101",
+      "server": "104.19.60.99",
+      "port": 2087,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 6
+    },
+    {
+      "type": "trojan",
+      "name": "SJC_38",
+      "server": "5.182.85.255",
+      "port": 2096,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
       "latency": 6
     },
     {
@@ -3768,66 +4012,82 @@
       "latency": 6
     },
     {
-      "type": "vless",
-      "name": "官方优选_10",
-      "server": "kip.ns.cloudflare.com",
+      "type": "trojan",
+      "name": "官方优选_11",
+      "server": "duke.ns.cloudflare.com",
       "port": 443,
-      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
-      "skip-cert-verify": true,
+      "password": "Aimer",
       "udp": true,
-      "tls": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
       "network": "ws",
-      "servername": "edga.aimercc.dpdns.org",
       "ws-opts": {
         "path": "/?ed=2560&proxyip=ts.hpc.tw",
         "headers": {
-          "host": "edga.aimercc.dpdns.org"
+          "host": "epgb.aimercc.dpdns.org"
         }
       },
       "latency": 6
     },
     {
-      "type": "vless",
-      "name": "官方优选_2",
+      "type": "trojan",
+      "name": "官方优选_18",
       "server": "lynn.ns.cloudflare.com",
       "port": 443,
-      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
-      "skip-cert-verify": true,
+      "password": "Aimer",
       "udp": true,
-      "tls": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
       "network": "ws",
-      "servername": "edga.aimercc.dpdns.org",
       "ws-opts": {
         "path": "/?ed=2560&proxyip=ts.hpc.tw",
         "headers": {
-          "host": "edga.aimercc.dpdns.org"
+          "host": "epgb.aimercc.dpdns.org"
         }
       },
       "latency": 6
     },
     {
       "type": "vless",
-      "name": "官方优选_5",
-      "server": "sage.ns.cloudflare.com",
+      "name": "lewis.ns.cloudflare.com_1",
+      "server": "lewis.ns.cloudflare.com",
       "port": 443,
-      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
       "skip-cert-verify": true,
       "udp": true,
       "tls": true,
       "network": "ws",
-      "servername": "edga.aimercc.dpdns.org",
+      "servername": "zx1.ylka.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560&PROT_TYPE=vless",
+        "headers": {
+          "host": "zx1.ylka.dpdns.org"
+        }
+      },
+      "latency": 6
+    },
+    {
+      "type": "trojan",
+      "name": "官方优选_3",
+      "server": "theo.ns.cloudflare.com",
+      "port": 443,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
       "ws-opts": {
         "path": "/?ed=2560&proxyip=ts.hpc.tw",
         "headers": {
-          "host": "edga.aimercc.dpdns.org"
+          "host": "epgb.aimercc.dpdns.org"
         }
       },
       "latency": 6
     },
     {
       "type": "vless",
-      "name": "nikon.ns.cloudflare.com_1",
-      "server": "nikon.ns.cloudflare.com",
+      "name": "rustam.ns.cloudflare.com_1",
+      "server": "rustam.ns.cloudflare.com",
       "port": 443,
       "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
       "skip-cert-verify": true,
@@ -3842,6 +4102,272 @@
         }
       },
       "latency": 6
+    },
+    {
+      "type": "trojan",
+      "name": "dnschecker.org_1",
+      "server": "dnschecker.org",
+      "port": 443,
+      "password": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "zx1.ylka.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&PROT_TYPE=trojan",
+        "headers": {
+          "host": "zx1.ylka.dpdns.org"
+        }
+      },
+      "latency": 6
+    },
+    {
+      "type": "vless",
+      "name": "iplocation.io_1",
+      "server": "iplocation.io",
+      "port": 443,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "ax1.ylka.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560&PROT_TYPE=vless",
+        "headers": {
+          "host": "ax1.ylka.dpdns.org"
+        }
+      },
+      "latency": 6
+    },
+    {
+      "name": "US美国(mibei77.com 米贝节点分享) 4",
+      "server": "dddfFFvvBnhJU.931.pP.uA",
+      "port": 443,
+      "type": "vmess",
+      "uuid": "a4e8ec0a-75d0-4fc5-837a-4973ed3a9d3e",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": true,
+      "skip-cert-verify": true,
+      "network": "ws",
+      "ws-path": "/14Fziqw1hYgCXNutkS5H",
+      "ws-headers": {
+        "Host": "dddfffvvbnhju.931.pp.ua"
+      },
+      "udp": true,
+      "latency": 6
+    },
+    {
+      "type": "trojan",
+      "name": "198.62.62.4_1",
+      "server": "198.62.62.4",
+      "port": 443,
+      "password": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "ax1.ylka.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&PROT_TYPE=trojan",
+        "headers": {
+          "host": "ax1.ylka.dpdns.org"
+        }
+      },
+      "latency": 7
+    },
+    {
+      "name": "NL荷兰(mibei77.com 米贝节点分享) 8",
+      "server": "88.216.66.226",
+      "port": 8880,
+      "type": "vmess",
+      "uuid": "5d5c957f-b0e7-3e4e-9db6-65a5fec7e080",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": false,
+      "skip-cert-verify": true,
+      "network": "ws",
+      "ws-path": "/dabai&Telegram🇨🇳@WangCai2/?ed=2560",
+      "ws-headers": {
+        "Host": "TG.WangCai2.s2.cn-db.top"
+      },
+      "udp": true,
+      "latency": 7
+    },
+    {
+      "type": "trojan",
+      "name": "SJC_6",
+      "server": "31.43.179.27",
+      "port": 443,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 7
+    },
+    {
+      "type": "vless",
+      "name": "SG_3",
+      "server": "27.50.48.204",
+      "port": 443,
+      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "edgb.esslh.filegear-sg.me",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "edgb.esslh.filegear-sg.me"
+        }
+      },
+      "latency": 7
+    },
+    {
+      "name": "🇺🇸_US_美国",
+      "type": "vmess",
+      "server": "15.204.234.200",
+      "port": 41100,
+      "uuid": "c7f169a3-2e9a-4894-ba53-7b2fa6fd08b4",
+      "cipher": "auto",
+      "network": "tcp",
+      "alterId": 0,
+      "latency": 7
+    },
+    {
+      "name": "US美国(mibei77.com 米贝节点分享) 13",
+      "server": "104.21.63.135",
+      "port": 443,
+      "type": "trojan",
+      "password": "fa050497-fc2a-45ee-89c0-96670c4ecb65",
+      "skip-cert-verify": true,
+      "udp": true,
+      "latency": 8
+    },
+    {
+      "name": "FR法国(mibei77.com 米贝节点分享)",
+      "server": "94.140.0.226",
+      "port": 8880,
+      "type": "vmess",
+      "uuid": "5d5c957f-b0e7-3e4e-9db6-65a5fec7e080",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": false,
+      "skip-cert-verify": true,
+      "network": "ws",
+      "ws-path": "/dabai&Telegram🇨🇳@WangCai2/?ed=2560",
+      "ws-headers": {
+        "Host": "TG.WangCai2.s2.cn-db.top"
+      },
+      "udp": true,
+      "latency": 8
+    },
+    {
+      "type": "trojan",
+      "name": "SJC_73",
+      "server": "130.250.137.63",
+      "port": 2083,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 8
+    },
+    {
+      "type": "trojan",
+      "name": "SJC_102",
+      "server": "167.68.42.113",
+      "port": 2053,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 8
+    },
+    {
+      "name": "🇨🇳_CN_中国->🇺🇸_US_美国_1",
+      "type": "vmess",
+      "server": "154.197.108.88",
+      "port": 8880,
+      "uuid": "cc0926df-54a8-3df7-934c-fd3ead64f6aa",
+      "cipher": "auto",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560",
+        "headers": {
+          "host": "TG.WangCai2.s2.cn-db.top"
+        }
+      },
+      "alterId": 0,
+      "latency": 10
+    },
+    {
+      "type": "vless",
+      "name": "US_18",
+      "server": "209.94.90.87",
+      "port": 2087,
+      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "edgb.aimercc.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "edgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 10
+    },
+    {
+      "type": "trojan",
+      "name": "SJC_7",
+      "server": "154.211.8.150",
+      "port": 2096,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 10
+    },
+    {
+      "name": "%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD4%7C%40stairnode",
+      "type": "trojan",
+      "server": "159.65.222.110",
+      "port": 443,
+      "password": "d0d08cddacc3190ea81b1b792e1b5fde",
+      "sni": "159.65.222.110",
+      "latency": 11
     },
     {
       "type": "vless",
@@ -3860,7 +4386,7 @@
           "host": "edga.aimercc.dpdns.org"
         }
       },
-      "latency": 6
+      "latency": 12
     },
     {
       "type": "vless",
@@ -3879,7 +4405,7 @@
           "host": "edga.aimercc.dpdns.org"
         }
       },
-      "latency": 6
+      "latency": 12
     },
     {
       "type": "trojan",
@@ -3897,175 +4423,7 @@
           "host": "zx1.ylka.dpdns.org"
         }
       },
-      "latency": 6
-    },
-    {
-      "type": "vless",
-      "name": "官方优选_6",
-      "server": "ignacio.ns.cloudflare.com",
-      "port": 443,
-      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "edga.aimercc.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "edga.aimercc.dpdns.org"
-        }
-      },
-      "latency": 6
-    },
-    {
-      "type": "vless",
-      "name": "官方优选_7",
-      "server": "thaddeus.ns.cloudflare.com",
-      "port": 443,
-      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "edga.aimercc.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "edga.aimercc.dpdns.org"
-        }
-      },
-      "latency": 6
-    },
-    {
-      "type": "trojan",
-      "name": "www.hugedomains.com_1",
-      "server": "www.hugedomains.com",
-      "port": 443,
-      "password": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "zx1.ylka.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&PROT_TYPE=trojan",
-        "headers": {
-          "host": "zx1.ylka.dpdns.org"
-        }
-      },
-      "latency": 6
-    },
-    {
-      "type": "trojan",
-      "name": "www.wto.org_2",
-      "server": "www.wto.org",
-      "port": 443,
-      "password": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "zx1.ylka.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&PROT_TYPE=trojan",
-        "headers": {
-          "host": "zx1.ylka.dpdns.org"
-        }
-      },
-      "latency": 6
-    },
-    {
-      "type": "vless",
-      "name": "US_10",
-      "server": "bestcf.030101.xyz",
-      "port": 443,
-      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "edgb.aimercc.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "edgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 6
-    },
-    {
-      "type": "vless",
-      "name": "www.digitalocean.com_1",
-      "server": "www.digitalocean.com",
-      "port": 443,
-      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "ax1.ylka.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560&PROT_TYPE=vless",
-        "headers": {
-          "host": "ax1.ylka.dpdns.org"
-        }
-      },
-      "latency": 6
-    },
-    {
-      "type": "trojan",
-      "name": "otto.ns.cloudflare.com_1",
-      "server": "otto.ns.cloudflare.com",
-      "port": 443,
-      "password": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "ax1.ylka.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&PROT_TYPE=trojan",
-        "headers": {
-          "host": "ax1.ylka.dpdns.org"
-        }
-      },
-      "latency": 6
-    },
-    {
-      "type": "vless",
-      "name": "官方优选_4",
-      "server": "pranab.ns.cloudflare.com",
-      "port": 443,
-      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "edga.aimercc.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "edga.aimercc.dpdns.org"
-        }
-      },
-      "latency": 6
-    },
-    {
-      "type": "vless",
-      "name": "官方优选_1",
-      "server": "arvind.ns.cloudflare.com",
-      "port": 443,
-      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "edga.aimercc.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "edga.aimercc.dpdns.org"
-        }
-      },
-      "latency": 6
+      "latency": 12
     },
     {
       "type": "vless",
@@ -4084,323 +4442,145 @@
           "host": "edga.aimercc.dpdns.org"
         }
       },
-      "latency": 6
-    },
-    {
-      "type": "trojan",
-      "name": "moura.ns.cloudflare.com_2",
-      "server": "moura.ns.cloudflare.com",
-      "port": 443,
-      "password": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "ax1.ylka.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&PROT_TYPE=trojan",
-        "headers": {
-          "host": "ax1.ylka.dpdns.org"
-        }
-      },
-      "latency": 6
-    },
-    {
-      "type": "trojan",
-      "name": "iplocation.io_2",
-      "server": "iplocation.io",
-      "port": 443,
-      "password": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "ax1.ylka.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&PROT_TYPE=trojan",
-        "headers": {
-          "host": "ax1.ylka.dpdns.org"
-        }
-      },
-      "latency": 6
+      "latency": 12
     },
     {
       "type": "vless",
-      "name": "dnschecker.org_2",
-      "server": "dnschecker.org",
+      "name": "hz1.ylks0033.dpdns.org_11",
+      "server": "trevor.ns.cloudflare.com",
       "port": 443,
       "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
       "skip-cert-verify": true,
       "udp": true,
       "tls": true,
       "network": "ws",
-      "servername": "zx1.ylka.dpdns.org",
+      "servername": "hz1.ylks0033.dpdns.org",
       "ws-opts": {
-        "path": "/?ed=2560&PROT_TYPE=vless",
+        "path": "/?ed=2560",
         "headers": {
-          "host": "zx1.ylka.dpdns.org"
+          "host": "hz1.ylks0033.dpdns.org"
         }
       },
-      "latency": 6
-    },
-    {
-      "name": "US美国(mibei77.com 米贝节点分享) 27",
-      "server": "dddfffvvbnhju.931.pp.ua",
-      "port": 443,
-      "type": "vmess",
-      "uuid": "a4e8ec0a-75d0-4fc5-837a-4973ed3a9d3e",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": true,
-      "skip-cert-verify": true,
-      "network": "ws",
-      "ws-path": "/14Fziqw1hYgCXNutkS5H",
-      "ws-headers": {
-        "Host": "dddfffvvbnhju.931.pp.ua"
-      },
-      "udp": true,
-      "latency": 6
-    },
-    {
-      "type": "trojan",
-      "name": "SJC_71",
-      "server": "154.197.64.228",
-      "port": 2083,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 7
-    },
-    {
-      "type": "trojan",
-      "name": "SJC_80",
-      "server": "108.165.152.1",
-      "port": 2087,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 7
-    },
-    {
-      "type": "trojan",
-      "name": "SJC_72",
-      "server": "103.116.7.103",
-      "port": 2083,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 8
-    },
-    {
-      "type": "trojan",
-      "name": "SJC_75",
-      "server": "108.165.152.66",
-      "port": 2083,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 9
-    },
-    {
-      "type": "trojan",
-      "name": "FRA_3",
-      "server": "172.67.77.127",
-      "port": 443,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 11
-    },
-    {
-      "type": "trojan",
-      "name": "SJC_69",
-      "server": "188.164.159.69",
-      "port": 2083,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 11
-    },
-    {
-      "type": "trojan",
-      "name": "SJC_81",
-      "server": "27.50.48.154",
-      "port": 8443,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 11
-    },
-    {
-      "name": "US美国(mibei77.com 米贝节点分享) 17",
-      "server": "172.67.170.147",
-      "port": 443,
-      "type": "vmess",
-      "uuid": "ffcf7ec1-3e09-4821-b3d9-b426a107b73b",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": true,
-      "skip-cert-verify": true,
-      "network": "ws",
-      "ws-path": "/4Bp70NdrJV3xr1D40NK",
-      "ws-headers": {
-        "Host": "xcvfgt6.999854.xyz"
-      },
-      "udp": true,
-      "latency": 12
-    },
-    {
-      "name": "US美国(mibei77.com 米贝节点分享) 18",
-      "server": "172.67.220.32",
-      "port": 443,
-      "type": "trojan",
-      "password": "ffcf7ec1-3e09-4821-b3d9-b426a107b73b",
-      "skip-cert-verify": true,
-      "udp": true,
       "latency": 12
     },
     {
       "type": "vless",
-      "name": "moura.ns.cloudflare.com_1",
-      "server": "moura.ns.cloudflare.com",
+      "name": "hz1.ylks0033.dpdns.org_42",
+      "server": "whatismyipaddress.com",
       "port": 443,
       "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
       "skip-cert-verify": true,
       "udp": true,
       "tls": true,
       "network": "ws",
-      "servername": "zx1.ylka.dpdns.org",
+      "servername": "hz1.ylks0033.dpdns.org",
       "ws-opts": {
-        "path": "/?ed=2560&PROT_TYPE=vless",
+        "path": "/?ed=2560",
         "headers": {
-          "host": "zx1.ylka.dpdns.org"
+          "host": "hz1.ylks0033.dpdns.org"
         }
       },
-      "latency": 13
+      "latency": 12
     },
     {
-      "type": "trojan",
-      "name": "官方优选_29",
-      "server": "thaddeus.ns.cloudflare.com",
+      "type": "vless",
+      "name": "官方优选_10",
+      "server": "kip.ns.cloudflare.com",
       "port": 443,
-      "password": "Aimer",
-      "udp": true,
+      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
       "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
+      "udp": true,
+      "tls": true,
       "network": "ws",
+      "servername": "edga.aimercc.dpdns.org",
       "ws-opts": {
         "path": "/?ed=2560&proxyip=ts.hpc.tw",
         "headers": {
-          "host": "epgb.aimercc.dpdns.org"
+          "host": "edga.aimercc.dpdns.org"
         }
       },
       "latency": 13
     },
     {
-      "name": "%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD4%7C%40stairnode",
-      "type": "trojan",
-      "server": "159.65.222.110",
+      "type": "vless",
+      "name": "官方优选_2",
+      "server": "lynn.ns.cloudflare.com",
       "port": 443,
-      "password": "d0d08cddacc3190ea81b1b792e1b5fde",
-      "sni": "159.65.222.110",
+      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "edga.aimercc.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "edga.aimercc.dpdns.org"
+        }
+      },
+      "latency": 13
+    },
+    {
+      "type": "vless",
+      "name": "官方优选_5",
+      "server": "sage.ns.cloudflare.com",
+      "port": 443,
+      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "edga.aimercc.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "edga.aimercc.dpdns.org"
+        }
+      },
+      "latency": 13
+    },
+    {
+      "type": "vless",
+      "name": "nikon.ns.cloudflare.com_1",
+      "server": "nikon.ns.cloudflare.com",
+      "port": 443,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "ax1.ylka.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560&PROT_TYPE=vless",
+        "headers": {
+          "host": "ax1.ylka.dpdns.org"
+        }
+      },
+      "latency": 13
+    },
+    {
+      "type": "vless",
+      "name": "官方优选_1",
+      "server": "arvind.ns.cloudflare.com",
+      "port": 443,
+      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "edga.aimercc.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "edga.aimercc.dpdns.org"
+        }
+      },
       "latency": 13
     },
     {
       "type": "vless",
       "name": "hz1.ylks0033.dpdns.org_25",
       "server": "decker.ns.cloudflare.com",
-      "port": 443,
-      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "hz1.ylks0033.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560",
-        "headers": {
-          "host": "hz1.ylks0033.dpdns.org"
-        }
-      },
-      "latency": 13
-    },
-    {
-      "type": "vless",
-      "name": "hz1.ylks0033.dpdns.org_3",
-      "server": "julio.ns.cloudflare.com",
-      "port": 443,
-      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "hz1.ylks0033.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560",
-        "headers": {
-          "host": "hz1.ylks0033.dpdns.org"
-        }
-      },
-      "latency": 13
-    },
-    {
-      "type": "vless",
-      "name": "hz1.ylks0033.dpdns.org_7",
-      "server": "dylan.ns.cloudflare.com",
       "port": 443,
       "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
       "skip-cert-verify": true,
@@ -4436,8 +4616,84 @@
     },
     {
       "type": "vless",
-      "name": "hz1.ylks0033.dpdns.org_30",
-      "server": "bowen.ns.cloudflare.com",
+      "name": "hz1.ylks0033.dpdns.org_16",
+      "server": "ashton.ns.cloudflare.com",
+      "port": 443,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "hz1.ylks0033.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560",
+        "headers": {
+          "host": "hz1.ylks0033.dpdns.org"
+        }
+      },
+      "latency": 13
+    },
+    {
+      "type": "vless",
+      "name": "hz1.ylks0033.dpdns.org_35",
+      "server": "craig.ns.cloudflare.com",
+      "port": 443,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "hz1.ylks0033.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560",
+        "headers": {
+          "host": "hz1.ylks0033.dpdns.org"
+        }
+      },
+      "latency": 13
+    },
+    {
+      "type": "vless",
+      "name": "hz1.ylks0033.dpdns.org_2",
+      "server": "huxley.ns.cloudflare.com",
+      "port": 443,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "hz1.ylks0033.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560",
+        "headers": {
+          "host": "hz1.ylks0033.dpdns.org"
+        }
+      },
+      "latency": 13
+    },
+    {
+      "type": "vless",
+      "name": "hz1.ylks0033.dpdns.org_23",
+      "server": "abdullah.ns.cloudflare.com",
+      "port": 443,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "hz1.ylks0033.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560",
+        "headers": {
+          "host": "hz1.ylks0033.dpdns.org"
+        }
+      },
+      "latency": 13
+    },
+    {
+      "type": "vless",
+      "name": "hz1.ylks0033.dpdns.org_38",
+      "server": "wilson.ns.cloudflare.com",
       "port": 443,
       "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
       "skip-cert-verify": true,
@@ -4455,54 +4711,55 @@
     },
     {
       "type": "trojan",
-      "name": "www.digitalocean.com_3",
-      "server": "www.digitalocean.com",
+      "name": "www.hugedomains.com_1",
+      "server": "www.hugedomains.com",
       "port": 443,
       "password": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
       "udp": true,
       "skip-cert-verify": true,
-      "sni": "ax1.ylka.dpdns.org",
+      "sni": "zx1.ylka.dpdns.org",
       "network": "ws",
       "ws-opts": {
         "path": "/?ed=2560&PROT_TYPE=trojan",
         "headers": {
+          "host": "zx1.ylka.dpdns.org"
+        }
+      },
+      "latency": 14
+    },
+    {
+      "type": "trojan",
+      "name": "www.wto.org_2",
+      "server": "www.wto.org",
+      "port": 443,
+      "password": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "zx1.ylka.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&PROT_TYPE=trojan",
+        "headers": {
+          "host": "zx1.ylka.dpdns.org"
+        }
+      },
+      "latency": 14
+    },
+    {
+      "type": "vless",
+      "name": "www.digitalocean.com_1",
+      "server": "www.digitalocean.com",
+      "port": 443,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "ax1.ylka.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560&PROT_TYPE=vless",
+        "headers": {
           "host": "ax1.ylka.dpdns.org"
-        }
-      },
-      "latency": 14
-    },
-    {
-      "type": "trojan",
-      "name": "官方优选_11",
-      "server": "duke.ns.cloudflare.com",
-      "port": 443,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 14
-    },
-    {
-      "type": "trojan",
-      "name": "官方优选_18",
-      "server": "lynn.ns.cloudflare.com",
-      "port": 443,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
         }
       },
       "latency": 14
@@ -4528,45 +4785,8 @@
     },
     {
       "type": "vless",
-      "name": "hz1.ylks0033.dpdns.org_6",
-      "server": "cris.ns.cloudflare.com",
-      "port": 443,
-      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "hz1.ylks0033.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560",
-        "headers": {
-          "host": "hz1.ylks0033.dpdns.org"
-        }
-      },
-      "latency": 14
-    },
-    {
-      "name": "US美国(mibei77.com 米贝节点分享) 8",
-      "server": "digitalocean.com",
-      "port": 8443,
-      "type": "vmess",
-      "uuid": "f9d72529-0992-494e-a1ec-a8e14120a3ba",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": true,
-      "skip-cert-verify": true,
-      "network": "ws",
-      "ws-path": "/9f2fquad/6mcv2bc",
-      "ws-headers": {
-        "Host": "er1.jiesk4pdqcqjo16j.xyz"
-      },
-      "udp": true,
-      "latency": 14
-    },
-    {
-      "type": "vless",
-      "name": "hz1.ylks0033.dpdns.org_17",
-      "server": "uriah.ns.cloudflare.com",
+      "name": "hz1.ylks0033.dpdns.org_8",
+      "server": "www.udemy.com",
       "port": 443,
       "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
       "skip-cert-verify": true,
@@ -4584,206 +4804,144 @@
     },
     {
       "type": "trojan",
-      "name": "官方优选_21",
-      "server": "pranab.ns.cloudflare.com",
-      "port": 443,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 14
-    },
-    {
-      "type": "vless",
-      "name": "hz1.ylks0033.dpdns.org_41",
-      "server": "kyree.ns.cloudflare.com",
-      "port": 443,
-      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "hz1.ylks0033.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560",
-        "headers": {
-          "host": "hz1.ylks0033.dpdns.org"
-        }
-      },
-      "latency": 14
-    },
-    {
-      "type": "vless",
-      "name": "hz1.ylks0033.dpdns.org_16",
-      "server": "ashton.ns.cloudflare.com",
-      "port": 443,
-      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "hz1.ylks0033.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560",
-        "headers": {
-          "host": "hz1.ylks0033.dpdns.org"
-        }
-      },
-      "latency": 14
-    },
-    {
-      "type": "trojan",
-      "name": "官方优选_25",
-      "server": "kip.ns.cloudflare.com",
-      "port": 443,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 15
-    },
-    {
-      "type": "trojan",
-      "name": "damien.ns.cloudflare.com_1",
-      "server": "damien.ns.cloudflare.com",
+      "name": "moura.ns.cloudflare.com_2",
+      "server": "moura.ns.cloudflare.com",
       "port": 443,
       "password": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
       "udp": true,
       "skip-cert-verify": true,
-      "sni": "zx1.ylka.dpdns.org",
+      "sni": "ax1.ylka.dpdns.org",
       "network": "ws",
       "ws-opts": {
         "path": "/?ed=2560&PROT_TYPE=trojan",
         "headers": {
-          "host": "zx1.ylka.dpdns.org"
+          "host": "ax1.ylka.dpdns.org"
         }
       },
       "latency": 15
     },
     {
-      "type": "vless",
-      "name": "lewis.ns.cloudflare.com_1",
-      "server": "lewis.ns.cloudflare.com",
-      "port": 443,
-      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "zx1.ylka.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560&PROT_TYPE=vless",
-        "headers": {
-          "host": "zx1.ylka.dpdns.org"
-        }
-      },
-      "latency": 15
-    },
-    {
+      "name": "HK香港(mibei77.com 米贝节点分享) 2",
+      "server": "www.visa.com.sg",
+      "port": 2053,
       "type": "trojan",
-      "name": "SJC_76",
-      "server": "108.165.152.93",
-      "port": 2083,
-      "password": "Aimer",
-      "udp": true,
+      "password": "0F22D008-24D4-4DFE-947B-8D2FD64CD24C",
+      "sni": "www.visa.com.sg",
       "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 16
-    },
-    {
-      "type": "trojan",
-      "name": "官方优选_26",
-      "server": "sage.ns.cloudflare.com",
-      "port": 443,
-      "password": "Aimer",
       "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
       "latency": 16
     },
     {
       "type": "vless",
-      "name": "hz1.ylks0033.dpdns.org_11",
-      "server": "trevor.ns.cloudflare.com",
+      "name": "官方优选_4",
+      "server": "pranab.ns.cloudflare.com",
       "port": 443,
-      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
       "skip-cert-verify": true,
       "udp": true,
       "tls": true,
       "network": "ws",
-      "servername": "hz1.ylks0033.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560",
-        "headers": {
-          "host": "hz1.ylks0033.dpdns.org"
-        }
-      },
-      "latency": 16
-    },
-    {
-      "type": "vless",
-      "name": "hz1.ylks0033.dpdns.org_27",
-      "server": "www.pcmag.com",
-      "port": 443,
-      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "hz1.ylks0033.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560",
-        "headers": {
-          "host": "hz1.ylks0033.dpdns.org"
-        }
-      },
-      "latency": 16
-    },
-    {
-      "type": "trojan",
-      "name": "官方优选_3",
-      "server": "theo.ns.cloudflare.com",
-      "port": 443,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
+      "servername": "edga.aimercc.dpdns.org",
       "ws-opts": {
         "path": "/?ed=2560&proxyip=ts.hpc.tw",
         "headers": {
-          "host": "epgb.aimercc.dpdns.org"
+          "host": "edga.aimercc.dpdns.org"
         }
       },
       "latency": 17
+    },
+    {
+      "type": "vless",
+      "name": "官方优选_6",
+      "server": "ignacio.ns.cloudflare.com",
+      "port": 443,
+      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "edga.aimercc.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "edga.aimercc.dpdns.org"
+        }
+      },
+      "latency": 18
+    },
+    {
+      "type": "vless",
+      "name": "CA",
+      "server": "140.238.158.238",
+      "port": 443,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "hz1.ylks0033.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560",
+        "headers": {
+          "host": "hz1.ylks0033.dpdns.org"
+        }
+      },
+      "latency": 18
+    },
+    {
+      "type": "vless",
+      "name": "US_10",
+      "server": "bestcf.030101.xyz",
+      "port": 443,
+      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "edgb.aimercc.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "edgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 19
+    },
+    {
+      "name": "US美国(mibei77.com 米贝节点分享) 4",
+      "server": "dDdDdDdddDDDDyUUUIO.4444926.XyZ",
+      "port": 80,
+      "type": "vmess",
+      "uuid": "dc50eb1d-244d-4711-b168-a101a5e6fb1b",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": false,
+      "skip-cert-verify": true,
+      "network": "ws",
+      "ws-path": "/awmqq79B17rfnpXiNaWb",
+      "ws-headers": {
+        "Host": "dddddddddddddyuuuio.4444926.xyz"
+      },
+      "udp": true,
+      "latency": 19
+    },
+    {
+      "type": "trojan",
+      "name": "otto.ns.cloudflare.com_1",
+      "server": "otto.ns.cloudflare.com",
+      "port": 443,
+      "password": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "ax1.ylka.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&PROT_TYPE=trojan",
+        "headers": {
+          "host": "ax1.ylka.dpdns.org"
+        }
+      },
+      "latency": 20
     },
     {
       "type": "vless",
@@ -4802,117 +4960,29 @@
           "host": "ax1.ylka.dpdns.org"
         }
       },
-      "latency": 20
-    },
-    {
-      "type": "vless",
-      "name": "www.hugedomains.com_2",
-      "server": "www.hugedomains.com",
-      "port": 443,
-      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "zx1.ylka.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560&PROT_TYPE=vless",
-        "headers": {
-          "host": "zx1.ylka.dpdns.org"
-        }
-      },
       "latency": 21
     },
     {
-      "type": "trojan",
-      "name": "官方优选_24",
-      "server": "ignacio.ns.cloudflare.com",
-      "port": 443,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 21
-    },
-    {
-      "type": "trojan",
-      "name": "US_37",
-      "server": "bestcf.030101.xyz",
-      "port": 443,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 21
-    },
-    {
-      "name": "🇺🇸_US_美国_11",
+      "name": "🇩🇰_DK_丹麦->🇺🇸_US_美国",
       "type": "vmess",
-      "server": "198.23.174.168",
-      "port": 20086,
-      "uuid": "2b36304b-4f88-4ff5-9033-f4d57dbb5490",
-      "cipher": "auto",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/"
-      },
-      "alterId": 0,
-      "latency": 21
-    },
-    {
-      "name": "US美国(mibei77.com 米贝节点分享) 4",
-      "server": "dDdDdDdddDDDDyUUUIO.4444926.XyZ",
+      "server": "fastcup.net",
       "port": 80,
-      "type": "vmess",
-      "uuid": "dc50eb1d-244d-4711-b168-a101a5e6fb1b",
-      "alterId": 0,
+      "uuid": "76414574-71e0-4706-89cc-c5b09c13445d",
       "cipher": "auto",
-      "tls": false,
-      "skip-cert-verify": true,
       "network": "ws",
-      "ws-path": "/awmqq79B17rfnpXiNaWb",
-      "ws-headers": {
-        "Host": "dddddddddddddyuuuio.4444926.xyz"
+      "ws-opts": {
+        "path": "/profile/telegram@ssrsub",
+        "headers": {
+          "host": "cdn-node-oss-99.paofu.de"
+        }
       },
-      "udp": true,
-      "latency": 21
-    },
-    {
-      "name": "US美国(mibei77.com 米贝节点分享) 5",
-      "server": "rrrrrrrrrt.11890604.xyz",
-      "port": 443,
-      "type": "vmess",
-      "uuid": "f898ffcb-6417-4373-9640-0b66091e8206",
       "alterId": 0,
-      "cipher": "auto",
-      "tls": true,
-      "skip-cert-verify": true,
-      "network": "ws",
-      "ws-path": "/GnJ3bBxV91uFkYtuzXyJ5XNeH1R1",
-      "ws-headers": {
-        "Host": "rrrrrrrrrt.11890604.xyz"
-      },
-      "udp": true,
       "latency": 21
     },
     {
       "type": "vless",
-      "name": "hz1.ylks0033.dpdns.org_8",
-      "server": "www.udemy.com",
+      "name": "hz1.ylks0033.dpdns.org_14",
+      "server": "www.iakeys.com",
       "port": 443,
       "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
       "skip-cert-verify": true,
@@ -4929,9 +4999,27 @@
       "latency": 22
     },
     {
+      "name": "US美国(mibei77.com 米贝节点分享) 11",
+      "server": "cc2dash.89060004.xyz",
+      "port": 2096,
+      "type": "vmess",
+      "uuid": "2fc37713-3017-497e-ff2d-965f826a19a3",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": true,
+      "skip-cert-verify": true,
+      "network": "ws",
+      "ws-path": "/",
+      "ws-headers": {
+        "Host": "cc2d1.89060004.xyz"
+      },
+      "udp": true,
+      "latency": 23
+    },
+    {
       "type": "vless",
-      "name": "hz1.ylks0033.dpdns.org_28",
-      "server": "ipinfo.in",
+      "name": "hz1.ylks0033.dpdns.org_12",
+      "server": "tasteatlas.com",
       "port": 443,
       "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
       "skip-cert-verify": true,
@@ -4945,25 +5033,7 @@
           "host": "hz1.ylks0033.dpdns.org"
         }
       },
-      "latency": 23
-    },
-    {
-      "type": "trojan",
-      "name": "LAX_3",
-      "server": "162.159.38.105",
-      "port": 2083,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 25
+      "latency": 24
     },
     {
       "type": "trojan",
@@ -4999,6 +5069,96 @@
           "host": "epgb.aimercc.dpdns.org"
         }
       },
+      "latency": 25
+    },
+    {
+      "type": "trojan",
+      "name": "LAX_1",
+      "server": "162.159.44.228",
+      "port": 2053,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 25
+    },
+    {
+      "type": "trojan",
+      "name": "官方优选_29",
+      "server": "thaddeus.ns.cloudflare.com",
+      "port": 443,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 26
+    },
+    {
+      "type": "trojan",
+      "name": "damien.ns.cloudflare.com_1",
+      "server": "damien.ns.cloudflare.com",
+      "port": 443,
+      "password": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "zx1.ylka.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&PROT_TYPE=trojan",
+        "headers": {
+          "host": "zx1.ylka.dpdns.org"
+        }
+      },
+      "latency": 26
+    },
+    {
+      "type": "trojan",
+      "name": "官方优选_26",
+      "server": "sage.ns.cloudflare.com",
+      "port": 443,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 26
+    },
+    {
+      "type": "trojan",
+      "name": "LAX_3",
+      "server": "162.159.38.105",
+      "port": 2083,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
       "latency": 26
     },
     {
@@ -5020,22 +5180,39 @@
       "latency": 26
     },
     {
-      "type": "vless",
-      "name": "otto.ns.cloudflare.com_3",
-      "server": "otto.ns.cloudflare.com",
+      "type": "trojan",
+      "name": "nikon.ns.cloudflare.com_3",
+      "server": "nikon.ns.cloudflare.com",
       "port": 443,
-      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "skip-cert-verify": true,
+      "password": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
       "udp": true,
-      "tls": true,
+      "skip-cert-verify": true,
+      "sni": "zx1.ylka.dpdns.org",
       "network": "ws",
-      "servername": "zx1.ylka.dpdns.org",
       "ws-opts": {
-        "path": "/?ed=2560&PROT_TYPE=vless",
+        "path": "/?ed=2560&PROT_TYPE=trojan",
         "headers": {
           "host": "zx1.ylka.dpdns.org"
         }
       },
+      "latency": 26
+    },
+    {
+      "name": "US美国(mibei77.com 米贝节点分享) 8",
+      "server": "digitalocean.com",
+      "port": 8443,
+      "type": "vmess",
+      "uuid": "f9d72529-0992-494e-a1ec-a8e14120a3ba",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": true,
+      "skip-cert-verify": true,
+      "network": "ws",
+      "ws-path": "/9f2fquad/6mcv2bc",
+      "ws-headers": {
+        "Host": "er1.jiesk4pdqcqjo16j.xyz"
+      },
+      "udp": true,
       "latency": 27
     },
     {
@@ -5053,60 +5230,37 @@
       "latency": 27
     },
     {
-      "type": "trojan",
-      "name": "LAX_1",
-      "server": "162.159.44.228",
-      "port": 2053,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 27
-    },
-    {
       "type": "vless",
-      "name": "rustam.ns.cloudflare.com_1",
-      "server": "rustam.ns.cloudflare.com",
+      "name": "hz1.ylks0033.dpdns.org_17",
+      "server": "uriah.ns.cloudflare.com",
       "port": 443,
       "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
       "skip-cert-verify": true,
       "udp": true,
       "tls": true,
       "network": "ws",
-      "servername": "ax1.ylka.dpdns.org",
+      "servername": "hz1.ylks0033.dpdns.org",
       "ws-opts": {
-        "path": "/?ed=2560&PROT_TYPE=vless",
+        "path": "/?ed=2560",
         "headers": {
-          "host": "ax1.ylka.dpdns.org"
+          "host": "hz1.ylks0033.dpdns.org"
         }
       },
-      "latency": 27
+      "latency": 29
     },
     {
-      "type": "vless",
-      "name": "美国_3",
-      "server": "icook.hk",
-      "port": 443,
-      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
+      "name": "🇺🇸_US_美国_11",
+      "type": "vmess",
+      "server": "198.23.174.168",
+      "port": 20086,
+      "uuid": "2b36304b-4f88-4ff5-9033-f4d57dbb5490",
+      "cipher": "auto",
       "network": "ws",
-      "servername": "ax1.ylka.dpdns.org",
       "ws-opts": {
-        "path": "/?ed=2560&PROT_TYPE=vless",
-        "headers": {
-          "host": "ax1.ylka.dpdns.org"
-        }
+        "path": "/"
       },
-      "latency": 27
+      "alterId": 0,
+      "latency": 30
     },
     {
       "name": "US美国(mibei77.com 米贝节点分享) 20",
@@ -5124,25 +5278,45 @@
         "Host": "JJJjjjjjmMMmM.4444926.XYZ"
       },
       "udp": true,
-      "latency": 31
+      "latency": 30
     },
     {
-      "type": "trojan",
-      "name": "官方优选_5",
-      "server": "arvind.ns.cloudflare.com",
+      "type": "vless",
+      "name": "hz1.ylks0033.dpdns.org_3",
+      "server": "julio.ns.cloudflare.com",
       "port": 443,
-      "password": "Aimer",
-      "udp": true,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
       "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
+      "udp": true,
+      "tls": true,
       "network": "ws",
+      "servername": "hz1.ylks0033.dpdns.org",
       "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "path": "/?ed=2560",
         "headers": {
-          "host": "epgb.aimercc.dpdns.org"
+          "host": "hz1.ylks0033.dpdns.org"
         }
       },
-      "latency": 34
+      "latency": 33
+    },
+    {
+      "type": "vless",
+      "name": "hz1.ylks0033.dpdns.org_41",
+      "server": "kyree.ns.cloudflare.com",
+      "port": 443,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "hz1.ylks0033.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560",
+        "headers": {
+          "host": "hz1.ylks0033.dpdns.org"
+        }
+      },
+      "latency": 33
     },
     {
       "type": "vless",
@@ -5161,50 +5335,31 @@
           "host": "hz1.ylks0033.dpdns.org"
         }
       },
-      "latency": 34
+      "latency": 33
     },
     {
       "type": "vless",
-      "name": "hz1.ylks0033.dpdns.org_35",
-      "server": "craig.ns.cloudflare.com",
+      "name": "官方优选_7",
+      "server": "thaddeus.ns.cloudflare.com",
       "port": 443,
-      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
       "skip-cert-verify": true,
       "udp": true,
       "tls": true,
       "network": "ws",
-      "servername": "hz1.ylks0033.dpdns.org",
+      "servername": "edga.aimercc.dpdns.org",
       "ws-opts": {
-        "path": "/?ed=2560",
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
         "headers": {
-          "host": "hz1.ylks0033.dpdns.org"
-        }
-      },
-      "latency": 34
-    },
-    {
-      "type": "vless",
-      "name": "hz1.ylks0033.dpdns.org_2",
-      "server": "huxley.ns.cloudflare.com",
-      "port": 443,
-      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "hz1.ylks0033.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560",
-        "headers": {
-          "host": "hz1.ylks0033.dpdns.org"
+          "host": "edga.aimercc.dpdns.org"
         }
       },
       "latency": 34
     },
     {
       "type": "vless",
-      "name": "hz1.ylks0033.dpdns.org_42",
-      "server": "whatismyipaddress.com",
+      "name": "hz1.ylks0033.dpdns.org_6",
+      "server": "cris.ns.cloudflare.com",
       "port": 443,
       "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
       "skip-cert-verify": true,
@@ -5218,63 +5373,7 @@
           "host": "hz1.ylks0033.dpdns.org"
         }
       },
-      "latency": 36
-    },
-    {
-      "type": "trojan",
-      "name": "nikon.ns.cloudflare.com_3",
-      "server": "nikon.ns.cloudflare.com",
-      "port": 443,
-      "password": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "zx1.ylka.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&PROT_TYPE=trojan",
-        "headers": {
-          "host": "zx1.ylka.dpdns.org"
-        }
-      },
-      "latency": 37
-    },
-    {
-      "type": "vless",
-      "name": "CA",
-      "server": "140.238.158.238",
-      "port": 443,
-      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "hz1.ylks0033.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560",
-        "headers": {
-          "host": "hz1.ylks0033.dpdns.org"
-        }
-      },
-      "latency": 39
-    },
-    {
-      "type": "vless",
-      "name": "hz1.ylks0033.dpdns.org_34",
-      "server": "icook.tw",
-      "port": 443,
-      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "hz1.ylks0033.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560",
-        "headers": {
-          "host": "hz1.ylks0033.dpdns.org"
-        }
-      },
-      "latency": 39
+      "latency": 34
     },
     {
       "type": "vless",
@@ -5293,12 +5392,12 @@
           "host": "hz1.ylks0033.dpdns.org"
         }
       },
-      "latency": 42
+      "latency": 34
     },
     {
       "type": "vless",
-      "name": "hz1.ylks0033.dpdns.org_23",
-      "server": "abdullah.ns.cloudflare.com",
+      "name": "hz1.ylks0033.dpdns.org_7",
+      "server": "dylan.ns.cloudflare.com",
       "port": 443,
       "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
       "skip-cert-verify": true,
@@ -5312,48 +5411,77 @@
           "host": "hz1.ylks0033.dpdns.org"
         }
       },
-      "latency": 43
+      "latency": 36
     },
     {
-      "name": "US美国(mibei77.com 米贝节点分享) 11",
-      "server": "cc2dash.89060004.xyz",
-      "port": 2096,
+      "name": "🇩🇰_DK_丹麦->🇺🇸_US_美国_1",
       "type": "vmess",
-      "uuid": "2fc37713-3017-497e-ff2d-965f826a19a3",
+      "server": "csgo.com",
+      "port": 80,
+      "uuid": "95c27cc4-82b5-45da-962e-ba675642fc3d",
+      "cipher": "auto",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/profile/telegram@ssrsub",
+        "headers": {
+          "host": "cdn-node-oss-99.paofu.de"
+        }
+      },
+      "alterId": 0,
+      "latency": 42
+    },
+    {
+      "name": "🇳🇱_NL_荷兰->🇨🇳_CN_中国",
+      "type": "ssr",
+      "server": "ssca.irundns.net",
+      "port": 443,
+      "cipher": "aes-128-cfb",
+      "password": "$$Turb0VPN$$",
+      "obfs": "http_post",
+      "protocol": "auth_aes128_md5",
+      "latency": 44
+    },
+    {
+      "type": "vless",
+      "name": "hz1.ylks0033.dpdns.org_30",
+      "server": "bowen.ns.cloudflare.com",
+      "port": 443,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "hz1.ylks0033.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560",
+        "headers": {
+          "host": "hz1.ylks0033.dpdns.org"
+        }
+      },
+      "latency": 46
+    },
+    {
+      "name": "US美国(mibei77.com 米贝节点分享) 5",
+      "server": "rrrrrrrrrt.11890604.xyz",
+      "port": 443,
+      "type": "vmess",
+      "uuid": "f898ffcb-6417-4373-9640-0b66091e8206",
       "alterId": 0,
       "cipher": "auto",
       "tls": true,
       "skip-cert-verify": true,
       "network": "ws",
-      "ws-path": "/",
+      "ws-path": "/GnJ3bBxV91uFkYtuzXyJ5XNeH1R1",
       "ws-headers": {
-        "Host": "cc2d1.89060004.xyz"
+        "Host": "rrrrrrrrrt.11890604.xyz"
       },
       "udp": true,
-      "latency": 45
-    },
-    {
-      "type": "trojan",
-      "name": "SJC_25",
-      "server": "108.165.152.25",
-      "port": 2087,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 46
+      "latency": 50
     },
     {
       "type": "vless",
-      "name": "hz1.ylks0033.dpdns.org_38",
-      "server": "wilson.ns.cloudflare.com",
+      "name": "hz1.ylks0033.dpdns.org_19",
+      "server": "comicabc.com",
       "port": 443,
       "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
       "skip-cert-verify": true,
@@ -5367,51 +5495,45 @@
           "host": "hz1.ylks0033.dpdns.org"
         }
       },
-      "latency": 46
-    },
-    {
-      "type": "trojan",
-      "name": "LAX_7",
-      "server": "4.242.243.5",
-      "port": 443,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
       "latency": 51
     },
     {
-      "type": "vless",
-      "name": "US_1",
-      "server": "154.17.26.83",
+      "name": "未知_1",
+      "type": "vmess",
+      "server": "vall.codefyinc.com",
       "port": 443,
-      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
+      "uuid": "606ece17-7279-4a43-b879-f8502103de8f",
+      "cipher": "auto",
       "network": "ws",
-      "servername": "edgb.ambercc.filegear-sg.me",
       "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "path": "/vmessws",
         "headers": {
-          "host": "edgb.ambercc.filegear-sg.me"
+          "host": "vall.codefyinc.com"
         }
       },
-      "latency": 56
+      "alterId": 0,
+      "latency": 52
     },
     {
-      "name": "🇺🇸_US_美国_6",
+      "name": "🇨🇦_CA_加拿大->🇺🇸_US_美国",
       "type": "vmess",
-      "server": "64.81.30.225",
+      "server": "142.171.224.111",
       "port": 20086,
-      "uuid": "7f499074-3408-4840-b55b-91142735d2cc",
+      "uuid": "0908eadd-7337-49dd-8e9b-e325bca02910",
+      "cipher": "auto",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/"
+      },
+      "alterId": 0,
+      "latency": 55
+    },
+    {
+      "name": "🇺🇸_US_美国_4",
+      "type": "vmess",
+      "server": "23.184.200.69",
+      "port": 20086,
+      "uuid": "ed715e84-81a0-40c5-bb6a-4d8d341e5cfa",
       "cipher": "auto",
       "network": "ws",
       "ws-opts": {
@@ -5436,18 +5558,45 @@
           "host": "epgb.aimercc.dpdns.org"
         }
       },
-      "latency": 59
+      "latency": 58
     },
     {
-      "name": "🇳🇱_NL_荷兰->🇨🇳_CN_中国",
-      "type": "ssr",
-      "server": "ssca.irundns.net",
+      "type": "vless",
+      "name": "US_9",
+      "server": "38.148.253.172",
+      "port": 50000,
+      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "edgb.aimercc.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "edgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 58
+    },
+    {
+      "type": "vless",
+      "name": "US_1",
+      "server": "154.17.26.83",
       "port": 443,
-      "cipher": "aes-128-cfb",
-      "password": "$$Turb0VPN$$",
-      "obfs": "http_post",
-      "protocol": "auth_aes128_md5",
-      "latency": 60
+      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "edgb.ambercc.filegear-sg.me",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "edgb.ambercc.filegear-sg.me"
+        }
+      },
+      "latency": 59
     },
     {
       "type": "vless",
@@ -5469,18 +5618,40 @@
       "latency": 60
     },
     {
-      "name": "🇨🇦_CA_加拿大->🇺🇸_US_美国",
-      "type": "vmess",
-      "server": "142.171.224.111",
-      "port": 20086,
-      "uuid": "0908eadd-7337-49dd-8e9b-e325bca02910",
-      "cipher": "auto",
+      "type": "trojan",
+      "name": "SJC_15",
+      "server": "147.182.193.164",
+      "port": 443,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
       "network": "ws",
       "ws-opts": {
-        "path": "/"
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
       },
-      "alterId": 0,
       "latency": 60
+    },
+    {
+      "type": "trojan",
+      "name": "LAX_7",
+      "server": "4.242.243.5",
+      "port": 443,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 61
     },
     {
       "type": "vless",
@@ -5499,100 +5670,7 @@
           "host": "ax1.ylka.dpdns.org"
         }
       },
-      "latency": 60
-    },
-    {
-      "type": "vless",
-      "name": "US_5",
-      "server": "23.158.136.68",
-      "port": 443,
-      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "edgb.ambercc.filegear-sg.me",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "edgb.ambercc.filegear-sg.me"
-        }
-      },
-      "latency": 60
-    },
-    {
-      "name": "🇺🇸_US_美国_4",
-      "type": "vmess",
-      "server": "23.184.200.69",
-      "port": 20086,
-      "uuid": "ed715e84-81a0-40c5-bb6a-4d8d341e5cfa",
-      "cipher": "auto",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/"
-      },
-      "alterId": 0,
-      "latency": 60
-    },
-    {
-      "name": "🇺🇸_US_美国_2",
-      "type": "vmess",
-      "server": "64.81.30.24",
-      "port": 20086,
-      "uuid": "f53e0d42-afca-4b76-ae7f-806d6a1d36c2",
-      "cipher": "auto",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/"
-      },
-      "alterId": 0,
       "latency": 61
-    },
-    {
-      "name": "🇺🇸_US_美国_9",
-      "type": "vmess",
-      "server": "64.81.39.101",
-      "port": 20086,
-      "uuid": "b29f7187-9707-47fe-85d2-65b1ba69df16",
-      "cipher": "auto",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/"
-      },
-      "alterId": 0,
-      "latency": 61
-    },
-    {
-      "type": "trojan",
-      "name": "DFW",
-      "server": "38.148.253.85",
-      "port": 11002,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 63
-    },
-    {
-      "name": "🇺🇸_US_美国_3",
-      "type": "vmess",
-      "server": "38.58.60.127",
-      "port": 20086,
-      "uuid": "66d508ed-1ee6-412d-97a8-eedf849bad57",
-      "cipher": "auto",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/"
-      },
-      "alterId": 0,
-      "latency": 64
     },
     {
       "type": "vless",
@@ -5611,7 +5689,44 @@
           "host": "zx1.ylka.dpdns.org"
         }
       },
-      "latency": 64
+      "latency": 61
+    },
+    {
+      "type": "trojan",
+      "name": "DFW",
+      "server": "38.148.253.85",
+      "port": 11002,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 62
+    },
+    {
+      "type": "vless",
+      "name": "hz1.ylks0033.dpdns.org_28",
+      "server": "ipinfo.in",
+      "port": 443,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "hz1.ylks0033.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560",
+        "headers": {
+          "host": "hz1.ylks0033.dpdns.org"
+        }
+      },
+      "latency": 63
     },
     {
       "name": "🇺🇸_US_美国_2",
@@ -5629,55 +5744,19 @@
     },
     {
       "type": "vless",
-      "name": "US_9",
-      "server": "38.148.253.172",
-      "port": 50000,
+      "name": "US_5",
+      "server": "23.158.136.68",
+      "port": 443,
       "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
       "skip-cert-verify": true,
       "udp": true,
       "tls": true,
       "network": "ws",
-      "servername": "edgb.aimercc.dpdns.org",
+      "servername": "edgb.ambercc.filegear-sg.me",
       "ws-opts": {
         "path": "/?ed=2560&proxyip=ts.hpc.tw",
         "headers": {
-          "host": "edgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 65
-    },
-    {
-      "type": "trojan",
-      "name": "SJC_15",
-      "server": "147.182.193.164",
-      "port": 443,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 65
-    },
-    {
-      "type": "trojan",
-      "name": "SJC_104",
-      "server": "107.174.88.251",
-      "port": 443,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
+          "host": "edgb.ambercc.filegear-sg.me"
         }
       },
       "latency": 65
@@ -5702,25 +5781,6 @@
       "latency": 65
     },
     {
-      "type": "vless",
-      "name": "US_6",
-      "server": "147.182.193.164",
-      "port": 443,
-      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "edgb.esslh.filegear-sg.me",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "edgb.esslh.filegear-sg.me"
-        }
-      },
-      "latency": 66
-    },
-    {
       "type": "trojan",
       "name": "SJC_1",
       "server": "170.106.152.78",
@@ -5736,26 +5796,7 @@
           "host": "epgb.aimercc.dpdns.org"
         }
       },
-      "latency": 66
-    },
-    {
-      "type": "vless",
-      "name": "US_8",
-      "server": "38.59.245.103",
-      "port": 443,
-      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "zx1.ylka.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560",
-        "headers": {
-          "host": "zx1.ylka.dpdns.org"
-        }
-      },
-      "latency": 69
+      "latency": 65
     },
     {
       "type": "vless",
@@ -5774,7 +5815,7 @@
           "host": "edgb.esslh.filegear-sg.me"
         }
       },
-      "latency": 70
+      "latency": 65
     },
     {
       "name": "🇺🇸_US_美国_8",
@@ -5785,18 +5826,7 @@
       "cipher": "auto",
       "network": "tcp",
       "alterId": 64,
-      "latency": 71
-    },
-    {
-      "name": "🇺🇸_US_美国->🇨🇳_CN_中国",
-      "type": "vmess",
-      "server": "38.12.83.217",
-      "port": 30002,
-      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-      "cipher": "auto",
-      "network": "tcp",
-      "alterId": 64,
-      "latency": 71
+      "latency": 66
     },
     {
       "type": "trojan",
@@ -5814,25 +5844,103 @@
           "host": "epgb.aimercc.dpdns.org"
         }
       },
-      "latency": 73
+      "latency": 66
     },
     {
-      "name": "US美国(mibei77.com 米贝节点分享) 3",
-      "server": "tTtTttTttGgGGHHhnMk.iraN2035.DPDNS.ORG",
+      "type": "vless",
+      "name": "hz1.ylks0033.dpdns.org_32",
+      "server": "www.ipget.net",
       "port": 443,
-      "type": "vmess",
-      "uuid": "a94fafdb-10d6-46c2-be8a-5c2e8358fbb0",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": true,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
       "skip-cert-verify": true,
-      "network": "ws",
-      "ws-path": "/CjJ9A46ZRHvgWvVcmjyiKVby2Lp",
-      "ws-headers": {
-        "Host": "tttttttttgggghhhnmk.iran2035.dpdns.org"
-      },
       "udp": true,
-      "latency": 76
+      "tls": true,
+      "network": "ws",
+      "servername": "hz1.ylks0033.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560",
+        "headers": {
+          "host": "hz1.ylks0033.dpdns.org"
+        }
+      },
+      "latency": 67
+    },
+    {
+      "type": "vless",
+      "name": "US_6",
+      "server": "147.182.193.164",
+      "port": 443,
+      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "edgb.esslh.filegear-sg.me",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "edgb.esslh.filegear-sg.me"
+        }
+      },
+      "latency": 68
+    },
+    {
+      "type": "vless",
+      "name": "US_8",
+      "server": "38.59.245.103",
+      "port": 443,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "zx1.ylka.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560",
+        "headers": {
+          "host": "zx1.ylka.dpdns.org"
+        }
+      },
+      "latency": 70
+    },
+    {
+      "name": "🇺🇸_US_美国->🇨🇳_CN_中国",
+      "type": "vmess",
+      "server": "38.12.83.217",
+      "port": 30002,
+      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "cipher": "auto",
+      "network": "tcp",
+      "alterId": 64,
+      "latency": 70
+    },
+    {
+      "name": "🇺🇸_US_美国_7",
+      "type": "vmess",
+      "server": "137.175.124.167",
+      "port": 20086,
+      "uuid": "b4bce500-11fe-4f8f-a344-01ac247af9bd",
+      "cipher": "auto",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/"
+      },
+      "alterId": 0,
+      "latency": 70
+    },
+    {
+      "name": "🇬🇧_GB_英国->🇺🇸_US_美国_1",
+      "type": "vmess",
+      "server": "154.62.185.216",
+      "port": 20086,
+      "uuid": "20ed1673-8f9e-485b-9956-147768fce851",
+      "cipher": "auto",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/"
+      },
+      "alterId": 0,
+      "latency": 78
     },
     {
       "type": "trojan",
@@ -5862,15 +5970,6 @@
       "latency": 79
     },
     {
-      "name": "🇷🇺_RU_俄罗斯_2",
-      "type": "ss",
-      "server": "89.185.84.172",
-      "port": 443,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "PPDI4eTCSUzQ",
-      "latency": 79
-    },
-    {
       "name": "🇬🇧_GB_英国",
       "type": "ssr",
       "server": "62.100.205.48",
@@ -5879,17 +5978,6 @@
       "password": "f8f7aCzcPKbsF8p3",
       "obfs": "plain",
       "protocol": "origin",
-      "latency": 80
-    },
-    {
-      "name": "6元高速机场：cczzuu.top",
-      "server": "18.130.58.99",
-      "port": 443,
-      "client-fingerprint": "chrome",
-      "type": "ss",
-      "cipher": "aes-256-cfb",
-      "password": "amazonskr05",
-      "tfo": false,
       "latency": 81
     },
     {
@@ -5899,52 +5987,7 @@
       "port": 31348,
       "cipher": "chacha20-ietf-poly1305",
       "password": "oVfvPkqJFCjOEbBsbmOtIiAuqgmEFOEf332F26C8lwEwQng9",
-      "latency": 82
-    },
-    {
-      "name": "🇬🇧_GB_英国->🇺🇸_US_美国_1",
-      "type": "vmess",
-      "server": "154.62.185.216",
-      "port": 20086,
-      "uuid": "20ed1673-8f9e-485b-9956-147768fce851",
-      "cipher": "auto",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/"
-      },
-      "alterId": 0,
       "latency": 83
-    },
-    {
-      "name": "🇩🇰_DK_丹麦->🇺🇸_US_美国_1",
-      "type": "vmess",
-      "server": "csgo.com",
-      "port": 80,
-      "uuid": "95c27cc4-82b5-45da-962e-ba675642fc3d",
-      "cipher": "auto",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/profile/telegram@ssrsub",
-        "headers": {
-          "host": "cdn-node-oss-99.paofu.de"
-        }
-      },
-      "alterId": 0,
-      "latency": 83
-    },
-    {
-      "name": "🇺🇸_US_美国_9",
-      "type": "vmess",
-      "server": "173.208.51.193",
-      "port": 20086,
-      "uuid": "b1726eb2-271b-4cb6-bae8-37647e78b776",
-      "cipher": "auto",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/"
-      },
-      "alterId": 0,
-      "latency": 85
     },
     {
       "name": "🇩🇪_DE_德国",
@@ -6020,24 +6063,6 @@
       "latency": 86
     },
     {
-      "name": "🇬🇧_GB_英国->🇺🇸_US_美国",
-      "type": "ss",
-      "server": "51.15.23.63",
-      "port": 989,
-      "cipher": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3",
-      "latency": 86
-    },
-    {
-      "name": "🇮🇳_IN_印度->🇫🇷_FR_法国",
-      "type": "ss",
-      "server": "202.78.160.88",
-      "port": 8443,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "c0iCgBG1Jma4QGutmZC17k",
-      "latency": 86
-    },
-    {
       "name": "🇳🇱_NL_荷兰->🇩🇪_DE_德国",
       "type": "ss",
       "server": "45.158.171.146",
@@ -6047,39 +6072,103 @@
       "latency": 86
     },
     {
-      "name": "🇩🇰_DK_丹麦->🇺🇸_US_美国",
-      "type": "vmess",
-      "server": "fastcup.net",
-      "port": 80,
-      "uuid": "76414574-71e0-4706-89cc-c5b09c13445d",
-      "cipher": "auto",
+      "name": "🇳🇱_NL_荷兰_3",
+      "type": "ss",
+      "server": "193.29.139.240",
+      "port": 8080,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+      "latency": 86
+    },
+    {
+      "type": "trojan",
+      "name": "CDG_1",
+      "server": "94.23.147.223",
+      "port": 2053,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
       "network": "ws",
       "ws-opts": {
-        "path": "/profile/telegram@ssrsub",
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
         "headers": {
-          "host": "cdn-node-oss-99.paofu.de"
+          "host": "epgb.aimercc.dpdns.org"
         }
       },
-      "alterId": 0,
-      "latency": 87
+      "latency": 86
+    },
+    {
+      "name": "🇮🇷_IR_伊朗->🇳🇱_NL_荷兰",
+      "type": "ss",
+      "server": "151.242.251.153",
+      "port": 8080,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "QCXDxuDlTTMD7jtgHUjIoj",
+      "latency": 86
     },
     {
       "type": "vless",
-      "name": "hz1.ylks0033.dpdns.org_14",
-      "server": "www.iakeys.com",
+      "name": "NL_5",
+      "server": "158.101.214.54",
       "port": 443,
       "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
       "skip-cert-verify": true,
       "udp": true,
       "tls": true,
       "network": "ws",
-      "servername": "hz1.ylks0033.dpdns.org",
+      "servername": "ax1.ylka.dpdns.org",
       "ws-opts": {
         "path": "/?ed=2560",
         "headers": {
-          "host": "hz1.ylks0033.dpdns.org"
+          "host": "ax1.ylka.dpdns.org"
         }
       },
+      "latency": 86
+    },
+    {
+      "name": "🇳🇱_NL_荷兰_2",
+      "type": "ss",
+      "server": "45.158.171.70",
+      "port": 8080,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+      "latency": 86
+    },
+    {
+      "name": "🇩🇪_DE_德国_5",
+      "type": "ss",
+      "server": "45.87.175.164",
+      "port": 8080,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "1RWwXhwfAB5gAEozU4G2Pg",
+      "latency": 86
+    },
+    {
+      "name": "🇩🇪_DE_德国_2",
+      "type": "ss",
+      "server": "45.87.175.199",
+      "port": 8080,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "cvII85TrW6n0OGyfpHVS1u",
+      "latency": 86
+    },
+    {
+      "name": "🇩🇪_DE_德国_4",
+      "type": "ss",
+      "server": "45.87.175.166",
+      "port": 8080,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "cvII85TrW6n0OGyfpHVS1u",
+      "latency": 86
+    },
+    {
+      "name": "🇬🇧_GB_英国->🇺🇸_US_美国",
+      "type": "ss",
+      "server": "51.15.23.63",
+      "port": 989,
+      "cipher": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
       "latency": 87
     },
     {
@@ -6102,85 +6191,12 @@
       "latency": 87
     },
     {
-      "name": "🇳🇱_NL_荷兰_3",
-      "type": "ss",
-      "server": "193.29.139.240",
-      "port": 8080,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A",
-      "latency": 87
-    },
-    {
-      "type": "trojan",
-      "name": "CDG_1",
-      "server": "94.23.147.223",
-      "port": 2053,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 87
-    },
-    {
-      "name": "🇮🇷_IR_伊朗->🇳🇱_NL_荷兰",
-      "type": "ss",
-      "server": "151.242.251.153",
-      "port": 8080,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "QCXDxuDlTTMD7jtgHUjIoj",
-      "latency": 87
-    },
-    {
       "name": "🇩🇪_DE_德国->🇳🇱_NL_荷兰",
       "type": "ss",
       "server": "45.87.175.154",
       "port": 8080,
       "cipher": "chacha20-ietf-poly1305",
       "password": "QCXDxuDlTTMD7jtgHUjIoj",
-      "latency": 87
-    },
-    {
-      "type": "vless",
-      "name": "NL_5",
-      "server": "158.101.214.54",
-      "port": 443,
-      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "ax1.ylka.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560",
-        "headers": {
-          "host": "ax1.ylka.dpdns.org"
-        }
-      },
-      "latency": 87
-    },
-    {
-      "name": "🇳🇱_NL_荷兰_2",
-      "type": "ss",
-      "server": "45.158.171.70",
-      "port": 8080,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A",
-      "latency": 87
-    },
-    {
-      "name": "🇩🇪_DE_德国_5",
-      "type": "ss",
-      "server": "45.87.175.164",
-      "port": 8080,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "1RWwXhwfAB5gAEozU4G2Pg",
       "latency": 87
     },
     {
@@ -6204,76 +6220,6 @@
     },
     {
       "type": "vless",
-      "name": "hz1.ylks0033.dpdns.org_12",
-      "server": "tasteatlas.com",
-      "port": 443,
-      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "hz1.ylks0033.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560",
-        "headers": {
-          "host": "hz1.ylks0033.dpdns.org"
-        }
-      },
-      "latency": 88
-    },
-    {
-      "name": "🇺🇸_US_美国_7",
-      "type": "vmess",
-      "server": "137.175.124.167",
-      "port": 20086,
-      "uuid": "b4bce500-11fe-4f8f-a344-01ac247af9bd",
-      "cipher": "auto",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/"
-      },
-      "alterId": 0,
-      "latency": 88
-    },
-    {
-      "name": "🇩🇪_DE_德国_2",
-      "type": "ss",
-      "server": "45.87.175.199",
-      "port": 8080,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "cvII85TrW6n0OGyfpHVS1u",
-      "latency": 88
-    },
-    {
-      "name": "🇩🇪_DE_德国_4",
-      "type": "ss",
-      "server": "45.87.175.166",
-      "port": 8080,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "cvII85TrW6n0OGyfpHVS1u",
-      "latency": 88
-    },
-    {
-      "type": "vless",
-      "name": "NL_3",
-      "server": "194.36.27.67",
-      "port": 443,
-      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "zx1.ylka.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560",
-        "headers": {
-          "host": "zx1.ylka.dpdns.org"
-        }
-      },
-      "latency": 88
-    },
-    {
-      "type": "vless",
       "name": "US_1",
       "server": "45.145.42.229",
       "port": 4002,
@@ -6289,7 +6235,45 @@
           "host": "v01.bgm2024.dpdns.org"
         }
       },
-      "latency": 88
+      "latency": 87
+    },
+    {
+      "type": "vless",
+      "name": "NL_1",
+      "server": "185.212.60.177",
+      "port": 443,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "zx1.ylka.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560",
+        "headers": {
+          "host": "zx1.ylka.dpdns.org"
+        }
+      },
+      "latency": 87
+    },
+    {
+      "type": "vless",
+      "name": "hz1.ylks0033.dpdns.org_40",
+      "server": "www.whatismyip.com",
+      "port": 443,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "hz1.ylks0033.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560",
+        "headers": {
+          "host": "hz1.ylks0033.dpdns.org"
+        }
+      },
+      "latency": 87
     },
     {
       "type": "vless",
@@ -6312,8 +6296,8 @@
     },
     {
       "type": "vless",
-      "name": "NL_1",
-      "server": "185.212.60.177",
+      "name": "NL_3",
+      "server": "194.36.27.67",
       "port": 443,
       "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
       "skip-cert-verify": true,
@@ -6330,12 +6314,22 @@
       "latency": 89
     },
     {
-      "name": "🇩🇪_DE_德国",
-      "type": "ss",
-      "server": "193.108.119.230",
-      "port": 8080,
-      "cipher": "rc4-md5",
-      "password": "14fFPrbezE3HDZzsMOr6",
+      "type": "vless",
+      "name": "hz1.ylks0033.dpdns.org_27",
+      "server": "www.pcmag.com",
+      "port": 443,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "hz1.ylks0033.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560",
+        "headers": {
+          "host": "hz1.ylks0033.dpdns.org"
+        }
+      },
       "latency": 90
     },
     {
@@ -6357,6 +6351,32 @@
       "latency": 90
     },
     {
+      "name": "🇺🇸_US_美国_5",
+      "type": "vmess",
+      "server": "050910.xyz",
+      "port": 20086,
+      "uuid": "7e992138-4bae-44d7-893e-c33605c40d5f",
+      "cipher": "auto",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/",
+        "headers": {
+          "host": "050910.xyz"
+        }
+      },
+      "alterId": 0,
+      "latency": 91
+    },
+    {
+      "name": "🇩🇪_DE_德国",
+      "type": "ss",
+      "server": "193.108.119.230",
+      "port": 8080,
+      "cipher": "rc4-md5",
+      "password": "14fFPrbezE3HDZzsMOr6",
+      "latency": 92
+    },
+    {
       "type": "vless",
       "name": "DE_3",
       "server": "91.107.159.178",
@@ -6371,25 +6391,6 @@
         "path": "/?ed=2560",
         "headers": {
           "host": "zx1.ylka.dpdns.org"
-        }
-      },
-      "latency": 91
-    },
-    {
-      "type": "vless",
-      "name": "hz1.ylks0033.dpdns.org_32",
-      "server": "www.ipget.net",
-      "port": 443,
-      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "hz1.ylks0033.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560",
-        "headers": {
-          "host": "hz1.ylks0033.dpdns.org"
         }
       },
       "latency": 92
@@ -6415,25 +6416,6 @@
     },
     {
       "type": "vless",
-      "name": "hz1.ylks0033.dpdns.org_40",
-      "server": "www.whatismyip.com",
-      "port": 443,
-      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "hz1.ylks0033.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560",
-        "headers": {
-          "host": "hz1.ylks0033.dpdns.org"
-        }
-      },
-      "latency": 93
-    },
-    {
-      "type": "vless",
       "name": "DE_6",
       "server": "91.107.189.217",
       "port": 443,
@@ -6449,7 +6431,26 @@
           "host": "zx1.ylka.dpdns.org"
         }
       },
-      "latency": 93
+      "latency": 92
+    },
+    {
+      "type": "vless",
+      "name": "hz1.ylks0033.dpdns.org_5",
+      "server": "toy-people.com",
+      "port": 443,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "hz1.ylks0033.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560",
+        "headers": {
+          "host": "hz1.ylks0033.dpdns.org"
+        }
+      },
+      "latency": 94
     },
     {
       "name": "🇩🇰_DK_丹麦->🇺🇸_US_美国_1",
@@ -6471,6 +6472,24 @@
       "latency": 96
     },
     {
+      "name": "🇷🇺_RU_俄罗斯_1",
+      "type": "ss",
+      "server": "95.163.176.37",
+      "port": 8506,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "eUh4lSpi7nOYj0vSrqLUh0",
+      "latency": 96
+    },
+    {
+      "name": "🇷🇺_RU_俄罗斯_2",
+      "type": "ss",
+      "server": "77.105.166.12",
+      "port": 8594,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "3DpxGqxiET9cqEGy99UYYE",
+      "latency": 96
+    },
+    {
       "type": "vless",
       "name": "FR_3",
       "server": "152.228.191.232",
@@ -6487,7 +6506,7 @@
           "host": "ax1.ylka.dpdns.org"
         }
       },
-      "latency": 96
+      "latency": 97
     },
     {
       "name": "🇮🇹_IT_意大利",
@@ -6499,40 +6518,21 @@
       "latency": 97
     },
     {
-      "name": "🇷🇺_RU_俄罗斯_1",
-      "type": "ss",
-      "server": "95.163.176.37",
-      "port": 8506,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "eUh4lSpi7nOYj0vSrqLUh0",
-      "latency": 97
-    },
-    {
-      "type": "vless",
-      "name": "hz1.ylks0033.dpdns.org_19",
-      "server": "comicabc.com",
-      "port": 443,
-      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "hz1.ylks0033.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560",
-        "headers": {
-          "host": "hz1.ylks0033.dpdns.org"
-        }
-      },
-      "latency": 100
-    },
-    {
       "name": "🇷🇺_RU_俄罗斯_2",
       "type": "ss",
-      "server": "77.105.166.12",
-      "port": 8594,
+      "server": "89.185.84.172",
+      "port": 443,
       "cipher": "chacha20-ietf-poly1305",
-      "password": "3DpxGqxiET9cqEGy99UYYE",
+      "password": "PPDI4eTCSUzQ",
+      "latency": 101
+    },
+    {
+      "name": "🇸🇰_SK_斯洛伐克",
+      "type": "ss",
+      "server": "156.146.40.194",
+      "port": 989,
+      "cipher": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
       "latency": 101
     },
     {
@@ -6574,32 +6574,23 @@
       "latency": 103
     },
     {
-      "name": "🇸🇰_SK_斯洛伐克",
-      "type": "ss",
-      "server": "156.146.40.194",
-      "port": 989,
-      "cipher": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3",
-      "latency": 105
-    },
-    {
       "type": "vless",
-      "name": "hz1.ylks0033.dpdns.org_5",
-      "server": "toy-people.com",
+      "name": "PL_1",
+      "server": "45.144.48.48",
       "port": 443,
-      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
       "skip-cert-verify": true,
       "udp": true,
       "tls": true,
       "network": "ws",
-      "servername": "hz1.ylks0033.dpdns.org",
+      "servername": "edga.aimercc.dpdns.org",
       "ws-opts": {
-        "path": "/?ed=2560",
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
         "headers": {
-          "host": "hz1.ylks0033.dpdns.org"
+          "host": "edga.aimercc.dpdns.org"
         }
       },
-      "latency": 106
+      "latency": 103
     },
     {
       "type": "trojan",
@@ -6617,43 +6608,34 @@
           "host": "epgb.aimercc.dpdns.org"
         }
       },
+      "latency": 106
+    },
+    {
+      "name": "🇮🇸_IS_冰岛",
+      "type": "ss",
+      "server": "37.235.49.168",
+      "port": 989,
+      "cipher": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
       "latency": 107
     },
     {
-      "type": "vless",
-      "name": "PL_1",
-      "server": "45.144.48.48",
-      "port": 443,
-      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
-      "skip-cert-verify": true,
+      "type": "trojan",
+      "name": "VNO",
+      "server": "91.197.3.168",
+      "port": 8443,
+      "password": "Aimer",
       "udp": true,
-      "tls": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
       "network": "ws",
-      "servername": "edga.aimercc.dpdns.org",
       "ws-opts": {
         "path": "/?ed=2560&proxyip=ts.hpc.tw",
         "headers": {
-          "host": "edga.aimercc.dpdns.org"
+          "host": "epgb.aimercc.dpdns.org"
         }
       },
-      "latency": 107
-    },
-    {
-      "name": "未知_1",
-      "type": "vmess",
-      "server": "vall.codefyinc.com",
-      "port": 443,
-      "uuid": "606ece17-7279-4a43-b879-f8502103de8f",
-      "cipher": "auto",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/vmessws",
-        "headers": {
-          "host": "vall.codefyinc.com"
-        }
-      },
-      "alterId": 0,
-      "latency": 109
+      "latency": 108
     },
     {
       "type": "vless",
@@ -6672,25 +6654,7 @@
           "host": "edgb.esslh.filegear-sg.me"
         }
       },
-      "latency": 109
-    },
-    {
-      "type": "trojan",
-      "name": "VNO",
-      "server": "91.197.3.168",
-      "port": 8443,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 109
+      "latency": 110
     },
     {
       "type": "vless",
@@ -6709,25 +6673,7 @@
           "host": "zx1.ylka.dpdns.org"
         }
       },
-      "latency": 111
-    },
-    {
-      "name": "🇮🇸_IS_冰岛",
-      "type": "ss",
-      "server": "37.235.49.168",
-      "port": 989,
-      "cipher": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3",
       "latency": 112
-    },
-    {
-      "name": "🇺🇸_US_美国_3",
-      "type": "ss",
-      "server": "38.54.57.90",
-      "port": 989,
-      "cipher": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3",
-      "latency": 114
     },
     {
       "name": "🇷🇴_RO_罗马尼亚->🇰🇷_KR_韩国",
@@ -6736,7 +6682,26 @@
       "port": 990,
       "cipher": "chacha20-ietf-poly1305",
       "password": "f8f7aCzcPKbsF8p3",
-      "latency": 120
+      "latency": 113
+    },
+    {
+      "type": "vless",
+      "name": "sk1.ylks0033.dpdns.org_43",
+      "server": "ip.gs",
+      "port": 443,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "sk1.ylks0033.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560",
+        "headers": {
+          "host": "sk1.ylks0033.dpdns.org"
+        }
+      },
+      "latency": 114
     },
     {
       "name": "🇩🇪_DE_德国_2",
@@ -6745,7 +6710,25 @@
       "port": 989,
       "cipher": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
-      "latency": 121
+      "latency": 117
+    },
+    {
+      "name": "🇺🇸_US_美国_3",
+      "type": "ss",
+      "server": "38.54.57.90",
+      "port": 989,
+      "cipher": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "latency": 120
+    },
+    {
+      "name": "🇺🇸_US_美国_1",
+      "type": "ss",
+      "server": "94.131.22.134",
+      "port": 40565,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "DKe9AXeFnNwBSvzdMF6Lhqwf8Aej9q1aT5qnvTLPoUEU5NPgeHwkDeaFccUo8Ne7UtpzKwq9KEZfqMxXS1KRxpHxnMfXfdRq",
+      "latency": 123
     },
     {
       "name": "🇲🇩_MD_摩尔多瓦",
@@ -6754,16 +6737,76 @@
       "port": 989,
       "cipher": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
-      "latency": 127
+      "latency": 126
     },
     {
-      "name": "🇷🇺_RU_俄罗斯_1",
+      "name": "US美国(mibei77.com 米贝节点分享) 2",
+      "server": "www.visa.com.sg",
+      "port": 8443,
+      "type": "vmess",
+      "uuid": "62a00edc-9867-4c66-82ee-d57c19facad3",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": true,
+      "skip-cert-verify": true,
+      "network": "ws",
+      "ws-path": "/",
+      "ws-headers": {
+        "Host": "nurse-boston-queen-romantic.trycloudflare.com"
+      },
+      "udp": true,
+      "latency": 134
+    },
+    {
+      "name": "🇲🇩_MD_摩尔多瓦",
       "type": "ss",
-      "server": "185.231.233.112",
+      "server": "91.132.94.200",
       "port": 989,
       "cipher": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
-      "latency": 150
+      "latency": 136
+    },
+    {
+      "name": "🇺🇸_US_美国_9",
+      "type": "vmess",
+      "server": "173.208.51.193",
+      "port": 20086,
+      "uuid": "b1726eb2-271b-4cb6-bae8-37647e78b776",
+      "cipher": "auto",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/"
+      },
+      "alterId": 0,
+      "latency": 138
+    },
+    {
+      "name": "US美国(mibei77.com 米贝节点分享) 3",
+      "server": "tTtTttTttGgGGHHhnMk.iraN2035.DPDNS.ORG",
+      "port": 443,
+      "type": "vmess",
+      "uuid": "a94fafdb-10d6-46c2-be8a-5c2e8358fbb0",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": true,
+      "skip-cert-verify": true,
+      "network": "ws",
+      "ws-path": "/CjJ9A46ZRHvgWvVcmjyiKVby2Lp",
+      "ws-headers": {
+        "Host": "tttttttttgggghhhnmk.iran2035.dpdns.org"
+      },
+      "udp": true,
+      "latency": 141
+    },
+    {
+      "name": "US美国(mibei77.com 米贝节点分享) 3",
+      "server": "switcher-nick-croquet.freesocks.work",
+      "port": 443,
+      "type": "ss",
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "9tqhMdIrTkgQ46PvhyAtMH",
+      "udp": true,
+      "latency": 154
     },
     {
       "type": "vless",
@@ -6782,7 +6825,7 @@
           "host": "edgb.aimercc.dpdns.org"
         }
       },
-      "latency": 156
+      "latency": 160
     },
     {
       "type": "vless",
@@ -6801,7 +6844,7 @@
           "host": "edgb.aimercc.dpdns.org"
         }
       },
-      "latency": 156
+      "latency": 160
     },
     {
       "type": "vless",
@@ -6823,6 +6866,25 @@
       "latency": 160
     },
     {
+      "type": "vless",
+      "name": "JP_11",
+      "server": "47.79.90.82",
+      "port": 8843,
+      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "edgb.aimercc.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "edgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 160
+    },
+    {
       "name": "🇯🇵 日本3|@stairnode",
       "server": "157.120.32.122",
       "port": 443,
@@ -6831,7 +6893,7 @@
       "password": "253bc477d4e43c209f2d427272968280",
       "sni": "www.baidu.com",
       "skip-cert-verify": true,
-      "latency": 160
+      "latency": 161
     },
     {
       "type": "vless",
@@ -6848,44 +6910,6 @@
         "path": "/?ed=2560",
         "headers": {
           "host": "v01.bgm2024.dpdns.org"
-        }
-      },
-      "latency": 160
-    },
-    {
-      "type": "vless",
-      "name": "JP_3",
-      "server": "158.101.139.31",
-      "port": 7000,
-      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "zx1.ylka.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560",
-        "headers": {
-          "host": "zx1.ylka.dpdns.org"
-        }
-      },
-      "latency": 161
-    },
-    {
-      "type": "vless",
-      "name": "JP_11",
-      "server": "47.79.90.82",
-      "port": 8843,
-      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "edgb.aimercc.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "edgb.aimercc.dpdns.org"
         }
       },
       "latency": 161
@@ -6926,7 +6950,7 @@
           "host": "edga.aimercc.dpdns.org"
         }
       },
-      "latency": 162
+      "latency": 161
     },
     {
       "type": "vless",
@@ -6967,17 +6991,6 @@
       "latency": 166
     },
     {
-      "name": "🇸🇬 新加坡3|@stairnode",
-      "server": "okanc.iepl.cac.cab",
-      "port": 23012,
-      "client-fingerprint": "chrome",
-      "type": "trojan",
-      "password": "02491ccf-e969-4200-9ebd-5e0da4eff308",
-      "sni": "www.bilibili.com",
-      "skip-cert-verify": false,
-      "latency": 166
-    },
-    {
       "type": "trojan",
       "name": "NRT_2",
       "server": "45.66.130.58",
@@ -6992,6 +7005,45 @@
         "headers": {
           "host": "epgb.aimercc.dpdns.org"
         }
+      },
+      "latency": 168
+    },
+    {
+      "type": "vless",
+      "name": "JP_5",
+      "server": "45.66.130.58",
+      "port": 51002,
+      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "edgb.aimercc.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "edgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 168
+    },
+    {
+      "name": "🇯🇵 日本2|@stairnode",
+      "server": "137.220.191.40",
+      "port": 636,
+      "client-fingerprint": "chrome",
+      "type": "ss",
+      "cipher": "aes-256-gcm",
+      "password": "823e135ed103",
+      "tfo": false,
+      "plugin": "v2ray-plugin",
+      "plugin-opts": {
+        "mode": "websocket",
+        "host": "jp7v1.lingjfjkm002.com",
+        "path": "/dchlbvrbbotc",
+        "tls": true,
+        "mux": true,
+        "skip-cert-verify": false
       },
       "latency": 168
     },
@@ -7012,7 +7064,44 @@
           "host": "ax1.ylka.dpdns.org"
         }
       },
-      "latency": 174
+      "latency": 175
+    },
+    {
+      "type": "trojan",
+      "name": "iplocation.io_2",
+      "server": "iplocation.io",
+      "port": 443,
+      "password": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "ax1.ylka.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&PROT_TYPE=trojan",
+        "headers": {
+          "host": "ax1.ylka.dpdns.org"
+        }
+      },
+      "latency": 178
+    },
+    {
+      "type": "vless",
+      "name": "dnschecker.org_2",
+      "server": "dnschecker.org",
+      "port": 443,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "zx1.ylka.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560&PROT_TYPE=vless",
+        "headers": {
+          "host": "zx1.ylka.dpdns.org"
+        }
+      },
+      "latency": 179
     },
     {
       "type": "vless",
@@ -7031,110 +7120,7 @@
           "host": "hz1.ylks0033.dpdns.org"
         }
       },
-      "latency": 177
-    },
-    {
-      "type": "trojan",
-      "name": "dnschecker.org_1",
-      "server": "dnschecker.org",
-      "port": 443,
-      "password": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "zx1.ylka.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&PROT_TYPE=trojan",
-        "headers": {
-          "host": "zx1.ylka.dpdns.org"
-        }
-      },
       "latency": 179
-    },
-    {
-      "type": "vless",
-      "name": "www.wto.org_1",
-      "server": "www.wto.org",
-      "port": 443,
-      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "ax1.ylka.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560&PROT_TYPE=vless",
-        "headers": {
-          "host": "ax1.ylka.dpdns.org"
-        }
-      },
-      "latency": 179
-    },
-    {
-      "name": "🇲🇩_MD_摩尔多瓦",
-      "type": "ss",
-      "server": "91.132.94.200",
-      "port": 989,
-      "cipher": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3",
-      "latency": 181
-    },
-    {
-      "type": "vless",
-      "name": "TW_5",
-      "server": "220.132.77.244",
-      "port": 58888,
-      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "edga.aimercc.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "edga.aimercc.dpdns.org"
-        }
-      },
-      "latency": 184
-    },
-    {
-      "type": "vless",
-      "name": "TW_2",
-      "server": "125.227.219.100",
-      "port": 443,
-      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "edga.aimercc.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "edga.aimercc.dpdns.org"
-        }
-      },
-      "latency": 184
-    },
-    {
-      "type": "vless",
-      "name": "KR_3",
-      "server": "8.213.133.87",
-      "port": 443,
-      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "edgb.aimercc.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "edgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 185
     },
     {
       "type": "vless",
@@ -7151,6 +7137,25 @@
         "path": "/?ed=2560&proxyip=ts.hpc.tw",
         "headers": {
           "host": "edgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 185
+    },
+    {
+      "type": "vless",
+      "name": "TW_5",
+      "server": "220.132.77.244",
+      "port": 58888,
+      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "edga.aimercc.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "edga.aimercc.dpdns.org"
         }
       },
       "latency": 186
@@ -7172,26 +7177,26 @@
           "host": "edga.aimercc.dpdns.org"
         }
       },
-      "latency": 188
+      "latency": 186
     },
     {
       "type": "vless",
-      "name": "TW_4",
-      "server": "125.227.219.97",
+      "name": "KR_3",
+      "server": "8.213.133.87",
       "port": 443,
       "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
       "skip-cert-verify": true,
       "udp": true,
       "tls": true,
       "network": "ws",
-      "servername": "edga.aimercc.dpdns.org",
+      "servername": "edgb.aimercc.dpdns.org",
       "ws-opts": {
         "path": "/?ed=2560&proxyip=ts.hpc.tw",
         "headers": {
-          "host": "edga.aimercc.dpdns.org"
+          "host": "edgb.aimercc.dpdns.org"
         }
       },
-      "latency": 188
+      "latency": 187
     },
     {
       "type": "vless",
@@ -7208,6 +7213,43 @@
         "path": "/?ed=2560&proxyip=ts.hpc.tw",
         "headers": {
           "host": "edgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 187
+    },
+    {
+      "type": "vless",
+      "name": "JP_3",
+      "server": "158.101.139.31",
+      "port": 7000,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "zx1.ylka.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560",
+        "headers": {
+          "host": "zx1.ylka.dpdns.org"
+        }
+      },
+      "latency": 189
+    },
+    {
+      "type": "trojan",
+      "name": "ICN_1",
+      "server": "211.198.136.117",
+      "port": 50000,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
         }
       },
       "latency": 189
@@ -7229,31 +7271,32 @@
           "host": "edga.aimercc.dpdns.org"
         }
       },
-      "latency": 189
-    },
-    {
-      "type": "trojan",
-      "name": "ICN_9",
-      "server": "121.66.32.174",
-      "port": 50000,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 189
+      "latency": 191
     },
     {
       "type": "vless",
-      "name": "TW_1",
-      "server": "61.220.128.226",
-      "port": 43,
+      "name": "KR_3",
+      "server": "14.47.175.40",
+      "port": 12365,
+      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "edga.aimercc.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "edga.aimercc.dpdns.org"
+        }
+      },
+      "latency": 191
+    },
+    {
+      "type": "vless",
+      "name": "TW_2",
+      "server": "125.227.219.100",
+      "port": 443,
       "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
       "skip-cert-verify": true,
       "udp": true,
@@ -7270,24 +7313,6 @@
     },
     {
       "type": "trojan",
-      "name": "ICN_6",
-      "server": "125.139.152.24",
-      "port": 12429,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 193
-    },
-    {
-      "type": "trojan",
       "name": "ICN_3",
       "server": "14.39.43.121",
       "port": 10302,
@@ -7300,6 +7325,25 @@
         "path": "/?ed=2560&proxyip=ts.hpc.tw",
         "headers": {
           "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 192
+    },
+    {
+      "type": "vless",
+      "name": "TW_4",
+      "server": "125.227.219.97",
+      "port": 443,
+      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "edga.aimercc.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "edga.aimercc.dpdns.org"
         }
       },
       "latency": 193
@@ -7324,46 +7368,19 @@
       "latency": 193
     },
     {
-      "name": "🇺🇸_US_美国_5",
-      "type": "vmess",
-      "server": "050910.xyz",
-      "port": 20086,
-      "uuid": "7e992138-4bae-44d7-893e-c33605c40d5f",
-      "cipher": "auto",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/",
-        "headers": {
-          "host": "050910.xyz"
-        }
-      },
-      "alterId": 0,
-      "latency": 194
-    },
-    {
-      "type": "vless",
-      "name": "KR_4",
-      "server": "119.200.48.55",
-      "port": 12270,
-      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "edga.aimercc.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "edga.aimercc.dpdns.org"
-        }
-      },
-      "latency": 194
+      "name": "🇹🇷_TR_土耳其",
+      "type": "ss",
+      "server": "185.123.101.241",
+      "port": 989,
+      "cipher": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "latency": 193
     },
     {
       "type": "trojan",
-      "name": "ICN_1",
-      "server": "211.198.136.117",
-      "port": 50000,
+      "name": "ICN_6",
+      "server": "125.139.152.24",
+      "port": 12429,
       "password": "Aimer",
       "udp": true,
       "skip-cert-verify": true,
@@ -7375,26 +7392,7 @@
           "host": "epgb.aimercc.dpdns.org"
         }
       },
-      "latency": 195
-    },
-    {
-      "type": "vless",
-      "name": "KR_3",
-      "server": "14.47.175.40",
-      "port": 12365,
-      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "edga.aimercc.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "edga.aimercc.dpdns.org"
-        }
-      },
-      "latency": 195
+      "latency": 194
     },
     {
       "type": "vless",
@@ -7416,20 +7414,33 @@
       "latency": 195
     },
     {
+      "name": "🇦🇹_AT_奥地利->🇫🇷_FR_法国",
+      "type": "vmess",
+      "server": "46.29.34.205",
+      "port": 59956,
+      "sni": "",
+      "uuid": "ca0c9937-58a6-44ea-9111-a6abac267d0f",
+      "cipher": "auto",
+      "network": "tcp",
+      "fingerprint": "",
+      "alterId": 0,
+      "latency": 195
+    },
+    {
       "type": "vless",
-      "name": "JP_5",
-      "server": "45.66.130.58",
-      "port": 51002,
+      "name": "TW_1",
+      "server": "61.220.128.226",
+      "port": 43,
       "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
       "skip-cert-verify": true,
       "udp": true,
       "tls": true,
       "network": "ws",
-      "servername": "edgb.aimercc.dpdns.org",
+      "servername": "edga.aimercc.dpdns.org",
       "ws-opts": {
         "path": "/?ed=2560&proxyip=ts.hpc.tw",
         "headers": {
-          "host": "edgb.aimercc.dpdns.org"
+          "host": "edga.aimercc.dpdns.org"
         }
       },
       "latency": 196
@@ -7446,87 +7457,15 @@
       "latency": 196
     },
     {
-      "type": "trojan",
-      "name": "ICN_10",
-      "server": "222.117.162.36",
-      "port": 22107,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 196
-    },
-    {
-      "name": "🇹🇷_TR_土耳其",
+      "name": "6元高速机场：cczzuu.top",
+      "server": "13.239.86.92",
+      "port": 443,
+      "client-fingerprint": "chrome",
       "type": "ss",
-      "server": "185.123.101.241",
-      "port": 989,
       "cipher": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3",
-      "latency": 197
-    },
-    {
-      "type": "vless",
-      "name": "KR_2",
-      "server": "222.110.14.159",
-      "port": 10033,
-      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "edga.aimercc.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "edga.aimercc.dpdns.org"
-        }
-      },
-      "latency": 197
-    },
-    {
-      "type": "vless",
-      "name": "KR_6",
-      "server": "121.143.196.49",
-      "port": 50000,
-      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "edgb.ambercc.filegear-sg.me",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "edgb.ambercc.filegear-sg.me"
-        }
-      },
-      "latency": 197
-    },
-    {
-      "type": "trojan",
-      "name": "FUK_3",
-      "server": "183.106.218.118",
-      "port": 17000,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 197
+      "password": "amazonskr05",
+      "tfo": false,
+      "latency": 196
     },
     {
       "type": "vless",
@@ -7548,42 +7487,51 @@
       "latency": 199
     },
     {
-      "type": "vless",
-      "name": "iplocation.io_1",
-      "server": "iplocation.io",
-      "port": 443,
-      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "name": "KR韩国(mibei77.com 米贝节点分享)",
+      "server": "119.200.48.55",
+      "port": 12270,
+      "type": "trojan",
+      "password": "Aimer",
       "skip-cert-verify": true,
       "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "ax1.ylka.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560&PROT_TYPE=vless",
-        "headers": {
-          "host": "ax1.ylka.dpdns.org"
-        }
-      },
-      "latency": 200
+      "latency": 199
     },
     {
       "type": "vless",
-      "name": "KR_5",
-      "server": "183.98.166.19",
-      "port": 10025,
+      "name": "KR_2",
+      "server": "222.110.14.159",
+      "port": 10033,
       "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
       "skip-cert-verify": true,
       "udp": true,
       "tls": true,
       "network": "ws",
-      "servername": "edgb.aimercc.dpdns.org",
+      "servername": "edga.aimercc.dpdns.org",
       "ws-opts": {
         "path": "/?ed=2560&proxyip=ts.hpc.tw",
         "headers": {
-          "host": "edgb.aimercc.dpdns.org"
+          "host": "edga.aimercc.dpdns.org"
         }
       },
       "latency": 200
+    },
+    {
+      "type": "trojan",
+      "name": "ICN_9",
+      "server": "121.66.32.174",
+      "port": 50000,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 201
     },
     {
       "type": "trojan",
@@ -7604,14 +7552,32 @@
       "latency": 201
     },
     {
-      "name": "KR韩国(mibei77.com 米贝节点分享)",
-      "server": "119.200.48.55",
-      "port": 12270,
-      "type": "trojan",
-      "password": "Aimer",
+      "name": "🇮🇳_IN_印度",
+      "type": "ss",
+      "server": "134.209.147.198",
+      "port": 990,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "f8f7aCzcPKbsF8p3",
+      "latency": 202
+    },
+    {
+      "type": "vless",
+      "name": "KR_5",
+      "server": "183.98.166.19",
+      "port": 10025,
+      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
       "skip-cert-verify": true,
       "udp": true,
-      "latency": 201
+      "tls": true,
+      "network": "ws",
+      "servername": "edgb.aimercc.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "edgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 203
     },
     {
       "type": "vless",
@@ -7634,42 +7600,6 @@
     },
     {
       "type": "trojan",
-      "name": "ICN_4",
-      "server": "222.103.28.108",
-      "port": 12488,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 203
-    },
-    {
-      "type": "trojan",
-      "name": "FUK_1",
-      "server": "59.19.192.51",
-      "port": 38880,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 203
-    },
-    {
-      "type": "trojan",
       "name": "HKG_5",
       "server": "34.92.248.117",
       "port": 9444,
@@ -7684,13 +7614,32 @@
           "host": "epgb.aimercc.dpdns.org"
         }
       },
-      "latency": 205
+      "latency": 203
+    },
+    {
+      "type": "vless",
+      "name": "KR_4",
+      "server": "119.200.48.55",
+      "port": 12270,
+      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "edga.aimercc.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "edga.aimercc.dpdns.org"
+        }
+      },
+      "latency": 206
     },
     {
       "type": "trojan",
-      "name": "HKG_6",
-      "server": "43.198.11.1",
-      "port": 443,
+      "name": "FUK_3",
+      "server": "183.106.218.118",
+      "port": 17000,
       "password": "Aimer",
       "udp": true,
       "skip-cert-verify": true,
@@ -7705,48 +7654,64 @@
       "latency": 206
     },
     {
-      "type": "vless",
-      "name": "HK_4",
-      "server": "47.238.89.163",
-      "port": 443,
-      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "skip-cert-verify": true,
+      "type": "trojan",
+      "name": "ICN_4",
+      "server": "222.103.28.108",
+      "port": 12488,
+      "password": "Aimer",
       "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "zx1.ylka.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560",
-        "headers": {
-          "host": "zx1.ylka.dpdns.org"
-        }
-      },
-      "latency": 209
-    },
-    {
-      "type": "vless",
-      "name": "KR_6",
-      "server": "175.207.220.224",
-      "port": 12542,
-      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
       "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
+      "sni": "epgb.aimercc.dpdns.org",
       "network": "ws",
-      "servername": "edgb.esslh.filegear-sg.me",
       "ws-opts": {
         "path": "/?ed=2560&proxyip=ts.hpc.tw",
         "headers": {
-          "host": "edgb.esslh.filegear-sg.me"
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 207
+    },
+    {
+      "type": "trojan",
+      "name": "ICN_10",
+      "server": "222.117.162.36",
+      "port": 22107,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 208
+    },
+    {
+      "type": "trojan",
+      "name": "FUK_5",
+      "server": "222.114.159.171",
+      "port": 28015,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
         }
       },
       "latency": 209
     },
     {
       "type": "trojan",
-      "name": "FUK_4",
-      "server": "222.104.2.192",
-      "port": 12158,
+      "name": "HKG_6",
+      "server": "43.198.11.1",
+      "port": 443,
       "password": "Aimer",
       "udp": true,
       "skip-cert-verify": true,
@@ -7799,28 +7764,18 @@
       "latency": 210
     },
     {
-      "type": "vless",
-      "name": "HK_11",
-      "server": "47.243.206.137",
-      "port": 443,
-      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "edgb.ambercc.filegear-sg.me",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "edgb.ambercc.filegear-sg.me"
-        }
-      },
+      "name": "🇨🇳_CN_中国",
+      "type": "ss",
+      "server": "103.149.182.191",
+      "port": 8388,
+      "cipher": "chacha20-ietf",
+      "password": "asd123456",
       "latency": 210
     },
     {
       "type": "vless",
-      "name": "HK_3",
-      "server": "47.57.70.81",
+      "name": "HK_1",
+      "server": "8.212.27.131",
       "port": 443,
       "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
       "skip-cert-verify": true,
@@ -7837,9 +7792,27 @@
       "latency": 210
     },
     {
+      "type": "trojan",
+      "name": "HKG_2",
+      "server": "8.212.70.149",
+      "port": 443,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 210
+    },
+    {
       "type": "vless",
-      "name": "HK_1",
-      "server": "123.58.220.231",
+      "name": "SG_1",
+      "server": "103.210.22.199",
       "port": 443,
       "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
       "skip-cert-verify": true,
@@ -7853,68 +7826,32 @@
           "host": "zx1.ylka.dpdns.org"
         }
       },
-      "latency": 210
-    },
-    {
-      "type": "trojan",
-      "name": "ICN_12",
-      "server": "175.207.220.224",
-      "port": 12542,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 210
-    },
-    {
-      "type": "trojan",
-      "name": "ICN_5",
-      "server": "183.98.166.19",
-      "port": 10025,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 210
+      "latency": 211
     },
     {
       "type": "vless",
-      "name": "US_5",
-      "server": "107.148.239.178",
+      "name": "hz1.ylks0033.dpdns.org_22",
+      "server": "ip.sb",
       "port": 443,
       "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
       "skip-cert-verify": true,
       "udp": true,
       "tls": true,
       "network": "ws",
-      "servername": "ax1.ylka.dpdns.org",
+      "servername": "hz1.ylks0033.dpdns.org",
       "ws-opts": {
         "path": "/?ed=2560",
         "headers": {
-          "host": "ax1.ylka.dpdns.org"
+          "host": "hz1.ylks0033.dpdns.org"
         }
       },
       "latency": 211
     },
     {
       "type": "trojan",
-      "name": "HKG_4",
-      "server": "202.81.230.75",
-      "port": 443,
+      "name": "ICN_7",
+      "server": "175.200.140.27",
+      "port": 10048,
       "password": "Aimer",
       "udp": true,
       "skip-cert-verify": true,
@@ -7927,45 +7864,6 @@
         }
       },
       "latency": 211
-    },
-    {
-      "name": "🇭🇰 香港2|@stairnode",
-      "server": "103.103.245.158",
-      "port": 636,
-      "client-fingerprint": "chrome",
-      "type": "ss",
-      "cipher": "aes-256-gcm",
-      "password": "9bfdde71b4c0",
-      "tfo": false,
-      "plugin": "v2ray-plugin",
-      "plugin-opts": {
-        "mode": "websocket",
-        "host": "newroot2v1.dsjsapp.com",
-        "path": "/cauejypbltqt",
-        "tls": true,
-        "mux": true,
-        "skip-cert-verify": false
-      },
-      "latency": 211
-    },
-    {
-      "type": "vless",
-      "name": "KR_4",
-      "server": "115.94.98.93",
-      "port": 50000,
-      "uuid": "55520747-311e-4015-83ce-be46e2060ce3",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "v01.bgm2024.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560",
-        "headers": {
-          "host": "v01.bgm2024.dpdns.org"
-        }
-      },
-      "latency": 212
     },
     {
       "type": "vless",
@@ -8043,13 +7941,23 @@
       "latency": 212
     },
     {
-      "name": "🇨🇳_CN_中国",
-      "type": "ss",
-      "server": "103.149.182.191",
-      "port": 8388,
-      "cipher": "chacha20-ietf",
-      "password": "asd123456",
-      "latency": 212
+      "type": "vless",
+      "name": "HK_4",
+      "server": "47.238.89.163",
+      "port": 443,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "zx1.ylka.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560",
+        "headers": {
+          "host": "zx1.ylka.dpdns.org"
+        }
+      },
+      "latency": 213
     },
     {
       "name": "🇭🇰 香港7|@stairnode",
@@ -8101,27 +8009,9 @@
       "latency": 213
     },
     {
-      "type": "trojan",
-      "name": "FUK_5",
-      "server": "222.114.159.171",
-      "port": 28015,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 214
-    },
-    {
       "type": "vless",
-      "name": "HK_1",
-      "server": "8.212.27.131",
+      "name": "HK_3",
+      "server": "47.57.70.81",
       "port": 443,
       "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
       "skip-cert-verify": true,
@@ -8157,25 +8047,6 @@
       "latency": 214
     },
     {
-      "type": "vless",
-      "name": "HK_1",
-      "server": "47.239.8.172",
-      "port": 443,
-      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "edgb.aimercc.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "edgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 215
-    },
-    {
       "type": "trojan",
       "name": "HKG_1",
       "server": "47.239.8.172",
@@ -8191,12 +8062,31 @@
           "host": "epgb.aimercc.dpdns.org"
         }
       },
+      "latency": 214
+    },
+    {
+      "type": "vless",
+      "name": "US_5",
+      "server": "107.148.239.178",
+      "port": 443,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "ax1.ylka.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560",
+        "headers": {
+          "host": "ax1.ylka.dpdns.org"
+        }
+      },
       "latency": 215
     },
     {
       "type": "trojan",
-      "name": "HKG_2",
-      "server": "8.212.70.149",
+      "name": "HKG_4",
+      "server": "202.81.230.75",
       "port": 443,
       "password": "Aimer",
       "udp": true,
@@ -8207,6 +8097,25 @@
         "path": "/?ed=2560&proxyip=ts.hpc.tw",
         "headers": {
           "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 215
+    },
+    {
+      "type": "vless",
+      "name": "HK_1",
+      "server": "47.239.8.172",
+      "port": 443,
+      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "edgb.aimercc.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "edgb.aimercc.dpdns.org"
         }
       },
       "latency": 215
@@ -8232,25 +8141,6 @@
     },
     {
       "type": "vless",
-      "name": "HK_16",
-      "server": "2.56.91.89",
-      "port": 8443,
-      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "ax1.ylka.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560",
-        "headers": {
-          "host": "ax1.ylka.dpdns.org"
-        }
-      },
-      "latency": 217
-    },
-    {
-      "type": "vless",
       "name": "HK_8",
       "server": "23.226.8.80",
       "port": 443,
@@ -8266,7 +8156,44 @@
           "host": "ax1.ylka.dpdns.org"
         }
       },
-      "latency": 217
+      "latency": 215
+    },
+    {
+      "type": "trojan",
+      "name": "FUK_1",
+      "server": "59.19.192.51",
+      "port": 38880,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 216
+    },
+    {
+      "type": "vless",
+      "name": "HK_11",
+      "server": "47.243.206.137",
+      "port": 443,
+      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "edgb.ambercc.filegear-sg.me",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "edgb.ambercc.filegear-sg.me"
+        }
+      },
+      "latency": 216
     },
     {
       "type": "vless",
@@ -8285,12 +8212,49 @@
           "host": "ax1.ylka.dpdns.org"
         }
       },
-      "latency": 218
+      "latency": 217
+    },
+    {
+      "name": "US美国(mibei77.com 米贝节点分享) 14",
+      "server": "38.147.190.65",
+      "port": 16132,
+      "type": "trojan",
+      "password": "Aimer",
+      "skip-cert-verify": true,
+      "udp": true,
+      "latency": 220
+    },
+    {
+      "type": "trojan",
+      "name": "ICN_5",
+      "server": "183.98.166.19",
+      "port": 10025,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 221
+    },
+    {
+      "name": "%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%7C%40stairnode",
+      "type": "trojan",
+      "server": "128.199.125.102",
+      "port": 443,
+      "password": "d0d08cddacc3190ea81b1b792e1b5fde",
+      "sni": "128.199.125.102",
+      "latency": 222
     },
     {
       "type": "vless",
-      "name": "SG_1",
-      "server": "103.210.22.199",
+      "name": "HK_1",
+      "server": "123.58.220.231",
       "port": 443,
       "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
       "skip-cert-verify": true,
@@ -8304,36 +8268,25 @@
           "host": "zx1.ylka.dpdns.org"
         }
       },
-      "latency": 219
+      "latency": 223
     },
     {
-      "name": "US美国(mibei77.com 米贝节点分享) 14",
-      "server": "38.147.190.65",
-      "port": 16132,
       "type": "trojan",
+      "name": "ICN_8",
+      "server": "49.172.20.66",
+      "port": 50000,
       "password": "Aimer",
-      "skip-cert-verify": true,
       "udp": true,
-      "latency": 219
-    },
-    {
-      "type": "vless",
-      "name": "hz1.ylks0033.dpdns.org_22",
-      "server": "ip.sb",
-      "port": 443,
-      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
       "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
+      "sni": "epgb.aimercc.dpdns.org",
       "network": "ws",
-      "servername": "hz1.ylks0033.dpdns.org",
       "ws-opts": {
-        "path": "/?ed=2560",
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
         "headers": {
-          "host": "hz1.ylks0033.dpdns.org"
+          "host": "epgb.aimercc.dpdns.org"
         }
       },
-      "latency": 221
+      "latency": 223
     },
     {
       "type": "vless",
@@ -8352,43 +8305,26 @@
           "host": "zx1.ylka.dpdns.org"
         }
       },
-      "latency": 222
+      "latency": 224
     },
     {
-      "type": "trojan",
-      "name": "ICN_11",
-      "server": "119.207.56.167",
-      "port": 18045,
-      "password": "Aimer",
-      "udp": true,
+      "type": "vless",
+      "name": "KR_1",
+      "server": "121.170.103.94",
+      "port": 12335,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
       "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
+      "udp": true,
+      "tls": true,
       "network": "ws",
+      "servername": "zx1.ylka.dpdns.org",
       "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "path": "/?ed=2560",
         "headers": {
-          "host": "epgb.aimercc.dpdns.org"
+          "host": "zx1.ylka.dpdns.org"
         }
       },
-      "latency": 222
-    },
-    {
-      "type": "trojan",
-      "name": "HKG_3",
-      "server": "45.144.136.162",
-      "port": 21326,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 223
+      "latency": 224
     },
     {
       "name": "🇸🇬 新加坡|@stairnode",
@@ -8399,33 +8335,26 @@
       "password": "d0d08cddacc3190ea81b1b792e1b5fde",
       "sni": "www.baidu.com",
       "skip-cert-verify": true,
-      "latency": 224
+      "latency": 225
     },
     {
-      "type": "trojan",
-      "name": "FUK_6",
-      "server": "220.85.122.216",
-      "port": 19902,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
+      "name": "🇭🇰 香港2|@stairnode",
+      "server": "103.103.245.158",
+      "port": 636,
+      "client-fingerprint": "chrome",
+      "type": "ss",
+      "cipher": "aes-256-gcm",
+      "password": "9bfdde71b4c0",
+      "tfo": false,
+      "plugin": "v2ray-plugin",
+      "plugin-opts": {
+        "mode": "websocket",
+        "host": "newroot2v1.dsjsapp.com",
+        "path": "/cauejypbltqt",
+        "tls": true,
+        "mux": true,
+        "skip-cert-verify": false
       },
-      "latency": 224
-    },
-    {
-      "name": "%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%7C%40stairnode",
-      "type": "trojan",
-      "server": "128.199.125.102",
-      "port": 443,
-      "password": "d0d08cddacc3190ea81b1b792e1b5fde",
-      "sni": "128.199.125.102",
       "latency": 226
     },
     {
@@ -8448,33 +8377,6 @@
       "latency": 226
     },
     {
-      "name": "🇮🇳_IN_印度",
-      "type": "ss",
-      "server": "134.209.147.198",
-      "port": 990,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "f8f7aCzcPKbsF8p3",
-      "latency": 227
-    },
-    {
-      "type": "trojan",
-      "name": "ICN_7",
-      "server": "175.200.140.27",
-      "port": 10048,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
-      },
-      "latency": 227
-    },
-    {
       "name": "🇸🇬 新加坡|@stairnode",
       "server": "165.22.55.206",
       "port": 443,
@@ -8483,26 +8385,7 @@
       "password": "253bc477d4e43c209f2d427272968280",
       "sni": "www.baidu.com",
       "skip-cert-verify": true,
-      "latency": 227
-    },
-    {
-      "type": "vless",
-      "name": "KR_1",
-      "server": "121.170.103.94",
-      "port": 12335,
-      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-      "skip-cert-verify": true,
-      "udp": true,
-      "tls": true,
-      "network": "ws",
-      "servername": "zx1.ylka.dpdns.org",
-      "ws-opts": {
-        "path": "/?ed=2560",
-        "headers": {
-          "host": "zx1.ylka.dpdns.org"
-        }
-      },
-      "latency": 231
+      "latency": 226
     },
     {
       "name": "🇺🇸_US_美国->🇨🇦_CA_加拿大",
@@ -8519,45 +8402,75 @@
         }
       },
       "alterId": 0,
-      "latency": 232
+      "latency": 226
     },
     {
-      "name": "US美国(mibei77.com 米贝节点分享) 2",
-      "server": "www.visa.com.sg",
+      "type": "vless",
+      "name": "HK_16",
+      "server": "2.56.91.89",
       "port": 8443,
-      "type": "vmess",
-      "uuid": "62a00edc-9867-4c66-82ee-d57c19facad3",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": true,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
       "skip-cert-verify": true,
-      "network": "ws",
-      "ws-path": "/",
-      "ws-headers": {
-        "Host": "nurse-boston-queen-romantic.trycloudflare.com"
-      },
       "udp": true,
-      "latency": 249
+      "tls": true,
+      "network": "ws",
+      "servername": "ax1.ylka.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560",
+        "headers": {
+          "host": "ax1.ylka.dpdns.org"
+        }
+      },
+      "latency": 227
     },
     {
-      "name": "🇩🇪_DE_德国_1",
-      "type": "ss",
-      "server": "beesyar.org",
-      "port": 8080,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "QCXDxuDlTTMD7jtgHUjIoj",
-      "latency": 259
+      "type": "vless",
+      "name": "美国_3",
+      "server": "icook.hk",
+      "port": 443,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "ax1.ylka.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560&PROT_TYPE=vless",
+        "headers": {
+          "host": "ax1.ylka.dpdns.org"
+        }
+      },
+      "latency": 230
     },
     {
-      "name": "🇻🇳 越南|@stairnode",
-      "server": "103.186.155.20",
-      "port": 38388,
+      "name": "🇯🇵 日本3|@stairnode",
+      "server": "okanc.iepl.cac.cab",
+      "port": 23008,
       "client-fingerprint": "chrome",
-      "type": "ss",
-      "cipher": "aes-256-cfb",
-      "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV",
-      "tfo": false,
-      "latency": 266
+      "type": "trojan",
+      "password": "6b5b43c9-05bd-471e-b502-d52c0dbd55fd",
+      "sni": "www.bilibili.com",
+      "skip-cert-verify": false,
+      "latency": 236
+    },
+    {
+      "type": "vless",
+      "name": "KR_8",
+      "server": "117.123.23.173",
+      "port": 30029,
+      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "edgb.aimercc.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "edgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 244
     },
     {
       "type": "vless",
@@ -8576,25 +8489,173 @@
           "host": "edgb.aimercc.dpdns.org"
         }
       },
+      "latency": 245
+    },
+    {
+      "type": "trojan",
+      "name": "ICN_11",
+      "server": "119.207.56.167",
+      "port": 18045,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
+      },
+      "latency": 248
+    },
+    {
+      "name": "🇨🇳_CN_中国->🇺🇸_US_美国_1",
+      "type": "ss",
+      "server": "awes35lesl.blhao0o.dpdns.org",
+      "port": 12012,
+      "cipher": "aes-128-gcm",
+      "password": "01721e43-5389-4f97-b21c-900abb2bda9e",
+      "latency": 248
+    },
+    {
+      "type": "vless",
+      "name": "KR_4",
+      "server": "115.94.98.93",
+      "port": 50000,
+      "uuid": "55520747-311e-4015-83ce-be46e2060ce3",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "v01.bgm2024.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560",
+        "headers": {
+          "host": "v01.bgm2024.dpdns.org"
+        }
+      },
+      "latency": 252
+    },
+    {
+      "type": "vless",
+      "name": "hz1.ylks0033.dpdns.org_34",
+      "server": "icook.tw",
+      "port": 443,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "hz1.ylks0033.dpdns.org",
+      "ws-opts": {
+        "path": "/?ed=2560",
+        "headers": {
+          "host": "hz1.ylks0033.dpdns.org"
+        }
+      },
+      "latency": 264
+    },
+    {
+      "name": "🇩🇪_DE_德国_1",
+      "type": "ss",
+      "server": "beesyar.org",
+      "port": 8080,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "QCXDxuDlTTMD7jtgHUjIoj",
+      "latency": 265
+    },
+    {
+      "type": "vless",
+      "name": "KR_6",
+      "server": "175.207.220.224",
+      "port": 12542,
+      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "edgb.esslh.filegear-sg.me",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "edgb.esslh.filegear-sg.me"
+        }
+      },
+      "latency": 266
+    },
+    {
+      "name": "🇻🇳 越南|@stairnode",
+      "server": "103.186.155.20",
+      "port": 38388,
+      "client-fingerprint": "chrome",
+      "type": "ss",
+      "cipher": "aes-256-cfb",
+      "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV",
+      "tfo": false,
       "latency": 267
     },
     {
-      "name": "US美国(mibei77.com 米贝节点分享) 15",
-      "server": "cloudflare.182682.xyz",
-      "port": 2086,
+      "name": "🇺🇸_US_美国_6",
       "type": "vmess",
-      "uuid": "f9d72529-0992-494e-a1ec-a8e14120a3ba",
-      "alterId": 0,
+      "server": "64.81.30.225",
+      "port": 20086,
+      "uuid": "7f499074-3408-4840-b55b-91142735d2cc",
       "cipher": "auto",
-      "tls": false,
-      "skip-cert-verify": true,
       "network": "ws",
-      "ws-path": "/5atdxvyfjn60ggx/jp1",
-      "ws-headers": {
-        "Host": "bpjp1.jptimecsgo.xyz"
+      "ws-opts": {
+        "path": "/"
       },
-      "udp": true,
-      "latency": 278
+      "alterId": 0,
+      "latency": 281
+    },
+    {
+      "name": "🇷🇺_RU_俄罗斯_1",
+      "type": "ss",
+      "server": "185.231.233.112",
+      "port": 989,
+      "cipher": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "latency": 283
+    },
+    {
+      "name": "🇺🇸 美国2|@stairnode",
+      "server": "cn01.efan8867801.xyz",
+      "port": 8774,
+      "client-fingerprint": "chrome",
+      "type": "ss",
+      "cipher": "rc4-md5",
+      "password": "efanccyun",
+      "tfo": false,
+      "plugin": "obfs",
+      "plugin-opts": {
+        "mode": "http",
+        "host": "202507282137611-Ibej7QBdUa.download.microsoft.com"
+      },
+      "latency": 288
+    },
+    {
+      "name": "🇺🇸_US_美国_9",
+      "type": "vmess",
+      "server": "64.81.39.101",
+      "port": 20086,
+      "uuid": "b29f7187-9707-47fe-85d2-65b1ba69df16",
+      "cipher": "auto",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/"
+      },
+      "alterId": 0,
+      "latency": 300
+    },
+    {
+      "name": "🇨🇳_CN_中国->🇺🇸_US_美国",
+      "type": "ss",
+      "server": "awes35lesl.blhao0o.dpdns.org",
+      "port": 12017,
+      "cipher": "aes-128-gcm",
+      "password": "01721e43-5389-4f97-b21c-900abb2bda9e",
+      "latency": 306
     },
     {
       "name": "🇺🇸_US_美国_1",
@@ -8608,7 +8669,7 @@
         "path": "/"
       },
       "alterId": 0,
-      "latency": 305
+      "latency": 309
     },
     {
       "name": "🇭🇰 香港3|@stairnode",
@@ -8629,52 +8690,21 @@
           "Host": "broadcastlv.chat.bilibili.com"
         }
       },
-      "latency": 309
+      "latency": 316
     },
     {
-      "type": "trojan",
-      "name": "ICN_8",
-      "server": "49.172.20.66",
-      "port": 50000,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epgb.aimercc.dpdns.org",
+      "name": "🇺🇸_US_美国_2",
+      "type": "vmess",
+      "server": "64.81.30.24",
+      "port": 20086,
+      "uuid": "f53e0d42-afca-4b76-ae7f-806d6a1d36c2",
+      "cipher": "auto",
       "network": "ws",
       "ws-opts": {
-        "path": "/?ed=2560&proxyip=ts.hpc.tw",
-        "headers": {
-          "host": "epgb.aimercc.dpdns.org"
-        }
+        "path": "/"
       },
-      "latency": 332
-    },
-    {
-      "name": "US美国(mibei77.com 米贝节点分享) 4",
-      "server": "dddfFFvvBnhJU.931.pP.uA",
-      "port": 443,
-      "type": "vmess",
-      "uuid": "a4e8ec0a-75d0-4fc5-837a-4973ed3a9d3e",
       "alterId": 0,
-      "cipher": "auto",
-      "tls": true,
-      "skip-cert-verify": true,
-      "network": "ws",
-      "ws-path": "/14Fziqw1hYgCXNutkS5H",
-      "ws-headers": {
-        "Host": "dddfffvvbnhju.931.pp.ua"
-      },
-      "udp": true,
-      "latency": 337
-    },
-    {
-      "name": "🇨🇳_CN_中国->🇺🇸_US_美国_1",
-      "type": "ss",
-      "server": "pr.fastsoonlink.com",
-      "port": 40030,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "ae6e933b-8874-4bf4-a384-0de216ef2bf4",
-      "latency": 340
+      "latency": 430
     },
     {
       "type": "vless",
@@ -8693,48 +8723,70 @@
           "host": "edgb.aimercc.dpdns.org"
         }
       },
-      "latency": 385
+      "latency": 443
     },
     {
-      "name": "🇭🇰 香港5|@stairnode",
-      "server": "okanc.iepl.cac.cab",
-      "port": 23003,
-      "client-fingerprint": "chrome",
+      "name": "%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A13%7C%40stairnode",
       "type": "trojan",
-      "password": "02491ccf-e969-4200-9ebd-5e0da4eff308",
-      "sni": "www.bilibili.com",
-      "skip-cert-verify": false,
-      "latency": 512
+      "server": "sg.mjt000.com",
+      "port": 443,
+      "password": "92435aa8-f3b6-466a-ad58-c55cbb6d2acf",
+      "sni": "sg.mjt000.com",
+      "latency": 496
     },
     {
-      "type": "vless",
-      "name": "KR_8",
-      "server": "117.123.23.173",
-      "port": 30029,
-      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
-      "skip-cert-verify": true,
+      "type": "trojan",
+      "name": "HKG_3",
+      "server": "45.144.136.162",
+      "port": 21326,
+      "password": "Aimer",
       "udp": true,
-      "tls": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
       "network": "ws",
-      "servername": "edgb.aimercc.dpdns.org",
       "ws-opts": {
         "path": "/?ed=2560&proxyip=ts.hpc.tw",
         "headers": {
-          "host": "edgb.aimercc.dpdns.org"
+          "host": "epgb.aimercc.dpdns.org"
         }
       },
-      "latency": 532
+      "latency": 515
     },
     {
-      "name": "🇯🇵 日本3|@stairnode",
-      "server": "okanc.iepl.cac.cab",
-      "port": 23008,
-      "client-fingerprint": "chrome",
-      "type": "trojan",
-      "password": "6b5b43c9-05bd-471e-b502-d52c0dbd55fd",
-      "sni": "www.bilibili.com",
-      "skip-cert-verify": false,
-      "latency": 534
+      "name": "US美国(mibei77.com 米贝节点分享) 15",
+      "server": "cloudflare.182682.xyz",
+      "port": 2086,
+      "type": "vmess",
+      "uuid": "f9d72529-0992-494e-a1ec-a8e14120a3ba",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": false,
+      "skip-cert-verify": true,
+      "network": "ws",
+      "ws-path": "/5atdxvyfjn60ggx/jp1",
+      "ws-headers": {
+        "Host": "bpjp1.jptimecsgo.xyz"
+      },
+      "udp": true,
+      "latency": 525
+    },
+    {
+      "name": "US美国(mibei77.com 米贝节点分享) 27",
+      "server": "dddfffvvbnhju.931.pp.ua",
+      "port": 443,
+      "type": "vmess",
+      "uuid": "a4e8ec0a-75d0-4fc5-837a-4973ed3a9d3e",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": true,
+      "skip-cert-verify": true,
+      "network": "ws",
+      "ws-path": "/14Fziqw1hYgCXNutkS5H",
+      "ws-headers": {
+        "Host": "dddfffvvbnhju.931.pp.ua"
+      },
+      "udp": true,
+      "latency": 538
     },
     {
       "name": "🇹🇼 台湾|@stairnode",
@@ -8746,16 +8798,74 @@
       "type": "http",
       "username": "test",
       "sni": "cmhkb.ssv.vc",
-      "latency": 547
+      "latency": 549
     },
     {
-      "name": "%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A13%7C%40stairnode",
+      "name": "🇯🇵 日本3|@stairnode",
+      "server": "okanc.iepl.cac.cab",
+      "port": 23007,
+      "client-fingerprint": "chrome",
       "type": "trojan",
-      "server": "sg.mjt000.com",
-      "port": 443,
-      "password": "92435aa8-f3b6-466a-ad58-c55cbb6d2acf",
-      "sni": "sg.mjt000.com",
-      "latency": 741
+      "password": "02491ccf-e969-4200-9ebd-5e0da4eff308",
+      "sni": "www.bilibili.com",
+      "skip-cert-verify": false,
+      "latency": 573
+    },
+    {
+      "name": "🇨🇳_CN_中国->🇺🇸_US_美国_1",
+      "type": "ss",
+      "server": "pr.fastsoonlink.com",
+      "port": 40030,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "ae6e933b-8874-4bf4-a384-0de216ef2bf4",
+      "latency": 742
+    },
+    {
+      "name": "🇯🇵 日本|@stairnode",
+      "server": "cn01.efan8867801.xyz",
+      "port": 8766,
+      "client-fingerprint": "chrome",
+      "type": "ss",
+      "cipher": "rc4-md5",
+      "password": "efanccyun",
+      "tfo": false,
+      "plugin": "obfs",
+      "plugin-opts": {
+        "mode": "http",
+        "host": "202507282137611-Ibej7QBdUa.download.microsoft.com"
+      },
+      "latency": 766
+    },
+    {
+      "name": "🇸🇬 新加坡3|@stairnode",
+      "server": "okanc.iepl.cac.cab",
+      "port": 23012,
+      "client-fingerprint": "chrome",
+      "type": "trojan",
+      "password": "02491ccf-e969-4200-9ebd-5e0da4eff308",
+      "sni": "www.bilibili.com",
+      "skip-cert-verify": false,
+      "latency": 795
+    },
+    {
+      "name": "🇭🇰 香港5|@stairnode",
+      "server": "okanc.iepl.cac.cab",
+      "port": 23003,
+      "client-fingerprint": "chrome",
+      "type": "trojan",
+      "password": "02491ccf-e969-4200-9ebd-5e0da4eff308",
+      "sni": "www.bilibili.com",
+      "skip-cert-verify": false,
+      "latency": 1020
+    },
+    {
+      "name": "🇵🇹_PT_葡萄牙",
+      "type": "ss",
+      "server": "171.22.254.17",
+      "port": 989,
+      "cipher": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "latency": 1164
     },
     {
       "type": "vless",
@@ -8774,71 +8884,55 @@
           "host": "zx1.ylka.dpdns.org"
         }
       },
-      "latency": 786
+      "latency": 1204
     },
     {
-      "name": "🇯🇵 日本3|@stairnode",
-      "server": "okanc.iepl.cac.cab",
-      "port": 23007,
-      "client-fingerprint": "chrome",
+      "type": "vless",
+      "name": "KR_6",
+      "server": "121.143.196.49",
+      "port": 50000,
+      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "edgb.ambercc.filegear-sg.me",
+      "ws-opts": {
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "edgb.ambercc.filegear-sg.me"
+        }
+      },
+      "latency": 1250
+    },
+    {
       "type": "trojan",
-      "password": "02491ccf-e969-4200-9ebd-5e0da4eff308",
-      "sni": "www.bilibili.com",
-      "skip-cert-verify": false,
-      "latency": 1032
-    },
-    {
-      "name": "🇷🇺_RU_俄罗斯->🏳️_unKnow_未知",
-      "type": "vmess",
-      "server": "77.221.143.225",
-      "port": 20086,
-      "uuid": "149b4663-aece-486a-b92c-392c41727ac1",
-      "cipher": "auto",
+      "name": "ICN_12",
+      "server": "175.207.220.224",
+      "port": 12542,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epgb.aimercc.dpdns.org",
       "network": "ws",
       "ws-opts": {
-        "path": "/"
+        "path": "/?ed=2560&proxyip=ts.hpc.tw",
+        "headers": {
+          "host": "epgb.aimercc.dpdns.org"
+        }
       },
-      "alterId": 0,
-      "latency": 1145
+      "latency": 1255
     },
     {
-      "name": "🇯🇵 日本2|@stairnode",
-      "server": "137.220.191.40",
-      "port": 636,
+      "name": "🇭🇰 香港3|@stairnode",
+      "server": "okanc.iepl.cac.cab",
+      "port": 23001,
       "client-fingerprint": "chrome",
-      "type": "ss",
-      "cipher": "aes-256-gcm",
-      "password": "823e135ed103",
-      "tfo": false,
-      "plugin": "v2ray-plugin",
-      "plugin-opts": {
-        "mode": "websocket",
-        "host": "jp7v1.lingjfjkm002.com",
-        "path": "/dchlbvrbbotc",
-        "tls": true,
-        "mux": true,
-        "skip-cert-verify": false
-      },
-      "latency": 1185
-    },
-    {
-      "name": "🇵🇹_PT_葡萄牙",
-      "type": "ss",
-      "server": "171.22.254.17",
-      "port": 989,
-      "cipher": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3",
-      "latency": 1196
-    },
-    {
-      "name": "US美国(mibei77.com 米贝节点分享) 3",
-      "server": "switcher-nick-croquet.freesocks.work",
-      "port": 443,
-      "type": "ss",
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "9tqhMdIrTkgQ46PvhyAtMH",
-      "udp": true,
-      "latency": 2214
+      "type": "trojan",
+      "password": "82d0fb76-b9ff-41c2-ba15-2aec44f78e7c",
+      "sni": "www.bilibili.com",
+      "skip-cert-verify": false,
+      "latency": 1260
     }
   ]
 }
