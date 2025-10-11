@@ -10,29 +10,32 @@
 # %D - 日期YYYYMMDD (如: 20240804)
 # %T - 时间HHMMSS (如: 143045)
 
-https://fastly.jsdelivr.net/gh/freenodes/freenodes@main/ClashPremiumFree.yaml
+# https://linux.do/t/topic/197070
+https://mxlsub.qzz.io/free
+https://mxlsub.qzz.io/new
 
 https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml
 
-https://node.freev2raynode.com/uploads/%Y/%m/0-%Y%m%d.yaml
-https://node.freev2raynode.com/uploads/%Y/%m/1-%Y%m%d.yaml
+#https://fastly.jsdelivr.net/gh/freenodes/freenodes@main/ClashPremiumFree.yaml
+#https://node.freev2raynode.com/uploads/%Y/%m/0-%Y%m%d.yaml
+#https://node.freev2raynode.com/uploads/%Y/%m/1-%Y%m%d.yaml
 
 # https://nodev2rayclash.github.io/
-https://node.freeclashnode.com/uploads/%Y/%m/0-%Y%m%d.yaml
-https://node.freeclashnode.com/uploads/%Y/%m/1-%Y%m%d.yaml
-https://node.freeclashnode.com/uploads/%Y/%m/2-%Y%m%d.yaml
-https://node.freeclashnode.com/uploads/%Y/%m/3-%Y%m%d.yaml
-https://node.freeclashnode.com/uploads/%Y/%m/4-%Y%m%d.yaml
+#https://node.freeclashnode.com/uploads/%Y/%m/0-%Y%m%d.yaml
+#https://node.freeclashnode.com/uploads/%Y/%m/1-%Y%m%d.yaml
+#https://node.freeclashnode.com/uploads/%Y/%m/2-%Y%m%d.yaml
+#https://node.freeclashnode.com/uploads/%Y/%m/3-%Y%m%d.yaml
+#https://node.freeclashnode.com/uploads/%Y/%m/4-%Y%m%d.yaml
 
 # https://openclash.cc/
-https://node.openclash.cc/uploads/%Y/%m/0-%Y%m%d.yaml
-https://node.openclash.cc/uploads/%Y/%m/1-%Y%m%d.yaml
-https://node.openclash.cc/uploads/%Y/%m/2-%Y%m%d.yaml
+#https://node.openclash.cc/uploads/%Y/%m/0-%Y%m%d.yaml
+#https://node.openclash.cc/uploads/%Y/%m/1-%Y%m%d.yaml
+#https://node.openclash.cc/uploads/%Y/%m/2-%Y%m%d.yaml
 
-http://mlfenx.cczzuu.top/node/%Y%m%d-clash.yaml
+#http://mlfenx.cczzuu.top/node/%Y%m%d-clash.yaml
 
-https://node.freeclashverge.com/uploads/%Y/%m/0-%Y%m%d.yaml
+#https://node.freeclashverge.com/uploads/%Y/%m/0-%Y%m%d.yaml
 
-https://oneclash.githubrowcontent.com/%Y/%m/%Y%m%d.yaml
+#https://oneclash.githubrowcontent.com/%Y/%m/%Y%m%d.yaml
 
-https://free.datiya.com/uploads/%Y%m%d-clash.yaml
+#https://free.datiya.com/uploads/%Y%m%d-clash.yaml
