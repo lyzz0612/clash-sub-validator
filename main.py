@@ -31,16 +31,18 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 class ClashNodeTester:
-    def __init__(self, config_file: str = 'config.txt', max_latency: int = 3000):
+    def __init__(self, config_file: str = 'config.txt', max_latency: int = 3000, should_keep_old = false):
         """
         初始化测速器
 
         Args:
             config_file: 配置文件路径
             max_latency: 最大延迟阈值（毫秒）
+            should_keep_old: 是否保留旧配置
         """
         self.config_file = config_file
         self.max_latency = max_latency
+        self.should_keep_old = should_keep_old
         self.session = None
         self.good_nodes = []
 
@@ -381,7 +383,9 @@ class ClashNodeTester:
         """
         读取上次保存的节点
         """
-        return []
+        if not self.should_keep_old:
+            return []
+        
         try:
             with open(filename, 'r', encoding='utf-8') as f:
                 return json.load(f)["nodes"]
@@ -652,13 +656,15 @@ async def main():
     api_url = os.getenv('API_URL')
     api_key = os.getenv('API_KEY')
     output_file = os.getenv('OUTPUT_FILE', 'clash_config.yaml')
+    should_keep_old = os.getenv('SHOULD_KEEP_OLD', false)
 
     logger.info("=== Clash节点测速筛选系统启动 ===")
     logger.info(f"配置文件: {config_file}")
     logger.info(f"最大延迟: {max_latency}ms")
     logger.info(f"输出文件: {output_file}")
+    logger.info(f"是否保留旧配置: {should_keep_old}")
 
-    async with ClashNodeTester(config_file, max_latency) as tester:
+    async with ClashNodeTester(config_file, max_latency, should_keep_old) as tester:
         # 处理所有订阅
         good_nodes = await tester.process_all_subscriptions()
 
@@ -697,3 +703,4 @@ if sys.platform == 'win32':
 if __name__ == "__main__":
 
     asyncio.run(main())
+
