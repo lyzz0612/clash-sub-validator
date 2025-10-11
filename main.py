@@ -31,7 +31,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 class ClashNodeTester:
-    def __init__(self, config_file: str = 'config.txt', max_latency: int = 3000, should_keep_old = false):
+    def __init__(self, config_file: str = 'config.txt', max_latency: int = 3000, should_keep_old = False):
         """
         初始化测速器
 
@@ -656,7 +656,7 @@ async def main():
     api_url = os.getenv('API_URL')
     api_key = os.getenv('API_KEY')
     output_file = os.getenv('OUTPUT_FILE', 'clash_config.yaml')
-    should_keep_old = os.getenv('SHOULD_KEEP_OLD', false)
+    should_keep_old = os.getenv('SHOULD_KEEP_OLD', False)
 
     logger.info("=== Clash节点测速筛选系统启动 ===")
     logger.info(f"配置文件: {config_file}")
@@ -703,4 +703,5 @@ if sys.platform == 'win32':
 if __name__ == "__main__":
 
     asyncio.run(main())
+
 
