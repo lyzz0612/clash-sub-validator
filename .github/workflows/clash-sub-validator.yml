@@ -56,6 +56,7 @@ jobs:
         CONFIG_FILE: config.txt
         MAX_LATENCY: ${{ github.event.inputs.max_latency || '3000' }}
         OUTPUT_FILE: ${{ github.event.inputs.output_file || 'clash_config.yaml' }}
+        SHOULD_KEEP_OLD: ${{ github.event.inputs.keep_old || false }}
         API_URL: ${{ secrets.API_URL }}
         API_KEY: ${{ secrets.API_KEY }}
       run: |
@@ -93,3 +94,4 @@ jobs:
           echo "ℹ️ 没有检测到配置变化，跳过提交"
 
         fi
+
