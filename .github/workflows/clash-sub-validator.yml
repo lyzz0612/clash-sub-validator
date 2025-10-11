@@ -18,6 +18,11 @@ on:
         required: false
         default: 'clash_config.yaml'
         type: string
+      keep_old:
+        description: '原有配置是否保留'
+        required: false
+        default: false
+        type: boolean
 
 jobs:
   test-clash-nodes:
@@ -86,4 +91,5 @@ jobs:
           echo "✅ 配置文件已更新并推送到仓库"
         else
           echo "ℹ️ 没有检测到配置变化，跳过提交"
+
         fi
