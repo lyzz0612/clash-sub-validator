@@ -381,6 +381,7 @@ class ClashNodeTester:
         """
         读取上次保存的节点
         """
+        return []
         try:
             with open(filename, 'r', encoding='utf-8') as f:
                 return json.load(f)["nodes"]
@@ -694,4 +695,5 @@ if sys.platform == 'win32':
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
 if __name__ == "__main__":
+
     asyncio.run(main())
