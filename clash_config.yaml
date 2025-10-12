@@ -1,7 +1,7 @@
 # Clash配置文件
-# 生成时间: 2025-10-11 20:19:59
-# 节点数量: 368
-# 平均延迟: 125.1ms
+# 生成时间: 2025-10-12 08:23:04
+# 节点数量: 357
+# 平均延迟: 144.0ms
 
 port: 7890
 socks-port: 7891
@@ -28,20 +28,6 @@ proxies:
   port: 2096
   type: vless
   uuid: 12345678-1234-1234-1234-123456789123
-  tls: true
-  servername: kejiland.freewarp.eu.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /snippets
-    headers:
-      Host: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | USA 36
-  server: 92.53.190.32
-  port: 2096
-  type: vless
-  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
   tls: true
   servername: kejiland.freewarp.eu.org
   client-fingerprint: chrome
@@ -79,52 +65,11 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
   skip-cert-verify: false
-- name: 🇳🇱 荷兰 | NLD 4
-  server: 45.131.211.253
-  port: 2096
-  type: vless
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
-  tls: true
-  servername: fast01.0860852.xyz
-  network: ws
-  ws-opts:
-    path: /Telegram
-    headers:
-      Host: fast01.0860852.xyz
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | USA 11
-  server: 167.68.42.32
-  port: 2096
-  type: vless
-  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-  tls: true
-  servername: kejiland.freewarp.eu.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /snippets
-    headers:
-      Host: kejiland.freewarp.eu.org
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | USA 19
   server: 25.25.25.43
   port: 2096
   type: vless
   uuid: 01997b9d-a1f7-e188-981a-c665b723cfef
-  tls: true
-  servername: kejiland.freewarp.eu.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /snippets
-    headers:
-      Host: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | USA 38
-  server: 199.34.229.32
-  port: 2096
-  type: vless
-  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
   tls: true
   servername: kejiland.freewarp.eu.org
   client-fingerprint: chrome
@@ -230,20 +175,6 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
   skip-cert-verify: false
-- name: 🇫🇷 法国 | FRA 4
-  server: 141.11.203.44
-  port: 2096
-  type: vless
-  uuid: 12345678-1234-1234-1234-123456789123
-  tls: true
-  servername: kejiland.freewarp.eu.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /snippets
-    headers:
-      Host: kejiland.freewarp.eu.org
-  skip-cert-verify: false
 - name: 🇬🇧 英国 | GBR 2
   server: 193.124.224.44
   port: 2096
@@ -272,39 +203,11 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
   skip-cert-verify: false
-- name: 🇭🇰 香港 | HKG 2
-  server: 154.211.8.44
-  port: 2096
-  type: vless
-  uuid: 12345678-1234-1234-1234-123456789123
-  tls: true
-  servername: kejiland.freewarp.eu.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /snippets
-    headers:
-      Host: kejiland.freewarp.eu.org
-  skip-cert-verify: false
 - name: 🇳🇱 荷兰 | NLD 3
   server: 45.159.217.44
   port: 2096
   type: vless
   uuid: 12345678-1234-1234-1234-123456789123
-  tls: true
-  servername: kejiland.freewarp.eu.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /snippets
-    headers:
-      Host: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-- name: 🇷🇺 俄罗斯 | RUS 3
-  server: 185.174.138.43
-  port: 2096
-  type: vless
-  uuid: 01997b9d-a1f7-e188-981a-c665b723cfef
   tls: true
   servername: kejiland.freewarp.eu.org
   client-fingerprint: chrome
@@ -356,34 +259,6 @@ proxies:
   skip-cert-verify: false
 - name: 🇺🇸 美国 | USA 7
   server: 160.79.105.32
-  port: 2096
-  type: vless
-  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-  tls: true
-  servername: kejiland.freewarp.eu.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /snippets
-    headers:
-      Host: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | USA 8
-  server: 192.200.160.43
-  port: 2096
-  type: vless
-  uuid: 01997b9d-a1f7-e188-981a-c665b723cfef
-  tls: true
-  servername: kejiland.freewarp.eu.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /snippets
-    headers:
-      Host: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | USA 12
-  server: 188.244.122.32
   port: 2096
   type: vless
   uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
@@ -479,19 +354,6 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
   skip-cert-verify: false
-- name: 🇺🇸 美国 | USA 54
-  server: 195.85.59.32
-  port: 2096
-  type: vless
-  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-  tls: true
-  servername: kejiland.freewarp.eu.org
-  network: ws
-  ws-opts:
-    path: /snippets
-    headers:
-      Host: kejiland.freewarp.eu.org
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | USA 61
   server: 92.60.74.44
   port: 2096
@@ -562,46 +424,6 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
   skip-cert-verify: false
-- name: 🇺🇸 美国 | USA 80
-  server: 209.46.30.44
-  port: 2096
-  type: vless
-  uuid: 12345678-1234-1234-1234-123456789123
-  tls: true
-  servername: kejiland.freewarp.eu.org
-  network: ws
-  ws-opts:
-    path: /snippets
-    headers:
-      Host: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | VNM 2
-  server: 92.53.189.32
-  port: 2096
-  type: vless
-  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-  tls: true
-  servername: kejiland.freewarp.eu.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /snippets
-    headers:
-      Host: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | USA 7_1
-  server: 167.68.4.199
-  port: 2053
-  type: trojan
-  password: Aimer
-  sni: epge.muarua.filegear-sg.me
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
-    headers:
-      Host: epge.muarua.filegear-sg.me
-  udp: true
 - name: 🇨🇦 加拿大 | CAN
   server: 205.233.181.32
   port: 2096
@@ -630,20 +452,6 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
   skip-cert-verify: false
-- name: 🇫🇷 法国 | FRA
-  server: 185.7.240.44
-  port: 2096
-  type: vless
-  uuid: 12345678-1234-1234-1234-123456789123
-  tls: true
-  servername: kejiland.freewarp.eu.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /snippets
-    headers:
-      Host: kejiland.freewarp.eu.org
-  skip-cert-verify: false
 - name: 🇫🇷 法国 | FRA 3
   server: 185.7.240.32
   port: 2096
@@ -663,20 +471,6 @@ proxies:
   port: 2096
   type: vless
   uuid: 01997b9d-a1f7-e188-981a-c665b723cfef
-  tls: true
-  servername: kejiland.freewarp.eu.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /snippets
-    headers:
-      Host: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-- name: 🇬🇧 英国 | GBR 5
-  server: 193.124.224.32
-  port: 2096
-  type: vless
-  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
   tls: true
   servername: kejiland.freewarp.eu.org
   client-fingerprint: chrome
@@ -728,34 +522,6 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
   skip-cert-verify: false
-- name: 🇱🇹 立陶宛 | LTU 3
-  server: 89.116.46.43
-  port: 2096
-  type: vless
-  uuid: 01997b9d-a1f7-e188-981a-c665b723cfef
-  tls: true
-  servername: kejiland.freewarp.eu.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /snippets
-    headers:
-      Host: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-- name: 🇷🇺 俄罗斯 | RUS
-  server: 193.9.49.43
-  port: 2096
-  type: vless
-  uuid: 01997b9d-a1f7-e188-981a-c665b723cfef
-  tls: true
-  servername: kejiland.freewarp.eu.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /snippets
-    headers:
-      Host: kejiland.freewarp.eu.org
-  skip-cert-verify: false
 - name: 🇷🇺 俄罗斯 | RUS 2
   server: 77.232.140.44
   port: 2096
@@ -769,19 +535,6 @@ proxies:
     path: /snippets
     headers:
       Host: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-- name: 🇷🇺 俄罗斯 | RUS 4
-  server: 188.42.145.253
-  port: 2096
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  tls: true
-  servername: gaosir.unfeeling.sbs
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
-    headers:
-      Host: gaosir.unfeeling.sbs
   skip-cert-verify: false
 - name: 🇺🇦 乌克兰 | UKR
   server: 46.202.30.44
@@ -804,34 +557,6 @@ proxies:
   uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
   tls: true
   servername: kejiland.freewarp.eu.org
-  network: ws
-  ws-opts:
-    path: /snippets
-    headers:
-      Host: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | USA 4
-  server: 88.216.69.32
-  port: 2096
-  type: vless
-  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-  tls: true
-  servername: kejiland.freewarp.eu.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /snippets
-    headers:
-      Host: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | USA 5
-  server: 45.196.29.43
-  port: 2096
-  type: vless
-  uuid: 01997b9d-a1f7-e188-981a-c665b723cfef
-  tls: true
-  servername: kejiland.freewarp.eu.org
-  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /snippets
@@ -894,32 +619,6 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
   skip-cert-verify: false
-- name: 🇺🇸 美国 | USA 16
-  server: 185.148.105.32
-  port: 2096
-  type: vless
-  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-  tls: true
-  servername: kejiland.freewarp.eu.org
-  network: ws
-  ws-opts:
-    path: /snippets
-    headers:
-      Host: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | USA 20
-  server: 108.165.216.44
-  port: 2096
-  type: vless
-  uuid: 12345678-1234-1234-1234-123456789123
-  tls: true
-  servername: kejiland.freewarp.eu.org
-  network: ws
-  ws-opts:
-    path: /snippets
-    headers:
-      Host: kejiland.freewarp.eu.org
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | USA 21
   server: 185.59.218.44
   port: 2096
@@ -953,20 +652,6 @@ proxies:
   port: 2096
   type: vless
   uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-  tls: true
-  servername: kejiland.freewarp.eu.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /snippets
-    headers:
-      Host: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | USA 27
-  server: 155.46.167.43
-  port: 2096
-  type: vless
-  uuid: 01997b9d-a1f7-e188-981a-c665b723cfef
   tls: true
   servername: kejiland.freewarp.eu.org
   client-fingerprint: chrome
@@ -1032,20 +717,6 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
   skip-cert-verify: false
-- name: 🇺🇸 美国 | USA 35
-  server: 198.177.57.43
-  port: 2096
-  type: vless
-  uuid: 01997b9d-a1f7-e188-981a-c665b723cfef
-  tls: true
-  servername: kejiland.freewarp.eu.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /snippets
-    headers:
-      Host: kejiland.freewarp.eu.org
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | USA 44
   server: 45.40.153.43
   port: 2096
@@ -1079,20 +750,6 @@ proxies:
   port: 2096
   type: vless
   uuid: 01997b9d-a1f7-e188-981a-c665b723cfef
-  tls: true
-  servername: kejiland.freewarp.eu.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /snippets
-    headers:
-      Host: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | USA 49
-  server: 209.94.90.32
-  port: 2096
-  type: vless
-  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
   tls: true
   servername: kejiland.freewarp.eu.org
   client-fingerprint: chrome
@@ -1155,19 +812,6 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
   skip-cert-verify: false
-- name: 🇺🇸 美国 | USA 56
-  server: 166.62.115.32
-  port: 2096
-  type: vless
-  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-  tls: true
-  servername: kejiland.freewarp.eu.org
-  network: ws
-  ws-opts:
-    path: /snippets
-    headers:
-      Host: kejiland.freewarp.eu.org
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | USA 57
   server: 77.74.228.32
   port: 2096
@@ -1186,19 +830,6 @@ proxies:
   port: 2096
   type: vless
   uuid: 01997b9d-a1f7-e188-981a-c665b723cfef
-  tls: true
-  servername: kejiland.freewarp.eu.org
-  network: ws
-  ws-opts:
-    path: /snippets
-    headers:
-      Host: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | USA 60
-  server: 92.53.189.44
-  port: 2096
-  type: vless
-  uuid: 12345678-1234-1234-1234-123456789123
   tls: true
   servername: kejiland.freewarp.eu.org
   network: ws
@@ -1234,36 +865,8 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
   skip-cert-verify: false
-- name: 🇺🇸 美国 | USA 71
-  server: 72.167.241.32
-  port: 2096
-  type: vless
-  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-  tls: true
-  servername: kejiland.freewarp.eu.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /snippets
-    headers:
-      Host: kejiland.freewarp.eu.org
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | USA 73
   server: 192.0.54.32
-  port: 2096
-  type: vless
-  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-  tls: true
-  servername: kejiland.freewarp.eu.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /snippets
-    headers:
-      Host: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | USA 74
-  server: 216.24.57.32
   port: 2096
   type: vless
   uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
@@ -1303,20 +906,6 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
   skip-cert-verify: false
-- name: 🇺🇸 美国 | USA 81
-  server: 104.21.46.90
-  port: 443
-  type: vmess
-  uuid: 1ae6dcb3-8d05-4eee-b550-32904c88c312
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: fde63b24-7fe1-5a22-949e-a30c5a39eb58.freevpnatm.dpdns.org
-  network: ws
-  ws-opts:
-    path: /ri9mOOVJuAimB74kgXZ
-    headers:
-      Host: fde63b24-7fe1-5a22-949e-a30c5a39eb58.freevpnatm.dpdns.org
 - name: 🇻🇳 越南 | VNM 3
   server: 92.53.190.43
   port: 2096
@@ -1345,22 +934,6 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
   skip-cert-verify: false
-- name: 🇳🇱 荷兰 | NLD 2_1
-  server: 172.67.204.84
-  port: 443
-  type: vless
-  uuid: 48300e8d-4f24-483b-a817-f5e894f06b68
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: companypdf9.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed
-    headers:
-      Host: companypdf9.pages.dev
-  udp: true
 - name: 🇳🇱 荷兰 | NLD 7
   server: 104.21.10.181
   port: 80
@@ -1375,7 +948,7 @@ proxies:
     headers:
       Host: gamang.gpj1.dpdns.org
   udp: true
-- name: 🇺🇸 美国 | USA 4_1
+- name: 🇺🇸 美国 | USA 4
   server: 154.218.15.253
   port: 2096
   type: vless
@@ -1390,7 +963,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
   udp: true
-- name: 🇺🇸 美国 | USA 5_1
+- name: 🇺🇸 美国 | USA 5
   server: 72.167.25.253
   port: 2096
   type: vless
@@ -1404,34 +977,6 @@ proxies:
     path: /Telegram
     headers:
       Host: gaosir.unfeeling.sbs
-  udp: true
-- name: 🇺🇸 美国 | USA 6_1
-  server: 172.66.47.175
-  port: 2083
-  type: vless
-  uuid: 4d794980-54c0-4fcb-8def-c2beaecadbad
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: azadnet05.pages.dev
-  network: ws
-  ws-opts:
-    path: /lZU7WqWIDqC1jRn6?ed=2560
-    headers:
-      Host: azadnet05.pages.dev
-  udp: true
-- name: 🇺🇸 美国 | USA 8_1
-  server: 92.243.75.49
-  port: 2087
-  type: trojan
-  password: wb6368
-  sni: hsdgbuys.pages.dev
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: '%2F'
-    headers:
-      Host: hsdgbuys.pages.dev
   udp: true
 - name: 🇺🇸 美国 | USA 10_1
   server: 172.67.157.220
@@ -1562,7 +1107,7 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
   udp: true
-- name: 🇺🇸 美国 | USA 16_1
+- name: 🇺🇸 美国 | USA 16
   server: 185.251.83.43
   port: 2096
   type: vless
@@ -1608,36 +1153,6 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
   udp: true
-- name: 🇺🇸 美国 | USA 31_1
-  server: 102.177.176.32
-  port: 2096
-  type: vless
-  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: kejiland.freewarp.eu.org
-  network: ws
-  ws-opts:
-    path: /snippets
-    headers:
-      Host: kejiland.freewarp.eu.org
-  udp: true
-- name: 🇺🇸 美国 | USA 32_1
-  server: 188.42.89.43
-  port: 2096
-  type: vless
-  uuid: 01997b9d-a1f7-e188-981a-c665b723cfef
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: kejiland.freewarp.eu.org
-  network: ws
-  ws-opts:
-    path: /snippets
-    headers:
-      Host: kejiland.freewarp.eu.org
-  udp: true
 - name: 🇺🇸 美国 | USA 33_1
   server: 156.243.83.43
   port: 2096
@@ -1650,37 +1165,6 @@ proxies:
   network: ws
   ws-opts:
     path: /snippets
-    headers:
-      Host: kejiland.freewarp.eu.org
-  udp: true
-- name: 🇺🇸 美国 | USA 34_1
-  server: 77.75.199.32
-  port: 2096
-  type: vless
-  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: kejiland.freewarp.eu.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /snippets
-    headers:
-      Host: kejiland.freewarp.eu.org
-  udp: true
-- name: 🇺🇸 美国 | USA 37
-  server: 147.78.140.44
-  port: 2096
-  type: vless
-  uuid: 12345678-1234-1234-1234-123456789123
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: kejiland.freewarp.eu.org
-  network: ws
-  ws-opts:
-    path: /snippets&freecodes @节点狂魔
     headers:
       Host: kejiland.freewarp.eu.org
   udp: true
@@ -1732,6 +1216,525 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
   udp: true
+- name: 🇺🇸 美国 | USA 52_1
+  server: 160.79.104.32
+  port: 2096
+  type: vless
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: kejiland.freewarp.eu.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets
+    headers:
+      Host: kejiland.freewarp.eu.org
+  udp: true
+- name: 🇪🇸 西班牙 | ESP
+  server: 185.251.80.32
+  port: 2096
+  type: vless
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  tls: true
+  servername: kejiland.freewarp.eu.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets
+    headers:
+      Host: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+- name: 🇺🇸 美国 | USA 76
+  server: 192.200.160.44
+  port: 2096
+  type: vless
+  uuid: 12345678-1234-1234-1234-123456789123
+  tls: true
+  servername: kejiland.freewarp.eu.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets
+    headers:
+      Host: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+- name: 🇺🇸 美国 | USA 36
+  server: 92.53.190.32
+  port: 2096
+  type: vless
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  tls: true
+  servername: kejiland.freewarp.eu.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets
+    headers:
+      Host: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+- name: 🇳🇱 荷兰 | NLD 4
+  server: 45.131.211.253
+  port: 2096
+  type: vless
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  tls: true
+  servername: fast01.0860852.xyz
+  network: ws
+  ws-opts:
+    path: /Telegram
+    headers:
+      Host: fast01.0860852.xyz
+  skip-cert-verify: false
+- name: 🇺🇸 美国 | USA 11
+  server: 167.68.42.32
+  port: 2096
+  type: vless
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  tls: true
+  servername: kejiland.freewarp.eu.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets
+    headers:
+      Host: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+- name: 🇺🇸 美国 | USA 38
+  server: 199.34.229.32
+  port: 2096
+  type: vless
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  tls: true
+  servername: kejiland.freewarp.eu.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets
+    headers:
+      Host: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+- name: 🇫🇷 法国 | FRA 4
+  server: 141.11.203.44
+  port: 2096
+  type: vless
+  uuid: 12345678-1234-1234-1234-123456789123
+  tls: true
+  servername: kejiland.freewarp.eu.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets
+    headers:
+      Host: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+- name: 🇭🇰 香港 | HKG 2
+  server: 154.211.8.44
+  port: 2096
+  type: vless
+  uuid: 12345678-1234-1234-1234-123456789123
+  tls: true
+  servername: kejiland.freewarp.eu.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets
+    headers:
+      Host: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+- name: 🇷🇺 俄罗斯 | RUS 3
+  server: 185.174.138.43
+  port: 2096
+  type: vless
+  uuid: 01997b9d-a1f7-e188-981a-c665b723cfef
+  tls: true
+  servername: kejiland.freewarp.eu.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets
+    headers:
+      Host: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+- name: 🇺🇸 美国 | USA 8
+  server: 192.200.160.43
+  port: 2096
+  type: vless
+  uuid: 01997b9d-a1f7-e188-981a-c665b723cfef
+  tls: true
+  servername: kejiland.freewarp.eu.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets
+    headers:
+      Host: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+- name: 🇺🇸 美国 | USA 54
+  server: 195.85.59.32
+  port: 2096
+  type: vless
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  tls: true
+  servername: kejiland.freewarp.eu.org
+  network: ws
+  ws-opts:
+    path: /snippets
+    headers:
+      Host: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+- name: 🇺🇸 美国 | USA 80
+  server: 209.46.30.44
+  port: 2096
+  type: vless
+  uuid: 12345678-1234-1234-1234-123456789123
+  tls: true
+  servername: kejiland.freewarp.eu.org
+  network: ws
+  ws-opts:
+    path: /snippets
+    headers:
+      Host: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+- name: 🇻🇳 越南 | VNM 2
+  server: 92.53.189.32
+  port: 2096
+  type: vless
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  tls: true
+  servername: kejiland.freewarp.eu.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets
+    headers:
+      Host: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+- name: 🇺🇸 美国 | USA 7_1
+  server: 167.68.4.199
+  port: 2053
+  type: trojan
+  password: Aimer
+  sni: epge.muarua.filegear-sg.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
+    headers:
+      Host: epge.muarua.filegear-sg.me
+  udp: true
+- name: 🇫🇷 法国 | FRA
+  server: 185.7.240.44
+  port: 2096
+  type: vless
+  uuid: 12345678-1234-1234-1234-123456789123
+  tls: true
+  servername: kejiland.freewarp.eu.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets
+    headers:
+      Host: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+- name: 🇬🇧 英国 | GBR 5
+  server: 193.124.224.32
+  port: 2096
+  type: vless
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  tls: true
+  servername: kejiland.freewarp.eu.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets
+    headers:
+      Host: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+- name: 🇱🇹 立陶宛 | LTU 3
+  server: 89.116.46.43
+  port: 2096
+  type: vless
+  uuid: 01997b9d-a1f7-e188-981a-c665b723cfef
+  tls: true
+  servername: kejiland.freewarp.eu.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets
+    headers:
+      Host: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+- name: 🇷🇺 俄罗斯 | RUS
+  server: 193.9.49.43
+  port: 2096
+  type: vless
+  uuid: 01997b9d-a1f7-e188-981a-c665b723cfef
+  tls: true
+  servername: kejiland.freewarp.eu.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets
+    headers:
+      Host: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+- name: 🇷🇺 俄罗斯 | RUS 4
+  server: 188.42.145.253
+  port: 2096
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  tls: true
+  servername: gaosir.unfeeling.sbs
+  network: ws
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+    headers:
+      Host: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+- name: 🇺🇸 美国 | USA 4_1
+  server: 88.216.69.32
+  port: 2096
+  type: vless
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  tls: true
+  servername: kejiland.freewarp.eu.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets
+    headers:
+      Host: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+- name: 🇺🇸 美国 | USA 5_1
+  server: 45.196.29.43
+  port: 2096
+  type: vless
+  uuid: 01997b9d-a1f7-e188-981a-c665b723cfef
+  tls: true
+  servername: kejiland.freewarp.eu.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets
+    headers:
+      Host: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+- name: 🇺🇸 美国 | USA 16_1
+  server: 185.148.105.32
+  port: 2096
+  type: vless
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  tls: true
+  servername: kejiland.freewarp.eu.org
+  network: ws
+  ws-opts:
+    path: /snippets
+    headers:
+      Host: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+- name: 🇺🇸 美国 | USA 20
+  server: 108.165.216.44
+  port: 2096
+  type: vless
+  uuid: 12345678-1234-1234-1234-123456789123
+  tls: true
+  servername: kejiland.freewarp.eu.org
+  network: ws
+  ws-opts:
+    path: /snippets
+    headers:
+      Host: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+- name: 🇺🇸 美国 | USA 27
+  server: 155.46.167.43
+  port: 2096
+  type: vless
+  uuid: 01997b9d-a1f7-e188-981a-c665b723cfef
+  tls: true
+  servername: kejiland.freewarp.eu.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets
+    headers:
+      Host: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+- name: 🇺🇸 美国 | USA 35
+  server: 198.177.57.43
+  port: 2096
+  type: vless
+  uuid: 01997b9d-a1f7-e188-981a-c665b723cfef
+  tls: true
+  servername: kejiland.freewarp.eu.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets
+    headers:
+      Host: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+- name: 🇺🇸 美国 | USA 60
+  server: 92.53.189.44
+  port: 2096
+  type: vless
+  uuid: 12345678-1234-1234-1234-123456789123
+  tls: true
+  servername: kejiland.freewarp.eu.org
+  network: ws
+  ws-opts:
+    path: /snippets
+    headers:
+      Host: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+- name: 🇺🇸 美国 | USA 71
+  server: 72.167.241.32
+  port: 2096
+  type: vless
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  tls: true
+  servername: kejiland.freewarp.eu.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets
+    headers:
+      Host: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+- name: 🇺🇸 美国 | USA 74
+  server: 216.24.57.32
+  port: 2096
+  type: vless
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  tls: true
+  servername: kejiland.freewarp.eu.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets
+    headers:
+      Host: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+- name: 🇺🇸 美国 | USA 81
+  server: 104.21.46.90
+  port: 443
+  type: vmess
+  uuid: 1ae6dcb3-8d05-4eee-b550-32904c88c312
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: fde63b24-7fe1-5a22-949e-a30c5a39eb58.freevpnatm.dpdns.org
+  network: ws
+  ws-opts:
+    path: /ri9mOOVJuAimB74kgXZ
+    headers:
+      Host: fde63b24-7fe1-5a22-949e-a30c5a39eb58.freevpnatm.dpdns.org
+- name: 🇳🇱 荷兰 | NLD 2_1
+  server: 172.67.204.84
+  port: 443
+  type: vless
+  uuid: 48300e8d-4f24-483b-a817-f5e894f06b68
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: companypdf9.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed
+    headers:
+      Host: companypdf9.pages.dev
+  udp: true
+- name: 🇺🇸 美国 | USA 6_1
+  server: 172.66.47.175
+  port: 2083
+  type: vless
+  uuid: 4d794980-54c0-4fcb-8def-c2beaecadbad
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: azadnet05.pages.dev
+  network: ws
+  ws-opts:
+    path: /lZU7WqWIDqC1jRn6?ed=2560
+    headers:
+      Host: azadnet05.pages.dev
+  udp: true
+- name: 🇺🇸 美国 | USA 8_1
+  server: 92.243.75.49
+  port: 2087
+  type: trojan
+  password: wb6368
+  sni: hsdgbuys.pages.dev
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: '%2F'
+    headers:
+      Host: hsdgbuys.pages.dev
+  udp: true
+- name: 🇺🇸 美国 | USA 31_1
+  server: 102.177.176.32
+  port: 2096
+  type: vless
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: kejiland.freewarp.eu.org
+  network: ws
+  ws-opts:
+    path: /snippets
+    headers:
+      Host: kejiland.freewarp.eu.org
+  udp: true
+- name: 🇺🇸 美国 | USA 32_1
+  server: 188.42.89.43
+  port: 2096
+  type: vless
+  uuid: 01997b9d-a1f7-e188-981a-c665b723cfef
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: kejiland.freewarp.eu.org
+  network: ws
+  ws-opts:
+    path: /snippets
+    headers:
+      Host: kejiland.freewarp.eu.org
+  udp: true
+- name: 🇺🇸 美国 | USA 34_1
+  server: 77.75.199.32
+  port: 2096
+  type: vless
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: kejiland.freewarp.eu.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets
+    headers:
+      Host: kejiland.freewarp.eu.org
+  udp: true
+- name: 🇺🇸 美国 | USA 37
+  server: 147.78.140.44
+  port: 2096
+  type: vless
+  uuid: 12345678-1234-1234-1234-123456789123
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: kejiland.freewarp.eu.org
+  network: ws
+  ws-opts:
+    path: /snippets&freecodes @节点狂魔
+    headers:
+      Host: kejiland.freewarp.eu.org
+  udp: true
 - name: 🇺🇸 美国 | USA 50_1
   server: 172.66.45.24
   port: 443
@@ -1761,22 +1764,6 @@ proxies:
   network: ws
   ws-opts:
     path: /snippets&freecodes@节点狂魔/
-    headers:
-      Host: kejiland.freewarp.eu.org
-  udp: true
-- name: 🇺🇸 美国 | USA 52_1
-  server: 160.79.104.32
-  port: 2096
-  type: vless
-  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: kejiland.freewarp.eu.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /snippets
     headers:
       Host: kejiland.freewarp.eu.org
   udp: true
@@ -1826,8 +1813,8 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
   udp: true
-- name: 🇪🇸 西班牙 | ESP
-  server: 185.251.80.32
+- name: 🇺🇸 美国 | USA 12
+  server: 188.244.122.32
   port: 2096
   type: vless
   uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
@@ -1840,11 +1827,11 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
   skip-cert-verify: false
-- name: 🇺🇸 美国 | USA 76
-  server: 192.200.160.44
+- name: 🇺🇸 美国 | USA 49
+  server: 209.94.90.32
   port: 2096
   type: vless
-  uuid: 12345678-1234-1234-1234-123456789123
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
   tls: true
   servername: kejiland.freewarp.eu.org
   client-fingerprint: chrome
@@ -1854,7 +1841,56 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
   skip-cert-verify: false
+- name: 🇺🇸 美国 | USA 56
+  server: 166.62.115.32
+  port: 2096
+  type: vless
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  tls: true
+  servername: kejiland.freewarp.eu.org
+  network: ws
+  ws-opts:
+    path: /snippets
+    headers:
+      Host: kejiland.freewarp.eu.org
+  skip-cert-verify: false
 - name: 🇨🇦 加拿大 | CAN 3
+  server: 142.171.156.141
+  port: 21182
+  type: vless
+  uuid: 01996549-6892-dbf0-0453-f700236936bd
+  tls: true
+  servername: kejiland.freewarp.eu.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+    headers:
+      Host: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+- name: 🇨🇦 加拿大 | CAN 2
+  server: 142.171.192.140
+  port: 10001
+  type: vless
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  tls: true
+  servername: kejiland.freewarp.eu.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+    headers:
+      Host: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+- name: 🇺🇸 美国 | USA 88
+  server: 95a018b7-t410g0-t4nd8s-wujn.los.gotochinatown.net
+  port: 443
+  type: http
+  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  tls: true
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 | CAN 3_1
   server: 15.235.45.229
   port: 40853
   type: vless
@@ -1867,6 +1903,33 @@ proxies:
     grpc-mode: gun
     grpc-service-name: /
   udp: true
+- name: 🇺🇸 美国 | USA_1
+  server: 129.146.46.164
+  port: 443
+  type: vless
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: fei.634676.xyz
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fei.634676.xyz
+  udp: true
+- name: 🇺🇸 美国 | USA 87
+  server: 95a018b7-t410g0-t4nd8s-wujn.los.gotochinatown.net
+  port: 443
+  type: socks5
+  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+- name: 🇺🇸 美国 | USA 94
+  server: 2987fbb5-t410g0-t6xrvm-1qaek.los.gotochinatown.net
+  port: 443
+  type: socks5
+  username: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
+  password: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
 - name: 🇨🇦 加拿大 | CAN 4
   server: 132.145.108.97
   port: 42557
@@ -1883,6 +1946,42 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
+- name: 🇺🇸 美国 | USA 101
+  server: 3427dbcc-t410g0-t7hmka-1plv4.los.gotochinatown.net
+  port: 443
+  type: socks5
+  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
+- name: 🇺🇸 美国 | USA 92
+  server: df4af828-t410g0-t6xrvm-1qaek.sj.gotochinatown.net
+  port: 443
+  type: socks5
+  username: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
+  password: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
+- name: 🇺🇸 美国 | USA 100
+  server: f22ba6f5-t410g0-t7hmka-1plv4.sj.oshuawei.com
+  port: 443
+  type: http
+  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 93
+  server: 904fa998-t410g0-t6xrvm-1qaek.sj.oshuawei.com
+  port: 443
+  type: http
+  username: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
+  password: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 102
+  server: 3427dbcc-t410g0-t7hmka-1plv4.los.gotochinatown.net
+  port: 443
+  type: http
+  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  tls: true
+  skip-cert-verify: true
 - name: 🇺🇸 美国 | USA 11_1
   server: krcd-22dm-ncui-294m.51pl.tv
   port: 443
@@ -1898,20 +1997,6 @@ proxies:
     headers:
       Host: krcd-22dm-ncui-294m.51pl.tv
   udp: true
-- name: 🇨🇦 加拿大 | CAN 3_1
-  server: 142.171.156.141
-  port: 21182
-  type: vless
-  uuid: 01996549-6892-dbf0-0453-f700236936bd
-  tls: true
-  servername: kejiland.freewarp.eu.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-    headers:
-      Host: kejiland.freewarp.eu.org
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | USA 95
   server: 2987fbb5-t410g0-t6xrvm-1qaek.los.gotochinatown.net
   port: 443
@@ -1920,115 +2005,12 @@ proxies:
   password: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
   tls: true
   skip-cert-verify: true
-- name: 🇨🇦 加拿大 | CAN 2
-  server: 142.171.192.140
-  port: 10001
-  type: vless
-  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-  tls: true
-  servername: kejiland.freewarp.eu.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-    headers:
-      Host: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | USA 102
-  server: 3427dbcc-t410g0-t7hmka-1plv4.los.gotochinatown.net
-  port: 443
-  type: http
-  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸 美国 | USA_1
-  server: 129.146.46.164
-  port: 443
-  type: vless
-  uuid: d2965257-0536-4811-a0d5-cdce54e90326
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: fei.634676.xyz
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fei.634676.xyz
-  udp: true
-- name: 🇩🇪 德国 | DEU 17
-  server: join-raiv2mmr-telegram.koyeb.app
-  port: 443
-  type: vless
-  uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
-  tls: true
-  alpn:
-  - h3%2Ch2%2Chttp%2F1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr
-    headers:
-      Host: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
-  udp: true
-- name: 🇺🇸 美国 | USA 101
-  server: 3427dbcc-t410g0-t7hmka-1plv4.los.gotochinatown.net
-  port: 443
-  type: socks5
-  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
-- name: 🇺🇸 美国 | USA 82
-  server: 1753d51f-t410g0-t4nd8s-wujn.se.oshuawei.com
-  port: 443
-  type: http
-  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  tls: true
-  skip-cert-verify: true
-- name: 🇬🇧_GB_英国_1
-  type: ssr
-  server: 62.100.205.48
-  port: 989
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-  obfs: plain
-  protocol: origin
-- name: 🇮🇪 爱尔兰 | IRL
-  server: 141.227.162.18
-  port: 59995
-  type: vless
-  uuid: 7467739e-fe86-43a4-93ae-1669886e80d5
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: /
-  udp: true
 - name: 🇺🇸 美国 | USA 85
   server: d4f5538c-t410g0-t4nd8s-wujn.sj.gotochinatown.net
   port: 443
   type: socks5
   username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
   password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-- name: 🇬🇧 英国 | GBR
-  server: 62.100.205.48
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-- name: 🇺🇸 美国 | USA 97
-  server: cec6532a-t410g0-t7hmka-1plv4.sv.plebai.net
-  port: 443
-  type: socks5
-  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
 - name: 🇺🇸 美国 | USA 86
   server: ea796762-t410g0-t4nd8s-wujn.sj.oshuawei.com
   port: 443
@@ -2044,6 +2026,33 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
+- name: 🇬🇧 英国 | GBR
+  server: 62.100.205.48
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+  udp: true
+- name: 🇺🇸 美国 | USA 99
+  server: eb5635b1-t410g0-t7hmka-1plv4.sj.gotochinatown.net
+  port: 443
+  type: socks5
+  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
+- name: 🇬🇧_GB_英国_1
+  type: ssr
+  server: 62.100.205.48
+  port: 989
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+  obfs: plain
+  protocol: origin
+- name: 🇺🇸 美国 | USA 90
+  server: 6f52005a-t410g0-t6xrvm-1qaek.sv.plebai.net
+  port: 443
+  type: socks5
+  username: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
+  password: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
 - name: 🇮🇷_IR_伊朗->🇰🇷_KR_韩国
   type: ss
   server: 151.242.251.144
@@ -2066,6 +2075,13 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
+- name: 🇬🇧_GB_英国->🇩🇪_DE_德国
+  type: ss
+  server: 51.15.23.63
+  port: 989
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+  udp: true
 - name: 🇳🇱 荷兰 | NLD 5
   server: 147.45.240.161
   port: 443
@@ -2080,43 +2096,6 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   skip-cert-verify: false
-- name: 🇩🇪_DE_德国
-  type: ss
-  server: 45.87.175.166
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  udp: true
-- name: 🇳🇱 荷兰 | NLD 9
-  server: 24.144.78.41
-  port: 443
-  type: vless
-  uuid: d2965257-0536-4811-a0d5-cdce54e90326
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: fei.634676.xyz
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fei.634676.xyz
-  udp: true
-- name: 🇫🇷 法国 | FRA 12
-  server: 141.94.220.157
-  port: 2053
-  type: vless
-  uuid: d2965257-0536-4811-a0d5-cdce54e90326
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: fei.634676.xyz
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fei.634676.xyz
-  udp: true
 - name: 🇫🇷 法国 | FRA 21
   server: 51.91.249.241
   port: 443
@@ -2132,8 +2111,8 @@ proxies:
     headers:
       Host: fei.634676.xyz
   udp: true
-- name: 🇫🇷 法国 | FRA 5
-  server: 51.91.252.61
+- name: 🇫🇷 法国 | FRA 16
+  server: 51.91.251.144
   port: 443
   type: vless
   uuid: d2965257-0536-4811-a0d5-cdce54e90326
@@ -2147,69 +2126,30 @@ proxies:
     headers:
       Host: fei.634676.xyz
   udp: true
-- name: 🇫🇷 法国 | FRA 7
-  server: 51.91.251.16
-  port: 443
+- name: 🇺🇸 美国 | USA 39
+  server: 150.230.214.172
+  port: 16957
   type: vless
-  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  uuid: 01996549-6892-dbf0-0453-f700236936bd
   tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: fei.634676.xyz
+  servername: kejiland.freewarp.eu.org
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
     headers:
-      Host: fei.634676.xyz
+      Host: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+- name: 🇬🇧_GB_英国
+  type: ss
+  server: 51.15.17.169
+  port: 989
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 🇫🇷 法国 | FRA 11
-  server: 51.91.250.152
-  port: 443
-  type: vless
-  uuid: d2965257-0536-4811-a0d5-cdce54e90326
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: fei.634676.xyz
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fei.634676.xyz
-  udp: true
-- name: 🇫🇷 法国 | FRA 20
-  server: 51.91.249.115
-  port: 8443
-  type: vless
-  uuid: d2965257-0536-4811-a0d5-cdce54e90326
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: fei.634676.xyz
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fei.634676.xyz
-  udp: true
-- name: 🇫🇷 法国 | FRA 24
-  server: 37.59.96.50
-  port: 443
-  type: vless
-  uuid: d2965257-0536-4811-a0d5-cdce54e90326
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: fei.634676.xyz
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fei.634676.xyz
-  udp: true
-- name: 🇫🇷 法国 | FRA 4_1
-  server: 141.94.222.188
-  port: 8443
+- name: 🇫🇷 法国 | FRA 12
+  server: 141.94.220.157
+  port: 2053
   type: vless
   uuid: d2965257-0536-4811-a0d5-cdce54e90326
   tls: true
@@ -2237,8 +2177,38 @@ proxies:
     headers:
       Host: fei.634676.xyz
   udp: true
-- name: 🇫🇷 法国 | FRA 18
-  server: 51.178.141.33
+- name: 🇫🇷 法国 | FRA 25
+  server: 141.94.204.167
+  port: 8443
+  type: vless
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: fei.634676.xyz
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fei.634676.xyz
+  udp: true
+- name: 🇫🇷 法国 | FRA 3_1
+  server: 141.94.68.157
+  port: 8443
+  type: vless
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: fei.634676.xyz
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fei.634676.xyz
+  udp: true
+- name: 🇫🇷 法国 | FRA 13
+  server: 141.94.205.161
   port: 2053
   type: vless
   uuid: d2965257-0536-4811-a0d5-cdce54e90326
@@ -2252,9 +2222,16 @@ proxies:
     headers:
       Host: fei.634676.xyz
   udp: true
-- name: 🇫🇷 法国 | FRA_1
-  server: 91.121.40.210
-  port: 2053
+- name: 🇩🇪_DE_德国
+  type: ss
+  server: 45.87.175.166
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  udp: true
+- name: 🇫🇷 法国 | FRA 11
+  server: 51.91.250.152
+  port: 443
   type: vless
   uuid: d2965257-0536-4811-a0d5-cdce54e90326
   tls: true
@@ -2267,8 +2244,58 @@ proxies:
     headers:
       Host: fei.634676.xyz
   udp: true
+- name: 🇧🇷 巴西 | BRA
+  server: 168.138.192.16
+  port: 54584
+  type: vless
+  uuid: 01996549-6892-dbf0-0453-f700236936bd
+  tls: true
+  servername: kejiland.freewarp.eu.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+    headers:
+      Host: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+- name: 🇺🇸 美国 | USA 97
+  server: cec6532a-t410g0-t7hmka-1plv4.sv.plebai.net
+  port: 443
+  type: socks5
+  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
 - name: 🇫🇷 法国 | FRA 9
   server: 162.19.65.172
+  port: 2053
+  type: vless
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: fei.634676.xyz
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fei.634676.xyz
+  udp: true
+- name: 🇫🇷 法国 | FRA 17
+  server: 141.94.221.241
+  port: 8443
+  type: vless
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: fei.634676.xyz
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fei.634676.xyz
+  udp: true
+- name: 🇫🇷 法国 | FRA 18
+  server: 51.178.141.33
   port: 2053
   type: vless
   uuid: d2965257-0536-4811-a0d5-cdce54e90326
@@ -2312,6 +2339,96 @@ proxies:
     headers:
       Host: fei.634676.xyz
   udp: true
+- name: 🇫🇷 法国 | FRA 8
+  server: 141.94.221.25
+  port: 8443
+  type: vless
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: fei.634676.xyz
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fei.634676.xyz
+  udp: true
+- name: 🇩🇪 德国 | DEU
+  server: 162.19.252.222
+  port: 2053
+  type: vless
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: fei.634676.xyz
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fei.634676.xyz
+  udp: true
+- name: 🇩🇪 德国 | DEU 9
+  server: 172.104.144.137
+  port: 443
+  type: vless
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: fei.634676.xyz
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fei.634676.xyz
+  udp: true
+- name: 🇫🇷 法国 | FRA 24
+  server: 37.59.96.50
+  port: 443
+  type: vless
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: fei.634676.xyz
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fei.634676.xyz
+  udp: true
+- name: 🇫🇷 法国 | FRA 4_1
+  server: 141.94.222.188
+  port: 8443
+  type: vless
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: fei.634676.xyz
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fei.634676.xyz
+  udp: true
+- name: 🇫🇷 法国 | FRA_1
+  server: 91.121.40.210
+  port: 2053
+  type: vless
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: fei.634676.xyz
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fei.634676.xyz
+  udp: true
 - name: 🇫🇷 法国 | FRA 19
   server: 141.94.207.153
   port: 8443
@@ -2327,9 +2444,9 @@ proxies:
     headers:
       Host: fei.634676.xyz
   udp: true
-- name: 🇫🇷 法国 | FRA 25
-  server: 141.94.204.167
-  port: 8443
+- name: 🇫🇷 法国 | FRA 5
+  server: 51.91.252.61
+  port: 443
   type: vless
   uuid: d2965257-0536-4811-a0d5-cdce54e90326
   tls: true
@@ -2341,6 +2458,89 @@ proxies:
     path: /?ed=2560
     headers:
       Host: fei.634676.xyz
+  udp: true
+- name: 🇫🇷 法国 | FRA 7
+  server: 51.91.251.16
+  port: 443
+  type: vless
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: fei.634676.xyz
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fei.634676.xyz
+  udp: true
+- name: 🇩🇪 德国 | DEU 17
+  server: join-raiv2mmr-telegram.koyeb.app
+  port: 443
+  type: vless
+  uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
+  tls: true
+  alpn:
+  - h3%2Ch2%2Chttp%2F1.1
+  tfo: false
+  skip-cert-verify: true
+  servername: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr
+    headers:
+      Host: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
+  udp: true
+- name: 🇳🇱 荷兰 | NLD 9
+  server: 24.144.78.41
+  port: 443
+  type: vless
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: fei.634676.xyz
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fei.634676.xyz
+  udp: true
+- name: 🇩🇪 德国 | DEU 13
+  server: 172.104.225.176
+  port: 443
+  type: vless
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: fei.634676.xyz
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fei.634676.xyz
+  udp: true
+- name: 🇩🇰 丹麦 | DNK
+  server: 121.127.45.165
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  udp: true
+- name: 🇯🇵 日本 | JPN
+  server: 219.94.248.177
+  port: 443
+  type: vless
+  uuid: 2e8a036a-f353-4de7-8889-32eadb936822
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  servername: glc-jp3.windowsupdatea.com
+  client-fingerprint: chrome
+  network: tcp
   udp: true
 - name: 🇫🇷 法国 | FRA 26
   server: 51.91.248.215
@@ -2370,35 +2570,18 @@ proxies:
     grpc-mode: gun
     grpc-service-name: /
   udp: true
-- name: 🇫🇷 法国 | FRA 3_1
-  server: 141.94.68.157
-  port: 8443
+- name: 🇮🇪 爱尔兰 | IRL
+  server: 141.227.162.18
+  port: 59995
   type: vless
-  uuid: d2965257-0536-4811-a0d5-cdce54e90326
-  tls: true
+  uuid: 7467739e-fe86-43a4-93ae-1669886e80d5
+  tls: false
   tfo: false
   skip-cert-verify: true
-  servername: fei.634676.xyz
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fei.634676.xyz
-  udp: true
-- name: 🇫🇷 法国 | FRA 8
-  server: 141.94.221.25
-  port: 8443
-  type: vless
-  uuid: d2965257-0536-4811-a0d5-cdce54e90326
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: fei.634676.xyz
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fei.634676.xyz
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: /
   udp: true
 - name: 🇫🇷 法国 | FRA 15
   server: 141.95.159.211
@@ -2415,8 +2598,21 @@ proxies:
     headers:
       Host: fei.634676.xyz
   udp: true
-- name: 🇫🇷 法国 | FRA 17
-  server: 141.94.221.241
+- name: 🇯🇵 日本 | JPN 2
+  server: 133.167.38.153
+  port: 443
+  type: vless
+  uuid: 2e8a036a-f353-4de7-8889-32eadb936822
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  servername: glc-jp1.windowsupdatea.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇫🇷 法国 | FRA 20
+  server: 51.91.249.115
   port: 8443
   type: vless
   uuid: d2965257-0536-4811-a0d5-cdce54e90326
@@ -2430,110 +2626,8 @@ proxies:
     headers:
       Host: fei.634676.xyz
   udp: true
-- name: 🇫🇷 法国 | FRA 13
-  server: 141.94.205.161
-  port: 2053
-  type: vless
-  uuid: d2965257-0536-4811-a0d5-cdce54e90326
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: fei.634676.xyz
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fei.634676.xyz
-  udp: true
-- name: 🇫🇷 法国 | FRA 16
-  server: 51.91.251.144
-  port: 443
-  type: vless
-  uuid: d2965257-0536-4811-a0d5-cdce54e90326
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: fei.634676.xyz
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fei.634676.xyz
-  udp: true
-- name: 🇺🇸 美国 | USA 87
-  server: 95a018b7-t410g0-t4nd8s-wujn.los.gotochinatown.net
-  port: 443
-  type: socks5
-  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-- name: 🇩🇪 德国 | DEU 6
-  server: 152.228.134.126
-  port: 8443
-  type: vless
-  uuid: d2965257-0536-4811-a0d5-cdce54e90326
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: fei.634676.xyz
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fei.634676.xyz
-  udp: true
-- name: 🇺🇸 美国 | USA 94
-  server: 2987fbb5-t410g0-t6xrvm-1qaek.los.gotochinatown.net
-  port: 443
-  type: socks5
-  username: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
-  password: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
-- name: 🇩🇪 德国 | DEU 5
-  server: 45.38.145.208
-  port: 443
-  type: vless
-  uuid: d2965257-0536-4811-a0d5-cdce54e90326
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: fei.634676.xyz
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fei.634676.xyz
-  udp: true
-- name: 🇩🇪 德国 | DEU 10
-  server: 45.38.145.3
-  port: 443
-  type: vless
-  uuid: d2965257-0536-4811-a0d5-cdce54e90326
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: fei.634676.xyz
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fei.634676.xyz
-  udp: true
-- name: 🇩🇪 德国 | DEU 20
-  server: 45.38.145.119
-  port: 443
-  type: vless
-  uuid: d2965257-0536-4811-a0d5-cdce54e90326
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: fei.634676.xyz
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fei.634676.xyz
-  udp: true
-- name: 🇩🇪 德国 | DEU 2
-  server: 51.91.100.173
+- name: 🇩🇪 德国 | DEU 21
+  server: 51.195.44.12
   port: 2053
   type: vless
   uuid: d2965257-0536-4811-a0d5-cdce54e90326
@@ -2575,52 +2669,6 @@ proxies:
     grpc-mode: gun
     grpc-service-name: /
   udp: true
-- name: 🇩🇪 德国 | DEU 7
-  server: 45.38.145.233
-  port: 443
-  type: vless
-  uuid: d2965257-0536-4811-a0d5-cdce54e90326
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: fei.634676.xyz
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fei.634676.xyz
-  udp: true
-- name: 🇳🇱_NL_荷兰
-  type: vmess
-  server: 155.254.35.214
-  port: 51409
-  uuid: d2b794b2-3bdc-49e2-827a-1bf9fcba4b1c
-  cipher: auto
-  network: tcp
-  alterId: 0
-- name: 🇺🇸 美国 | USA 88
-  server: 95a018b7-t410g0-t4nd8s-wujn.los.gotochinatown.net
-  port: 443
-  type: http
-  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  tls: true
-  skip-cert-verify: true
-- name: 🇩🇪 德国 | DEU 21
-  server: 51.195.44.12
-  port: 2053
-  type: vless
-  uuid: d2965257-0536-4811-a0d5-cdce54e90326
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: fei.634676.xyz
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fei.634676.xyz
-  udp: true
 - name: 🇩🇪 德国 | DEU 23
   server: 152.228.135.204
   port: 2053
@@ -2636,31 +2684,8 @@ proxies:
     headers:
       Host: fei.634676.xyz
   udp: true
-- name: 🇩🇪 德国 | DEU
-  server: 162.19.252.222
-  port: 2053
-  type: vless
-  uuid: d2965257-0536-4811-a0d5-cdce54e90326
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: fei.634676.xyz
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fei.634676.xyz
-  udp: true
-- name: 🇺🇸 美国 | USA 96
-  server: f32bf30a-t410g0-t7hmka-1plv4.se.oshuawei.com
-  port: 443
-  type: http
-  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  tls: true
-  skip-cert-verify: true
-- name: 🇩🇪 德国 | DEU 9
-  server: 172.104.144.137
+- name: 🇩🇪 德国 | DEU 24
+  server: 91.107.189.217
   port: 443
   type: vless
   uuid: d2965257-0536-4811-a0d5-cdce54e90326
@@ -2674,9 +2699,9 @@ proxies:
     headers:
       Host: fei.634676.xyz
   udp: true
-- name: 🇩🇪 德国 | DEU 13
-  server: 172.104.225.176
-  port: 443
+- name: 🇩🇪 德国 | DEU 6
+  server: 152.228.134.126
+  port: 8443
   type: vless
   uuid: d2965257-0536-4811-a0d5-cdce54e90326
   tls: true
@@ -2688,19 +2713,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: fei.634676.xyz
-  udp: true
-- name: 🇨🇭 瑞士 | CHE
-  server: 141.227.138.82
-  port: 18541
-  type: vless
-  uuid: 49ffd741-9736-40fb-9217-76a8fcfb3ffd
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: /
   udp: true
 - name: 🇩🇪 德国 | DEU 16
   server: 91.107.230.41
@@ -2717,8 +2729,68 @@ proxies:
     headers:
       Host: fei.634676.xyz
   udp: true
+- name: 🇩🇪 德国 | DEU 10
+  server: 45.38.145.3
+  port: 443
+  type: vless
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: fei.634676.xyz
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fei.634676.xyz
+  udp: true
 - name: 🇩🇪 德国 | DEU 4
   server: 162.55.92.198
+  port: 443
+  type: vless
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: fei.634676.xyz
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fei.634676.xyz
+  udp: true
+- name: 🇩🇪 德国 | DEU 12
+  server: 91.107.182.33
+  port: 2083
+  type: vless
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: fei.634676.xyz
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fei.634676.xyz
+  udp: true
+- name: 🇩🇪 德国 | DEU 14
+  server: 116.202.209.228
+  port: 443
+  type: vless
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: fei.634676.xyz
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fei.634676.xyz
+  udp: true
+- name: 🇩🇪 德国 | DEU 20
+  server: 45.38.145.119
   port: 443
   type: vless
   uuid: d2965257-0536-4811-a0d5-cdce54e90326
@@ -2747,51 +2819,6 @@ proxies:
     headers:
       Host: fei.634676.xyz
   udp: true
-- name: 🇩🇪 德国 | DEU 12
-  server: 91.107.182.33
-  port: 2083
-  type: vless
-  uuid: d2965257-0536-4811-a0d5-cdce54e90326
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: fei.634676.xyz
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fei.634676.xyz
-  udp: true
-- name: 🇩🇰 丹麦 | DNK
-  server: 121.127.45.165
-  port: 990
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-- name: 🇩🇪 德国 | DEU 14
-  server: 116.202.209.228
-  port: 443
-  type: vless
-  uuid: d2965257-0536-4811-a0d5-cdce54e90326
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: fei.634676.xyz
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fei.634676.xyz
-  udp: true
-- name: 🇩🇪 德国 | DEU 4_1
-  server: 00eac980-t410g0-t7hmka-1plv4.de.oshuawei.com
-  port: 443
-  type: http
-  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  tls: true
-  skip-cert-verify: true
 - name: 🇩🇪 德国 | DEU 19
   server: 91.107.185.49
   port: 2096
@@ -2822,34 +2849,9 @@ proxies:
     headers:
       Host: fei.634676.xyz
   udp: true
-- name: 🇺🇸 美国 | USA 12_1
-  server: 15204.57227.yixianled.com
-  port: 36557
-  type: vless
-  uuid: 6578c489-28d2-4f12-8c2f-9f2d8789626d
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 15204.57227.yixianled.com
-  udp: true
-- name: 🇫🇷 法国 | FRA 2_1
-  server: 141.227.170.178
-  port: 21232
-  type: vless
-  uuid: 5e0eddef-95cd-4109-9807-0f32062939f3
-  tls: false
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  skip-cert-verify: false
-- name: 🇩🇪 德国 | DEU 24
-  server: 91.107.189.217
-  port: 443
+- name: 🇩🇪 德国 | DEU 2
+  server: 51.91.100.173
+  port: 2053
   type: vless
   uuid: d2965257-0536-4811-a0d5-cdce54e90326
   tls: true
@@ -2869,6 +2871,146 @@ proxies:
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
+- name: 🇺🇸 美国 | USA 89
+  server: 3d608b6b-t410g0-t6xrvm-1qaek.se.oshuawei.com
+  port: 443
+  type: http
+  username: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
+  password: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
+  tls: true
+  skip-cert-verify: true
+- name: 🇬🇧 英国 | GBR 8
+  server: 884dd4e8-t410g0-t6xrvm-1qaek.uk.oshuawei.com
+  port: 443
+  type: http
+  username: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
+  password: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
+  tls: true
+  skip-cert-verify: true
+- name: 🇩🇪 德国 | DEU 5
+  server: 45.38.145.208
+  port: 443
+  type: vless
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: fei.634676.xyz
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fei.634676.xyz
+  udp: true
+- name: 🇬🇧 英国 | GBR 9
+  server: 3b551185-t410g0-t7hmka-1plv4.uk.oshuawei.com
+  port: 443
+  type: http
+  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  tls: true
+  skip-cert-verify: true
+- name: 🇬🇧 英国 | GBR 7
+  server: 4d07ead8-t410g0-t4nd8s-wujn.uk.oshuawei.com
+  port: 443
+  type: http
+  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  tls: true
+  skip-cert-verify: true
+- name: 🇯🇵 日本 | JPN 4
+  server: 5bb5e83c-t410g0-t4nd8s-wujn.jp4.oshuawei.com
+  port: 443
+  type: http
+  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  tls: true
+  skip-cert-verify: true
+- name: 🇯🇵 日本 | JPN 10
+  server: 6c3613c3-t410g0-t7hmka-1plv4.jp4.oshuawei.com
+  port: 443
+  type: http
+  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  tls: true
+  skip-cert-verify: true
+- name: 🇩🇪 德国 | DEU 7
+  server: 45.38.145.233
+  port: 443
+  type: vless
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: fei.634676.xyz
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fei.634676.xyz
+  udp: true
+- name: 🇫🇷 法国 | FRA 2_1
+  server: 141.227.170.178
+  port: 21232
+  type: vless
+  uuid: 5e0eddef-95cd-4109-9807-0f32062939f3
+  tls: false
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  skip-cert-verify: false
+- name: 🇯🇵 日本 | JPN 7
+  server: a3a20fef-t410g0-t6xrvm-1qaek.jp4.oshuawei.com
+  port: 443
+  type: http
+  username: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
+  password: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
+  tls: true
+  skip-cert-verify: true
+- name: 🇳🇱_NL_荷兰
+  type: vmess
+  server: 155.254.35.214
+  port: 51409
+  uuid: d2b794b2-3bdc-49e2-827a-1bf9fcba4b1c
+  cipher: auto
+  network: tcp
+  alterId: 0
+- name: 🇨🇭 瑞士 | CHE
+  server: 141.227.138.82
+  port: 18541
+  type: vless
+  uuid: 49ffd741-9736-40fb-9217-76a8fcfb3ffd
+  tls: false
+  tfo: false
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: /
+  udp: true
+- name: 🇺🇸 美国 | USA 83
+  server: 54ca3e47-t410g0-t4nd8s-wujn.sv.plebai.net
+  port: 443
+  type: socks5
+  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+- name: 🇯🇵 日本 | JPN 8
+  server: a3af808a-t410g0-t7hmka-1plv4.jp.oshuawei.com
+  port: 443
+  type: http
+  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 82
+  server: 1753d51f-t410g0-t4nd8s-wujn.se.oshuawei.com
+  port: 443
+  type: http
+  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  tls: true
+  skip-cert-verify: true
 - name: 🇵🇱 波兰 | POL
   server: 95.169.162.223
   port: 2053
@@ -2884,48 +3026,6 @@ proxies:
     headers:
       Host: fei.634676.xyz
   udp: true
-- name: 🇺🇸 美国 | USA 99
-  server: eb5635b1-t410g0-t7hmka-1plv4.sj.gotochinatown.net
-  port: 443
-  type: socks5
-  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
-- name: 🇺🇸 美国 | USA 92
-  server: df4af828-t410g0-t6xrvm-1qaek.sj.gotochinatown.net
-  port: 443
-  type: socks5
-  username: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
-  password: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
-- name: 🇺🇸 美国 | USA 89
-  server: 3d608b6b-t410g0-t6xrvm-1qaek.se.oshuawei.com
-  port: 443
-  type: http
-  username: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
-  password: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 90
-  server: 6f52005a-t410g0-t6xrvm-1qaek.sv.plebai.net
-  port: 443
-  type: socks5
-  username: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
-  password: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
-- name: 🇬🇧 英国 | GBR 8
-  server: 884dd4e8-t410g0-t6xrvm-1qaek.uk.oshuawei.com
-  port: 443
-  type: http
-  username: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
-  password: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
-  tls: true
-  skip-cert-verify: true
-- name: 🇬🇧 英国 | GBR 9
-  server: 3b551185-t410g0-t7hmka-1plv4.uk.oshuawei.com
-  port: 443
-  type: http
-  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  tls: true
-  skip-cert-verify: true
 - name: 🇱🇺 卢森堡 | LUX
   server: 193.135.174.135
   port: 990
@@ -2933,12 +3033,99 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
+- name: 🇨🇳 台湾 | TWN 5
+  server: 118.170.203.186
+  port: 10016
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4
+  udp: true
+- name: 🇨🇳 台湾 | TWN 16
+  server: 114.46.115.129
+  port: 10065
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4
+  udp: true
+- name: 🇨🇳 台湾 | TWN 6
+  server: 114.46.65.156
+  port: 10074
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4
+  udp: true
+- name: 🇨🇳 台湾 | TWN 15
+  server: 114.46.64.49
+  port: 10049
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4
+  udp: true
+- name: 🇨🇳 台湾 | TWN 20
+  server: 36.234.88.193
+  port: 10048
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4
+  udp: true
+- name: 🇰🇷 韩国 | KOR
+  server: 210.183.11.2
+  port: 50001
+  type: trojan
+  password: Aimer
+  sni: epge.muarua.filegear-sg.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
+    headers:
+      Host: epge.muarua.filegear-sg.me
+  udp: true
+- name: 🇨🇳 台湾 | TWN 13
+  server: 36.234.82.16
+  port: 10038
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4
+  udp: true
+- name: 🇯🇵 日本 | JPN 2_1
+  server: 8b1892f9-t410g0-t4nd8s-wujn.jp.oshuawei.com
+  port: 443
+  type: http
+  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  tls: true
+  skip-cert-verify: true
 - name: 🇩🇪 德国 | DEU 3
   server: 975ce4f7-t410g0-t6xrvm-1qaek.de.oshuawei.com
   port: 443
   type: http
   username: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
   password: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
+  tls: true
+  skip-cert-verify: true
+- name: 🇯🇵 日本 | JPN 5
+  server: 2f8a6190-t410g0-t6xrvm-1qaek.jp.oshuawei.com
+  port: 443
+  type: http
+  username: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
+  password: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
+  tls: true
+  skip-cert-verify: true
+- name: 🇩🇪 德国 | DEU 4_1
+  server: 00eac980-t410g0-t7hmka-1plv4.de.oshuawei.com
+  port: 443
+  type: http
+  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  tls: true
+  skip-cert-verify: true
+- name: 🇩🇪 德国 | DEU 2_1
+  server: b3be84d1-t410g0-t4nd8s-wujn.de.oshuawei.com
+  port: 443
+  type: http
+  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
   tls: true
   skip-cert-verify: true
 - name: 🇲🇩 摩尔多瓦 | MDA
@@ -2948,35 +3135,12 @@ proxies:
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 🇦🇪 阿联酋 | ARE
-  server: ae1-5.9966662.xyz
-  port: 20223
-  type: vless
-  uuid: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: RsbED0LyE3f2byTPx5t-dQewju6z9R4xqTWrADM4WnM
-    short-id: c6842be1
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 🇷🇺_RU_俄罗斯
-  type: ss
-  server: 185.231.233.112
-  port: 989
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-- name: 🇿🇦 南非 | ZAF
-  server: 197.140.29.76
-  port: 990
+- name: 🇳🇱 荷兰 | NLD_1
+  server: 178.208.91.118
+  port: 19805
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  password: x0jth8z56Dd4ghs1Dh7twU
   udp: true
 - name: 🇫🇮 芬兰 | FIN
   server: fi1-5.9966662.xyz
@@ -3009,226 +3173,6 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
   udp: true
-- name: 🇦🇪 阿联酋 | ARE 2
-  server: ae1-4.9966662.xyz
-  port: 20223
-  type: vless
-  uuid: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: RsbED0LyE3f2byTPx5t-dQewju6z9R4xqTWrADM4WnM
-    short-id: c6842be1
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 🇺🇸 美国 | USA 2_1
-  server: 15.204.9.102.yixianled.com
-  port: 20967
-  type: vmess
-  uuid: 6578c489-28d2-4f12-8c2f-9f2d8789626d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 15.204.9.102.yixianled.com
-  udp: true
-- name: 🇺🇸 美国 | USA 93
-  server: 904fa998-t410g0-t6xrvm-1qaek.sj.oshuawei.com
-  port: 443
-  type: http
-  username: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
-  password: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 100
-  server: f22ba6f5-t410g0-t7hmka-1plv4.sj.oshuawei.com
-  port: 443
-  type: http
-  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  tls: true
-  skip-cert-verify: true
-- name: 🇧🇷 巴西 | BRA
-  server: 168.138.192.16
-  port: 54584
-  type: vless
-  uuid: 01996549-6892-dbf0-0453-f700236936bd
-  tls: true
-  servername: kejiland.freewarp.eu.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-    headers:
-      Host: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-- name: 🇬🇧 英国 | GBR 7
-  server: 4d07ead8-t410g0-t4nd8s-wujn.uk.oshuawei.com
-  port: 443
-  type: http
-  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  tls: true
-  skip-cert-verify: true
-- name: 🇰🇿 哈萨克斯坦 | KAZ
-  server: 45.159.250.190
-  port: 990
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-- name: 🇯🇵 日本 | JPN 7
-  server: a3a20fef-t410g0-t6xrvm-1qaek.jp4.oshuawei.com
-  port: 443
-  type: http
-  username: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
-  password: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 39
-  server: 150.230.214.172
-  port: 16957
-  type: vless
-  uuid: 01996549-6892-dbf0-0453-f700236936bd
-  tls: true
-  servername: kejiland.freewarp.eu.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-    headers:
-      Host: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | USA 83
-  server: 54ca3e47-t410g0-t4nd8s-wujn.sv.plebai.net
-  port: 443
-  type: socks5
-  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-- name: 🇯🇵 日本 | JPN
-  server: 219.94.248.177
-  port: 443
-  type: vless
-  uuid: 2e8a036a-f353-4de7-8889-32eadb936822
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: glc-jp3.windowsupdatea.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 🇯🇵 日本 | JPN 8
-  server: a3af808a-t410g0-t7hmka-1plv4.jp.oshuawei.com
-  port: 443
-  type: http
-  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  tls: true
-  skip-cert-verify: true
-- name: 🇫🇷 法国 | FRA 6_1
-  server: 4ac1e707-t410g0-t6xrvm-1qaek.fr.cdnkuaishou.com
-  port: 8443
-  type: http
-  username: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
-  password: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
-  tls: true
-  skip-cert-verify: true
-- name: 🇫🇷 法国 | FRA 5_1
-  server: 8ce3c33e-t410g0-t4nd8s-wujn.fr.cdnkuaishou.com
-  port: 8443
-  type: http
-  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  tls: true
-  skip-cert-verify: true
-- name: 🇫🇷 法国 | FRA 7_1
-  server: 26396fd9-t410g0-t7hmka-1plv4.fr.cdnkuaishou.com
-  port: 8443
-  type: http
-  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  tls: true
-  skip-cert-verify: true
-- name: 🇩🇪 德国 | DEU 2_1
-  server: b3be84d1-t410g0-t4nd8s-wujn.de.oshuawei.com
-  port: 443
-  type: http
-  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  tls: true
-  skip-cert-verify: true
-- name: 🇯🇵 日本 | JPN 4
-  server: 5bb5e83c-t410g0-t4nd8s-wujn.jp4.oshuawei.com
-  port: 443
-  type: http
-  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  tls: true
-  skip-cert-verify: true
-- name: 🇯🇵 日本 | JPN 2
-  server: 133.167.38.153
-  port: 443
-  type: vless
-  uuid: 2e8a036a-f353-4de7-8889-32eadb936822
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: glc-jp1.windowsupdatea.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 🇨🇳 台湾 | TWN 2
-  server: 1.170.60.19
-  port: 10090
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4
-  udp: true
-- name: 🇨🇳 台湾 | TWN 7
-  server: 36.234.116.12
-  port: 10042
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4
-  udp: true
-- name: 🇨🇳 台湾 | TWN 5
-  server: 118.170.203.186
-  port: 10016
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4
-  udp: true
-- name: 🇨🇳 台湾 | TWN 6
-  server: 114.46.65.156
-  port: 10074
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4
-  udp: true
-- name: 🇨🇳 台湾 | TWN 13
-  server: 36.234.82.16
-  port: 10038
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4
-  udp: true
-- name: 🇨🇳 台湾 | TWN 17
-  server: 1.170.4.89
-  port: 10103
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4
-  udp: true
 - name: 🇰🇷 韩国 | KOR 2
   server: 146.56.145.181
   port: 443
@@ -3242,78 +3186,14 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇨🇳 台湾 | TWN 15
-  server: 114.46.64.49
-  port: 10049
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4
-  udp: true
-- name: 🇨🇳 台湾 | TWN 20
-  server: 36.234.88.193
-  port: 10048
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4
-  udp: true
-- name: 🇨🇳 台湾 | TWN 21
-  server: 1.170.28.74
-  port: 10148
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4
-  udp: true
-- name: 🇰🇷 韩国 | KOR
-  server: 210.183.11.2
-  port: 50001
-  type: trojan
-  password: Aimer
-  sni: epge.muarua.filegear-sg.me
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
-    headers:
-      Host: epge.muarua.filegear-sg.me
-  udp: true
-- name: 🇳🇱 荷兰 | NLD_1
-  server: 178.208.91.118
-  port: 19805
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: x0jth8z56Dd4ghs1Dh7twU
-  udp: true
-- name: 🇨🇳 台湾 | TWN 16
-  server: 114.46.115.129
-  port: 10065
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4
-  udp: true
-- name: 🇯🇵 日本 | JPN 2_1
-  server: 8b1892f9-t410g0-t4nd8s-wujn.jp.oshuawei.com
-  port: 443
+- name: 🇫🇷 法国 | FRA 5_1
+  server: 8ce3c33e-t410g0-t4nd8s-wujn.fr.cdnkuaishou.com
+  port: 8443
   type: http
   username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
   password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
   tls: true
   skip-cert-verify: true
-- name: 🇨🇳 台湾 | TWN
-  server: 82d679f0-t410g0-t4nd8s-wujn.tw3.p5pv.com
-  port: 443
-  type: http
-  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  tls: true
-  skip-cert-verify: true
-- name: 🇭🇰 香港 | HKG 7
-  server: 203.198.123.190
-  port: 443
-  type: trojan
-  password: 253bc477d4e43c209f2d427272968280
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-  udp: true
 - name: 🇭🇰 香港 | HKG 6
   server: 143.14.189.78
   port: 19153
@@ -3333,6 +3213,14 @@ proxies:
   ws-opts:
     path: /
   alterId: 0
+- name: 🇫🇷 法国 | FRA 7_1
+  server: 26396fd9-t410g0-t7hmka-1plv4.fr.cdnkuaishou.com
+  port: 8443
+  type: http
+  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  tls: true
+  skip-cert-verify: true
 - name: 🇪🇸_ES_西班牙->🇺🇸_US_美国
   type: vmess
   server: 212.192.15.176
@@ -3357,19 +3245,80 @@ proxies:
   ws-opts:
     path: /
   udp: true
-- name: 🇭🇰 香港 | HKG 6_1
-  server: 80c33bf7-t410g0-t4nd8s-wujn.hkt2.cdnhuawei.com
-  port: 443
-  type: http
-  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  tls: true
-  skip-cert-verify: true
-- name: 🇭🇰 香港 | HKG 7_1
-  server: e8306b73-t410g0-t4nd8s-wujn.hkt.cdnhuawei.com
+- name: 🇿🇦 南非 | ZAF
+  server: 197.140.29.76
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  udp: true
+- name: 🇫🇷 法国 | FRA 6_1
+  server: 4ac1e707-t410g0-t6xrvm-1qaek.fr.cdnkuaishou.com
   port: 8443
   type: http
-  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  username: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
+  password: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
+  tls: true
+  skip-cert-verify: true
+- name: 🇭🇰 香港 | HKG 2_1
+  server: 156.251.179.135
+  port: 443
+  type: ss
+  cipher: aes-256-gcm
+  password: 2b5fad3874e5
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    host: hk6v1.dsjsapp.com
+    path: /aqwshiog
+    tls: true
+    mux: true
+    skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 2
+  server: 38.180.106.124
+  port: 8443
+  type: trojan
+  password: installshield
+  sni: 38.180.106.124
+  skip-cert-verify: true
+  udp: true
+- name: 🇦🇪 阿联酋 | ARE
+  server: ae1-5.9966662.xyz
+  port: 20223
+  type: vless
+  uuid: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: RsbED0LyE3f2byTPx5t-dQewju6z9R4xqTWrADM4WnM
+    short-id: c6842be1
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇷🇺_RU_俄罗斯
+  type: ss
+  server: 185.231.233.112
+  port: 989
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+  udp: true
+- name: 🇭🇰 香港 | HKG 14
+  server: e473eb48-t410g0-t6xrvm-1qaek.hkt2.cdnhuawei.com
+  port: 443
+  type: http
+  username: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
+  password: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
+  tls: true
+  skip-cert-verify: true
+- name: 🇭🇰 香港 | HKG 15
+  server: 694a6317-t410g0-t6xrvm-1qaek.hkt.cdnhuawei.com
+  port: 8443
+  type: http
+  username: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
   password: <password>
   tls: true
   skip-cert-verify: true
@@ -3387,36 +3336,20 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
   skip-cert-verify: false
-- name: 🇩🇪 德国 | DEU_1
-  server: de1-1.9966662.xyz
-  port: 20133
-  type: vless
-  uuid: a24c6851-2055-42c1-9c20-2d3bad97334f
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
+- name: 🇭🇰 香港 | HKG 26
+  server: 41dce5ca-t410g0-t7hmka-1plv4.hk.p5pv.com
+  port: 80
+  type: vmess
+  uuid: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  alterId: 2
+  cipher: auto
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: 65E6IjBrQMYqhrtISS0F2kUFIjT5aSxgNPKCf88fGFw
-    short-id: 3b03febe
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 🇭🇰 香港 | HKG 2_1
-  server: 156.251.179.135
-  port: 443
-  type: ss
-  cipher: aes-256-gcm
-  password: 2b5fad3874e5
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    host: hk6v1.dsjsapp.com
-    path: /aqwshiog
-    tls: true
-    mux: true
-    skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
   udp: true
 - name: 🇸🇬 新加坡 | SGP 8
   server: d517b8ae-t410g0-t6xrvm-1qaek.sg3.oshuawei.com
@@ -3424,6 +3357,123 @@ proxies:
   type: http
   username: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
   password: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
+  tls: true
+  skip-cert-verify: true
+- name: 🇭🇰 香港 | HKG 23
+  server: 13941854-t410g0-t7hmka-1plv4.hkt.cdnhuawei.com
+  port: 8443
+  type: http
+  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  password: <password>
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 | SGP 10
+  server: d92a99bc-t410g0-t7hmka-1plv4.sg.oshuawei.com
+  port: 443
+  type: http
+  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 | SGP 7
+  server: 6cab4b72-t410g0-t6xrvm-1qaek.sg.oshuawei.com
+  port: 443
+  type: http
+  username: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
+  password: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 | SGP 4
+  server: 36c64fdd-t410g0-t4nd8s-wujn.sg.oshuawei.com
+  port: 443
+  type: http
+  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 | SGP 5
+  server: 2dc69d1c-t410g0-t4nd8s-wujn.sg3.oshuawei.com
+  port: 443
+  type: http
+  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 | SGP 11
+  server: 4b772364-t410g0-t7hmka-1plv4.sg3.oshuawei.com
+  port: 443
+  type: http
+  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  tls: true
+  skip-cert-verify: true
+- name: 🇦🇪 阿联酋 | ARE 2
+  server: ae1-4.9966662.xyz
+  port: 20223
+  type: vless
+  uuid: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: RsbED0LyE3f2byTPx5t-dQewju6z9R4xqTWrADM4WnM
+    short-id: c6842be1
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇭🇰 香港 | HKG 18
+  server: 9cce64a0-t410g0-t6xrvm-1qaek.hk.p5pv.com
+  port: 80
+  type: vmess
+  uuid: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+  udp: true
+- name: 🇰🇿 哈萨克斯坦 | KAZ
+  server: 45.159.250.190
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  udp: true
+- name: 🇭🇰 香港 | HKG 6_1
+  server: 80c33bf7-t410g0-t4nd8s-wujn.hkt2.cdnhuawei.com
+  port: 443
+  type: http
+  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  tls: true
+  skip-cert-verify: true
+- name: 🇭🇰 香港 | HKG 12
+  server: f64f49f6-t410g0-t4nd8s-wujn.hk3.p5pv.com
+  port: 80
+  type: vmess
+  uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+  udp: true
+- name: 🇭🇰 香港 | HKG 7
+  server: e8306b73-t410g0-t4nd8s-wujn.hkt.cdnhuawei.com
+  port: 8443
+  type: http
+  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  password: <password>
   tls: true
   skip-cert-verify: true
 - name: 🇭🇰 香港 | HKG 20
@@ -3441,157 +3491,6 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
   udp: true
-- name: 🇸🇬 新加坡 | SGP 10
-  server: d92a99bc-t410g0-t7hmka-1plv4.sg.oshuawei.com
-  port: 443
-  type: http
-  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  tls: true
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 | SGP 7
-  server: 6cab4b72-t410g0-t6xrvm-1qaek.sg.oshuawei.com
-  port: 443
-  type: http
-  username: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
-  password: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
-  tls: true
-  skip-cert-verify: true
-- name: 🇪🇸 西班牙 | ESP_1
-  server: 37.143.130.203
-  port: 990
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 11
-  server: 4b772364-t410g0-t7hmka-1plv4.sg3.oshuawei.com
-  port: 443
-  type: http
-  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  tls: true
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 | SGP 4
-  server: 36c64fdd-t410g0-t4nd8s-wujn.sg.oshuawei.com
-  port: 443
-  type: http
-  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  tls: true
-  skip-cert-verify: true
-- name: 🇭🇰 香港 | HKG 10
-  server: de35a7b3-t410g0-t4nd8s-wujn.hk.p5pv.com
-  port: 80
-  type: vmess
-  uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-  udp: true
-- name: 🇯🇵 日本 | JPN 10
-  server: 6c3613c3-t410g0-t7hmka-1plv4.jp4.oshuawei.com
-  port: 443
-  type: http
-  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  tls: true
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 | SGP 5
-  server: 2dc69d1c-t410g0-t4nd8s-wujn.sg3.oshuawei.com
-  port: 443
-  type: http
-  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  tls: true
-  skip-cert-verify: true
-- name: 🇭🇰 香港 | HKG 15
-  server: 694a6317-t410g0-t6xrvm-1qaek.hkt.cdnhuawei.com
-  port: 8443
-  type: http
-  username: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
-  password: <password>
-  tls: true
-  skip-cert-verify: true
-- name: 🇭🇰 香港 | HKG 22
-  server: 1f3fb7e2-t410g0-t7hmka-1plv4.hkt2.cdnhuawei.com
-  port: 443
-  type: http
-  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  tls: true
-  skip-cert-verify: true
-- name: 🇭🇰 香港 | HKG 7_2
-  server: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com
-  port: 80
-  type: vmess
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com
-  udp: true
-- name: 🇭🇰 香港 | HKG_1
-  server: hkt.g.hk2.download.windowsupdatea.com
-  port: 443
-  type: vless
-  uuid: 2e8a036a-f353-4de7-8889-32eadb936822
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: glc-hkt2.windowsupdatea.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 🇭🇰 香港 | HKG 26
-  server: 41dce5ca-t410g0-t7hmka-1plv4.hk.p5pv.com
-  port: 80
-  type: vmess
-  uuid: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-  udp: true
-- name: 🇭🇰 香港 | HKG 5
-  server: a0ca1dec-t410g0-t4nd8s-wujn.cm4.oshuawei.com
-  port: 5228
-  type: http
-  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  tls: true
-  skip-cert-verify: true
-- name: 🇭🇰 香港 | HKG 17
-  server: e473eb48-t410g0-t6xrvm-1qaek.hkt2.cdnhuawei.com
-  port: 443
-  type: socks5
-  username: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
-  password: <password>
-- name: 🇺🇸 美国 | USA 84
-  server: 21fb53cc-t410g0-t4nd8s-wujn.cu.oshuawei.com
-  port: 15229
-  type: http
-  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  tls: true
-  skip-cert-verify: true
 - name: 🇻🇳 越南 | VNM 42
   server: 103.186.155.154
   port: 38388
@@ -3599,58 +3498,71 @@ proxies:
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🇻🇳 越南 | VNM 8
-  server: 103.186.154.244
+- name: 🇻🇳 越南 | VNM 13
+  server: 103.186.154.167
   port: 38388
   type: ss
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 未知
-  type: ss
-  server: 103.186.154.229
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🇻🇳 越南 | VNM 21
-  server: 103.186.154.161
-  port: 38388
-  type: ss
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🇻🇳 越南 | VNM 2_1
-  server: 103.186.154.168
-  port: 38388
-  type: ss
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🇻🇳 越南 | VNM 7
-  server: 103.186.155.228
-  port: 38388
-  type: ss
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🇭🇰 香港 | HKG 21
-  server: a2449666-t410g0-t7hmka-1plv4.cm4.oshuawei.com
-  port: 5228
+- name: 🇨🇳 台湾 | TWN 2
+  server: c9ce8746-t410g0-t6xrvm-1qaek.tw3.p5pv.com
+  port: 443
   type: http
-  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  username: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
+  password: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
   tls: true
   skip-cert-verify: true
-- name: 🇻🇳 越南 | VNM 8_1
-  server: 103.186.155.70
+- name: 🇻🇳 越南 | VNM 17
+  server: 103.186.155.121
   port: 38388
   type: ss
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🇻🇳 越南 | VNM 3_1
-  server: 103.186.155.142
+- name: 🇻🇳 越南 | VNM 15
+  server: 103.186.155.75
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🇭🇰 香港 | HKG 17
+  server: e473eb48-t410g0-t6xrvm-1qaek.hkt2.cdnhuawei.com
+  port: 443
+  type: socks5
+  username: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
+  password: <password>
+- name: 🇻🇳 越南 | VNM 37
+  server: 103.186.154.223
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🇻🇳 越南 | VNM 12
+  server: 103.186.154.200
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🇻🇳 越南 | VNM 20
+  server: 103.186.155.5
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🇻🇳 越南 | VNM 35
+  server: 103.186.155.116
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🇻🇳 越南 | VNM 26
+  server: 103.186.155.119
   port: 38388
   type: ss
   cipher: aes-256-cfb
@@ -3663,99 +3575,22 @@ proxies:
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🇻🇳 越南 | VNM 37
-  server: 103.186.154.223
-  port: 38388
-  type: ss
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🇻🇳 越南 | VNM 38
-  server: 103.186.154.246
-  port: 38388
-  type: ss
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🇻🇳 越南 | VNM 2_2
-  server: 103.186.154.239
-  port: 38388
-  type: ss
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🇻🇳 越南 | VNM 19
-  server: 103.186.154.29
-  port: 38388
-  type: ss
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 未知_1
-  type: ss
-  server: 103.186.154.65
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🇻🇳 越南 | VNM 12
-  server: 103.186.154.200
-  port: 38388
-  type: ss
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🇻🇳 越南 | VNM 18
-  server: 103.186.155.65
-  port: 38388
-  type: ss
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🇻🇳 越南 | VNM 39
-  server: 103.186.154.205
-  port: 38388
-  type: ss
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🇻🇳 越南 | VNM 32
-  server: 103.186.154.54
-  port: 38388
-  type: ss
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🇻🇳 越南 | VNM 14
-  server: 103.186.155.55
-  port: 38388
-  type: ss
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🇻🇳 越南 | VNM 41
-  server: 103.186.154.144
+- name: 🇻🇳 越南 | VNM 4_1
+  server: 103.186.154.159
   port: 38388
   type: ss
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
 - name: 🇻🇳 越南 | VNM 9
-  server: 103.186.154.74
+  server: 103.186.155.62
   port: 38388
   type: ss
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🇻🇳 越南 | VNM 43
-  server: 103.186.155.114
-  port: 38388
-  type: ss
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🇻🇳 越南 | VNM 20
-  server: 103.186.155.5
+- name: 🇻🇳 越南 | VNM 31
+  server: 103.186.154.47
   port: 38388
   type: ss
   cipher: aes-256-cfb
@@ -3775,84 +3610,6 @@ proxies:
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🇻🇳 越南 | VNM 4_1
-  server: 103.186.154.75
-  port: 38388
-  type: ss
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🇻🇳 越南 | VNM 33
-  server: 103.186.154.69
-  port: 38388
-  type: ss
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🇻🇳 越南 | VNM 4_2
-  server: 103.186.154.159
-  port: 38388
-  type: ss
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🇻🇳 越南 | VNM 13
-  server: 103.186.154.167
-  port: 38388
-  type: ss
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🇻🇳 越南 | VNM 29
-  server: 103.186.155.206
-  port: 38388
-  type: ss
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🇻🇳 越南 | VNM 36
-  server: 103.186.155.33
-  port: 38388
-  type: ss
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🇻🇳 越南 | VNM 34
-  server: 103.186.155.13
-  port: 38388
-  type: ss
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🇻🇳 越南 | VNM 25
-  server: 103.186.154.11
-  port: 38388
-  type: ss
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🇻🇳 越南 | VNM 27
-  server: 103.186.155.240
-  port: 38388
-  type: ss
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🇻🇳 越南 | VNM 6
-  server: 103.186.155.207
-  port: 38388
-  type: ss
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🇭🇰 香港 | HKG 13
-  server: 2e241c32-t410g0-t6xrvm-1qaek.cm4.oshuawei.com
-  port: 5228
-  type: http
-  username: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
-  password: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
-  tls: true
-  skip-cert-verify: true
 - name: 🇻🇳 越南 | VNM 22
   server: 103.186.154.43
   port: 38388
@@ -3867,8 +3624,98 @@ proxies:
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🇻🇳 越南 | VNM 5
-  server: 103.186.155.236
+- name: 🇻🇳 越南 | VNM 13_1
+  server: 103.186.155.229
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🇺🇸 美国 | USA 84
+  server: 21fb53cc-t410g0-t4nd8s-wujn.cu.oshuawei.com
+  port: 15229
+  type: http
+  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  tls: true
+  skip-cert-verify: true
+- name: 🇻🇳 越南 | VNM 36
+  server: 103.186.155.33
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🇻🇳 越南 | VNM 12_1
+  server: 103.186.154.241
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🇻🇳 越南 | VNM 21
+  server: 103.186.154.161
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🇻🇳 越南 | VNM 2_1
+  server: 103.186.154.239
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🇻🇳 越南 | VNM 39
+  server: 103.186.154.205
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🇻🇳 越南 | VNM 43
+  server: 103.186.155.114
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🇻🇳 越南 | VNM 27
+  server: 103.186.155.240
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🇻🇳 越南 | VNM 6
+  server: 103.186.155.133
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🇭🇰 香港 | HKG 25
+  server: 1f3fb7e2-t410g0-t7hmka-1plv4.hkt2.cdnhuawei.com
+  port: 443
+  type: socks5
+  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  password: <password>
+- name: 🇭🇰 香港 | HKG 9_1
+  server: 80c33bf7-t410g0-t4nd8s-wujn.hkt2.cdnhuawei.com
+  port: 443
+  type: socks5
+  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  password: <password>
+- name: 🇻🇳 越南 | VNM 19
+  server: 103.186.154.29
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🇻🇳 越南 | VNM 18
+  server: 103.186.155.65
   port: 38388
   type: ss
   cipher: aes-256-cfb
@@ -3881,29 +3728,15 @@ proxies:
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🇻🇳 越南 | VNM 17
-  server: 103.186.155.121
+- name: 🇻🇳 越南 | VNM 14
+  server: 103.186.155.55
   port: 38388
   type: ss
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🇻🇳 越南 | VNM 30
-  server: 103.186.154.36
-  port: 38388
-  type: ss
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🇻🇳 越南 | VNM 35
-  server: 103.186.155.116
-  port: 38388
-  type: ss
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🇻🇳 越南 | VNM 40
-  server: 103.186.155.230
+- name: 🇻🇳 越南 | VNM 4_2
+  server: 103.186.154.75
   port: 38388
   type: ss
   cipher: aes-256-cfb
@@ -3916,36 +3749,159 @@ proxies:
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🇻🇳 越南 | VNM 6_1
-  server: 103.186.155.133
+- name: 🇻🇳 越南 | VNM_2
+  server: 103.186.155.145
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🇻🇳 越南 | VNM 7
+  server: 103.186.155.228
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🇻🇳 越南 | VNM 38
+  server: 103.186.154.246
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🇻🇳 越南 | VNM 32
+  server: 103.186.154.54
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🇻🇳 越南 | VNM 8
+  server: 103.186.154.244
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🇻🇳 越南 | VNM 8_1
+  server: 103.186.155.70
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🇻🇳 越南 | VNM 41
+  server: 103.186.154.144
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🇭🇰 香港 | HKG 10
+  server: de35a7b3-t410g0-t4nd8s-wujn.hk.p5pv.com
+  port: 80
+  type: vmess
+  uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+  udp: true
+- name: 🇻🇳 越南 | VNM 3_1
+  server: 103.186.155.142
   port: 38388
   type: ss
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
 - name: 🇻🇳 越南 | VNM 9_1
-  server: 103.186.155.62
+  server: 103.186.154.74
   port: 38388
   type: ss
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🇻🇳 越南 | VNM 31
-  server: 103.186.154.47
+- name: 🇻🇳 越南 | VNM 25
+  server: 103.186.154.11
   port: 38388
   type: ss
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🇻🇳 越南 | VNM 26
-  server: 103.186.155.119
+- name: 🇭🇰 香港 | HKG 5
+  server: a0ca1dec-t410g0-t4nd8s-wujn.cm4.oshuawei.com
+  port: 5228
+  type: http
+  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  tls: true
+  skip-cert-verify: true
+- name: 🇭🇰 香港 | HKG 13
+  server: 2e241c32-t410g0-t6xrvm-1qaek.cm4.oshuawei.com
+  port: 5228
+  type: http
+  username: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
+  password: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
+  tls: true
+  skip-cert-verify: true
+- name: 🇻🇳 越南 | VNM 40
+  server: 103.186.155.230
   port: 38388
   type: ss
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🇻🇳 越南 | VNM 11
-  server: 103.186.154.191
+- name: 🇭🇰 香港 | HKG 21
+  server: a2449666-t410g0-t7hmka-1plv4.cm4.oshuawei.com
+  port: 5228
+  type: http
+  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  tls: true
+  skip-cert-verify: true
+- name: 🇻🇳 越南 | VNM 5
+  server: 103.186.155.236
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🇻🇳 越南 | VNM 33
+  server: 103.186.154.69
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🇻🇳 越南 | VNM 29
+  server: 103.186.155.206
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🇻🇳 越南 | VNM 6_1
+  server: 103.186.155.207
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🇻🇳 越南 | VNM 34
+  server: 103.186.155.13
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🇻🇳 越南 | VNM 30
+  server: 103.186.154.36
   port: 38388
   type: ss
   cipher: aes-256-cfb
@@ -3965,35 +3921,62 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
   skip-cert-verify: false
-- name: 🇻🇳 越南 | VNM 28
-  server: 103.186.155.46
-  port: 38388
+- name: 未知_1
   type: ss
+  server: 103.186.154.65
+  port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🇻🇳 越南 | VNM 13_1
-  server: 103.186.155.229
-  port: 38388
-  type: ss
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+- name: 🇭🇰 香港 | HKG_1
+  server: hkt.g.hk2.download.windowsupdatea.com
+  port: 443
+  type: vless
+  uuid: 2e8a036a-f353-4de7-8889-32eadb936822
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  servername: glc-hkt2.windowsupdatea.com
+  client-fingerprint: chrome
+  network: tcp
   udp: true
-- name: 🇯🇵 日本 | JPN 5
-  server: qing-zz.mxtn.net
-  port: 22004
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: NmE5YTM4ZmJhNjE4YWMyOA==:OTU2Zjk2ODAtNzhmZi00MA==
-  udp: true
-- name: 🇨🇳 台湾 | TWN 2_1
-  server: c9ce8746-t410g0-t6xrvm-1qaek.tw3.p5pv.com
+- name: 🇨🇳 台湾 | TWN
+  server: 82d679f0-t410g0-t4nd8s-wujn.tw3.p5pv.com
   port: 443
   type: http
-  username: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
-  password: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
+  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
   tls: true
   skip-cert-verify: true
+- name: 🇭🇰 香港 | HKG 5_1
+  server: hkt.g.hk.download.windowsupdatea.com
+  port: 443
+  type: vless
+  uuid: 2e8a036a-f353-4de7-8889-32eadb936822
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  servername: glc-hkt1.windowsupdatea.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇭🇰 香港 | HKG 7_1
+  server: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com
+  port: 80
+  type: vmess
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com
+  udp: true
 - name: 🇻🇳 越南 | VNM 3_2
   server: vn2-3.9966662.xyz
   port: 20223
@@ -4010,34 +3993,36 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇯🇵 日本 | JPN 5_1
-  server: 2f8a6190-t410g0-t6xrvm-1qaek.jp.oshuawei.com
+- name: 🇩🇪 德国 | DEU_1
+  server: de1-1.9966662.xyz
+  port: 20133
+  type: vless
+  uuid: a24c6851-2055-42c1-9c20-2d3bad97334f
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 65E6IjBrQMYqhrtISS0F2kUFIjT5aSxgNPKCf88fGFw
+    short-id: 3b03febe
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇱🇰 斯里兰卡 | LKA
+  server: node4.rtxconfigz.com
   port: 443
-  type: http
-  username: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
-  password: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
+  type: vmess
+  uuid: 44e57485-eccc-46ef-808f-cd17ac810018
+  alterId: 0
+  cipher: auto
   tls: true
   skip-cert-verify: true
-- name: 🇻🇳 越南 | VNM 15
-  server: 103.186.155.103
-  port: 38388
-  type: ss
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🇨🇳 台湾 | TWN 4
-  server: 36.232.77.52
-  port: 10141
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4
-  udp: true
-- name: 🇻🇳 越南 | VNM 15_1
-  server: 103.186.155.75
-  port: 38388
-  type: ss
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  network: ws
+  ws-opts:
+    path: /@Malinda6104
+    headers:
+      Host: node4.rtxconfigz.com
   udp: true
 - name: 🇨🇳 台湾 | TWN 3
   server: 37926650-t410g0-t7hmka-1plv4.tw3.p5pv.com
@@ -4047,26 +4032,19 @@ proxies:
   password: 28213b50-7ed5-11ee-add6-f23c91369f2d
   tls: true
   skip-cert-verify: true
-- name: 🇻🇳 越南 | VNM 12_1
-  server: 103.186.154.241
-  port: 38388
+- name: 🇪🇸 西班牙 | ESP_1
+  server: 37.143.130.203
+  port: 990
   type: ss
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- name: 🇻🇳 越南 | VNM 14_1
-  server: 103.186.155.124
-  port: 38388
+- name: 🇯🇵 日本 | JPN 5_1
+  server: qing-zz.mxtn.net
+  port: 22004
   type: ss
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🇻🇳 越南 | VNM_2
-  server: 103.186.155.145
-  port: 38388
-  type: ss
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  cipher: 2022-blake3-aes-128-gcm
+  password: NmE5YTM4ZmJhNjE4YWMyOA==:OTU2Zjk2ODAtNzhmZi00MA==
   udp: true
 - name: 🇭🇰 香港 | HKG 3
   server: v10.heduian.link
@@ -4083,18 +4061,40 @@ proxies:
     headers:
       Host: baidu.com
   udp: true
-- name: 🇭🇰 香港 | HKG 25
-  server: 1f3fb7e2-t410g0-t7hmka-1plv4.hkt2.cdnhuawei.com
-  port: 443
-  type: socks5
-  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  password: <password>
-- name: 🇭🇰 香港 | HKG 14
-  server: e473eb48-t410g0-t6xrvm-1qaek.hkt2.cdnhuawei.com
+- name: 🇳🇱 荷兰 | NLD 11
+  server: ams.telegavpn.org
+  port: 19057
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: xAQMr1p75opeCecnPGQKTL
+  udp: true
+- name: 🇭🇰 香港 | HKG 4
+  server: zhuli.jineng.buzz
+  port: 80
+  type: vmess
+  uuid: 77cf0cde-fd6c-4336-86de-4c60b797e712
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hk.jineng.buzz
+- name: 🇺🇸 美国 | USA 96
+  server: f32bf30a-t410g0-t7hmka-1plv4.se.oshuawei.com
   port: 443
   type: http
-  username: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
-  password: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
+  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  tls: true
+  skip-cert-verify: true
+- name: 🇭🇰 香港 | HKG 22
+  server: 1f3fb7e2-t410g0-t7hmka-1plv4.hkt2.cdnhuawei.com
+  port: 443
+  type: http
+  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
   tls: true
   skip-cert-verify: true
 - name: 🇭🇰 香港 | HKG 28
@@ -4112,170 +4112,47 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
   udp: true
-- name: 🇭🇰 香港 | HKG 12
-  server: f64f49f6-t410g0-t4nd8s-wujn.hk3.p5pv.com
-  port: 80
-  type: vmess
-  uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-  udp: true
-- name: 🇭🇰 香港 | HKG 24
-  server: f1cbe2c5-t410g0-t7hmka-1plv4.hkt.gotochinatown.net
-  port: 80
-  type: vmess
-  uuid: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-  udp: true
-- name: 🇭🇰 香港 | HKG 18
-  server: 9cce64a0-t410g0-t6xrvm-1qaek.hk.p5pv.com
-  port: 80
-  type: vmess
-  uuid: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-  udp: true
-- name: 🇭🇰 香港 | HKG 9_1
-  server: 80c33bf7-t410g0-t4nd8s-wujn.hkt2.cdnhuawei.com
-  port: 443
-  type: socks5
-  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  password: <password>
-- name: 🇭🇰 香港 | HKG 3_1
-  server: hkt.gotochinatown.net
-  port: 80
-  type: vmess
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hkt.gotochinatown.net
-- name: 🇭🇰 香港 | HKG 8
-  server: a83670e6-t410g0-t4nd8s-wujn.hkt.gotochinatown.net
-  port: 80
-  type: vmess
-  uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-  udp: true
-- name: 🇭🇰 香港 | HKG 23
-  server: 13941854-t410g0-t7hmka-1plv4.hkt.cdnhuawei.com
-  port: 8443
-  type: http
-  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  password: <password>
-  tls: true
-  skip-cert-verify: true
-- name: 🇭🇰 香港 | HKG 16
-  server: 9ed3744d-t410g0-t6xrvm-1qaek.hkt.gotochinatown.net
-  port: 80
-  type: vmess
-  uuid: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-  udp: true
-- name: 🇱🇰 斯里兰卡 | LKA
-  server: node4.rtxconfigz.com
-  port: 443
-  type: vmess
-  uuid: 44e57485-eccc-46ef-808f-cd17ac810018
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@Malinda6104
-    headers:
-      Host: node4.rtxconfigz.com
-  udp: true
-- name: 🇭🇰 香港 | HKG 5_1
-  server: hkt.g.hk.download.windowsupdatea.com
-  port: 443
-  type: vless
-  uuid: 2e8a036a-f353-4de7-8889-32eadb936822
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: glc-hkt1.windowsupdatea.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 🇭🇰 香港 | HKG 4
-  server: zhuli.jineng.buzz
-  port: 80
-  type: vmess
-  uuid: 77cf0cde-fd6c-4336-86de-4c60b797e712
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hk.jineng.buzz
-- name: 🇳🇱 荷兰 | NLD 11
-  server: ams.telegavpn.org
-  port: 19057
+- name: 🇻🇳 越南 | VNM 28
+  server: 103.186.155.46
+  port: 38388
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: xAQMr1p75opeCecnPGQKTL
-  udp: true
-- name: 🇬🇧_GB_英国
-  type: ss
-  server: 51.15.17.169
-  port: 989
   cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🇸🇬 新加坡 | SGP 2
-  server: 38.180.106.124
-  port: 8443
-  type: trojan
-  password: installshield
-  sni: 38.180.106.124
-  skip-cert-verify: true
+- name: 🇻🇳 越南 | VNM 11
+  server: 103.186.154.191
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🇻🇳 越南 | VNM 2_2
+  server: 103.186.154.168
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🇻🇳 越南 | VNM 14_1
+  server: 103.186.155.124
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🇻🇳 越南 | VNM 15_1
+  server: 103.186.155.103
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 未知
+  type: ss
+  server: 103.186.154.229
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
 proxy-groups:
 - name: 🚀 节点选择
@@ -4286,13 +4163,9 @@ proxy-groups:
   - 🔮 负载均衡
   - DIRECT
   - 🇳🇱 荷兰 | NLD 2
-  - 🇺🇸 美国 | USA 36
   - 🇺🇸 美国 | USA 77
   - 🇳🇱 荷兰 | NLD
-  - 🇳🇱 荷兰 | NLD 4
-  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 19
-  - 🇺🇸 美国 | USA 38
   - 🇺🇸 美国 | USA 43
   - 🇺🇸 美国 | USA 48
   - 🇺🇸 美国 | USA 58
@@ -4300,93 +4173,64 @@ proxy-groups:
   - 🇺🇸 美国 | USA 64
   - 🇺🇸 美国 | USA 69
   - 🇺🇸 美国 | USA 70
-  - 🇫🇷 法国 | FRA 4
   - 🇬🇧 英国 | GBR 2
   - 🇬🇧 英国 | GBR 3
-  - 🇭🇰 香港 | HKG 2
   - 🇳🇱 荷兰 | NLD 3
-  - 🇷🇺 俄罗斯 | RUS 3
   - 🇸🇦 沙特阿拉伯 | SAU
   - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 3
   - 🇺🇸 美国 | USA 7
-  - 🇺🇸 美国 | USA 8
-  - 🇺🇸 美国 | USA 12
   - 🇺🇸 美国 | USA 13
   - 🇺🇸 美国 | USA 17
   - 🇺🇸 美国 | USA 18
   - 🇺🇸 美国 | USA 28
   - 🇺🇸 美国 | USA 34
   - 🇺🇸 美国 | USA 53
-  - 🇺🇸 美国 | USA 54
   - 🇺🇸 美国 | USA 61
   - 🇺🇸 美国 | USA 65
   - 🇺🇸 美国 | USA 68
   - 🇺🇸 美国 | USA 72
   - 🇺🇸 美国 | USA 78
-  - 🇺🇸 美国 | USA 80
-  - 🇻🇳 越南 | VNM 2
-  - 🇺🇸 美国 | USA 7_1
   - 🇨🇦 加拿大 | CAN
   - 🇪🇸 西班牙 | ESP 2
-  - 🇫🇷 法国 | FRA
   - 🇫🇷 法国 | FRA 3
   - 🇬🇧 英国 | GBR 4
-  - 🇬🇧 英国 | GBR 5
   - 🇭🇰 香港 | HKG
   - 🇱🇹 立陶宛 | LTU
   - 🇱🇹 立陶宛 | LTU 2
-  - 🇱🇹 立陶宛 | LTU 3
-  - 🇷🇺 俄罗斯 | RUS
   - 🇷🇺 俄罗斯 | RUS 2
-  - 🇷🇺 俄罗斯 | RUS 4
   - 🇺🇦 乌克兰 | UKR
   - 🇺🇸 美国 | USA 2
-  - 🇺🇸 美国 | USA 4
-  - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 14
-  - 🇺🇸 美国 | USA 16
-  - 🇺🇸 美国 | USA 20
   - 🇺🇸 美国 | USA 21
   - 🇺🇸 美国 | USA 25
   - 🇺🇸 美国 | USA 26
-  - 🇺🇸 美国 | USA 27
   - 🇺🇸 美国 | USA 29
   - 🇺🇸 美国 | USA 30
   - 🇺🇸 美国 | USA 31
   - 🇺🇸 美国 | USA 33
-  - 🇺🇸 美国 | USA 35
   - 🇺🇸 美国 | USA 44
   - 🇺🇸 美国 | USA 45
   - 🇺🇸 美国 | USA 46
-  - 🇺🇸 美国 | USA 49
   - 🇺🇸 美国 | USA 50
   - 🇺🇸 美国 | USA 51
   - 🇺🇸 美国 | USA 52
   - 🇺🇸 美国 | USA 55
-  - 🇺🇸 美国 | USA 56
   - 🇺🇸 美国 | USA 57
   - 🇺🇸 美国 | USA 59
-  - 🇺🇸 美国 | USA 60
   - 🇺🇸 美国 | USA 66
   - 🇺🇸 美国 | USA 67
-  - 🇺🇸 美国 | USA 71
   - 🇺🇸 美国 | USA 73
-  - 🇺🇸 美国 | USA 74
   - 🇺🇸 美国 | USA 75
   - 🇺🇸 美国 | USA 79
-  - 🇺🇸 美国 | USA 81
   - 🇻🇳 越南 | VNM 3
   - 🇻🇳 越南 | VNM 4
-  - 🇳🇱 荷兰 | NLD 2_1
   - 🇳🇱 荷兰 | NLD 7
-  - 🇺🇸 美国 | USA 4_1
-  - 🇺🇸 美国 | USA 5_1
-  - 🇺🇸 美国 | USA 6_1
-  - 🇺🇸 美国 | USA 8_1
+  - 🇺🇸 美国 | USA 4
+  - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA 10_1
   - 🇺🇸 美国 | USA 13_1
   - 🇮🇹 意大利 | ITA
@@ -4396,274 +4240,292 @@ proxy-groups:
   - 🇺🇸 美国 | USA 32
   - 🇺🇸 美国 | USA 15
   - 🇺🇸 美国 | USA 15_1
-  - 🇺🇸 美国 | USA 16_1
+  - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 17_1
   - 🇺🇸 美国 | USA 22
-  - 🇺🇸 美国 | USA 31_1
-  - 🇺🇸 美国 | USA 32_1
   - 🇺🇸 美国 | USA 33_1
-  - 🇺🇸 美国 | USA 34_1
-  - 🇺🇸 美国 | USA 37
   - 🇺🇸 美国 | USA 40
   - 🇺🇸 美国 | USA 43_1
   - 🇺🇸 美国 | USA 44_1
+  - 🇺🇸 美国 | USA 52_1
+  - 🇪🇸 西班牙 | ESP
+  - 🇺🇸 美国 | USA 76
+  - 🇺🇸 美国 | USA 36
+  - 🇳🇱 荷兰 | NLD 4
+  - 🇺🇸 美国 | USA 11
+  - 🇺🇸 美国 | USA 38
+  - 🇫🇷 法国 | FRA 4
+  - 🇭🇰 香港 | HKG 2
+  - 🇷🇺 俄罗斯 | RUS 3
+  - 🇺🇸 美国 | USA 8
+  - 🇺🇸 美国 | USA 54
+  - 🇺🇸 美国 | USA 80
+  - 🇻🇳 越南 | VNM 2
+  - 🇺🇸 美国 | USA 7_1
+  - 🇫🇷 法国 | FRA
+  - 🇬🇧 英国 | GBR 5
+  - 🇱🇹 立陶宛 | LTU 3
+  - 🇷🇺 俄罗斯 | RUS
+  - 🇷🇺 俄罗斯 | RUS 4
+  - 🇺🇸 美国 | USA 4_1
+  - 🇺🇸 美国 | USA 5_1
+  - 🇺🇸 美国 | USA 16_1
+  - 🇺🇸 美国 | USA 20
+  - 🇺🇸 美国 | USA 27
+  - 🇺🇸 美国 | USA 35
+  - 🇺🇸 美国 | USA 60
+  - 🇺🇸 美国 | USA 71
+  - 🇺🇸 美国 | USA 74
+  - 🇺🇸 美国 | USA 81
+  - 🇳🇱 荷兰 | NLD 2_1
+  - 🇺🇸 美国 | USA 6_1
+  - 🇺🇸 美国 | USA 8_1
+  - 🇺🇸 美国 | USA 31_1
+  - 🇺🇸 美国 | USA 32_1
+  - 🇺🇸 美国 | USA 34_1
+  - 🇺🇸 美国 | USA 37
   - 🇺🇸 美国 | USA 50_1
   - 🇺🇸 美国 | USA 51_1
-  - 🇺🇸 美国 | USA 52_1
   - 🇺🇸 美国 | USA 53_1
   - 🇺🇸 美国 | USA 55_1
   - 🇺🇸 美国 | USA 57_1
-  - 🇪🇸 西班牙 | ESP
-  - 🇺🇸 美国 | USA 76
+  - 🇺🇸 美国 | USA 12
+  - 🇺🇸 美国 | USA 49
+  - 🇺🇸 美国 | USA 56
   - 🇨🇦 加拿大 | CAN 3
-  - 🇨🇦 加拿大 | CAN 4
-  - 🇺🇸 美国 | USA 11_1
-  - 🇨🇦 加拿大 | CAN 3_1
-  - 🇺🇸 美国 | USA 95
   - 🇨🇦 加拿大 | CAN 2
-  - 🇺🇸 美国 | USA 102
+  - 🇺🇸 美国 | USA 88
+  - 🇨🇦 加拿大 | CAN 3_1
   - 🇺🇸 美国 | USA_1
-  - 🇩🇪 德国 | DEU 17
+  - 🇺🇸 美国 | USA 87
+  - 🇺🇸 美国 | USA 94
+  - 🇨🇦 加拿大 | CAN 4
   - 🇺🇸 美国 | USA 101
-  - 🇺🇸 美国 | USA 82
-  - 🇬🇧_GB_英国_1
-  - 🇮🇪 爱尔兰 | IRL
+  - 🇺🇸 美国 | USA 92
+  - 🇺🇸 美国 | USA 100
+  - 🇺🇸 美国 | USA 93
+  - 🇺🇸 美国 | USA 102
+  - 🇺🇸 美国 | USA 11_1
+  - 🇺🇸 美国 | USA 95
   - 🇺🇸 美国 | USA 85
-  - 🇬🇧 英国 | GBR
-  - 🇺🇸 美国 | USA 97
   - 🇺🇸 美国 | USA 86
   - 🇵🇦 巴拿马 | PAN
+  - 🇬🇧 英国 | GBR
+  - 🇺🇸 美国 | USA 99
+  - 🇬🇧_GB_英国_1
+  - 🇺🇸 美国 | USA 90
   - 🇮🇷_IR_伊朗->🇰🇷_KR_韩国
   - 🇫🇷 法国 | FRA 2
+  - 🇬🇧_GB_英国->🇩🇪_DE_德国
   - 🇳🇱 荷兰 | NLD 5
-  - 🇩🇪_DE_德国
-  - 🇳🇱 荷兰 | NLD 9
-  - 🇫🇷 法国 | FRA 12
   - 🇫🇷 法国 | FRA 21
-  - 🇫🇷 法国 | FRA 5
-  - 🇫🇷 法国 | FRA 7
-  - 🇫🇷 法国 | FRA 11
-  - 🇫🇷 法国 | FRA 20
-  - 🇫🇷 法国 | FRA 24
-  - 🇫🇷 法国 | FRA 4_1
+  - 🇫🇷 法国 | FRA 16
+  - 🇺🇸 美国 | USA 39
+  - 🇬🇧_GB_英国
+  - 🇫🇷 法国 | FRA 12
   - 🇫🇷 法国 | FRA 6
-  - 🇫🇷 法国 | FRA 18
-  - 🇫🇷 法国 | FRA_1
+  - 🇫🇷 法国 | FRA 25
+  - 🇫🇷 法国 | FRA 3_1
+  - 🇫🇷 法国 | FRA 13
+  - 🇩🇪_DE_德国
+  - 🇫🇷 法国 | FRA 11
+  - 🇧🇷 巴西 | BRA
+  - 🇺🇸 美国 | USA 97
   - 🇫🇷 法国 | FRA 9
+  - 🇫🇷 法国 | FRA 17
+  - 🇫🇷 法国 | FRA 18
   - 🇫🇷 法国 | FRA 10
   - 🇫🇷 法国 | FRA 14
+  - 🇫🇷 法国 | FRA 8
+  - 🇩🇪 德国 | DEU
+  - 🇩🇪 德国 | DEU 9
+  - 🇫🇷 法国 | FRA 24
+  - 🇫🇷 法国 | FRA 4_1
+  - 🇫🇷 法国 | FRA_1
   - 🇫🇷 法国 | FRA 19
-  - 🇫🇷 法国 | FRA 25
+  - 🇫🇷 法国 | FRA 5
+  - 🇫🇷 法国 | FRA 7
+  - 🇩🇪 德国 | DEU 17
+  - 🇳🇱 荷兰 | NLD 9
+  - 🇩🇪 德国 | DEU 13
+  - 🇩🇰 丹麦 | DNK
+  - 🇯🇵 日本 | JPN
   - 🇫🇷 法国 | FRA 26
   - 🇫🇷 法国 | FRA 23
-  - 🇫🇷 法国 | FRA 3_1
-  - 🇫🇷 法国 | FRA 8
+  - 🇮🇪 爱尔兰 | IRL
   - 🇫🇷 法国 | FRA 15
-  - 🇫🇷 法国 | FRA 17
-  - 🇫🇷 法国 | FRA 13
-  - 🇫🇷 法国 | FRA 16
-  - 🇺🇸 美国 | USA 87
-  - 🇩🇪 德国 | DEU 6
-  - 🇺🇸 美国 | USA 94
-  - 🇩🇪 德国 | DEU 5
-  - 🇩🇪 德国 | DEU 10
-  - 🇩🇪 德国 | DEU 20
-  - 🇩🇪 德国 | DEU 2
+  - 🇯🇵 日本 | JPN 2
+  - 🇫🇷 法国 | FRA 20
+  - 🇩🇪 德国 | DEU 21
   - 🇩🇪 德国 | DEU 8
   - 🇫🇷 法国 | FRA 22
-  - 🇩🇪 德国 | DEU 7
-  - 🇳🇱_NL_荷兰
-  - 🇺🇸 美国 | USA 88
-  - 🇩🇪 德国 | DEU 21
   - 🇩🇪 德国 | DEU 23
-  - 🇩🇪 德国 | DEU
-  - 🇺🇸 美国 | USA 96
-  - 🇩🇪 德国 | DEU 9
-  - 🇩🇪 德国 | DEU 13
-  - 🇨🇭 瑞士 | CHE
+  - 🇩🇪 德国 | DEU 24
+  - 🇩🇪 德国 | DEU 6
   - 🇩🇪 德国 | DEU 16
+  - 🇩🇪 德国 | DEU 10
   - 🇩🇪 德国 | DEU 4
-  - 🇩🇪 德国 | DEU 11
   - 🇩🇪 德国 | DEU 12
-  - 🇩🇰 丹麦 | DNK
   - 🇩🇪 德国 | DEU 14
-  - 🇩🇪 德国 | DEU 4_1
+  - 🇩🇪 德国 | DEU 20
+  - 🇩🇪 德国 | DEU 11
   - 🇩🇪 德国 | DEU 19
   - 🇩🇪 德国 | DEU 15
-  - 🇺🇸 美国 | USA 12_1
-  - 🇫🇷 法国 | FRA 2_1
-  - 🇩🇪 德国 | DEU 24
+  - 🇩🇪 德国 | DEU 2
   - 🇸🇰 斯洛伐克 | SVK
-  - 🇵🇱 波兰 | POL
-  - 🇺🇸 美国 | USA 99
-  - 🇺🇸 美国 | USA 92
   - 🇺🇸 美国 | USA 89
-  - 🇺🇸 美国 | USA 90
   - 🇬🇧 英国 | GBR 8
+  - 🇩🇪 德国 | DEU 5
   - 🇬🇧 英国 | GBR 9
-  - 🇱🇺 卢森堡 | LUX
-  - 🇩🇪 德国 | DEU 3
-  - 🇲🇩 摩尔多瓦 | MDA
-  - 🇦🇪 阿联酋 | ARE
-  - 🇷🇺_RU_俄罗斯
-  - 🇿🇦 南非 | ZAF
-  - 🇫🇮 芬兰 | FIN
-  - 🇸🇪 瑞典 | SWE
-  - 🇦🇪 阿联酋 | ARE 2
-  - 🇺🇸 美国 | USA 2_1
-  - 🇺🇸 美国 | USA 93
-  - 🇺🇸 美国 | USA 100
-  - 🇧🇷 巴西 | BRA
   - 🇬🇧 英国 | GBR 7
-  - 🇰🇿 哈萨克斯坦 | KAZ
-  - 🇯🇵 日本 | JPN 7
-  - 🇺🇸 美国 | USA 39
-  - 🇺🇸 美国 | USA 83
-  - 🇯🇵 日本 | JPN
-  - 🇯🇵 日本 | JPN 8
-  - 🇫🇷 法国 | FRA 6_1
-  - 🇫🇷 法国 | FRA 5_1
-  - 🇫🇷 法国 | FRA 7_1
-  - 🇩🇪 德国 | DEU 2_1
   - 🇯🇵 日本 | JPN 4
-  - 🇯🇵 日本 | JPN 2
-  - 🇨🇳 台湾 | TWN 2
-  - 🇨🇳 台湾 | TWN 7
+  - 🇯🇵 日本 | JPN 10
+  - 🇩🇪 德国 | DEU 7
+  - 🇫🇷 法国 | FRA 2_1
+  - 🇯🇵 日本 | JPN 7
+  - 🇳🇱_NL_荷兰
+  - 🇨🇭 瑞士 | CHE
+  - 🇺🇸 美国 | USA 83
+  - 🇯🇵 日本 | JPN 8
+  - 🇺🇸 美国 | USA 82
+  - 🇵🇱 波兰 | POL
+  - 🇱🇺 卢森堡 | LUX
   - 🇨🇳 台湾 | TWN 5
+  - 🇨🇳 台湾 | TWN 16
   - 🇨🇳 台湾 | TWN 6
-  - 🇨🇳 台湾 | TWN 13
-  - 🇨🇳 台湾 | TWN 17
-  - 🇰🇷 韩国 | KOR 2
   - 🇨🇳 台湾 | TWN 15
   - 🇨🇳 台湾 | TWN 20
-  - 🇨🇳 台湾 | TWN 21
   - 🇰🇷 韩国 | KOR
-  - 🇳🇱 荷兰 | NLD_1
-  - 🇨🇳 台湾 | TWN 16
+  - 🇨🇳 台湾 | TWN 13
   - 🇯🇵 日本 | JPN 2_1
-  - 🇨🇳 台湾 | TWN
-  - 🇭🇰 香港 | HKG 7
+  - 🇩🇪 德国 | DEU 3
+  - 🇯🇵 日本 | JPN 5
+  - 🇩🇪 德国 | DEU 4_1
+  - 🇩🇪 德国 | DEU 2_1
+  - 🇲🇩 摩尔多瓦 | MDA
+  - 🇳🇱 荷兰 | NLD_1
+  - 🇫🇮 芬兰 | FIN
+  - 🇸🇪 瑞典 | SWE
+  - 🇰🇷 韩国 | KOR 2
+  - 🇫🇷 法国 | FRA 5_1
   - 🇭🇰 香港 | HKG 6
   - 🇪🇸_ES_西班牙->🇺🇸_US_美国_1
+  - 🇫🇷 法国 | FRA 7_1
   - 🇪🇸_ES_西班牙->🇺🇸_US_美国
   - 🇭🇰 香港 | HKG 9
-  - 🇭🇰 香港 | HKG 6_1
-  - 🇭🇰 香港 | HKG 7_1
-  - 🇺🇸 美国 | USA 37_1
-  - 🇩🇪 德国 | DEU_1
+  - 🇿🇦 南非 | ZAF
+  - 🇫🇷 法国 | FRA 6_1
   - 🇭🇰 香港 | HKG 2_1
+  - 🇸🇬 新加坡 | SGP 2
+  - 🇦🇪 阿联酋 | ARE
+  - 🇷🇺_RU_俄罗斯
+  - 🇭🇰 香港 | HKG 14
+  - 🇭🇰 香港 | HKG 15
+  - 🇺🇸 美国 | USA 37_1
+  - 🇭🇰 香港 | HKG 26
   - 🇸🇬 新加坡 | SGP 8
-  - 🇭🇰 香港 | HKG 20
+  - 🇭🇰 香港 | HKG 23
   - 🇸🇬 新加坡 | SGP 10
   - 🇸🇬 新加坡 | SGP 7
-  - 🇪🇸 西班牙 | ESP_1
-  - 🇸🇬 新加坡 | SGP 11
   - 🇸🇬 新加坡 | SGP 4
-  - 🇭🇰 香港 | HKG 10
-  - 🇯🇵 日本 | JPN 10
   - 🇸🇬 新加坡 | SGP 5
-  - 🇭🇰 香港 | HKG 15
-  - 🇭🇰 香港 | HKG 22
-  - 🇭🇰 香港 | HKG 7_2
-  - 🇭🇰 香港 | HKG_1
-  - 🇭🇰 香港 | HKG 26
-  - 🇭🇰 香港 | HKG 5
-  - 🇭🇰 香港 | HKG 17
-  - 🇺🇸 美国 | USA 84
+  - 🇸🇬 新加坡 | SGP 11
+  - 🇦🇪 阿联酋 | ARE 2
+  - 🇭🇰 香港 | HKG 18
+  - 🇰🇿 哈萨克斯坦 | KAZ
+  - 🇭🇰 香港 | HKG 6_1
+  - 🇭🇰 香港 | HKG 12
+  - 🇭🇰 香港 | HKG 7
+  - 🇭🇰 香港 | HKG 20
   - 🇻🇳 越南 | VNM 42
-  - 🇻🇳 越南 | VNM 8
-  - 未知
-  - 🇻🇳 越南 | VNM 21
-  - 🇻🇳 越南 | VNM 2_1
-  - 🇻🇳 越南 | VNM 7
-  - 🇭🇰 香港 | HKG 21
-  - 🇻🇳 越南 | VNM 8_1
-  - 🇻🇳 越南 | VNM 3_1
-  - 🇻🇳 越南 | VNM 24
+  - 🇻🇳 越南 | VNM 13
+  - 🇨🇳 台湾 | TWN 2
+  - 🇻🇳 越南 | VNM 17
+  - 🇻🇳 越南 | VNM 15
+  - 🇭🇰 香港 | HKG 17
   - 🇻🇳 越南 | VNM 37
-  - 🇻🇳 越南 | VNM 38
-  - 🇻🇳 越南 | VNM 2_2
-  - 🇻🇳 越南 | VNM 19
-  - 未知_1
   - 🇻🇳 越南 | VNM 12
-  - 🇻🇳 越南 | VNM 18
-  - 🇻🇳 越南 | VNM 39
-  - 🇻🇳 越南 | VNM 32
-  - 🇻🇳 越南 | VNM 14
-  - 🇻🇳 越南 | VNM 41
-  - 🇻🇳 越南 | VNM 9
-  - 🇻🇳 越南 | VNM 43
   - 🇻🇳 越南 | VNM 20
+  - 🇻🇳 越南 | VNM 35
+  - 🇻🇳 越南 | VNM 26
+  - 🇻🇳 越南 | VNM 24
+  - 🇻🇳 越南 | VNM 4_1
+  - 🇻🇳 越南 | VNM 9
+  - 🇻🇳 越南 | VNM 31
   - 🇻🇳 越南 | VNM 44
   - 🇻🇳 越南 | VNM_1
-  - 🇻🇳 越南 | VNM 4_1
-  - 🇻🇳 越南 | VNM 33
-  - 🇻🇳 越南 | VNM 4_2
-  - 🇻🇳 越南 | VNM 13
-  - 🇻🇳 越南 | VNM 29
-  - 🇻🇳 越南 | VNM 36
-  - 🇻🇳 越南 | VNM 34
-  - 🇻🇳 越南 | VNM 25
-  - 🇻🇳 越南 | VNM 27
-  - 🇻🇳 越南 | VNM 6
-  - 🇭🇰 香港 | HKG 13
   - 🇻🇳 越南 | VNM 22
   - 🇻🇳 越南 | VNM 23
-  - 🇻🇳 越南 | VNM 5
-  - 🇻🇳 越南 | VNM 10
-  - 🇻🇳 越南 | VNM 17
-  - 🇻🇳 越南 | VNM 30
-  - 🇻🇳 越南 | VNM 35
-  - 🇻🇳 越南 | VNM 40
-  - 🇻🇳 越南 | VNM 16
-  - 🇻🇳 越南 | VNM 6_1
-  - 🇻🇳 越南 | VNM 9_1
-  - 🇻🇳 越南 | VNM 31
-  - 🇻🇳 越南 | VNM 26
-  - 🇻🇳 越南 | VNM 11
-  - 🇺🇸 美国 | USA 40_1
-  - 🇻🇳 越南 | VNM 28
   - 🇻🇳 越南 | VNM 13_1
-  - 🇯🇵 日本 | JPN 5
-  - 🇨🇳 台湾 | TWN 2_1
-  - 🇻🇳 越南 | VNM 3_2
-  - 🇯🇵 日本 | JPN 5_1
-  - 🇻🇳 越南 | VNM 15
-  - 🇨🇳 台湾 | TWN 4
-  - 🇻🇳 越南 | VNM 15_1
-  - 🇨🇳 台湾 | TWN 3
+  - 🇺🇸 美国 | USA 84
+  - 🇻🇳 越南 | VNM 36
   - 🇻🇳 越南 | VNM 12_1
-  - 🇻🇳 越南 | VNM 14_1
-  - 🇻🇳 越南 | VNM_2
-  - 🇭🇰 香港 | HKG 3
+  - 🇻🇳 越南 | VNM 21
+  - 🇻🇳 越南 | VNM 2_1
+  - 🇻🇳 越南 | VNM 39
+  - 🇻🇳 越南 | VNM 43
+  - 🇻🇳 越南 | VNM 27
+  - 🇻🇳 越南 | VNM 6
   - 🇭🇰 香港 | HKG 25
-  - 🇭🇰 香港 | HKG 14
-  - 🇭🇰 香港 | HKG 28
-  - 🇭🇰 香港 | HKG 12
-  - 🇭🇰 香港 | HKG 24
-  - 🇭🇰 香港 | HKG 18
   - 🇭🇰 香港 | HKG 9_1
-  - 🇭🇰 香港 | HKG 3_1
-  - 🇭🇰 香港 | HKG 8
-  - 🇭🇰 香港 | HKG 23
-  - 🇭🇰 香港 | HKG 16
-  - 🇱🇰 斯里兰卡 | LKA
+  - 🇻🇳 越南 | VNM 19
+  - 🇻🇳 越南 | VNM 18
+  - 🇻🇳 越南 | VNM 10
+  - 🇻🇳 越南 | VNM 14
+  - 🇻🇳 越南 | VNM 4_2
+  - 🇻🇳 越南 | VNM 16
+  - 🇻🇳 越南 | VNM_2
+  - 🇻🇳 越南 | VNM 7
+  - 🇻🇳 越南 | VNM 38
+  - 🇻🇳 越南 | VNM 32
+  - 🇻🇳 越南 | VNM 8
+  - 🇻🇳 越南 | VNM 8_1
+  - 🇻🇳 越南 | VNM 41
+  - 🇭🇰 香港 | HKG 10
+  - 🇻🇳 越南 | VNM 3_1
+  - 🇻🇳 越南 | VNM 9_1
+  - 🇻🇳 越南 | VNM 25
+  - 🇭🇰 香港 | HKG 5
+  - 🇭🇰 香港 | HKG 13
+  - 🇻🇳 越南 | VNM 40
+  - 🇭🇰 香港 | HKG 21
+  - 🇻🇳 越南 | VNM 5
+  - 🇻🇳 越南 | VNM 33
+  - 🇻🇳 越南 | VNM 29
+  - 🇻🇳 越南 | VNM 6_1
+  - 🇻🇳 越南 | VNM 34
+  - 🇻🇳 越南 | VNM 30
+  - 🇺🇸 美国 | USA 40_1
+  - 未知_1
+  - 🇭🇰 香港 | HKG_1
+  - 🇨🇳 台湾 | TWN
   - 🇭🇰 香港 | HKG 5_1
-  - 🇭🇰 香港 | HKG 4
+  - 🇭🇰 香港 | HKG 7_1
+  - 🇻🇳 越南 | VNM 3_2
+  - 🇩🇪 德国 | DEU_1
+  - 🇱🇰 斯里兰卡 | LKA
+  - 🇨🇳 台湾 | TWN 3
+  - 🇪🇸 西班牙 | ESP_1
+  - 🇯🇵 日本 | JPN 5_1
+  - 🇭🇰 香港 | HKG 3
   - 🇳🇱 荷兰 | NLD 11
-  - 🇬🇧_GB_英国
-  - 🇸🇬 新加坡 | SGP 2
+  - 🇭🇰 香港 | HKG 4
+  - 🇺🇸 美国 | USA 96
+  - 🇭🇰 香港 | HKG 22
+  - 🇭🇰 香港 | HKG 28
+  - 🇻🇳 越南 | VNM 28
+  - 🇻🇳 越南 | VNM 11
+  - 🇻🇳 越南 | VNM 2_2
+  - 🇻🇳 越南 | VNM 14_1
+  - 🇻🇳 越南 | VNM 15_1
+  - 未知
 - name: ♻️ 自动选择
   type: url-test
   proxies:
   - 🇳🇱 荷兰 | NLD 2
-  - 🇺🇸 美国 | USA 36
   - 🇺🇸 美国 | USA 77
   - 🇳🇱 荷兰 | NLD
-  - 🇳🇱 荷兰 | NLD 4
-  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 19
-  - 🇺🇸 美国 | USA 38
   - 🇺🇸 美国 | USA 43
   - 🇺🇸 美国 | USA 48
   - 🇺🇸 美国 | USA 58
@@ -4671,93 +4533,64 @@ proxy-groups:
   - 🇺🇸 美国 | USA 64
   - 🇺🇸 美国 | USA 69
   - 🇺🇸 美国 | USA 70
-  - 🇫🇷 法国 | FRA 4
   - 🇬🇧 英国 | GBR 2
   - 🇬🇧 英国 | GBR 3
-  - 🇭🇰 香港 | HKG 2
   - 🇳🇱 荷兰 | NLD 3
-  - 🇷🇺 俄罗斯 | RUS 3
   - 🇸🇦 沙特阿拉伯 | SAU
   - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 3
   - 🇺🇸 美国 | USA 7
-  - 🇺🇸 美国 | USA 8
-  - 🇺🇸 美国 | USA 12
   - 🇺🇸 美国 | USA 13
   - 🇺🇸 美国 | USA 17
   - 🇺🇸 美国 | USA 18
   - 🇺🇸 美国 | USA 28
   - 🇺🇸 美国 | USA 34
   - 🇺🇸 美国 | USA 53
-  - 🇺🇸 美国 | USA 54
   - 🇺🇸 美国 | USA 61
   - 🇺🇸 美国 | USA 65
   - 🇺🇸 美国 | USA 68
   - 🇺🇸 美国 | USA 72
   - 🇺🇸 美国 | USA 78
-  - 🇺🇸 美国 | USA 80
-  - 🇻🇳 越南 | VNM 2
-  - 🇺🇸 美国 | USA 7_1
   - 🇨🇦 加拿大 | CAN
   - 🇪🇸 西班牙 | ESP 2
-  - 🇫🇷 法国 | FRA
   - 🇫🇷 法国 | FRA 3
   - 🇬🇧 英国 | GBR 4
-  - 🇬🇧 英国 | GBR 5
   - 🇭🇰 香港 | HKG
   - 🇱🇹 立陶宛 | LTU
   - 🇱🇹 立陶宛 | LTU 2
-  - 🇱🇹 立陶宛 | LTU 3
-  - 🇷🇺 俄罗斯 | RUS
   - 🇷🇺 俄罗斯 | RUS 2
-  - 🇷🇺 俄罗斯 | RUS 4
   - 🇺🇦 乌克兰 | UKR
   - 🇺🇸 美国 | USA 2
-  - 🇺🇸 美国 | USA 4
-  - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 14
-  - 🇺🇸 美国 | USA 16
-  - 🇺🇸 美国 | USA 20
   - 🇺🇸 美国 | USA 21
   - 🇺🇸 美国 | USA 25
   - 🇺🇸 美国 | USA 26
-  - 🇺🇸 美国 | USA 27
   - 🇺🇸 美国 | USA 29
   - 🇺🇸 美国 | USA 30
   - 🇺🇸 美国 | USA 31
   - 🇺🇸 美国 | USA 33
-  - 🇺🇸 美国 | USA 35
   - 🇺🇸 美国 | USA 44
   - 🇺🇸 美国 | USA 45
   - 🇺🇸 美国 | USA 46
-  - 🇺🇸 美国 | USA 49
   - 🇺🇸 美国 | USA 50
   - 🇺🇸 美国 | USA 51
   - 🇺🇸 美国 | USA 52
   - 🇺🇸 美国 | USA 55
-  - 🇺🇸 美国 | USA 56
   - 🇺🇸 美国 | USA 57
   - 🇺🇸 美国 | USA 59
-  - 🇺🇸 美国 | USA 60
   - 🇺🇸 美国 | USA 66
   - 🇺🇸 美国 | USA 67
-  - 🇺🇸 美国 | USA 71
   - 🇺🇸 美国 | USA 73
-  - 🇺🇸 美国 | USA 74
   - 🇺🇸 美国 | USA 75
   - 🇺🇸 美国 | USA 79
-  - 🇺🇸 美国 | USA 81
   - 🇻🇳 越南 | VNM 3
   - 🇻🇳 越南 | VNM 4
-  - 🇳🇱 荷兰 | NLD 2_1
   - 🇳🇱 荷兰 | NLD 7
-  - 🇺🇸 美国 | USA 4_1
-  - 🇺🇸 美国 | USA 5_1
-  - 🇺🇸 美国 | USA 6_1
-  - 🇺🇸 美国 | USA 8_1
+  - 🇺🇸 美国 | USA 4
+  - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA 10_1
   - 🇺🇸 美国 | USA 13_1
   - 🇮🇹 意大利 | ITA
@@ -4767,276 +4600,294 @@ proxy-groups:
   - 🇺🇸 美国 | USA 32
   - 🇺🇸 美国 | USA 15
   - 🇺🇸 美国 | USA 15_1
-  - 🇺🇸 美国 | USA 16_1
+  - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 17_1
   - 🇺🇸 美国 | USA 22
-  - 🇺🇸 美国 | USA 31_1
-  - 🇺🇸 美国 | USA 32_1
   - 🇺🇸 美国 | USA 33_1
-  - 🇺🇸 美国 | USA 34_1
-  - 🇺🇸 美国 | USA 37
   - 🇺🇸 美国 | USA 40
   - 🇺🇸 美国 | USA 43_1
   - 🇺🇸 美国 | USA 44_1
+  - 🇺🇸 美国 | USA 52_1
+  - 🇪🇸 西班牙 | ESP
+  - 🇺🇸 美国 | USA 76
+  - 🇺🇸 美国 | USA 36
+  - 🇳🇱 荷兰 | NLD 4
+  - 🇺🇸 美国 | USA 11
+  - 🇺🇸 美国 | USA 38
+  - 🇫🇷 法国 | FRA 4
+  - 🇭🇰 香港 | HKG 2
+  - 🇷🇺 俄罗斯 | RUS 3
+  - 🇺🇸 美国 | USA 8
+  - 🇺🇸 美国 | USA 54
+  - 🇺🇸 美国 | USA 80
+  - 🇻🇳 越南 | VNM 2
+  - 🇺🇸 美国 | USA 7_1
+  - 🇫🇷 法国 | FRA
+  - 🇬🇧 英国 | GBR 5
+  - 🇱🇹 立陶宛 | LTU 3
+  - 🇷🇺 俄罗斯 | RUS
+  - 🇷🇺 俄罗斯 | RUS 4
+  - 🇺🇸 美国 | USA 4_1
+  - 🇺🇸 美国 | USA 5_1
+  - 🇺🇸 美国 | USA 16_1
+  - 🇺🇸 美国 | USA 20
+  - 🇺🇸 美国 | USA 27
+  - 🇺🇸 美国 | USA 35
+  - 🇺🇸 美国 | USA 60
+  - 🇺🇸 美国 | USA 71
+  - 🇺🇸 美国 | USA 74
+  - 🇺🇸 美国 | USA 81
+  - 🇳🇱 荷兰 | NLD 2_1
+  - 🇺🇸 美国 | USA 6_1
+  - 🇺🇸 美国 | USA 8_1
+  - 🇺🇸 美国 | USA 31_1
+  - 🇺🇸 美国 | USA 32_1
+  - 🇺🇸 美国 | USA 34_1
+  - 🇺🇸 美国 | USA 37
   - 🇺🇸 美国 | USA 50_1
   - 🇺🇸 美国 | USA 51_1
-  - 🇺🇸 美国 | USA 52_1
   - 🇺🇸 美国 | USA 53_1
   - 🇺🇸 美国 | USA 55_1
   - 🇺🇸 美国 | USA 57_1
-  - 🇪🇸 西班牙 | ESP
-  - 🇺🇸 美国 | USA 76
+  - 🇺🇸 美国 | USA 12
+  - 🇺🇸 美国 | USA 49
+  - 🇺🇸 美国 | USA 56
   - 🇨🇦 加拿大 | CAN 3
-  - 🇨🇦 加拿大 | CAN 4
-  - 🇺🇸 美国 | USA 11_1
-  - 🇨🇦 加拿大 | CAN 3_1
-  - 🇺🇸 美国 | USA 95
   - 🇨🇦 加拿大 | CAN 2
-  - 🇺🇸 美国 | USA 102
+  - 🇺🇸 美国 | USA 88
+  - 🇨🇦 加拿大 | CAN 3_1
   - 🇺🇸 美国 | USA_1
-  - 🇩🇪 德国 | DEU 17
+  - 🇺🇸 美国 | USA 87
+  - 🇺🇸 美国 | USA 94
+  - 🇨🇦 加拿大 | CAN 4
   - 🇺🇸 美国 | USA 101
-  - 🇺🇸 美国 | USA 82
-  - 🇬🇧_GB_英国_1
-  - 🇮🇪 爱尔兰 | IRL
+  - 🇺🇸 美国 | USA 92
+  - 🇺🇸 美国 | USA 100
+  - 🇺🇸 美国 | USA 93
+  - 🇺🇸 美国 | USA 102
+  - 🇺🇸 美国 | USA 11_1
+  - 🇺🇸 美国 | USA 95
   - 🇺🇸 美国 | USA 85
-  - 🇬🇧 英国 | GBR
-  - 🇺🇸 美国 | USA 97
   - 🇺🇸 美国 | USA 86
   - 🇵🇦 巴拿马 | PAN
+  - 🇬🇧 英国 | GBR
+  - 🇺🇸 美国 | USA 99
+  - 🇬🇧_GB_英国_1
+  - 🇺🇸 美国 | USA 90
   - 🇮🇷_IR_伊朗->🇰🇷_KR_韩国
   - 🇫🇷 法国 | FRA 2
+  - 🇬🇧_GB_英国->🇩🇪_DE_德国
   - 🇳🇱 荷兰 | NLD 5
-  - 🇩🇪_DE_德国
-  - 🇳🇱 荷兰 | NLD 9
-  - 🇫🇷 法国 | FRA 12
   - 🇫🇷 法国 | FRA 21
-  - 🇫🇷 法国 | FRA 5
-  - 🇫🇷 法国 | FRA 7
-  - 🇫🇷 法国 | FRA 11
-  - 🇫🇷 法国 | FRA 20
-  - 🇫🇷 法国 | FRA 24
-  - 🇫🇷 法国 | FRA 4_1
+  - 🇫🇷 法国 | FRA 16
+  - 🇺🇸 美国 | USA 39
+  - 🇬🇧_GB_英国
+  - 🇫🇷 法国 | FRA 12
   - 🇫🇷 法国 | FRA 6
-  - 🇫🇷 法国 | FRA 18
-  - 🇫🇷 法国 | FRA_1
+  - 🇫🇷 法国 | FRA 25
+  - 🇫🇷 法国 | FRA 3_1
+  - 🇫🇷 法国 | FRA 13
+  - 🇩🇪_DE_德国
+  - 🇫🇷 法国 | FRA 11
+  - 🇧🇷 巴西 | BRA
+  - 🇺🇸 美国 | USA 97
   - 🇫🇷 法国 | FRA 9
+  - 🇫🇷 法国 | FRA 17
+  - 🇫🇷 法国 | FRA 18
   - 🇫🇷 法国 | FRA 10
   - 🇫🇷 法国 | FRA 14
+  - 🇫🇷 法国 | FRA 8
+  - 🇩🇪 德国 | DEU
+  - 🇩🇪 德国 | DEU 9
+  - 🇫🇷 法国 | FRA 24
+  - 🇫🇷 法国 | FRA 4_1
+  - 🇫🇷 法国 | FRA_1
   - 🇫🇷 法国 | FRA 19
-  - 🇫🇷 法国 | FRA 25
+  - 🇫🇷 法国 | FRA 5
+  - 🇫🇷 法国 | FRA 7
+  - 🇩🇪 德国 | DEU 17
+  - 🇳🇱 荷兰 | NLD 9
+  - 🇩🇪 德国 | DEU 13
+  - 🇩🇰 丹麦 | DNK
+  - 🇯🇵 日本 | JPN
   - 🇫🇷 法国 | FRA 26
   - 🇫🇷 法国 | FRA 23
-  - 🇫🇷 法国 | FRA 3_1
-  - 🇫🇷 法国 | FRA 8
+  - 🇮🇪 爱尔兰 | IRL
   - 🇫🇷 法国 | FRA 15
-  - 🇫🇷 法国 | FRA 17
-  - 🇫🇷 法国 | FRA 13
-  - 🇫🇷 法国 | FRA 16
-  - 🇺🇸 美国 | USA 87
-  - 🇩🇪 德国 | DEU 6
-  - 🇺🇸 美国 | USA 94
-  - 🇩🇪 德国 | DEU 5
-  - 🇩🇪 德国 | DEU 10
-  - 🇩🇪 德国 | DEU 20
-  - 🇩🇪 德国 | DEU 2
+  - 🇯🇵 日本 | JPN 2
+  - 🇫🇷 法国 | FRA 20
+  - 🇩🇪 德国 | DEU 21
   - 🇩🇪 德国 | DEU 8
   - 🇫🇷 法国 | FRA 22
-  - 🇩🇪 德国 | DEU 7
-  - 🇳🇱_NL_荷兰
-  - 🇺🇸 美国 | USA 88
-  - 🇩🇪 德国 | DEU 21
   - 🇩🇪 德国 | DEU 23
-  - 🇩🇪 德国 | DEU
-  - 🇺🇸 美国 | USA 96
-  - 🇩🇪 德国 | DEU 9
-  - 🇩🇪 德国 | DEU 13
-  - 🇨🇭 瑞士 | CHE
+  - 🇩🇪 德国 | DEU 24
+  - 🇩🇪 德国 | DEU 6
   - 🇩🇪 德国 | DEU 16
+  - 🇩🇪 德国 | DEU 10
   - 🇩🇪 德国 | DEU 4
-  - 🇩🇪 德国 | DEU 11
   - 🇩🇪 德国 | DEU 12
-  - 🇩🇰 丹麦 | DNK
   - 🇩🇪 德国 | DEU 14
-  - 🇩🇪 德国 | DEU 4_1
+  - 🇩🇪 德国 | DEU 20
+  - 🇩🇪 德国 | DEU 11
   - 🇩🇪 德国 | DEU 19
   - 🇩🇪 德国 | DEU 15
-  - 🇺🇸 美国 | USA 12_1
-  - 🇫🇷 法国 | FRA 2_1
-  - 🇩🇪 德国 | DEU 24
+  - 🇩🇪 德国 | DEU 2
   - 🇸🇰 斯洛伐克 | SVK
-  - 🇵🇱 波兰 | POL
-  - 🇺🇸 美国 | USA 99
-  - 🇺🇸 美国 | USA 92
   - 🇺🇸 美国 | USA 89
-  - 🇺🇸 美国 | USA 90
   - 🇬🇧 英国 | GBR 8
+  - 🇩🇪 德国 | DEU 5
   - 🇬🇧 英国 | GBR 9
-  - 🇱🇺 卢森堡 | LUX
-  - 🇩🇪 德国 | DEU 3
-  - 🇲🇩 摩尔多瓦 | MDA
-  - 🇦🇪 阿联酋 | ARE
-  - 🇷🇺_RU_俄罗斯
-  - 🇿🇦 南非 | ZAF
-  - 🇫🇮 芬兰 | FIN
-  - 🇸🇪 瑞典 | SWE
-  - 🇦🇪 阿联酋 | ARE 2
-  - 🇺🇸 美国 | USA 2_1
-  - 🇺🇸 美国 | USA 93
-  - 🇺🇸 美国 | USA 100
-  - 🇧🇷 巴西 | BRA
   - 🇬🇧 英国 | GBR 7
-  - 🇰🇿 哈萨克斯坦 | KAZ
-  - 🇯🇵 日本 | JPN 7
-  - 🇺🇸 美国 | USA 39
-  - 🇺🇸 美国 | USA 83
-  - 🇯🇵 日本 | JPN
-  - 🇯🇵 日本 | JPN 8
-  - 🇫🇷 法国 | FRA 6_1
-  - 🇫🇷 法国 | FRA 5_1
-  - 🇫🇷 法国 | FRA 7_1
-  - 🇩🇪 德国 | DEU 2_1
   - 🇯🇵 日本 | JPN 4
-  - 🇯🇵 日本 | JPN 2
-  - 🇨🇳 台湾 | TWN 2
-  - 🇨🇳 台湾 | TWN 7
+  - 🇯🇵 日本 | JPN 10
+  - 🇩🇪 德国 | DEU 7
+  - 🇫🇷 法国 | FRA 2_1
+  - 🇯🇵 日本 | JPN 7
+  - 🇳🇱_NL_荷兰
+  - 🇨🇭 瑞士 | CHE
+  - 🇺🇸 美国 | USA 83
+  - 🇯🇵 日本 | JPN 8
+  - 🇺🇸 美国 | USA 82
+  - 🇵🇱 波兰 | POL
+  - 🇱🇺 卢森堡 | LUX
   - 🇨🇳 台湾 | TWN 5
+  - 🇨🇳 台湾 | TWN 16
   - 🇨🇳 台湾 | TWN 6
-  - 🇨🇳 台湾 | TWN 13
-  - 🇨🇳 台湾 | TWN 17
-  - 🇰🇷 韩国 | KOR 2
   - 🇨🇳 台湾 | TWN 15
   - 🇨🇳 台湾 | TWN 20
-  - 🇨🇳 台湾 | TWN 21
   - 🇰🇷 韩国 | KOR
-  - 🇳🇱 荷兰 | NLD_1
-  - 🇨🇳 台湾 | TWN 16
+  - 🇨🇳 台湾 | TWN 13
   - 🇯🇵 日本 | JPN 2_1
-  - 🇨🇳 台湾 | TWN
-  - 🇭🇰 香港 | HKG 7
+  - 🇩🇪 德国 | DEU 3
+  - 🇯🇵 日本 | JPN 5
+  - 🇩🇪 德国 | DEU 4_1
+  - 🇩🇪 德国 | DEU 2_1
+  - 🇲🇩 摩尔多瓦 | MDA
+  - 🇳🇱 荷兰 | NLD_1
+  - 🇫🇮 芬兰 | FIN
+  - 🇸🇪 瑞典 | SWE
+  - 🇰🇷 韩国 | KOR 2
+  - 🇫🇷 法国 | FRA 5_1
   - 🇭🇰 香港 | HKG 6
   - 🇪🇸_ES_西班牙->🇺🇸_US_美国_1
+  - 🇫🇷 法国 | FRA 7_1
   - 🇪🇸_ES_西班牙->🇺🇸_US_美国
   - 🇭🇰 香港 | HKG 9
-  - 🇭🇰 香港 | HKG 6_1
-  - 🇭🇰 香港 | HKG 7_1
-  - 🇺🇸 美国 | USA 37_1
-  - 🇩🇪 德国 | DEU_1
+  - 🇿🇦 南非 | ZAF
+  - 🇫🇷 法国 | FRA 6_1
   - 🇭🇰 香港 | HKG 2_1
+  - 🇸🇬 新加坡 | SGP 2
+  - 🇦🇪 阿联酋 | ARE
+  - 🇷🇺_RU_俄罗斯
+  - 🇭🇰 香港 | HKG 14
+  - 🇭🇰 香港 | HKG 15
+  - 🇺🇸 美国 | USA 37_1
+  - 🇭🇰 香港 | HKG 26
   - 🇸🇬 新加坡 | SGP 8
-  - 🇭🇰 香港 | HKG 20
+  - 🇭🇰 香港 | HKG 23
   - 🇸🇬 新加坡 | SGP 10
   - 🇸🇬 新加坡 | SGP 7
-  - 🇪🇸 西班牙 | ESP_1
-  - 🇸🇬 新加坡 | SGP 11
   - 🇸🇬 新加坡 | SGP 4
-  - 🇭🇰 香港 | HKG 10
-  - 🇯🇵 日本 | JPN 10
   - 🇸🇬 新加坡 | SGP 5
-  - 🇭🇰 香港 | HKG 15
-  - 🇭🇰 香港 | HKG 22
-  - 🇭🇰 香港 | HKG 7_2
-  - 🇭🇰 香港 | HKG_1
-  - 🇭🇰 香港 | HKG 26
-  - 🇭🇰 香港 | HKG 5
-  - 🇭🇰 香港 | HKG 17
-  - 🇺🇸 美国 | USA 84
+  - 🇸🇬 新加坡 | SGP 11
+  - 🇦🇪 阿联酋 | ARE 2
+  - 🇭🇰 香港 | HKG 18
+  - 🇰🇿 哈萨克斯坦 | KAZ
+  - 🇭🇰 香港 | HKG 6_1
+  - 🇭🇰 香港 | HKG 12
+  - 🇭🇰 香港 | HKG 7
+  - 🇭🇰 香港 | HKG 20
   - 🇻🇳 越南 | VNM 42
-  - 🇻🇳 越南 | VNM 8
-  - 未知
-  - 🇻🇳 越南 | VNM 21
-  - 🇻🇳 越南 | VNM 2_1
-  - 🇻🇳 越南 | VNM 7
-  - 🇭🇰 香港 | HKG 21
-  - 🇻🇳 越南 | VNM 8_1
-  - 🇻🇳 越南 | VNM 3_1
-  - 🇻🇳 越南 | VNM 24
+  - 🇻🇳 越南 | VNM 13
+  - 🇨🇳 台湾 | TWN 2
+  - 🇻🇳 越南 | VNM 17
+  - 🇻🇳 越南 | VNM 15
+  - 🇭🇰 香港 | HKG 17
   - 🇻🇳 越南 | VNM 37
-  - 🇻🇳 越南 | VNM 38
-  - 🇻🇳 越南 | VNM 2_2
-  - 🇻🇳 越南 | VNM 19
-  - 未知_1
   - 🇻🇳 越南 | VNM 12
-  - 🇻🇳 越南 | VNM 18
-  - 🇻🇳 越南 | VNM 39
-  - 🇻🇳 越南 | VNM 32
-  - 🇻🇳 越南 | VNM 14
-  - 🇻🇳 越南 | VNM 41
-  - 🇻🇳 越南 | VNM 9
-  - 🇻🇳 越南 | VNM 43
   - 🇻🇳 越南 | VNM 20
+  - 🇻🇳 越南 | VNM 35
+  - 🇻🇳 越南 | VNM 26
+  - 🇻🇳 越南 | VNM 24
+  - 🇻🇳 越南 | VNM 4_1
+  - 🇻🇳 越南 | VNM 9
+  - 🇻🇳 越南 | VNM 31
   - 🇻🇳 越南 | VNM 44
   - 🇻🇳 越南 | VNM_1
-  - 🇻🇳 越南 | VNM 4_1
-  - 🇻🇳 越南 | VNM 33
-  - 🇻🇳 越南 | VNM 4_2
-  - 🇻🇳 越南 | VNM 13
-  - 🇻🇳 越南 | VNM 29
-  - 🇻🇳 越南 | VNM 36
-  - 🇻🇳 越南 | VNM 34
-  - 🇻🇳 越南 | VNM 25
-  - 🇻🇳 越南 | VNM 27
-  - 🇻🇳 越南 | VNM 6
-  - 🇭🇰 香港 | HKG 13
   - 🇻🇳 越南 | VNM 22
   - 🇻🇳 越南 | VNM 23
-  - 🇻🇳 越南 | VNM 5
-  - 🇻🇳 越南 | VNM 10
-  - 🇻🇳 越南 | VNM 17
-  - 🇻🇳 越南 | VNM 30
-  - 🇻🇳 越南 | VNM 35
-  - 🇻🇳 越南 | VNM 40
-  - 🇻🇳 越南 | VNM 16
-  - 🇻🇳 越南 | VNM 6_1
-  - 🇻🇳 越南 | VNM 9_1
-  - 🇻🇳 越南 | VNM 31
-  - 🇻🇳 越南 | VNM 26
-  - 🇻🇳 越南 | VNM 11
-  - 🇺🇸 美国 | USA 40_1
-  - 🇻🇳 越南 | VNM 28
   - 🇻🇳 越南 | VNM 13_1
-  - 🇯🇵 日本 | JPN 5
-  - 🇨🇳 台湾 | TWN 2_1
-  - 🇻🇳 越南 | VNM 3_2
-  - 🇯🇵 日本 | JPN 5_1
-  - 🇻🇳 越南 | VNM 15
-  - 🇨🇳 台湾 | TWN 4
-  - 🇻🇳 越南 | VNM 15_1
-  - 🇨🇳 台湾 | TWN 3
+  - 🇺🇸 美国 | USA 84
+  - 🇻🇳 越南 | VNM 36
   - 🇻🇳 越南 | VNM 12_1
-  - 🇻🇳 越南 | VNM 14_1
-  - 🇻🇳 越南 | VNM_2
-  - 🇭🇰 香港 | HKG 3
+  - 🇻🇳 越南 | VNM 21
+  - 🇻🇳 越南 | VNM 2_1
+  - 🇻🇳 越南 | VNM 39
+  - 🇻🇳 越南 | VNM 43
+  - 🇻🇳 越南 | VNM 27
+  - 🇻🇳 越南 | VNM 6
   - 🇭🇰 香港 | HKG 25
-  - 🇭🇰 香港 | HKG 14
-  - 🇭🇰 香港 | HKG 28
-  - 🇭🇰 香港 | HKG 12
-  - 🇭🇰 香港 | HKG 24
-  - 🇭🇰 香港 | HKG 18
   - 🇭🇰 香港 | HKG 9_1
-  - 🇭🇰 香港 | HKG 3_1
-  - 🇭🇰 香港 | HKG 8
-  - 🇭🇰 香港 | HKG 23
-  - 🇭🇰 香港 | HKG 16
-  - 🇱🇰 斯里兰卡 | LKA
+  - 🇻🇳 越南 | VNM 19
+  - 🇻🇳 越南 | VNM 18
+  - 🇻🇳 越南 | VNM 10
+  - 🇻🇳 越南 | VNM 14
+  - 🇻🇳 越南 | VNM 4_2
+  - 🇻🇳 越南 | VNM 16
+  - 🇻🇳 越南 | VNM_2
+  - 🇻🇳 越南 | VNM 7
+  - 🇻🇳 越南 | VNM 38
+  - 🇻🇳 越南 | VNM 32
+  - 🇻🇳 越南 | VNM 8
+  - 🇻🇳 越南 | VNM 8_1
+  - 🇻🇳 越南 | VNM 41
+  - 🇭🇰 香港 | HKG 10
+  - 🇻🇳 越南 | VNM 3_1
+  - 🇻🇳 越南 | VNM 9_1
+  - 🇻🇳 越南 | VNM 25
+  - 🇭🇰 香港 | HKG 5
+  - 🇭🇰 香港 | HKG 13
+  - 🇻🇳 越南 | VNM 40
+  - 🇭🇰 香港 | HKG 21
+  - 🇻🇳 越南 | VNM 5
+  - 🇻🇳 越南 | VNM 33
+  - 🇻🇳 越南 | VNM 29
+  - 🇻🇳 越南 | VNM 6_1
+  - 🇻🇳 越南 | VNM 34
+  - 🇻🇳 越南 | VNM 30
+  - 🇺🇸 美国 | USA 40_1
+  - 未知_1
+  - 🇭🇰 香港 | HKG_1
+  - 🇨🇳 台湾 | TWN
   - 🇭🇰 香港 | HKG 5_1
-  - 🇭🇰 香港 | HKG 4
+  - 🇭🇰 香港 | HKG 7_1
+  - 🇻🇳 越南 | VNM 3_2
+  - 🇩🇪 德国 | DEU_1
+  - 🇱🇰 斯里兰卡 | LKA
+  - 🇨🇳 台湾 | TWN 3
+  - 🇪🇸 西班牙 | ESP_1
+  - 🇯🇵 日本 | JPN 5_1
+  - 🇭🇰 香港 | HKG 3
   - 🇳🇱 荷兰 | NLD 11
-  - 🇬🇧_GB_英国
-  - 🇸🇬 新加坡 | SGP 2
+  - 🇭🇰 香港 | HKG 4
+  - 🇺🇸 美国 | USA 96
+  - 🇭🇰 香港 | HKG 22
+  - 🇭🇰 香港 | HKG 28
+  - 🇻🇳 越南 | VNM 28
+  - 🇻🇳 越南 | VNM 11
+  - 🇻🇳 越南 | VNM 2_2
+  - 🇻🇳 越南 | VNM 14_1
+  - 🇻🇳 越南 | VNM 15_1
+  - 未知
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🔯 故障转移
   type: fallback
   proxies:
   - 🇳🇱 荷兰 | NLD 2
-  - 🇺🇸 美国 | USA 36
   - 🇺🇸 美国 | USA 77
   - 🇳🇱 荷兰 | NLD
-  - 🇳🇱 荷兰 | NLD 4
-  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 19
-  - 🇺🇸 美国 | USA 38
   - 🇺🇸 美国 | USA 43
   - 🇺🇸 美国 | USA 48
   - 🇺🇸 美国 | USA 58
@@ -5044,93 +4895,64 @@ proxy-groups:
   - 🇺🇸 美国 | USA 64
   - 🇺🇸 美国 | USA 69
   - 🇺🇸 美国 | USA 70
-  - 🇫🇷 法国 | FRA 4
   - 🇬🇧 英国 | GBR 2
   - 🇬🇧 英国 | GBR 3
-  - 🇭🇰 香港 | HKG 2
   - 🇳🇱 荷兰 | NLD 3
-  - 🇷🇺 俄罗斯 | RUS 3
   - 🇸🇦 沙特阿拉伯 | SAU
   - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 3
   - 🇺🇸 美国 | USA 7
-  - 🇺🇸 美国 | USA 8
-  - 🇺🇸 美国 | USA 12
   - 🇺🇸 美国 | USA 13
   - 🇺🇸 美国 | USA 17
   - 🇺🇸 美国 | USA 18
   - 🇺🇸 美国 | USA 28
   - 🇺🇸 美国 | USA 34
   - 🇺🇸 美国 | USA 53
-  - 🇺🇸 美国 | USA 54
   - 🇺🇸 美国 | USA 61
   - 🇺🇸 美国 | USA 65
   - 🇺🇸 美国 | USA 68
   - 🇺🇸 美国 | USA 72
   - 🇺🇸 美国 | USA 78
-  - 🇺🇸 美国 | USA 80
-  - 🇻🇳 越南 | VNM 2
-  - 🇺🇸 美国 | USA 7_1
   - 🇨🇦 加拿大 | CAN
   - 🇪🇸 西班牙 | ESP 2
-  - 🇫🇷 法国 | FRA
   - 🇫🇷 法国 | FRA 3
   - 🇬🇧 英国 | GBR 4
-  - 🇬🇧 英国 | GBR 5
   - 🇭🇰 香港 | HKG
   - 🇱🇹 立陶宛 | LTU
   - 🇱🇹 立陶宛 | LTU 2
-  - 🇱🇹 立陶宛 | LTU 3
-  - 🇷🇺 俄罗斯 | RUS
   - 🇷🇺 俄罗斯 | RUS 2
-  - 🇷🇺 俄罗斯 | RUS 4
   - 🇺🇦 乌克兰 | UKR
   - 🇺🇸 美国 | USA 2
-  - 🇺🇸 美国 | USA 4
-  - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 14
-  - 🇺🇸 美国 | USA 16
-  - 🇺🇸 美国 | USA 20
   - 🇺🇸 美国 | USA 21
   - 🇺🇸 美国 | USA 25
   - 🇺🇸 美国 | USA 26
-  - 🇺🇸 美国 | USA 27
   - 🇺🇸 美国 | USA 29
   - 🇺🇸 美国 | USA 30
   - 🇺🇸 美国 | USA 31
   - 🇺🇸 美国 | USA 33
-  - 🇺🇸 美国 | USA 35
   - 🇺🇸 美国 | USA 44
   - 🇺🇸 美国 | USA 45
   - 🇺🇸 美国 | USA 46
-  - 🇺🇸 美国 | USA 49
   - 🇺🇸 美国 | USA 50
   - 🇺🇸 美国 | USA 51
   - 🇺🇸 美国 | USA 52
   - 🇺🇸 美国 | USA 55
-  - 🇺🇸 美国 | USA 56
   - 🇺🇸 美国 | USA 57
   - 🇺🇸 美国 | USA 59
-  - 🇺🇸 美国 | USA 60
   - 🇺🇸 美国 | USA 66
   - 🇺🇸 美国 | USA 67
-  - 🇺🇸 美国 | USA 71
   - 🇺🇸 美国 | USA 73
-  - 🇺🇸 美国 | USA 74
   - 🇺🇸 美国 | USA 75
   - 🇺🇸 美国 | USA 79
-  - 🇺🇸 美国 | USA 81
   - 🇻🇳 越南 | VNM 3
   - 🇻🇳 越南 | VNM 4
-  - 🇳🇱 荷兰 | NLD 2_1
   - 🇳🇱 荷兰 | NLD 7
-  - 🇺🇸 美国 | USA 4_1
-  - 🇺🇸 美国 | USA 5_1
-  - 🇺🇸 美国 | USA 6_1
-  - 🇺🇸 美国 | USA 8_1
+  - 🇺🇸 美国 | USA 4
+  - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA 10_1
   - 🇺🇸 美国 | USA 13_1
   - 🇮🇹 意大利 | ITA
@@ -5140,276 +4962,294 @@ proxy-groups:
   - 🇺🇸 美国 | USA 32
   - 🇺🇸 美国 | USA 15
   - 🇺🇸 美国 | USA 15_1
-  - 🇺🇸 美国 | USA 16_1
+  - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 17_1
   - 🇺🇸 美国 | USA 22
-  - 🇺🇸 美国 | USA 31_1
-  - 🇺🇸 美国 | USA 32_1
   - 🇺🇸 美国 | USA 33_1
-  - 🇺🇸 美国 | USA 34_1
-  - 🇺🇸 美国 | USA 37
   - 🇺🇸 美国 | USA 40
   - 🇺🇸 美国 | USA 43_1
   - 🇺🇸 美国 | USA 44_1
+  - 🇺🇸 美国 | USA 52_1
+  - 🇪🇸 西班牙 | ESP
+  - 🇺🇸 美国 | USA 76
+  - 🇺🇸 美国 | USA 36
+  - 🇳🇱 荷兰 | NLD 4
+  - 🇺🇸 美国 | USA 11
+  - 🇺🇸 美国 | USA 38
+  - 🇫🇷 法国 | FRA 4
+  - 🇭🇰 香港 | HKG 2
+  - 🇷🇺 俄罗斯 | RUS 3
+  - 🇺🇸 美国 | USA 8
+  - 🇺🇸 美国 | USA 54
+  - 🇺🇸 美国 | USA 80
+  - 🇻🇳 越南 | VNM 2
+  - 🇺🇸 美国 | USA 7_1
+  - 🇫🇷 法国 | FRA
+  - 🇬🇧 英国 | GBR 5
+  - 🇱🇹 立陶宛 | LTU 3
+  - 🇷🇺 俄罗斯 | RUS
+  - 🇷🇺 俄罗斯 | RUS 4
+  - 🇺🇸 美国 | USA 4_1
+  - 🇺🇸 美国 | USA 5_1
+  - 🇺🇸 美国 | USA 16_1
+  - 🇺🇸 美国 | USA 20
+  - 🇺🇸 美国 | USA 27
+  - 🇺🇸 美国 | USA 35
+  - 🇺🇸 美国 | USA 60
+  - 🇺🇸 美国 | USA 71
+  - 🇺🇸 美国 | USA 74
+  - 🇺🇸 美国 | USA 81
+  - 🇳🇱 荷兰 | NLD 2_1
+  - 🇺🇸 美国 | USA 6_1
+  - 🇺🇸 美国 | USA 8_1
+  - 🇺🇸 美国 | USA 31_1
+  - 🇺🇸 美国 | USA 32_1
+  - 🇺🇸 美国 | USA 34_1
+  - 🇺🇸 美国 | USA 37
   - 🇺🇸 美国 | USA 50_1
   - 🇺🇸 美国 | USA 51_1
-  - 🇺🇸 美国 | USA 52_1
   - 🇺🇸 美国 | USA 53_1
   - 🇺🇸 美国 | USA 55_1
   - 🇺🇸 美国 | USA 57_1
-  - 🇪🇸 西班牙 | ESP
-  - 🇺🇸 美国 | USA 76
+  - 🇺🇸 美国 | USA 12
+  - 🇺🇸 美国 | USA 49
+  - 🇺🇸 美国 | USA 56
   - 🇨🇦 加拿大 | CAN 3
-  - 🇨🇦 加拿大 | CAN 4
-  - 🇺🇸 美国 | USA 11_1
-  - 🇨🇦 加拿大 | CAN 3_1
-  - 🇺🇸 美国 | USA 95
   - 🇨🇦 加拿大 | CAN 2
-  - 🇺🇸 美国 | USA 102
+  - 🇺🇸 美国 | USA 88
+  - 🇨🇦 加拿大 | CAN 3_1
   - 🇺🇸 美国 | USA_1
-  - 🇩🇪 德国 | DEU 17
+  - 🇺🇸 美国 | USA 87
+  - 🇺🇸 美国 | USA 94
+  - 🇨🇦 加拿大 | CAN 4
   - 🇺🇸 美国 | USA 101
-  - 🇺🇸 美国 | USA 82
-  - 🇬🇧_GB_英国_1
-  - 🇮🇪 爱尔兰 | IRL
+  - 🇺🇸 美国 | USA 92
+  - 🇺🇸 美国 | USA 100
+  - 🇺🇸 美国 | USA 93
+  - 🇺🇸 美国 | USA 102
+  - 🇺🇸 美国 | USA 11_1
+  - 🇺🇸 美国 | USA 95
   - 🇺🇸 美国 | USA 85
-  - 🇬🇧 英国 | GBR
-  - 🇺🇸 美国 | USA 97
   - 🇺🇸 美国 | USA 86
   - 🇵🇦 巴拿马 | PAN
+  - 🇬🇧 英国 | GBR
+  - 🇺🇸 美国 | USA 99
+  - 🇬🇧_GB_英国_1
+  - 🇺🇸 美国 | USA 90
   - 🇮🇷_IR_伊朗->🇰🇷_KR_韩国
   - 🇫🇷 法国 | FRA 2
+  - 🇬🇧_GB_英国->🇩🇪_DE_德国
   - 🇳🇱 荷兰 | NLD 5
-  - 🇩🇪_DE_德国
-  - 🇳🇱 荷兰 | NLD 9
-  - 🇫🇷 法国 | FRA 12
   - 🇫🇷 法国 | FRA 21
-  - 🇫🇷 法国 | FRA 5
-  - 🇫🇷 法国 | FRA 7
-  - 🇫🇷 法国 | FRA 11
-  - 🇫🇷 法国 | FRA 20
-  - 🇫🇷 法国 | FRA 24
-  - 🇫🇷 法国 | FRA 4_1
+  - 🇫🇷 法国 | FRA 16
+  - 🇺🇸 美国 | USA 39
+  - 🇬🇧_GB_英国
+  - 🇫🇷 法国 | FRA 12
   - 🇫🇷 法国 | FRA 6
-  - 🇫🇷 法国 | FRA 18
-  - 🇫🇷 法国 | FRA_1
+  - 🇫🇷 法国 | FRA 25
+  - 🇫🇷 法国 | FRA 3_1
+  - 🇫🇷 法国 | FRA 13
+  - 🇩🇪_DE_德国
+  - 🇫🇷 法国 | FRA 11
+  - 🇧🇷 巴西 | BRA
+  - 🇺🇸 美国 | USA 97
   - 🇫🇷 法国 | FRA 9
+  - 🇫🇷 法国 | FRA 17
+  - 🇫🇷 法国 | FRA 18
   - 🇫🇷 法国 | FRA 10
   - 🇫🇷 法国 | FRA 14
+  - 🇫🇷 法国 | FRA 8
+  - 🇩🇪 德国 | DEU
+  - 🇩🇪 德国 | DEU 9
+  - 🇫🇷 法国 | FRA 24
+  - 🇫🇷 法国 | FRA 4_1
+  - 🇫🇷 法国 | FRA_1
   - 🇫🇷 法国 | FRA 19
-  - 🇫🇷 法国 | FRA 25
+  - 🇫🇷 法国 | FRA 5
+  - 🇫🇷 法国 | FRA 7
+  - 🇩🇪 德国 | DEU 17
+  - 🇳🇱 荷兰 | NLD 9
+  - 🇩🇪 德国 | DEU 13
+  - 🇩🇰 丹麦 | DNK
+  - 🇯🇵 日本 | JPN
   - 🇫🇷 法国 | FRA 26
   - 🇫🇷 法国 | FRA 23
-  - 🇫🇷 法国 | FRA 3_1
-  - 🇫🇷 法国 | FRA 8
+  - 🇮🇪 爱尔兰 | IRL
   - 🇫🇷 法国 | FRA 15
-  - 🇫🇷 法国 | FRA 17
-  - 🇫🇷 法国 | FRA 13
-  - 🇫🇷 法国 | FRA 16
-  - 🇺🇸 美国 | USA 87
-  - 🇩🇪 德国 | DEU 6
-  - 🇺🇸 美国 | USA 94
-  - 🇩🇪 德国 | DEU 5
-  - 🇩🇪 德国 | DEU 10
-  - 🇩🇪 德国 | DEU 20
-  - 🇩🇪 德国 | DEU 2
+  - 🇯🇵 日本 | JPN 2
+  - 🇫🇷 法国 | FRA 20
+  - 🇩🇪 德国 | DEU 21
   - 🇩🇪 德国 | DEU 8
   - 🇫🇷 法国 | FRA 22
-  - 🇩🇪 德国 | DEU 7
-  - 🇳🇱_NL_荷兰
-  - 🇺🇸 美国 | USA 88
-  - 🇩🇪 德国 | DEU 21
   - 🇩🇪 德国 | DEU 23
-  - 🇩🇪 德国 | DEU
-  - 🇺🇸 美国 | USA 96
-  - 🇩🇪 德国 | DEU 9
-  - 🇩🇪 德国 | DEU 13
-  - 🇨🇭 瑞士 | CHE
+  - 🇩🇪 德国 | DEU 24
+  - 🇩🇪 德国 | DEU 6
   - 🇩🇪 德国 | DEU 16
+  - 🇩🇪 德国 | DEU 10
   - 🇩🇪 德国 | DEU 4
-  - 🇩🇪 德国 | DEU 11
   - 🇩🇪 德国 | DEU 12
-  - 🇩🇰 丹麦 | DNK
   - 🇩🇪 德国 | DEU 14
-  - 🇩🇪 德国 | DEU 4_1
+  - 🇩🇪 德国 | DEU 20
+  - 🇩🇪 德国 | DEU 11
   - 🇩🇪 德国 | DEU 19
   - 🇩🇪 德国 | DEU 15
-  - 🇺🇸 美国 | USA 12_1
-  - 🇫🇷 法国 | FRA 2_1
-  - 🇩🇪 德国 | DEU 24
+  - 🇩🇪 德国 | DEU 2
   - 🇸🇰 斯洛伐克 | SVK
-  - 🇵🇱 波兰 | POL
-  - 🇺🇸 美国 | USA 99
-  - 🇺🇸 美国 | USA 92
   - 🇺🇸 美国 | USA 89
-  - 🇺🇸 美国 | USA 90
   - 🇬🇧 英国 | GBR 8
+  - 🇩🇪 德国 | DEU 5
   - 🇬🇧 英国 | GBR 9
-  - 🇱🇺 卢森堡 | LUX
-  - 🇩🇪 德国 | DEU 3
-  - 🇲🇩 摩尔多瓦 | MDA
-  - 🇦🇪 阿联酋 | ARE
-  - 🇷🇺_RU_俄罗斯
-  - 🇿🇦 南非 | ZAF
-  - 🇫🇮 芬兰 | FIN
-  - 🇸🇪 瑞典 | SWE
-  - 🇦🇪 阿联酋 | ARE 2
-  - 🇺🇸 美国 | USA 2_1
-  - 🇺🇸 美国 | USA 93
-  - 🇺🇸 美国 | USA 100
-  - 🇧🇷 巴西 | BRA
   - 🇬🇧 英国 | GBR 7
-  - 🇰🇿 哈萨克斯坦 | KAZ
-  - 🇯🇵 日本 | JPN 7
-  - 🇺🇸 美国 | USA 39
-  - 🇺🇸 美国 | USA 83
-  - 🇯🇵 日本 | JPN
-  - 🇯🇵 日本 | JPN 8
-  - 🇫🇷 法国 | FRA 6_1
-  - 🇫🇷 法国 | FRA 5_1
-  - 🇫🇷 法国 | FRA 7_1
-  - 🇩🇪 德国 | DEU 2_1
   - 🇯🇵 日本 | JPN 4
-  - 🇯🇵 日本 | JPN 2
-  - 🇨🇳 台湾 | TWN 2
-  - 🇨🇳 台湾 | TWN 7
+  - 🇯🇵 日本 | JPN 10
+  - 🇩🇪 德国 | DEU 7
+  - 🇫🇷 法国 | FRA 2_1
+  - 🇯🇵 日本 | JPN 7
+  - 🇳🇱_NL_荷兰
+  - 🇨🇭 瑞士 | CHE
+  - 🇺🇸 美国 | USA 83
+  - 🇯🇵 日本 | JPN 8
+  - 🇺🇸 美国 | USA 82
+  - 🇵🇱 波兰 | POL
+  - 🇱🇺 卢森堡 | LUX
   - 🇨🇳 台湾 | TWN 5
+  - 🇨🇳 台湾 | TWN 16
   - 🇨🇳 台湾 | TWN 6
-  - 🇨🇳 台湾 | TWN 13
-  - 🇨🇳 台湾 | TWN 17
-  - 🇰🇷 韩国 | KOR 2
   - 🇨🇳 台湾 | TWN 15
   - 🇨🇳 台湾 | TWN 20
-  - 🇨🇳 台湾 | TWN 21
   - 🇰🇷 韩国 | KOR
-  - 🇳🇱 荷兰 | NLD_1
-  - 🇨🇳 台湾 | TWN 16
+  - 🇨🇳 台湾 | TWN 13
   - 🇯🇵 日本 | JPN 2_1
-  - 🇨🇳 台湾 | TWN
-  - 🇭🇰 香港 | HKG 7
+  - 🇩🇪 德国 | DEU 3
+  - 🇯🇵 日本 | JPN 5
+  - 🇩🇪 德国 | DEU 4_1
+  - 🇩🇪 德国 | DEU 2_1
+  - 🇲🇩 摩尔多瓦 | MDA
+  - 🇳🇱 荷兰 | NLD_1
+  - 🇫🇮 芬兰 | FIN
+  - 🇸🇪 瑞典 | SWE
+  - 🇰🇷 韩国 | KOR 2
+  - 🇫🇷 法国 | FRA 5_1
   - 🇭🇰 香港 | HKG 6
   - 🇪🇸_ES_西班牙->🇺🇸_US_美国_1
+  - 🇫🇷 法国 | FRA 7_1
   - 🇪🇸_ES_西班牙->🇺🇸_US_美国
   - 🇭🇰 香港 | HKG 9
-  - 🇭🇰 香港 | HKG 6_1
-  - 🇭🇰 香港 | HKG 7_1
-  - 🇺🇸 美国 | USA 37_1
-  - 🇩🇪 德国 | DEU_1
+  - 🇿🇦 南非 | ZAF
+  - 🇫🇷 法国 | FRA 6_1
   - 🇭🇰 香港 | HKG 2_1
+  - 🇸🇬 新加坡 | SGP 2
+  - 🇦🇪 阿联酋 | ARE
+  - 🇷🇺_RU_俄罗斯
+  - 🇭🇰 香港 | HKG 14
+  - 🇭🇰 香港 | HKG 15
+  - 🇺🇸 美国 | USA 37_1
+  - 🇭🇰 香港 | HKG 26
   - 🇸🇬 新加坡 | SGP 8
-  - 🇭🇰 香港 | HKG 20
+  - 🇭🇰 香港 | HKG 23
   - 🇸🇬 新加坡 | SGP 10
   - 🇸🇬 新加坡 | SGP 7
-  - 🇪🇸 西班牙 | ESP_1
-  - 🇸🇬 新加坡 | SGP 11
   - 🇸🇬 新加坡 | SGP 4
-  - 🇭🇰 香港 | HKG 10
-  - 🇯🇵 日本 | JPN 10
   - 🇸🇬 新加坡 | SGP 5
-  - 🇭🇰 香港 | HKG 15
-  - 🇭🇰 香港 | HKG 22
-  - 🇭🇰 香港 | HKG 7_2
-  - 🇭🇰 香港 | HKG_1
-  - 🇭🇰 香港 | HKG 26
-  - 🇭🇰 香港 | HKG 5
-  - 🇭🇰 香港 | HKG 17
-  - 🇺🇸 美国 | USA 84
+  - 🇸🇬 新加坡 | SGP 11
+  - 🇦🇪 阿联酋 | ARE 2
+  - 🇭🇰 香港 | HKG 18
+  - 🇰🇿 哈萨克斯坦 | KAZ
+  - 🇭🇰 香港 | HKG 6_1
+  - 🇭🇰 香港 | HKG 12
+  - 🇭🇰 香港 | HKG 7
+  - 🇭🇰 香港 | HKG 20
   - 🇻🇳 越南 | VNM 42
-  - 🇻🇳 越南 | VNM 8
-  - 未知
-  - 🇻🇳 越南 | VNM 21
-  - 🇻🇳 越南 | VNM 2_1
-  - 🇻🇳 越南 | VNM 7
-  - 🇭🇰 香港 | HKG 21
-  - 🇻🇳 越南 | VNM 8_1
-  - 🇻🇳 越南 | VNM 3_1
-  - 🇻🇳 越南 | VNM 24
+  - 🇻🇳 越南 | VNM 13
+  - 🇨🇳 台湾 | TWN 2
+  - 🇻🇳 越南 | VNM 17
+  - 🇻🇳 越南 | VNM 15
+  - 🇭🇰 香港 | HKG 17
   - 🇻🇳 越南 | VNM 37
-  - 🇻🇳 越南 | VNM 38
-  - 🇻🇳 越南 | VNM 2_2
-  - 🇻🇳 越南 | VNM 19
-  - 未知_1
   - 🇻🇳 越南 | VNM 12
-  - 🇻🇳 越南 | VNM 18
-  - 🇻🇳 越南 | VNM 39
-  - 🇻🇳 越南 | VNM 32
-  - 🇻🇳 越南 | VNM 14
-  - 🇻🇳 越南 | VNM 41
-  - 🇻🇳 越南 | VNM 9
-  - 🇻🇳 越南 | VNM 43
   - 🇻🇳 越南 | VNM 20
+  - 🇻🇳 越南 | VNM 35
+  - 🇻🇳 越南 | VNM 26
+  - 🇻🇳 越南 | VNM 24
+  - 🇻🇳 越南 | VNM 4_1
+  - 🇻🇳 越南 | VNM 9
+  - 🇻🇳 越南 | VNM 31
   - 🇻🇳 越南 | VNM 44
   - 🇻🇳 越南 | VNM_1
-  - 🇻🇳 越南 | VNM 4_1
-  - 🇻🇳 越南 | VNM 33
-  - 🇻🇳 越南 | VNM 4_2
-  - 🇻🇳 越南 | VNM 13
-  - 🇻🇳 越南 | VNM 29
-  - 🇻🇳 越南 | VNM 36
-  - 🇻🇳 越南 | VNM 34
-  - 🇻🇳 越南 | VNM 25
-  - 🇻🇳 越南 | VNM 27
-  - 🇻🇳 越南 | VNM 6
-  - 🇭🇰 香港 | HKG 13
   - 🇻🇳 越南 | VNM 22
   - 🇻🇳 越南 | VNM 23
-  - 🇻🇳 越南 | VNM 5
-  - 🇻🇳 越南 | VNM 10
-  - 🇻🇳 越南 | VNM 17
-  - 🇻🇳 越南 | VNM 30
-  - 🇻🇳 越南 | VNM 35
-  - 🇻🇳 越南 | VNM 40
-  - 🇻🇳 越南 | VNM 16
-  - 🇻🇳 越南 | VNM 6_1
-  - 🇻🇳 越南 | VNM 9_1
-  - 🇻🇳 越南 | VNM 31
-  - 🇻🇳 越南 | VNM 26
-  - 🇻🇳 越南 | VNM 11
-  - 🇺🇸 美国 | USA 40_1
-  - 🇻🇳 越南 | VNM 28
   - 🇻🇳 越南 | VNM 13_1
-  - 🇯🇵 日本 | JPN 5
-  - 🇨🇳 台湾 | TWN 2_1
-  - 🇻🇳 越南 | VNM 3_2
-  - 🇯🇵 日本 | JPN 5_1
-  - 🇻🇳 越南 | VNM 15
-  - 🇨🇳 台湾 | TWN 4
-  - 🇻🇳 越南 | VNM 15_1
-  - 🇨🇳 台湾 | TWN 3
+  - 🇺🇸 美国 | USA 84
+  - 🇻🇳 越南 | VNM 36
   - 🇻🇳 越南 | VNM 12_1
-  - 🇻🇳 越南 | VNM 14_1
-  - 🇻🇳 越南 | VNM_2
-  - 🇭🇰 香港 | HKG 3
+  - 🇻🇳 越南 | VNM 21
+  - 🇻🇳 越南 | VNM 2_1
+  - 🇻🇳 越南 | VNM 39
+  - 🇻🇳 越南 | VNM 43
+  - 🇻🇳 越南 | VNM 27
+  - 🇻🇳 越南 | VNM 6
   - 🇭🇰 香港 | HKG 25
-  - 🇭🇰 香港 | HKG 14
-  - 🇭🇰 香港 | HKG 28
-  - 🇭🇰 香港 | HKG 12
-  - 🇭🇰 香港 | HKG 24
-  - 🇭🇰 香港 | HKG 18
   - 🇭🇰 香港 | HKG 9_1
-  - 🇭🇰 香港 | HKG 3_1
-  - 🇭🇰 香港 | HKG 8
-  - 🇭🇰 香港 | HKG 23
-  - 🇭🇰 香港 | HKG 16
-  - 🇱🇰 斯里兰卡 | LKA
+  - 🇻🇳 越南 | VNM 19
+  - 🇻🇳 越南 | VNM 18
+  - 🇻🇳 越南 | VNM 10
+  - 🇻🇳 越南 | VNM 14
+  - 🇻🇳 越南 | VNM 4_2
+  - 🇻🇳 越南 | VNM 16
+  - 🇻🇳 越南 | VNM_2
+  - 🇻🇳 越南 | VNM 7
+  - 🇻🇳 越南 | VNM 38
+  - 🇻🇳 越南 | VNM 32
+  - 🇻🇳 越南 | VNM 8
+  - 🇻🇳 越南 | VNM 8_1
+  - 🇻🇳 越南 | VNM 41
+  - 🇭🇰 香港 | HKG 10
+  - 🇻🇳 越南 | VNM 3_1
+  - 🇻🇳 越南 | VNM 9_1
+  - 🇻🇳 越南 | VNM 25
+  - 🇭🇰 香港 | HKG 5
+  - 🇭🇰 香港 | HKG 13
+  - 🇻🇳 越南 | VNM 40
+  - 🇭🇰 香港 | HKG 21
+  - 🇻🇳 越南 | VNM 5
+  - 🇻🇳 越南 | VNM 33
+  - 🇻🇳 越南 | VNM 29
+  - 🇻🇳 越南 | VNM 6_1
+  - 🇻🇳 越南 | VNM 34
+  - 🇻🇳 越南 | VNM 30
+  - 🇺🇸 美国 | USA 40_1
+  - 未知_1
+  - 🇭🇰 香港 | HKG_1
+  - 🇨🇳 台湾 | TWN
   - 🇭🇰 香港 | HKG 5_1
-  - 🇭🇰 香港 | HKG 4
+  - 🇭🇰 香港 | HKG 7_1
+  - 🇻🇳 越南 | VNM 3_2
+  - 🇩🇪 德国 | DEU_1
+  - 🇱🇰 斯里兰卡 | LKA
+  - 🇨🇳 台湾 | TWN 3
+  - 🇪🇸 西班牙 | ESP_1
+  - 🇯🇵 日本 | JPN 5_1
+  - 🇭🇰 香港 | HKG 3
   - 🇳🇱 荷兰 | NLD 11
-  - 🇬🇧_GB_英国
-  - 🇸🇬 新加坡 | SGP 2
+  - 🇭🇰 香港 | HKG 4
+  - 🇺🇸 美国 | USA 96
+  - 🇭🇰 香港 | HKG 22
+  - 🇭🇰 香港 | HKG 28
+  - 🇻🇳 越南 | VNM 28
+  - 🇻🇳 越南 | VNM 11
+  - 🇻🇳 越南 | VNM 2_2
+  - 🇻🇳 越南 | VNM 14_1
+  - 🇻🇳 越南 | VNM 15_1
+  - 未知
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🔮 负载均衡
   type: load-balance
   proxies:
   - 🇳🇱 荷兰 | NLD 2
-  - 🇺🇸 美国 | USA 36
   - 🇺🇸 美国 | USA 77
   - 🇳🇱 荷兰 | NLD
-  - 🇳🇱 荷兰 | NLD 4
-  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 19
-  - 🇺🇸 美国 | USA 38
   - 🇺🇸 美国 | USA 43
   - 🇺🇸 美国 | USA 48
   - 🇺🇸 美国 | USA 58
@@ -5417,93 +5257,64 @@ proxy-groups:
   - 🇺🇸 美国 | USA 64
   - 🇺🇸 美国 | USA 69
   - 🇺🇸 美国 | USA 70
-  - 🇫🇷 法国 | FRA 4
   - 🇬🇧 英国 | GBR 2
   - 🇬🇧 英国 | GBR 3
-  - 🇭🇰 香港 | HKG 2
   - 🇳🇱 荷兰 | NLD 3
-  - 🇷🇺 俄罗斯 | RUS 3
   - 🇸🇦 沙特阿拉伯 | SAU
   - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 3
   - 🇺🇸 美国 | USA 7
-  - 🇺🇸 美国 | USA 8
-  - 🇺🇸 美国 | USA 12
   - 🇺🇸 美国 | USA 13
   - 🇺🇸 美国 | USA 17
   - 🇺🇸 美国 | USA 18
   - 🇺🇸 美国 | USA 28
   - 🇺🇸 美国 | USA 34
   - 🇺🇸 美国 | USA 53
-  - 🇺🇸 美国 | USA 54
   - 🇺🇸 美国 | USA 61
   - 🇺🇸 美国 | USA 65
   - 🇺🇸 美国 | USA 68
   - 🇺🇸 美国 | USA 72
   - 🇺🇸 美国 | USA 78
-  - 🇺🇸 美国 | USA 80
-  - 🇻🇳 越南 | VNM 2
-  - 🇺🇸 美国 | USA 7_1
   - 🇨🇦 加拿大 | CAN
   - 🇪🇸 西班牙 | ESP 2
-  - 🇫🇷 法国 | FRA
   - 🇫🇷 法国 | FRA 3
   - 🇬🇧 英国 | GBR 4
-  - 🇬🇧 英国 | GBR 5
   - 🇭🇰 香港 | HKG
   - 🇱🇹 立陶宛 | LTU
   - 🇱🇹 立陶宛 | LTU 2
-  - 🇱🇹 立陶宛 | LTU 3
-  - 🇷🇺 俄罗斯 | RUS
   - 🇷🇺 俄罗斯 | RUS 2
-  - 🇷🇺 俄罗斯 | RUS 4
   - 🇺🇦 乌克兰 | UKR
   - 🇺🇸 美国 | USA 2
-  - 🇺🇸 美国 | USA 4
-  - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 14
-  - 🇺🇸 美国 | USA 16
-  - 🇺🇸 美国 | USA 20
   - 🇺🇸 美国 | USA 21
   - 🇺🇸 美国 | USA 25
   - 🇺🇸 美国 | USA 26
-  - 🇺🇸 美国 | USA 27
   - 🇺🇸 美国 | USA 29
   - 🇺🇸 美国 | USA 30
   - 🇺🇸 美国 | USA 31
   - 🇺🇸 美国 | USA 33
-  - 🇺🇸 美国 | USA 35
   - 🇺🇸 美国 | USA 44
   - 🇺🇸 美国 | USA 45
   - 🇺🇸 美国 | USA 46
-  - 🇺🇸 美国 | USA 49
   - 🇺🇸 美国 | USA 50
   - 🇺🇸 美国 | USA 51
   - 🇺🇸 美国 | USA 52
   - 🇺🇸 美国 | USA 55
-  - 🇺🇸 美国 | USA 56
   - 🇺🇸 美国 | USA 57
   - 🇺🇸 美国 | USA 59
-  - 🇺🇸 美国 | USA 60
   - 🇺🇸 美国 | USA 66
   - 🇺🇸 美国 | USA 67
-  - 🇺🇸 美国 | USA 71
   - 🇺🇸 美国 | USA 73
-  - 🇺🇸 美国 | USA 74
   - 🇺🇸 美国 | USA 75
   - 🇺🇸 美国 | USA 79
-  - 🇺🇸 美国 | USA 81
   - 🇻🇳 越南 | VNM 3
   - 🇻🇳 越南 | VNM 4
-  - 🇳🇱 荷兰 | NLD 2_1
   - 🇳🇱 荷兰 | NLD 7
-  - 🇺🇸 美国 | USA 4_1
-  - 🇺🇸 美国 | USA 5_1
-  - 🇺🇸 美国 | USA 6_1
-  - 🇺🇸 美国 | USA 8_1
+  - 🇺🇸 美国 | USA 4
+  - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA 10_1
   - 🇺🇸 美国 | USA 13_1
   - 🇮🇹 意大利 | ITA
@@ -5513,263 +5324,285 @@ proxy-groups:
   - 🇺🇸 美国 | USA 32
   - 🇺🇸 美国 | USA 15
   - 🇺🇸 美国 | USA 15_1
-  - 🇺🇸 美国 | USA 16_1
+  - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 17_1
   - 🇺🇸 美国 | USA 22
-  - 🇺🇸 美国 | USA 31_1
-  - 🇺🇸 美国 | USA 32_1
   - 🇺🇸 美国 | USA 33_1
-  - 🇺🇸 美国 | USA 34_1
-  - 🇺🇸 美国 | USA 37
   - 🇺🇸 美国 | USA 40
   - 🇺🇸 美国 | USA 43_1
   - 🇺🇸 美国 | USA 44_1
+  - 🇺🇸 美国 | USA 52_1
+  - 🇪🇸 西班牙 | ESP
+  - 🇺🇸 美国 | USA 76
+  - 🇺🇸 美国 | USA 36
+  - 🇳🇱 荷兰 | NLD 4
+  - 🇺🇸 美国 | USA 11
+  - 🇺🇸 美国 | USA 38
+  - 🇫🇷 法国 | FRA 4
+  - 🇭🇰 香港 | HKG 2
+  - 🇷🇺 俄罗斯 | RUS 3
+  - 🇺🇸 美国 | USA 8
+  - 🇺🇸 美国 | USA 54
+  - 🇺🇸 美国 | USA 80
+  - 🇻🇳 越南 | VNM 2
+  - 🇺🇸 美国 | USA 7_1
+  - 🇫🇷 法国 | FRA
+  - 🇬🇧 英国 | GBR 5
+  - 🇱🇹 立陶宛 | LTU 3
+  - 🇷🇺 俄罗斯 | RUS
+  - 🇷🇺 俄罗斯 | RUS 4
+  - 🇺🇸 美国 | USA 4_1
+  - 🇺🇸 美国 | USA 5_1
+  - 🇺🇸 美国 | USA 16_1
+  - 🇺🇸 美国 | USA 20
+  - 🇺🇸 美国 | USA 27
+  - 🇺🇸 美国 | USA 35
+  - 🇺🇸 美国 | USA 60
+  - 🇺🇸 美国 | USA 71
+  - 🇺🇸 美国 | USA 74
+  - 🇺🇸 美国 | USA 81
+  - 🇳🇱 荷兰 | NLD 2_1
+  - 🇺🇸 美国 | USA 6_1
+  - 🇺🇸 美国 | USA 8_1
+  - 🇺🇸 美国 | USA 31_1
+  - 🇺🇸 美国 | USA 32_1
+  - 🇺🇸 美国 | USA 34_1
+  - 🇺🇸 美国 | USA 37
   - 🇺🇸 美国 | USA 50_1
   - 🇺🇸 美国 | USA 51_1
-  - 🇺🇸 美国 | USA 52_1
   - 🇺🇸 美国 | USA 53_1
   - 🇺🇸 美国 | USA 55_1
   - 🇺🇸 美国 | USA 57_1
-  - 🇪🇸 西班牙 | ESP
-  - 🇺🇸 美国 | USA 76
+  - 🇺🇸 美国 | USA 12
+  - 🇺🇸 美国 | USA 49
+  - 🇺🇸 美国 | USA 56
   - 🇨🇦 加拿大 | CAN 3
-  - 🇨🇦 加拿大 | CAN 4
-  - 🇺🇸 美国 | USA 11_1
-  - 🇨🇦 加拿大 | CAN 3_1
-  - 🇺🇸 美国 | USA 95
   - 🇨🇦 加拿大 | CAN 2
-  - 🇺🇸 美国 | USA 102
+  - 🇺🇸 美国 | USA 88
+  - 🇨🇦 加拿大 | CAN 3_1
   - 🇺🇸 美国 | USA_1
-  - 🇩🇪 德国 | DEU 17
+  - 🇺🇸 美国 | USA 87
+  - 🇺🇸 美国 | USA 94
+  - 🇨🇦 加拿大 | CAN 4
   - 🇺🇸 美国 | USA 101
-  - 🇺🇸 美国 | USA 82
-  - 🇬🇧_GB_英国_1
-  - 🇮🇪 爱尔兰 | IRL
+  - 🇺🇸 美国 | USA 92
+  - 🇺🇸 美国 | USA 100
+  - 🇺🇸 美国 | USA 93
+  - 🇺🇸 美国 | USA 102
+  - 🇺🇸 美国 | USA 11_1
+  - 🇺🇸 美国 | USA 95
   - 🇺🇸 美国 | USA 85
-  - 🇬🇧 英国 | GBR
-  - 🇺🇸 美国 | USA 97
   - 🇺🇸 美国 | USA 86
   - 🇵🇦 巴拿马 | PAN
+  - 🇬🇧 英国 | GBR
+  - 🇺🇸 美国 | USA 99
+  - 🇬🇧_GB_英国_1
+  - 🇺🇸 美国 | USA 90
   - 🇮🇷_IR_伊朗->🇰🇷_KR_韩国
   - 🇫🇷 法国 | FRA 2
+  - 🇬🇧_GB_英国->🇩🇪_DE_德国
   - 🇳🇱 荷兰 | NLD 5
-  - 🇩🇪_DE_德国
-  - 🇳🇱 荷兰 | NLD 9
-  - 🇫🇷 法国 | FRA 12
   - 🇫🇷 法国 | FRA 21
-  - 🇫🇷 法国 | FRA 5
-  - 🇫🇷 法国 | FRA 7
-  - 🇫🇷 法国 | FRA 11
-  - 🇫🇷 法国 | FRA 20
-  - 🇫🇷 法国 | FRA 24
-  - 🇫🇷 法国 | FRA 4_1
+  - 🇫🇷 法国 | FRA 16
+  - 🇺🇸 美国 | USA 39
+  - 🇬🇧_GB_英国
+  - 🇫🇷 法国 | FRA 12
   - 🇫🇷 法国 | FRA 6
-  - 🇫🇷 法国 | FRA 18
-  - 🇫🇷 法国 | FRA_1
+  - 🇫🇷 法国 | FRA 25
+  - 🇫🇷 法国 | FRA 3_1
+  - 🇫🇷 法国 | FRA 13
+  - 🇩🇪_DE_德国
+  - 🇫🇷 法国 | FRA 11
+  - 🇧🇷 巴西 | BRA
+  - 🇺🇸 美国 | USA 97
   - 🇫🇷 法国 | FRA 9
+  - 🇫🇷 法国 | FRA 17
+  - 🇫🇷 法国 | FRA 18
   - 🇫🇷 法国 | FRA 10
   - 🇫🇷 法国 | FRA 14
+  - 🇫🇷 法国 | FRA 8
+  - 🇩🇪 德国 | DEU
+  - 🇩🇪 德国 | DEU 9
+  - 🇫🇷 法国 | FRA 24
+  - 🇫🇷 法国 | FRA 4_1
+  - 🇫🇷 法国 | FRA_1
   - 🇫🇷 法国 | FRA 19
-  - 🇫🇷 法国 | FRA 25
+  - 🇫🇷 法国 | FRA 5
+  - 🇫🇷 法国 | FRA 7
+  - 🇩🇪 德国 | DEU 17
+  - 🇳🇱 荷兰 | NLD 9
+  - 🇩🇪 德国 | DEU 13
+  - 🇩🇰 丹麦 | DNK
+  - 🇯🇵 日本 | JPN
   - 🇫🇷 法国 | FRA 26
   - 🇫🇷 法国 | FRA 23
-  - 🇫🇷 法国 | FRA 3_1
-  - 🇫🇷 法国 | FRA 8
+  - 🇮🇪 爱尔兰 | IRL
   - 🇫🇷 法国 | FRA 15
-  - 🇫🇷 法国 | FRA 17
-  - 🇫🇷 法国 | FRA 13
-  - 🇫🇷 法国 | FRA 16
-  - 🇺🇸 美国 | USA 87
-  - 🇩🇪 德国 | DEU 6
-  - 🇺🇸 美国 | USA 94
-  - 🇩🇪 德国 | DEU 5
-  - 🇩🇪 德国 | DEU 10
-  - 🇩🇪 德国 | DEU 20
-  - 🇩🇪 德国 | DEU 2
+  - 🇯🇵 日本 | JPN 2
+  - 🇫🇷 法国 | FRA 20
+  - 🇩🇪 德国 | DEU 21
   - 🇩🇪 德国 | DEU 8
   - 🇫🇷 法国 | FRA 22
-  - 🇩🇪 德国 | DEU 7
-  - 🇳🇱_NL_荷兰
-  - 🇺🇸 美国 | USA 88
-  - 🇩🇪 德国 | DEU 21
   - 🇩🇪 德国 | DEU 23
-  - 🇩🇪 德国 | DEU
-  - 🇺🇸 美国 | USA 96
-  - 🇩🇪 德国 | DEU 9
-  - 🇩🇪 德国 | DEU 13
-  - 🇨🇭 瑞士 | CHE
+  - 🇩🇪 德国 | DEU 24
+  - 🇩🇪 德国 | DEU 6
   - 🇩🇪 德国 | DEU 16
+  - 🇩🇪 德国 | DEU 10
   - 🇩🇪 德国 | DEU 4
-  - 🇩🇪 德国 | DEU 11
   - 🇩🇪 德国 | DEU 12
-  - 🇩🇰 丹麦 | DNK
   - 🇩🇪 德国 | DEU 14
-  - 🇩🇪 德国 | DEU 4_1
+  - 🇩🇪 德国 | DEU 20
+  - 🇩🇪 德国 | DEU 11
   - 🇩🇪 德国 | DEU 19
   - 🇩🇪 德国 | DEU 15
-  - 🇺🇸 美国 | USA 12_1
-  - 🇫🇷 法国 | FRA 2_1
-  - 🇩🇪 德国 | DEU 24
+  - 🇩🇪 德国 | DEU 2
   - 🇸🇰 斯洛伐克 | SVK
-  - 🇵🇱 波兰 | POL
-  - 🇺🇸 美国 | USA 99
-  - 🇺🇸 美国 | USA 92
   - 🇺🇸 美国 | USA 89
-  - 🇺🇸 美国 | USA 90
   - 🇬🇧 英国 | GBR 8
+  - 🇩🇪 德国 | DEU 5
   - 🇬🇧 英国 | GBR 9
-  - 🇱🇺 卢森堡 | LUX
-  - 🇩🇪 德国 | DEU 3
-  - 🇲🇩 摩尔多瓦 | MDA
-  - 🇦🇪 阿联酋 | ARE
-  - 🇷🇺_RU_俄罗斯
-  - 🇿🇦 南非 | ZAF
-  - 🇫🇮 芬兰 | FIN
-  - 🇸🇪 瑞典 | SWE
-  - 🇦🇪 阿联酋 | ARE 2
-  - 🇺🇸 美国 | USA 2_1
-  - 🇺🇸 美国 | USA 93
-  - 🇺🇸 美国 | USA 100
-  - 🇧🇷 巴西 | BRA
   - 🇬🇧 英国 | GBR 7
-  - 🇰🇿 哈萨克斯坦 | KAZ
-  - 🇯🇵 日本 | JPN 7
-  - 🇺🇸 美国 | USA 39
-  - 🇺🇸 美国 | USA 83
-  - 🇯🇵 日本 | JPN
-  - 🇯🇵 日本 | JPN 8
-  - 🇫🇷 法国 | FRA 6_1
-  - 🇫🇷 法国 | FRA 5_1
-  - 🇫🇷 法国 | FRA 7_1
-  - 🇩🇪 德国 | DEU 2_1
   - 🇯🇵 日本 | JPN 4
-  - 🇯🇵 日本 | JPN 2
-  - 🇨🇳 台湾 | TWN 2
-  - 🇨🇳 台湾 | TWN 7
+  - 🇯🇵 日本 | JPN 10
+  - 🇩🇪 德国 | DEU 7
+  - 🇫🇷 法国 | FRA 2_1
+  - 🇯🇵 日本 | JPN 7
+  - 🇳🇱_NL_荷兰
+  - 🇨🇭 瑞士 | CHE
+  - 🇺🇸 美国 | USA 83
+  - 🇯🇵 日本 | JPN 8
+  - 🇺🇸 美国 | USA 82
+  - 🇵🇱 波兰 | POL
+  - 🇱🇺 卢森堡 | LUX
   - 🇨🇳 台湾 | TWN 5
+  - 🇨🇳 台湾 | TWN 16
   - 🇨🇳 台湾 | TWN 6
-  - 🇨🇳 台湾 | TWN 13
-  - 🇨🇳 台湾 | TWN 17
-  - 🇰🇷 韩国 | KOR 2
   - 🇨🇳 台湾 | TWN 15
   - 🇨🇳 台湾 | TWN 20
-  - 🇨🇳 台湾 | TWN 21
   - 🇰🇷 韩国 | KOR
-  - 🇳🇱 荷兰 | NLD_1
-  - 🇨🇳 台湾 | TWN 16
+  - 🇨🇳 台湾 | TWN 13
   - 🇯🇵 日本 | JPN 2_1
-  - 🇨🇳 台湾 | TWN
-  - 🇭🇰 香港 | HKG 7
+  - 🇩🇪 德国 | DEU 3
+  - 🇯🇵 日本 | JPN 5
+  - 🇩🇪 德国 | DEU 4_1
+  - 🇩🇪 德国 | DEU 2_1
+  - 🇲🇩 摩尔多瓦 | MDA
+  - 🇳🇱 荷兰 | NLD_1
+  - 🇫🇮 芬兰 | FIN
+  - 🇸🇪 瑞典 | SWE
+  - 🇰🇷 韩国 | KOR 2
+  - 🇫🇷 法国 | FRA 5_1
   - 🇭🇰 香港 | HKG 6
   - 🇪🇸_ES_西班牙->🇺🇸_US_美国_1
+  - 🇫🇷 法国 | FRA 7_1
   - 🇪🇸_ES_西班牙->🇺🇸_US_美国
   - 🇭🇰 香港 | HKG 9
-  - 🇭🇰 香港 | HKG 6_1
-  - 🇭🇰 香港 | HKG 7_1
-  - 🇺🇸 美国 | USA 37_1
-  - 🇩🇪 德国 | DEU_1
+  - 🇿🇦 南非 | ZAF
+  - 🇫🇷 法国 | FRA 6_1
   - 🇭🇰 香港 | HKG 2_1
+  - 🇸🇬 新加坡 | SGP 2
+  - 🇦🇪 阿联酋 | ARE
+  - 🇷🇺_RU_俄罗斯
+  - 🇭🇰 香港 | HKG 14
+  - 🇭🇰 香港 | HKG 15
+  - 🇺🇸 美国 | USA 37_1
+  - 🇭🇰 香港 | HKG 26
   - 🇸🇬 新加坡 | SGP 8
-  - 🇭🇰 香港 | HKG 20
+  - 🇭🇰 香港 | HKG 23
   - 🇸🇬 新加坡 | SGP 10
   - 🇸🇬 新加坡 | SGP 7
-  - 🇪🇸 西班牙 | ESP_1
-  - 🇸🇬 新加坡 | SGP 11
   - 🇸🇬 新加坡 | SGP 4
-  - 🇭🇰 香港 | HKG 10
-  - 🇯🇵 日本 | JPN 10
   - 🇸🇬 新加坡 | SGP 5
-  - 🇭🇰 香港 | HKG 15
-  - 🇭🇰 香港 | HKG 22
-  - 🇭🇰 香港 | HKG 7_2
-  - 🇭🇰 香港 | HKG_1
-  - 🇭🇰 香港 | HKG 26
-  - 🇭🇰 香港 | HKG 5
-  - 🇭🇰 香港 | HKG 17
-  - 🇺🇸 美国 | USA 84
+  - 🇸🇬 新加坡 | SGP 11
+  - 🇦🇪 阿联酋 | ARE 2
+  - 🇭🇰 香港 | HKG 18
+  - 🇰🇿 哈萨克斯坦 | KAZ
+  - 🇭🇰 香港 | HKG 6_1
+  - 🇭🇰 香港 | HKG 12
+  - 🇭🇰 香港 | HKG 7
+  - 🇭🇰 香港 | HKG 20
   - 🇻🇳 越南 | VNM 42
-  - 🇻🇳 越南 | VNM 8
-  - 未知
-  - 🇻🇳 越南 | VNM 21
-  - 🇻🇳 越南 | VNM 2_1
-  - 🇻🇳 越南 | VNM 7
-  - 🇭🇰 香港 | HKG 21
-  - 🇻🇳 越南 | VNM 8_1
-  - 🇻🇳 越南 | VNM 3_1
-  - 🇻🇳 越南 | VNM 24
+  - 🇻🇳 越南 | VNM 13
+  - 🇨🇳 台湾 | TWN 2
+  - 🇻🇳 越南 | VNM 17
+  - 🇻🇳 越南 | VNM 15
+  - 🇭🇰 香港 | HKG 17
   - 🇻🇳 越南 | VNM 37
-  - 🇻🇳 越南 | VNM 38
-  - 🇻🇳 越南 | VNM 2_2
-  - 🇻🇳 越南 | VNM 19
-  - 未知_1
   - 🇻🇳 越南 | VNM 12
-  - 🇻🇳 越南 | VNM 18
-  - 🇻🇳 越南 | VNM 39
-  - 🇻🇳 越南 | VNM 32
-  - 🇻🇳 越南 | VNM 14
-  - 🇻🇳 越南 | VNM 41
-  - 🇻🇳 越南 | VNM 9
-  - 🇻🇳 越南 | VNM 43
   - 🇻🇳 越南 | VNM 20
+  - 🇻🇳 越南 | VNM 35
+  - 🇻🇳 越南 | VNM 26
+  - 🇻🇳 越南 | VNM 24
+  - 🇻🇳 越南 | VNM 4_1
+  - 🇻🇳 越南 | VNM 9
+  - 🇻🇳 越南 | VNM 31
   - 🇻🇳 越南 | VNM 44
   - 🇻🇳 越南 | VNM_1
-  - 🇻🇳 越南 | VNM 4_1
-  - 🇻🇳 越南 | VNM 33
-  - 🇻🇳 越南 | VNM 4_2
-  - 🇻🇳 越南 | VNM 13
-  - 🇻🇳 越南 | VNM 29
-  - 🇻🇳 越南 | VNM 36
-  - 🇻🇳 越南 | VNM 34
-  - 🇻🇳 越南 | VNM 25
-  - 🇻🇳 越南 | VNM 27
-  - 🇻🇳 越南 | VNM 6
-  - 🇭🇰 香港 | HKG 13
   - 🇻🇳 越南 | VNM 22
   - 🇻🇳 越南 | VNM 23
-  - 🇻🇳 越南 | VNM 5
-  - 🇻🇳 越南 | VNM 10
-  - 🇻🇳 越南 | VNM 17
-  - 🇻🇳 越南 | VNM 30
-  - 🇻🇳 越南 | VNM 35
-  - 🇻🇳 越南 | VNM 40
-  - 🇻🇳 越南 | VNM 16
-  - 🇻🇳 越南 | VNM 6_1
-  - 🇻🇳 越南 | VNM 9_1
-  - 🇻🇳 越南 | VNM 31
-  - 🇻🇳 越南 | VNM 26
-  - 🇻🇳 越南 | VNM 11
-  - 🇺🇸 美国 | USA 40_1
-  - 🇻🇳 越南 | VNM 28
   - 🇻🇳 越南 | VNM 13_1
-  - 🇯🇵 日本 | JPN 5
-  - 🇨🇳 台湾 | TWN 2_1
-  - 🇻🇳 越南 | VNM 3_2
-  - 🇯🇵 日本 | JPN 5_1
-  - 🇻🇳 越南 | VNM 15
-  - 🇨🇳 台湾 | TWN 4
-  - 🇻🇳 越南 | VNM 15_1
-  - 🇨🇳 台湾 | TWN 3
+  - 🇺🇸 美国 | USA 84
+  - 🇻🇳 越南 | VNM 36
   - 🇻🇳 越南 | VNM 12_1
-  - 🇻🇳 越南 | VNM 14_1
-  - 🇻🇳 越南 | VNM_2
-  - 🇭🇰 香港 | HKG 3
+  - 🇻🇳 越南 | VNM 21
+  - 🇻🇳 越南 | VNM 2_1
+  - 🇻🇳 越南 | VNM 39
+  - 🇻🇳 越南 | VNM 43
+  - 🇻🇳 越南 | VNM 27
+  - 🇻🇳 越南 | VNM 6
   - 🇭🇰 香港 | HKG 25
-  - 🇭🇰 香港 | HKG 14
-  - 🇭🇰 香港 | HKG 28
-  - 🇭🇰 香港 | HKG 12
-  - 🇭🇰 香港 | HKG 24
-  - 🇭🇰 香港 | HKG 18
   - 🇭🇰 香港 | HKG 9_1
-  - 🇭🇰 香港 | HKG 3_1
-  - 🇭🇰 香港 | HKG 8
-  - 🇭🇰 香港 | HKG 23
-  - 🇭🇰 香港 | HKG 16
-  - 🇱🇰 斯里兰卡 | LKA
+  - 🇻🇳 越南 | VNM 19
+  - 🇻🇳 越南 | VNM 18
+  - 🇻🇳 越南 | VNM 10
+  - 🇻🇳 越南 | VNM 14
+  - 🇻🇳 越南 | VNM 4_2
+  - 🇻🇳 越南 | VNM 16
+  - 🇻🇳 越南 | VNM_2
+  - 🇻🇳 越南 | VNM 7
+  - 🇻🇳 越南 | VNM 38
+  - 🇻🇳 越南 | VNM 32
+  - 🇻🇳 越南 | VNM 8
+  - 🇻🇳 越南 | VNM 8_1
+  - 🇻🇳 越南 | VNM 41
+  - 🇭🇰 香港 | HKG 10
+  - 🇻🇳 越南 | VNM 3_1
+  - 🇻🇳 越南 | VNM 9_1
+  - 🇻🇳 越南 | VNM 25
+  - 🇭🇰 香港 | HKG 5
+  - 🇭🇰 香港 | HKG 13
+  - 🇻🇳 越南 | VNM 40
+  - 🇭🇰 香港 | HKG 21
+  - 🇻🇳 越南 | VNM 5
+  - 🇻🇳 越南 | VNM 33
+  - 🇻🇳 越南 | VNM 29
+  - 🇻🇳 越南 | VNM 6_1
+  - 🇻🇳 越南 | VNM 34
+  - 🇻🇳 越南 | VNM 30
+  - 🇺🇸 美国 | USA 40_1
+  - 未知_1
+  - 🇭🇰 香港 | HKG_1
+  - 🇨🇳 台湾 | TWN
   - 🇭🇰 香港 | HKG 5_1
-  - 🇭🇰 香港 | HKG 4
+  - 🇭🇰 香港 | HKG 7_1
+  - 🇻🇳 越南 | VNM 3_2
+  - 🇩🇪 德国 | DEU_1
+  - 🇱🇰 斯里兰卡 | LKA
+  - 🇨🇳 台湾 | TWN 3
+  - 🇪🇸 西班牙 | ESP_1
+  - 🇯🇵 日本 | JPN 5_1
+  - 🇭🇰 香港 | HKG 3
   - 🇳🇱 荷兰 | NLD 11
-  - 🇬🇧_GB_英国
-  - 🇸🇬 新加坡 | SGP 2
+  - 🇭🇰 香港 | HKG 4
+  - 🇺🇸 美国 | USA 96
+  - 🇭🇰 香港 | HKG 22
+  - 🇭🇰 香港 | HKG 28
+  - 🇻🇳 越南 | VNM 28
+  - 🇻🇳 越南 | VNM 11
+  - 🇻🇳 越南 | VNM 2_2
+  - 🇻🇳 越南 | VNM 14_1
+  - 🇻🇳 越南 | VNM 15_1
+  - 未知
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
