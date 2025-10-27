@@ -14,7 +14,10 @@
 https://mxlsub.qzz.io/free
 https://mxlsub.qzz.io/new
 
+# https://linux.do/t/topic/1094274
 https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml
+
+https://gucci.weyolo.com/s/3081a94030ba82361c7dda6532849848
 
 #https://fastly.jsdelivr.net/gh/freenodes/freenodes@main/ClashPremiumFree.yaml
 #https://node.freev2raynode.com/uploads/%Y/%m/0-%Y%m%d.yaml
